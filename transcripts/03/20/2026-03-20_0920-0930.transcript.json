@@ -1,0 +1,254 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-20_0920-0930",
+    "created_at": "2026-03-20T10:01:40.649638-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 138.32,
+      "end": 139.72,
+      "speaker": null,
+      "text": "Mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm",
+      "confidence": 0.9356426023656413,
+      "words": [
+        {
+          "start": 138.32,
+          "end": 139.72,
+          "text": "Mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm",
+          "confidence": 0.9356426023656413,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 372.5,
+      "end": 402.1,
+      "speaker": null,
+      "text": "I'm not going to do that, I'm not going to do that, I'm not going",
+      "confidence": 0.3438278870313828,
+      "words": [
+        {
+          "start": 372.5,
+          "end": 372.98,
+          "text": "I'm",
+          "confidence": 0.11999345803633332,
+          "speaker": null
+        },
+        {
+          "start": 372.98,
+          "end": 372.98,
+          "text": "not",
+          "confidence": 0.08977849036455154,
+          "speaker": null
+        },
+        {
+          "start": 372.98,
+          "end": 372.98,
+          "text": "going",
+          "confidence": 0.09729684144258499,
+          "speaker": null
+        },
+        {
+          "start": 372.98,
+          "end": 372.98,
+          "text": "to",
+          "confidence": 1.529057908555842e-05,
+          "speaker": null
+        },
+        {
+          "start": 372.98,
+          "end": 372.98,
+          "text": "do",
+          "confidence": 0.06032746285200119,
+          "speaker": null
+        },
+        {
+          "start": 372.98,
+          "end": 372.98,
+          "text": "that,",
+          "confidence": 7.929449236598884e-05,
+          "speaker": null
+        },
+        {
+          "start": 372.98,
+          "end": 373.1,
+          "text": "I'm",
+          "confidence": 0.3995196670293808,
+          "speaker": null
+        },
+        {
+          "start": 373.1,
+          "end": 373.1,
+          "text": "not",
+          "confidence": 0.36403536796569824,
+          "speaker": null
+        },
+        {
+          "start": 373.1,
+          "end": 373.1,
+          "text": "going",
+          "confidence": 0.6633660197257996,
+          "speaker": null
+        },
+        {
+          "start": 373.1,
+          "end": 373.1,
+          "text": "to",
+          "confidence": 0.4026113301515579,
+          "speaker": null
+        },
+        {
+          "start": 373.1,
+          "end": 373.42,
+          "text": "do",
+          "confidence": 0.4547259211540222,
+          "speaker": null
+        },
+        {
+          "start": 373.42,
+          "end": 373.42,
+          "text": "that,",
+          "confidence": 0.09960909187793732,
+          "speaker": null
+        },
+        {
+          "start": 402.02,
+          "end": 402.06,
+          "text": "I'm",
+          "confidence": 0.8144932091236115,
+          "speaker": null
+        },
+        {
+          "start": 402.06,
+          "end": 402.08,
+          "text": "not",
+          "confidence": 0.7245776653289795,
+          "speaker": null
+        },
+        {
+          "start": 402.08,
+          "end": 402.1,
+          "text": "going",
+          "confidence": 0.8669891953468323,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 566.08,
+      "end": 567.48,
+      "speaker": null,
+      "text": "I'm not going to do that, I'm not going to do",
+      "confidence": 0.24320330464121814,
+      "words": [
+        {
+          "start": 566.08,
+          "end": 567.48,
+          "text": "I'm",
+          "confidence": 0.10133070568554103,
+          "speaker": null
+        },
+        {
+          "start": 567.48,
+          "end": 567.48,
+          "text": "not",
+          "confidence": 0.06306205689907074,
+          "speaker": null
+        },
+        {
+          "start": 567.48,
+          "end": 567.48,
+          "text": "going",
+          "confidence": 0.15062524378299713,
+          "speaker": null
+        },
+        {
+          "start": 567.48,
+          "end": 567.48,
+          "text": "to",
+          "confidence": 1.540284915790835e-05,
+          "speaker": null
+        },
+        {
+          "start": 567.48,
+          "end": 567.48,
+          "text": "do",
+          "confidence": 0.04158923029899597,
+          "speaker": null
+        },
+        {
+          "start": 567.48,
+          "end": 567.48,
+          "text": "that,",
+          "confidence": 0.00011582279375943472,
+          "speaker": null
+        },
+        {
+          "start": 567.48,
+          "end": 567.48,
+          "text": "I'm",
+          "confidence": 0.4165070801973343,
+          "speaker": null
+        },
+        {
+          "start": 567.48,
+          "end": 567.48,
+          "text": "not",
+          "confidence": 0.34010329842567444,
+          "speaker": null
+        },
+        {
+          "start": 567.48,
+          "end": 567.48,
+          "text": "going",
+          "confidence": 0.7001105546951294,
+          "speaker": null
+        },
+        {
+          "start": 567.48,
+          "end": 567.48,
+          "text": "to",
+          "confidence": 0.4400293007493019,
+          "speaker": null
+        },
+        {
+          "start": 567.48,
+          "end": 567.48,
+          "text": "do",
+          "confidence": 0.4217476546764374,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 138.32,
+        "speaker": null,
+        "text": "Mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm"
+      },
+      {
+        "timestamp": 372.5,
+        "speaker": null,
+        "text": "I'm not going to do that, I'm not going to do that, I'm not going"
+      },
+      {
+        "timestamp": 566.08,
+        "speaker": null,
+        "text": "I'm not going to do that, I'm not going to do"
+      }
+    ]
+  }
+}

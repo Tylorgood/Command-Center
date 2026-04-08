@@ -1,0 +1,783 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-18_1311-1321",
+    "created_at": "2026-03-18T17:49:21.962637-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 41.10000000000001,
+      "end": 41.52,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5439623072743416,
+      "words": [
+        {
+          "start": 41.10000000000001,
+          "end": 41.38,
+          "text": "Thank",
+          "confidence": 0.0940251499414444,
+          "speaker": null
+        },
+        {
+          "start": 41.38,
+          "end": 41.52,
+          "text": "you.",
+          "confidence": 0.9938994646072388,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 68.78,
+      "end": 68.84,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5693786293268204,
+      "words": [
+        {
+          "start": 68.78,
+          "end": 68.82,
+          "text": "Thank",
+          "confidence": 0.14113792777061462,
+          "speaker": null
+        },
+        {
+          "start": 68.82,
+          "end": 68.84,
+          "text": "you.",
+          "confidence": 0.9976193308830261,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 95.5,
+      "end": 97.06,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.526277881115675,
+      "words": [
+        {
+          "start": 95.5,
+          "end": 96.53999999999999,
+          "text": "Thank",
+          "confidence": 0.0636301264166832,
+          "speaker": null
+        },
+        {
+          "start": 96.53999999999999,
+          "end": 97.06,
+          "text": "you.",
+          "confidence": 0.9889256358146667,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 128.92000000000002,
+      "end": 130.62,
+      "speaker": null,
+      "text": "Draws Ducks.",
+      "confidence": 0.5873606614768505,
+      "words": [
+        {
+          "start": 128.92000000000002,
+          "end": 130.32,
+          "text": "Draws",
+          "confidence": 0.7477851510047913,
+          "speaker": null
+        },
+        {
+          "start": 130.32,
+          "end": 130.62,
+          "text": "Ducks.",
+          "confidence": 0.42693617194890976,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 133.1,
+      "end": 135.88,
+      "speaker": null,
+      "text": "Draws Ducks.",
+      "confidence": 0.9113070517778397,
+      "words": [
+        {
+          "start": 133.1,
+          "end": 134.5,
+          "text": "Draws",
+          "confidence": 0.9241167306900024,
+          "speaker": null
+        },
+        {
+          "start": 134.5,
+          "end": 135.88,
+          "text": "Ducks.",
+          "confidence": 0.8984973728656769,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 153.07999999999998,
+      "end": 153.14,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5380285233259201,
+      "words": [
+        {
+          "start": 153.07999999999998,
+          "end": 153.12,
+          "text": "Thank",
+          "confidence": 0.08604076504707336,
+          "speaker": null
+        },
+        {
+          "start": 153.12,
+          "end": 153.14,
+          "text": "you.",
+          "confidence": 0.9900162816047668,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 178.68,
+      "end": 178.74,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5297086238861084,
+      "words": [
+        {
+          "start": 178.68,
+          "end": 178.72,
+          "text": "Thank",
+          "confidence": 0.06547653675079346,
+          "speaker": null
+        },
+        {
+          "start": 178.72,
+          "end": 178.74,
+          "text": "you.",
+          "confidence": 0.9939407110214233,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 218.57999999999998,
+      "end": 219.98,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.541369765996933,
+      "words": [
+        {
+          "start": 218.57999999999998,
+          "end": 219.98,
+          "text": "Thank",
+          "confidence": 0.0906941294670105,
+          "speaker": null
+        },
+        {
+          "start": 219.98,
+          "end": 219.98,
+          "text": "you.",
+          "confidence": 0.9920454025268555,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 237.34,
+      "end": 249.86,
+      "speaker": null,
+      "text": "dugs, dugs,",
+      "confidence": 0.7780265531273265,
+      "words": [
+        {
+          "start": 237.34,
+          "end": 238.74,
+          "text": "dugs,",
+          "confidence": 6.445220583373157e-05,
+          "speaker": null
+        },
+        {
+          "start": 238.74,
+          "end": 238.74,
+          "text": "dugs,",
+          "confidence": 0.47895102575421333,
+          "speaker": null
+        },
+        {
+          "start": 238.74,
+          "end": 238.74,
+          "text": "dugs,",
+          "confidence": 0.7097394317388535,
+          "speaker": null
+        },
+        {
+          "start": 238.74,
+          "end": 238.74,
+          "text": "dugs,",
+          "confidence": 0.8201952576637268,
+          "speaker": null
+        },
+        {
+          "start": 238.74,
+          "end": 238.74,
+          "text": "dugs,",
+          "confidence": 0.8831661939620972,
+          "speaker": null
+        },
+        {
+          "start": 241.9,
+          "end": 241.9,
+          "text": "dugs,",
+          "confidence": 0.91562619805336,
+          "speaker": null
+        },
+        {
+          "start": 242.7,
+          "end": 242.7,
+          "text": "dugs,",
+          "confidence": 0.9377394914627075,
+          "speaker": null
+        },
+        {
+          "start": 244.52,
+          "end": 244.52,
+          "text": "dugs,",
+          "confidence": 0.9457256495952606,
+          "speaker": null
+        },
+        {
+          "start": 244.52,
+          "end": 244.52,
+          "text": "dugs,",
+          "confidence": 0.9523521959781647,
+          "speaker": null
+        },
+        {
+          "start": 249.68,
+          "end": 249.8,
+          "text": "dugs,",
+          "confidence": 0.9564620852470398,
+          "speaker": null
+        },
+        {
+          "start": 249.82,
+          "end": 249.86,
+          "text": "dugs,",
+          "confidence": 0.9582701027393341,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 303.58,
+      "end": 304.98,
+      "speaker": null,
+      "text": "dugs, dugs,",
+      "confidence": 0.7418773760320315,
+      "words": [
+        {
+          "start": 303.58,
+          "end": 304.98,
+          "text": "dugs,",
+          "confidence": 7.249258896990796e-05,
+          "speaker": null
+        },
+        {
+          "start": 304.98,
+          "end": 304.98,
+          "text": "dugs,",
+          "confidence": 0.4741252735257149,
+          "speaker": null
+        },
+        {
+          "start": 304.98,
+          "end": 304.98,
+          "text": "dugs,",
+          "confidence": 0.7111805975437164,
+          "speaker": null
+        },
+        {
+          "start": 304.98,
+          "end": 304.98,
+          "text": "dugs,",
+          "confidence": 0.8281240463256836,
+          "speaker": null
+        },
+        {
+          "start": 304.98,
+          "end": 304.98,
+          "text": "dugs,",
+          "confidence": 0.8913931250572205,
+          "speaker": null
+        },
+        {
+          "start": 304.98,
+          "end": 304.98,
+          "text": "dugs,",
+          "confidence": 0.9223523736000061,
+          "speaker": null
+        },
+        {
+          "start": 304.98,
+          "end": 304.98,
+          "text": "dugs,",
+          "confidence": 0.9429439306259155,
+          "speaker": null
+        },
+        {
+          "start": 304.98,
+          "end": 304.98,
+          "text": "dugs,",
+          "confidence": 0.950463056564331,
+          "speaker": null
+        },
+        {
+          "start": 304.98,
+          "end": 304.98,
+          "text": "dugs,",
+          "confidence": 0.9562414884567261,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 358.58,
+      "end": 359.98,
+      "speaker": null,
+      "text": "dugs, dugs,",
+      "confidence": 0.7596162434529561,
+      "words": [
+        {
+          "start": 358.58,
+          "end": 359.98,
+          "text": "dugs,",
+          "confidence": 5.603381623586756e-05,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "dugs,",
+          "confidence": 0.47244798205792904,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "dugs,",
+          "confidence": 0.7015711069107056,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "dugs,",
+          "confidence": 0.8188563883304596,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "dugs,",
+          "confidence": 0.8851548433303833,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "dugs,",
+          "confidence": 0.9180417060852051,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "dugs,",
+          "confidence": 0.9399178624153137,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "dugs,",
+          "confidence": 0.9478940963745117,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "dugs,",
+          "confidence": 0.9541208148002625,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "dugs,",
+          "confidence": 0.9581016004085541,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 413.58,
+      "end": 414.98,
+      "speaker": null,
+      "text": "dugs, dugs,",
+      "confidence": 0.7192770550940395,
+      "words": [
+        {
+          "start": 413.58,
+          "end": 414.98,
+          "text": "dugs,",
+          "confidence": 5.518718080566032e-05,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "dugs,",
+          "confidence": 0.48280544579029083,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "dugs,",
+          "confidence": 0.7284569144248962,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "dugs,",
+          "confidence": 0.8346225023269653,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "dugs,",
+          "confidence": 0.893538773059845,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "dugs,",
+          "confidence": 0.9227697849273682,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "dugs,",
+          "confidence": 0.9425425827503204,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "dugs,",
+          "confidence": 0.9494252502918243,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 446.0,
+      "end": 447.82,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5399814881384373,
+      "words": [
+        {
+          "start": 446.0,
+          "end": 447.4,
+          "text": "Thank",
+          "confidence": 0.08621705323457718,
+          "speaker": null
+        },
+        {
+          "start": 447.4,
+          "end": 447.82,
+          "text": "you.",
+          "confidence": 0.9937459230422974,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 470.82,
+      "end": 473.06,
+      "speaker": null,
+      "text": "few things people are making right now.",
+      "confidence": 0.9230067389351981,
+      "words": [
+        {
+          "start": 470.82,
+          "end": 471.34,
+          "text": "few",
+          "confidence": 0.5509423613548279,
+          "speaker": null
+        },
+        {
+          "start": 471.34,
+          "end": 471.62,
+          "text": "things",
+          "confidence": 0.9951000809669495,
+          "speaker": null
+        },
+        {
+          "start": 471.62,
+          "end": 472.04,
+          "text": "people",
+          "confidence": 0.9784925580024719,
+          "speaker": null
+        },
+        {
+          "start": 472.04,
+          "end": 472.28,
+          "text": "are",
+          "confidence": 0.9956607222557068,
+          "speaker": null
+        },
+        {
+          "start": 472.28,
+          "end": 472.52,
+          "text": "making",
+          "confidence": 0.9487829804420471,
+          "speaker": null
+        },
+        {
+          "start": 472.52,
+          "end": 472.82,
+          "text": "right",
+          "confidence": 0.9929712414741516,
+          "speaker": null
+        },
+        {
+          "start": 472.82,
+          "end": 473.06,
+          "text": "now.",
+          "confidence": 0.9990972280502319,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 474.5,
+      "end": 478.36,
+      "speaker": null,
+      "text": "Are they? What exactly do you think these are the ideas?",
+      "confidence": 0.842962308363481,
+      "words": [
+        {
+          "start": 474.5,
+          "end": 475.38,
+          "text": "Are",
+          "confidence": 0.5210164189338684,
+          "speaker": null
+        },
+        {
+          "start": 475.38,
+          "end": 476.28,
+          "text": "they?",
+          "confidence": 0.9140956997871399,
+          "speaker": null
+        },
+        {
+          "start": 476.28,
+          "end": 476.42,
+          "text": "What",
+          "confidence": 0.6940813660621643,
+          "speaker": null
+        },
+        {
+          "start": 476.42,
+          "end": 476.92,
+          "text": "exactly",
+          "confidence": 0.9430141448974609,
+          "speaker": null
+        },
+        {
+          "start": 476.92,
+          "end": 477.28,
+          "text": "do",
+          "confidence": 0.727439284324646,
+          "speaker": null
+        },
+        {
+          "start": 477.28,
+          "end": 477.28,
+          "text": "you",
+          "confidence": 0.9823534488677979,
+          "speaker": null
+        },
+        {
+          "start": 477.28,
+          "end": 477.46,
+          "text": "think",
+          "confidence": 0.9979820251464844,
+          "speaker": null
+        },
+        {
+          "start": 477.46,
+          "end": 477.76,
+          "text": "these",
+          "confidence": 0.8755127191543579,
+          "speaker": null
+        },
+        {
+          "start": 477.76,
+          "end": 477.88,
+          "text": "are",
+          "confidence": 0.9801733493804932,
+          "speaker": null
+        },
+        {
+          "start": 477.88,
+          "end": 478.02,
+          "text": "the",
+          "confidence": 0.6888207793235779,
+          "speaker": null
+        },
+        {
+          "start": 478.02,
+          "end": 478.36,
+          "text": "ideas?",
+          "confidence": 0.9480961561203003,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 539.6,
+      "end": 541.0,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5528355427086353,
+      "words": [
+        {
+          "start": 539.6,
+          "end": 541.0,
+          "text": "Thank",
+          "confidence": 0.10938064008951187,
+          "speaker": null
+        },
+        {
+          "start": 541.0,
+          "end": 541.0,
+          "text": "you.",
+          "confidence": 0.9962904453277588,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 571.8,
+      "end": 572.54,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5351959466934204,
+      "words": [
+        {
+          "start": 571.8,
+          "end": 572.32,
+          "text": "Thank",
+          "confidence": 0.08033096790313721,
+          "speaker": null
+        },
+        {
+          "start": 572.32,
+          "end": 572.54,
+          "text": "you.",
+          "confidence": 0.9900609254837036,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 589.5,
+      "end": 594.68,
+      "speaker": null,
+      "text": "dugs, dugs,",
+      "confidence": 0.6385139609666718,
+      "words": [
+        {
+          "start": 589.5,
+          "end": 590.9,
+          "text": "dugs,",
+          "confidence": 6.295795265032211e-05,
+          "speaker": null
+        },
+        {
+          "start": 590.9,
+          "end": 590.9,
+          "text": "dugs,",
+          "confidence": 0.48255800269544125,
+          "speaker": null
+        },
+        {
+          "start": 590.9,
+          "end": 590.9,
+          "text": "dugs,",
+          "confidence": 0.7095990031957626,
+          "speaker": null
+        },
+        {
+          "start": 590.9,
+          "end": 590.9,
+          "text": "dugs,",
+          "confidence": 0.8266479969024658,
+          "speaker": null
+        },
+        {
+          "start": 590.9,
+          "end": 591.44,
+          "text": "dugs,",
+          "confidence": 0.8904402554035187,
+          "speaker": null
+        },
+        {
+          "start": 591.44,
+          "end": 594.68,
+          "text": "dugs,",
+          "confidence": 0.9217755496501923,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 470.82,
+        "speaker": null,
+        "text": "few things people are making right now."
+      },
+      {
+        "timestamp": 474.5,
+        "speaker": null,
+        "text": "Are they? What exactly do you think these are the ideas?"
+      }
+    ]
+  }
+}

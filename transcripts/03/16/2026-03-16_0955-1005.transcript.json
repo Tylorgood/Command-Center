@@ -1,0 +1,1087 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-16_0955-1005",
+    "created_at": "2026-03-16T10:46:05.847691-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 17.599999999999998,
+      "end": 17.92,
+      "speaker": null,
+      "text": "Hello everyone, welcome to my channel. I am going to show you how to make a very simple and easy to make cake.",
+      "confidence": 0.6095899335227396,
+      "words": [
+        {
+          "start": 17.599999999999998,
+          "end": 17.86,
+          "text": "Hello",
+          "confidence": 0.010488892905414104,
+          "speaker": null
+        },
+        {
+          "start": 17.86,
+          "end": 17.86,
+          "text": "everyone,",
+          "confidence": 0.12348295748233795,
+          "speaker": null
+        },
+        {
+          "start": 17.86,
+          "end": 17.86,
+          "text": "welcome",
+          "confidence": 0.22756202518939972,
+          "speaker": null
+        },
+        {
+          "start": 17.86,
+          "end": 17.86,
+          "text": "to",
+          "confidence": 0.6505758762359619,
+          "speaker": null
+        },
+        {
+          "start": 17.86,
+          "end": 17.86,
+          "text": "my",
+          "confidence": 0.4376124143600464,
+          "speaker": null
+        },
+        {
+          "start": 17.86,
+          "end": 17.86,
+          "text": "channel.",
+          "confidence": 0.7526151537895203,
+          "speaker": null
+        },
+        {
+          "start": 17.86,
+          "end": 17.86,
+          "text": "I",
+          "confidence": 0.13201679289340973,
+          "speaker": null
+        },
+        {
+          "start": 17.86,
+          "end": 17.86,
+          "text": "am",
+          "confidence": 0.5286096334457397,
+          "speaker": null
+        },
+        {
+          "start": 17.86,
+          "end": 17.86,
+          "text": "going",
+          "confidence": 0.7627611756324768,
+          "speaker": null
+        },
+        {
+          "start": 17.86,
+          "end": 17.88,
+          "text": "to",
+          "confidence": 0.9961177110671997,
+          "speaker": null
+        },
+        {
+          "start": 17.88,
+          "end": 17.9,
+          "text": "show",
+          "confidence": 0.23278015851974487,
+          "speaker": null
+        },
+        {
+          "start": 17.9,
+          "end": 17.92,
+          "text": "you",
+          "confidence": 0.9965695142745972,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "how",
+          "confidence": 0.9644206762313843,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "to",
+          "confidence": 0.9879763722419739,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "make",
+          "confidence": 0.9865298271179199,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "a",
+          "confidence": 0.9672525525093079,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "very",
+          "confidence": 0.9700050950050354,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "simple",
+          "confidence": 0.9976565837860107,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "and",
+          "confidence": 0.9896038770675659,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "easy",
+          "confidence": 0.9992283582687378,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "to",
+          "confidence": 0.9774348735809326,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "make",
+          "confidence": 0.9989728927612305,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "cake.",
+          "confidence": 0.9981659054756165,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 17.92,
+      "end": 18.48,
+      "speaker": null,
+      "text": "I am going to show you how to make a very simple and easy to make cake. I am going to show you how to make a very simple and easy to make cake.",
+      "confidence": 0.9484564679510452,
+      "words": [
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "I",
+          "confidence": 0.25271332263946533,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "am",
+          "confidence": 0.8623207807540894,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "going",
+          "confidence": 0.9578374028205872,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "to",
+          "confidence": 0.9988142251968384,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "show",
+          "confidence": 0.9121150374412537,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "you",
+          "confidence": 0.9996964931488037,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "how",
+          "confidence": 0.9981834292411804,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "to",
+          "confidence": 0.9974403381347656,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "make",
+          "confidence": 0.9982751607894897,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "a",
+          "confidence": 0.9954342246055603,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "very",
+          "confidence": 0.996935248374939,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "simple",
+          "confidence": 0.9991438388824463,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "and",
+          "confidence": 0.9978826642036438,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "easy",
+          "confidence": 0.9995812773704529,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 17.92,
+          "text": "to",
+          "confidence": 0.9968830943107605,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 18.02,
+          "text": "make",
+          "confidence": 0.9994083642959595,
+          "speaker": null
+        },
+        {
+          "start": 18.02,
+          "end": 18.02,
+          "text": "cake.",
+          "confidence": 0.9993871450424194,
+          "speaker": null
+        },
+        {
+          "start": 18.02,
+          "end": 18.28,
+          "text": "I",
+          "confidence": 0.4389452338218689,
+          "speaker": null
+        },
+        {
+          "start": 18.28,
+          "end": 18.28,
+          "text": "am",
+          "confidence": 0.9241467714309692,
+          "speaker": null
+        },
+        {
+          "start": 18.28,
+          "end": 18.4,
+          "text": "going",
+          "confidence": 0.97386234998703,
+          "speaker": null
+        },
+        {
+          "start": 18.4,
+          "end": 18.4,
+          "text": "to",
+          "confidence": 0.9991881251335144,
+          "speaker": null
+        },
+        {
+          "start": 18.4,
+          "end": 18.4,
+          "text": "show",
+          "confidence": 0.9619855284690857,
+          "speaker": null
+        },
+        {
+          "start": 18.4,
+          "end": 18.4,
+          "text": "you",
+          "confidence": 0.9998446702957153,
+          "speaker": null
+        },
+        {
+          "start": 18.4,
+          "end": 18.4,
+          "text": "how",
+          "confidence": 0.9992232322692871,
+          "speaker": null
+        },
+        {
+          "start": 18.4,
+          "end": 18.4,
+          "text": "to",
+          "confidence": 0.9984700083732605,
+          "speaker": null
+        },
+        {
+          "start": 18.4,
+          "end": 18.4,
+          "text": "make",
+          "confidence": 0.9990118741989136,
+          "speaker": null
+        },
+        {
+          "start": 18.4,
+          "end": 18.4,
+          "text": "a",
+          "confidence": 0.9974648952484131,
+          "speaker": null
+        },
+        {
+          "start": 18.4,
+          "end": 18.4,
+          "text": "very",
+          "confidence": 0.9982247948646545,
+          "speaker": null
+        },
+        {
+          "start": 18.4,
+          "end": 18.4,
+          "text": "simple",
+          "confidence": 0.9992666840553284,
+          "speaker": null
+        },
+        {
+          "start": 18.4,
+          "end": 18.4,
+          "text": "and",
+          "confidence": 0.9986909031867981,
+          "speaker": null
+        },
+        {
+          "start": 18.4,
+          "end": 18.4,
+          "text": "easy",
+          "confidence": 0.9995954632759094,
+          "speaker": null
+        },
+        {
+          "start": 18.4,
+          "end": 18.48,
+          "text": "to",
+          "confidence": 0.9984982013702393,
+          "speaker": null
+        },
+        {
+          "start": 18.48,
+          "end": 18.48,
+          "text": "make",
+          "confidence": 0.9995026588439941,
+          "speaker": null
+        },
+        {
+          "start": 18.48,
+          "end": 18.48,
+          "text": "cake.",
+          "confidence": 0.999546468257904,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 18.98,
+      "end": 19.9,
+      "speaker": null,
+      "text": "I am going to show you how to make a very simple and easy to make cake. I am going to show you how to make a very simple and easy to make cake.",
+      "confidence": 0.978987413294175,
+      "words": [
+        {
+          "start": 18.98,
+          "end": 19.24,
+          "text": "I",
+          "confidence": 0.6265142560005188,
+          "speaker": null
+        },
+        {
+          "start": 19.24,
+          "end": 19.24,
+          "text": "am",
+          "confidence": 0.9726961851119995,
+          "speaker": null
+        },
+        {
+          "start": 19.24,
+          "end": 19.24,
+          "text": "going",
+          "confidence": 0.9854550361633301,
+          "speaker": null
+        },
+        {
+          "start": 19.24,
+          "end": 19.48,
+          "text": "to",
+          "confidence": 0.9994331002235413,
+          "speaker": null
+        },
+        {
+          "start": 19.48,
+          "end": 19.48,
+          "text": "show",
+          "confidence": 0.9861041903495789,
+          "speaker": null
+        },
+        {
+          "start": 19.48,
+          "end": 19.48,
+          "text": "you",
+          "confidence": 0.9999123811721802,
+          "speaker": null
+        },
+        {
+          "start": 19.48,
+          "end": 19.6,
+          "text": "how",
+          "confidence": 0.9995884299278259,
+          "speaker": null
+        },
+        {
+          "start": 19.6,
+          "end": 19.6,
+          "text": "to",
+          "confidence": 0.9989751577377319,
+          "speaker": null
+        },
+        {
+          "start": 19.6,
+          "end": 19.6,
+          "text": "make",
+          "confidence": 0.9993475079536438,
+          "speaker": null
+        },
+        {
+          "start": 19.6,
+          "end": 19.6,
+          "text": "a",
+          "confidence": 0.9979070425033569,
+          "speaker": null
+        },
+        {
+          "start": 19.6,
+          "end": 19.6,
+          "text": "very",
+          "confidence": 0.9985985159873962,
+          "speaker": null
+        },
+        {
+          "start": 19.6,
+          "end": 19.6,
+          "text": "simple",
+          "confidence": 0.9992522597312927,
+          "speaker": null
+        },
+        {
+          "start": 19.6,
+          "end": 19.78,
+          "text": "and",
+          "confidence": 0.999100923538208,
+          "speaker": null
+        },
+        {
+          "start": 19.78,
+          "end": 19.82,
+          "text": "easy",
+          "confidence": 0.9995808005332947,
+          "speaker": null
+        },
+        {
+          "start": 19.82,
+          "end": 19.82,
+          "text": "to",
+          "confidence": 0.9990200996398926,
+          "speaker": null
+        },
+        {
+          "start": 19.82,
+          "end": 19.82,
+          "text": "make",
+          "confidence": 0.9995468258857727,
+          "speaker": null
+        },
+        {
+          "start": 19.82,
+          "end": 19.82,
+          "text": "cake.",
+          "confidence": 0.9995926022529602,
+          "speaker": null
+        },
+        {
+          "start": 19.82,
+          "end": 19.82,
+          "text": "I",
+          "confidence": 0.7562471628189087,
+          "speaker": null
+        },
+        {
+          "start": 19.82,
+          "end": 19.82,
+          "text": "am",
+          "confidence": 0.991560161113739,
+          "speaker": null
+        },
+        {
+          "start": 19.82,
+          "end": 19.82,
+          "text": "going",
+          "confidence": 0.9924383759498596,
+          "speaker": null
+        },
+        {
+          "start": 19.82,
+          "end": 19.82,
+          "text": "to",
+          "confidence": 0.9995806813240051,
+          "speaker": null
+        },
+        {
+          "start": 19.82,
+          "end": 19.82,
+          "text": "show",
+          "confidence": 0.9944032430648804,
+          "speaker": null
+        },
+        {
+          "start": 19.82,
+          "end": 19.82,
+          "text": "you",
+          "confidence": 0.9999455213546753,
+          "speaker": null
+        },
+        {
+          "start": 19.82,
+          "end": 19.82,
+          "text": "how",
+          "confidence": 0.999727189540863,
+          "speaker": null
+        },
+        {
+          "start": 19.82,
+          "end": 19.82,
+          "text": "to",
+          "confidence": 0.9992515444755554,
+          "speaker": null
+        },
+        {
+          "start": 19.82,
+          "end": 19.82,
+          "text": "make",
+          "confidence": 0.9994797110557556,
+          "speaker": null
+        },
+        {
+          "start": 19.82,
+          "end": 19.82,
+          "text": "a",
+          "confidence": 0.9970272183418274,
+          "speaker": null
+        },
+        {
+          "start": 19.82,
+          "end": 19.9,
+          "text": "very",
+          "confidence": 0.9987092018127441,
+          "speaker": null
+        },
+        {
+          "start": 19.9,
+          "end": 19.9,
+          "text": "simple",
+          "confidence": 0.999154806137085,
+          "speaker": null
+        },
+        {
+          "start": 19.9,
+          "end": 19.9,
+          "text": "and",
+          "confidence": 0.999370276927948,
+          "speaker": null
+        },
+        {
+          "start": 19.9,
+          "end": 19.9,
+          "text": "easy",
+          "confidence": 0.9995595812797546,
+          "speaker": null
+        },
+        {
+          "start": 19.9,
+          "end": 19.9,
+          "text": "to",
+          "confidence": 0.9993320107460022,
+          "speaker": null
+        },
+        {
+          "start": 19.9,
+          "end": 19.9,
+          "text": "make",
+          "confidence": 0.999568521976471,
+          "speaker": null
+        },
+        {
+          "start": 19.9,
+          "end": 19.9,
+          "text": "cake.",
+          "confidence": 0.9995915293693542,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 19.9,
+      "end": 22.24,
+      "speaker": null,
+      "text": "I am going to show you how to make a very simple and easy to make cake.",
+      "confidence": 0.989500575205859,
+      "words": [
+        {
+          "start": 19.9,
+          "end": 19.9,
+          "text": "I",
+          "confidence": 0.8449534773826599,
+          "speaker": null
+        },
+        {
+          "start": 19.9,
+          "end": 19.9,
+          "text": "am",
+          "confidence": 0.9966945648193359,
+          "speaker": null
+        },
+        {
+          "start": 19.9,
+          "end": 19.9,
+          "text": "going",
+          "confidence": 0.9960623383522034,
+          "speaker": null
+        },
+        {
+          "start": 19.9,
+          "end": 19.9,
+          "text": "to",
+          "confidence": 0.9996694326400757,
+          "speaker": null
+        },
+        {
+          "start": 19.9,
+          "end": 19.9,
+          "text": "show",
+          "confidence": 0.9966674447059631,
+          "speaker": null
+        },
+        {
+          "start": 19.9,
+          "end": 19.9,
+          "text": "you",
+          "confidence": 0.9999594688415527,
+          "speaker": null
+        },
+        {
+          "start": 19.9,
+          "end": 19.9,
+          "text": "how",
+          "confidence": 0.9997841715812683,
+          "speaker": null
+        },
+        {
+          "start": 19.9,
+          "end": 19.9,
+          "text": "to",
+          "confidence": 0.9993972778320312,
+          "speaker": null
+        },
+        {
+          "start": 19.9,
+          "end": 19.9,
+          "text": "make",
+          "confidence": 0.9995347261428833,
+          "speaker": null
+        },
+        {
+          "start": 19.9,
+          "end": 19.9,
+          "text": "a",
+          "confidence": 0.9933066964149475,
+          "speaker": null
+        },
+        {
+          "start": 19.9,
+          "end": 20.08,
+          "text": "very",
+          "confidence": 0.9986997842788696,
+          "speaker": null
+        },
+        {
+          "start": 20.08,
+          "end": 20.3,
+          "text": "simple",
+          "confidence": 0.9990363121032715,
+          "speaker": null
+        },
+        {
+          "start": 20.3,
+          "end": 20.68,
+          "text": "and",
+          "confidence": 0.9995436072349548,
+          "speaker": null
+        },
+        {
+          "start": 20.68,
+          "end": 20.72,
+          "text": "easy",
+          "confidence": 0.9995437264442444,
+          "speaker": null
+        },
+        {
+          "start": 20.72,
+          "end": 21.34,
+          "text": "to",
+          "confidence": 0.999498724937439,
+          "speaker": null
+        },
+        {
+          "start": 21.34,
+          "end": 21.82,
+          "text": "make",
+          "confidence": 0.9995823502540588,
+          "speaker": null
+        },
+        {
+          "start": 21.82,
+          "end": 22.24,
+          "text": "cake.",
+          "confidence": 0.999575674533844,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 22.92,
+      "end": 24.98,
+      "speaker": null,
+      "text": "I am going to show you how to make a very simple and easy to make cake. I am going to show you how to make a very simple and easy to make cake.",
+      "confidence": 0.9931246603236479,
+      "words": [
+        {
+          "start": 22.92,
+          "end": 23.18,
+          "text": "I",
+          "confidence": 0.9036093950271606,
+          "speaker": null
+        },
+        {
+          "start": 23.18,
+          "end": 23.18,
+          "text": "am",
+          "confidence": 0.9981220364570618,
+          "speaker": null
+        },
+        {
+          "start": 23.18,
+          "end": 23.28,
+          "text": "going",
+          "confidence": 0.9976620674133301,
+          "speaker": null
+        },
+        {
+          "start": 23.28,
+          "end": 23.6,
+          "text": "to",
+          "confidence": 0.9997218251228333,
+          "speaker": null
+        },
+        {
+          "start": 23.6,
+          "end": 23.6,
+          "text": "show",
+          "confidence": 0.9974398612976074,
+          "speaker": null
+        },
+        {
+          "start": 23.6,
+          "end": 23.6,
+          "text": "you",
+          "confidence": 0.9999650716781616,
+          "speaker": null
+        },
+        {
+          "start": 23.6,
+          "end": 23.6,
+          "text": "how",
+          "confidence": 0.9998093247413635,
+          "speaker": null
+        },
+        {
+          "start": 23.6,
+          "end": 23.6,
+          "text": "to",
+          "confidence": 0.9994906187057495,
+          "speaker": null
+        },
+        {
+          "start": 23.6,
+          "end": 23.6,
+          "text": "make",
+          "confidence": 0.9995588660240173,
+          "speaker": null
+        },
+        {
+          "start": 23.6,
+          "end": 23.6,
+          "text": "a",
+          "confidence": 0.9840129613876343,
+          "speaker": null
+        },
+        {
+          "start": 23.6,
+          "end": 23.6,
+          "text": "very",
+          "confidence": 0.9986458420753479,
+          "speaker": null
+        },
+        {
+          "start": 23.6,
+          "end": 23.64,
+          "text": "simple",
+          "confidence": 0.9989363551139832,
+          "speaker": null
+        },
+        {
+          "start": 23.64,
+          "end": 23.72,
+          "text": "and",
+          "confidence": 0.9996529817581177,
+          "speaker": null
+        },
+        {
+          "start": 23.72,
+          "end": 23.8,
+          "text": "easy",
+          "confidence": 0.9995317459106445,
+          "speaker": null
+        },
+        {
+          "start": 23.8,
+          "end": 23.8,
+          "text": "to",
+          "confidence": 0.9995971322059631,
+          "speaker": null
+        },
+        {
+          "start": 23.8,
+          "end": 23.8,
+          "text": "make",
+          "confidence": 0.9995904564857483,
+          "speaker": null
+        },
+        {
+          "start": 23.8,
+          "end": 23.8,
+          "text": "cake.",
+          "confidence": 0.9995504021644592,
+          "speaker": null
+        },
+        {
+          "start": 23.9,
+          "end": 24.04,
+          "text": "I",
+          "confidence": 0.938839852809906,
+          "speaker": null
+        },
+        {
+          "start": 24.04,
+          "end": 24.98,
+          "text": "am",
+          "confidence": 0.9986521601676941,
+          "speaker": null
+        },
+        {
+          "start": 24.98,
+          "end": 24.98,
+          "text": "going",
+          "confidence": 0.9984410405158997,
+          "speaker": null
+        },
+        {
+          "start": 24.98,
+          "end": 24.98,
+          "text": "to",
+          "confidence": 0.9997562766075134,
+          "speaker": null
+        },
+        {
+          "start": 24.98,
+          "end": 24.98,
+          "text": "show",
+          "confidence": 0.9976958632469177,
+          "speaker": null
+        },
+        {
+          "start": 24.98,
+          "end": 24.98,
+          "text": "you",
+          "confidence": 0.9999693632125854,
+          "speaker": null
+        },
+        {
+          "start": 24.98,
+          "end": 24.98,
+          "text": "how",
+          "confidence": 0.9998250603675842,
+          "speaker": null
+        },
+        {
+          "start": 24.98,
+          "end": 24.98,
+          "text": "to",
+          "confidence": 0.9995630383491516,
+          "speaker": null
+        },
+        {
+          "start": 24.98,
+          "end": 24.98,
+          "text": "make",
+          "confidence": 0.9995536208152771,
+          "speaker": null
+        },
+        {
+          "start": 24.98,
+          "end": 24.98,
+          "text": "a",
+          "confidence": 0.9634042978286743,
+          "speaker": null
+        },
+        {
+          "start": 24.98,
+          "end": 24.98,
+          "text": "very",
+          "confidence": 0.9987313151359558,
+          "speaker": null
+        },
+        {
+          "start": 24.98,
+          "end": 24.98,
+          "text": "simple",
+          "confidence": 0.998849630355835,
+          "speaker": null
+        },
+        {
+          "start": 24.98,
+          "end": 24.98,
+          "text": "and",
+          "confidence": 0.9997351765632629,
+          "speaker": null
+        },
+        {
+          "start": 24.98,
+          "end": 24.98,
+          "text": "easy",
+          "confidence": 0.9995132684707642,
+          "speaker": null
+        },
+        {
+          "start": 24.98,
+          "end": 24.98,
+          "text": "to",
+          "confidence": 0.9996637105941772,
+          "speaker": null
+        },
+        {
+          "start": 24.98,
+          "end": 24.98,
+          "text": "make",
+          "confidence": 0.9996066689491272,
+          "speaker": null
+        },
+        {
+          "start": 24.98,
+          "end": 24.98,
+          "text": "cake.",
+          "confidence": 0.999541163444519,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 17.599999999999998,
+        "speaker": null,
+        "text": "Hello everyone, welcome to my channel. I am going to show you how to make a very simple and easy to make cake."
+      },
+      {
+        "timestamp": 17.92,
+        "speaker": null,
+        "text": "I am going to show you how to make a very simple and easy to make cake. I am going to show you how to make a very simple and easy to make cake."
+      },
+      {
+        "timestamp": 18.98,
+        "speaker": null,
+        "text": "I am going to show you how to make a very simple and easy to make cake. I am going to show you how to make a very simple and easy to make cake."
+      },
+      {
+        "timestamp": 19.9,
+        "speaker": null,
+        "text": "I am going to show you how to make a very simple and easy to make cake."
+      },
+      {
+        "timestamp": 22.92,
+        "speaker": null,
+        "text": "I am going to show you how to make a very simple and easy to make cake. I am going to show you how to make a very simple and easy to make cake."
+      }
+    ]
+  }
+}

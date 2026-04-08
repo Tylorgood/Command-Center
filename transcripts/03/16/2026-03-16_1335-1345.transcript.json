@@ -1,0 +1,647 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-16_1335-1345",
+    "created_at": "2026-03-16T14:58:52.544116-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 37.64,
+      "end": 40.44,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5369277149438858,
+      "words": [
+        {
+          "start": 37.64,
+          "end": 39.04,
+          "text": "Thank",
+          "confidence": 0.08055511116981506,
+          "speaker": null
+        },
+        {
+          "start": 39.04,
+          "end": 40.44,
+          "text": "you.",
+          "confidence": 0.9933003187179565,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 60.14,
+      "end": 63.32,
+      "speaker": null,
+      "text": "Hey Michael, this is Tyler over at Team Up.",
+      "confidence": 0.7899396850003136,
+      "words": [
+        {
+          "start": 60.14,
+          "end": 60.66,
+          "text": "Hey",
+          "confidence": 0.5825273990631104,
+          "speaker": null
+        },
+        {
+          "start": 60.66,
+          "end": 61.04,
+          "text": "Michael,",
+          "confidence": 0.9407216906547546,
+          "speaker": null
+        },
+        {
+          "start": 61.5,
+          "end": 61.62,
+          "text": "this",
+          "confidence": 0.982883870601654,
+          "speaker": null
+        },
+        {
+          "start": 61.62,
+          "end": 61.88,
+          "text": "is",
+          "confidence": 0.993881344795227,
+          "speaker": null
+        },
+        {
+          "start": 61.88,
+          "end": 62.1,
+          "text": "Tyler",
+          "confidence": 0.8299360275268555,
+          "speaker": null
+        },
+        {
+          "start": 62.1,
+          "end": 62.42,
+          "text": "over",
+          "confidence": 0.8579026460647583,
+          "speaker": null
+        },
+        {
+          "start": 62.42,
+          "end": 62.519999999999996,
+          "text": "at",
+          "confidence": 0.6230095624923706,
+          "speaker": null
+        },
+        {
+          "start": 62.519999999999996,
+          "end": 62.74,
+          "text": "Team",
+          "confidence": 0.4249139726161957,
+          "speaker": null
+        },
+        {
+          "start": 62.74,
+          "end": 63.32,
+          "text": "Up.",
+          "confidence": 0.8736806511878967,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 63.92,
+      "end": 65.66,
+      "speaker": null,
+      "text": "Give me a call back when you get a chance.",
+      "confidence": 0.9476683437824249,
+      "words": [
+        {
+          "start": 63.92,
+          "end": 63.96,
+          "text": "Give",
+          "confidence": 0.7953625917434692,
+          "speaker": null
+        },
+        {
+          "start": 63.96,
+          "end": 64.06,
+          "text": "me",
+          "confidence": 0.9952223896980286,
+          "speaker": null
+        },
+        {
+          "start": 64.06,
+          "end": 64.24,
+          "text": "a",
+          "confidence": 0.9743643999099731,
+          "speaker": null
+        },
+        {
+          "start": 64.24,
+          "end": 64.3,
+          "text": "call",
+          "confidence": 0.9243686199188232,
+          "speaker": null
+        },
+        {
+          "start": 64.3,
+          "end": 64.58,
+          "text": "back",
+          "confidence": 0.9165164828300476,
+          "speaker": null
+        },
+        {
+          "start": 64.58,
+          "end": 64.8,
+          "text": "when",
+          "confidence": 0.9174811244010925,
+          "speaker": null
+        },
+        {
+          "start": 64.8,
+          "end": 64.82,
+          "text": "you",
+          "confidence": 0.9704694747924805,
+          "speaker": null
+        },
+        {
+          "start": 64.82,
+          "end": 65.02,
+          "text": "get",
+          "confidence": 0.9959313273429871,
+          "speaker": null
+        },
+        {
+          "start": 65.02,
+          "end": 65.24,
+          "text": "a",
+          "confidence": 0.9906384944915771,
+          "speaker": null
+        },
+        {
+          "start": 65.24,
+          "end": 65.66,
+          "text": "chance.",
+          "confidence": 0.9963285326957703,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 66.36,
+      "end": 70.08,
+      "speaker": null,
+      "text": "586, 339, 4701. Have a great day.",
+      "confidence": 0.7926898135079279,
+      "words": [
+        {
+          "start": 66.36,
+          "end": 66.88,
+          "text": "586,",
+          "confidence": 0.5175424516201019,
+          "speaker": null
+        },
+        {
+          "start": 67.24,
+          "end": 67.72,
+          "text": "339,",
+          "confidence": 0.5007595419883728,
+          "speaker": null
+        },
+        {
+          "start": 67.82,
+          "end": 69.03999999999999,
+          "text": "4701.",
+          "confidence": 0.7600402136643728,
+          "speaker": null
+        },
+        {
+          "start": 69.34,
+          "end": 69.46000000000001,
+          "text": "Have",
+          "confidence": 0.9745550155639648,
+          "speaker": null
+        },
+        {
+          "start": 69.46000000000001,
+          "end": 69.52,
+          "text": "a",
+          "confidence": 0.999526858329773,
+          "speaker": null
+        },
+        {
+          "start": 69.52,
+          "end": 69.72,
+          "text": "great",
+          "confidence": 0.9972081780433655,
+          "speaker": null
+        },
+        {
+          "start": 69.72,
+          "end": 70.08,
+          "text": "day.",
+          "confidence": 0.9991055130958557,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 148.84,
+      "end": 156.64,
+      "speaker": null,
+      "text": "Okay, well you take care of yourself and I'll keep you in the loop maybe in a month or two",
+      "confidence": 0.841597793996334,
+      "words": [
+        {
+          "start": 148.84,
+          "end": 149.24,
+          "text": "Okay,",
+          "confidence": 0.2506048083305359,
+          "speaker": null
+        },
+        {
+          "start": 151.32,
+          "end": 151.44,
+          "text": "well",
+          "confidence": 0.889072597026825,
+          "speaker": null
+        },
+        {
+          "start": 151.44,
+          "end": 151.86,
+          "text": "you",
+          "confidence": 0.6376441121101379,
+          "speaker": null
+        },
+        {
+          "start": 151.86,
+          "end": 152.06,
+          "text": "take",
+          "confidence": 0.9859960675239563,
+          "speaker": null
+        },
+        {
+          "start": 152.06,
+          "end": 152.34,
+          "text": "care",
+          "confidence": 0.9852806925773621,
+          "speaker": null
+        },
+        {
+          "start": 152.34,
+          "end": 152.48,
+          "text": "of",
+          "confidence": 0.9964068531990051,
+          "speaker": null
+        },
+        {
+          "start": 152.48,
+          "end": 152.94,
+          "text": "yourself",
+          "confidence": 0.9961561560630798,
+          "speaker": null
+        },
+        {
+          "start": 152.94,
+          "end": 154.14,
+          "text": "and",
+          "confidence": 0.6001933813095093,
+          "speaker": null
+        },
+        {
+          "start": 154.14,
+          "end": 154.34,
+          "text": "I'll",
+          "confidence": 0.8623798191547394,
+          "speaker": null
+        },
+        {
+          "start": 154.34,
+          "end": 154.46,
+          "text": "keep",
+          "confidence": 0.9969616532325745,
+          "speaker": null
+        },
+        {
+          "start": 154.46,
+          "end": 154.68,
+          "text": "you",
+          "confidence": 0.8271308541297913,
+          "speaker": null
+        },
+        {
+          "start": 154.68,
+          "end": 154.82,
+          "text": "in",
+          "confidence": 0.5970789194107056,
+          "speaker": null
+        },
+        {
+          "start": 154.82,
+          "end": 154.96,
+          "text": "the",
+          "confidence": 0.9027528762817383,
+          "speaker": null
+        },
+        {
+          "start": 154.96,
+          "end": 155.2,
+          "text": "loop",
+          "confidence": 0.9767171144485474,
+          "speaker": null
+        },
+        {
+          "start": 155.2,
+          "end": 155.68,
+          "text": "maybe",
+          "confidence": 0.5244338512420654,
+          "speaker": null
+        },
+        {
+          "start": 155.68,
+          "end": 156.04,
+          "text": "in",
+          "confidence": 0.9586610198020935,
+          "speaker": null
+        },
+        {
+          "start": 156.04,
+          "end": 156.16,
+          "text": "a",
+          "confidence": 0.8775274753570557,
+          "speaker": null
+        },
+        {
+          "start": 156.16,
+          "end": 156.32,
+          "text": "month",
+          "confidence": 0.9912976026535034,
+          "speaker": null
+        },
+        {
+          "start": 156.32,
+          "end": 156.5,
+          "text": "or",
+          "confidence": 0.9945624470710754,
+          "speaker": null
+        },
+        {
+          "start": 156.5,
+          "end": 156.64,
+          "text": "two",
+          "confidence": 0.9810975790023804,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 156.64,
+      "end": 157.88,
+      "speaker": null,
+      "text": "I'll follow back up with you.",
+      "confidence": 0.7038774533818165,
+      "words": [
+        {
+          "start": 156.64,
+          "end": 156.82,
+          "text": "I'll",
+          "confidence": 0.32851624116301537,
+          "speaker": null
+        },
+        {
+          "start": 156.82,
+          "end": 157.0,
+          "text": "follow",
+          "confidence": 0.4251302182674408,
+          "speaker": null
+        },
+        {
+          "start": 157.0,
+          "end": 157.28,
+          "text": "back",
+          "confidence": 0.772611677646637,
+          "speaker": null
+        },
+        {
+          "start": 157.28,
+          "end": 157.46,
+          "text": "up",
+          "confidence": 0.9825985431671143,
+          "speaker": null
+        },
+        {
+          "start": 157.46,
+          "end": 157.66,
+          "text": "with",
+          "confidence": 0.9892966151237488,
+          "speaker": null
+        },
+        {
+          "start": 157.66,
+          "end": 157.88,
+          "text": "you.",
+          "confidence": 0.7251114249229431,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 159.58,
+      "end": 165.0,
+      "speaker": null,
+      "text": "All right, yes, take care.",
+      "confidence": 0.8043390870094299,
+      "words": [
+        {
+          "start": 159.58,
+          "end": 160.82,
+          "text": "All",
+          "confidence": 0.36083149909973145,
+          "speaker": null
+        },
+        {
+          "start": 160.82,
+          "end": 161.12,
+          "text": "right,",
+          "confidence": 0.9894625544548035,
+          "speaker": null
+        },
+        {
+          "start": 162.96,
+          "end": 163.58,
+          "text": "yes,",
+          "confidence": 0.7462072372436523,
+          "speaker": null
+        },
+        {
+          "start": 164.1,
+          "end": 164.2,
+          "text": "take",
+          "confidence": 0.9292831420898438,
+          "speaker": null
+        },
+        {
+          "start": 164.2,
+          "end": 165.0,
+          "text": "care.",
+          "confidence": 0.9959110021591187,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 476.48,
+      "end": 479.48,
+      "speaker": null,
+      "text": "I don't know what to do, but I don't know what to do,",
+      "confidence": 0.533765570475505,
+      "words": [
+        {
+          "start": 476.48,
+          "end": 477.2,
+          "text": "I",
+          "confidence": 0.01503046602010727,
+          "speaker": null
+        },
+        {
+          "start": 477.2,
+          "end": 477.92,
+          "text": "don't",
+          "confidence": 0.5406073406338692,
+          "speaker": null
+        },
+        {
+          "start": 477.92,
+          "end": 477.92,
+          "text": "know",
+          "confidence": 0.8238813281059265,
+          "speaker": null
+        },
+        {
+          "start": 477.92,
+          "end": 478.28,
+          "text": "what",
+          "confidence": 0.02266671508550644,
+          "speaker": null
+        },
+        {
+          "start": 478.28,
+          "end": 478.28,
+          "text": "to",
+          "confidence": 0.11351665109395981,
+          "speaker": null
+        },
+        {
+          "start": 478.28,
+          "end": 479.18,
+          "text": "do,",
+          "confidence": 0.4750423729419708,
+          "speaker": null
+        },
+        {
+          "start": 479.36,
+          "end": 479.4,
+          "text": "but",
+          "confidence": 0.5210704207420349,
+          "speaker": null
+        },
+        {
+          "start": 479.4,
+          "end": 479.48,
+          "text": "I",
+          "confidence": 0.6216646432876587,
+          "speaker": null
+        },
+        {
+          "start": 479.48,
+          "end": 479.48,
+          "text": "don't",
+          "confidence": 0.5660966485738754,
+          "speaker": null
+        },
+        {
+          "start": 479.48,
+          "end": 479.48,
+          "text": "know",
+          "confidence": 0.8016051054000854,
+          "speaker": null
+        },
+        {
+          "start": 479.48,
+          "end": 479.48,
+          "text": "what",
+          "confidence": 0.7048665881156921,
+          "speaker": null
+        },
+        {
+          "start": 479.48,
+          "end": 479.48,
+          "text": "to",
+          "confidence": 0.8385049104690552,
+          "speaker": null
+        },
+        {
+          "start": 479.48,
+          "end": 479.48,
+          "text": "do,",
+          "confidence": 0.8943992257118225,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 488.58,
+      "end": 491.38,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5664192289113998,
+      "words": [
+        {
+          "start": 488.58,
+          "end": 489.98,
+          "text": "Thank",
+          "confidence": 0.13477352261543274,
+          "speaker": null
+        },
+        {
+          "start": 489.98,
+          "end": 491.38,
+          "text": "you.",
+          "confidence": 0.9980649352073669,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 60.14,
+        "speaker": null,
+        "text": "Hey Michael, this is Tyler over at Team Up."
+      },
+      {
+        "timestamp": 63.92,
+        "speaker": null,
+        "text": "Give me a call back when you get a chance."
+      },
+      {
+        "timestamp": 66.36,
+        "speaker": null,
+        "text": "586, 339, 4701. Have a great day."
+      },
+      {
+        "timestamp": 148.84,
+        "speaker": null,
+        "text": "Okay, well you take care of yourself and I'll keep you in the loop maybe in a month or two"
+      },
+      {
+        "timestamp": 156.64,
+        "speaker": null,
+        "text": "I'll follow back up with you."
+      }
+    ]
+  }
+}

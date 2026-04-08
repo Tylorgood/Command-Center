@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-16_0945-0955",
+    "created_at": "2026-03-16T10:39:32.576235-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 33.6,
+      "end": 36.4,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5292234644293785,
+      "words": [
+        {
+          "start": 33.6,
+          "end": 35.0,
+          "text": "Thank",
+          "confidence": 0.07008586823940277,
+          "speaker": null
+        },
+        {
+          "start": 35.0,
+          "end": 36.4,
+          "text": "you.",
+          "confidence": 0.9883610606193542,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": []
+  }
+}

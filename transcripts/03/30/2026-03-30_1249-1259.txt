@@ -1,0 +1,45 @@
+[00:00:00] Speaker: There was fans that are going to cover shots, whenever you've had a vacation, you're shifting those parts next day from here, and typically, we're maintaining a 99% same day shipment. If you go to our service webpage and you page that a little bit, you'll see that we actually post what we're maintaining service percentage shipment-wise every day.
+
+[00:00:21] Speaker: And typically, we're above 99%. Pretty amazing. That means that if a customer needs a part, they're going to get it as soon as possible.
+
+[00:00:30] Speaker: So, we're headed back for the building one, we're going to end up finishing up on the building one, a family side of thing. Just left building four. But I just want to mention here, this is what we call our print consolidation area.
+
+[00:00:41] Speaker: Most of these machines are headed over the years. But sometimes we even gather to get a bar in their chimpanzees, they're headed to the US. But don't you hear it, please, please, This is the rotary assembly department.
+
+[00:01:20] Speaker: Rotary tables and lectures of course. This is where HOS got its start. Nowadays, we're surrounded by a lot more than just the basic index of the rotary tables. HOS has been making programmable indexers and rotary tables. Even longer than we've been making C and C mills of turning centers. Maybe you'd think that years ago we would have been content to sit back as the market leader at rotary and sell the same product we developed 10 years ago. But not at HOS. We always keep trying new things.
+
+[00:01:47] Speaker: We were making 5-axis trunnion style rotaries as far back as 1988. And we've never stopped developing new ways to make 4th and 5th axis machining more accessible and more productive. From our tiny HRT100 to the mammoth HRT1000 rotary tables and 5-axis options from the TRT70 all the way to our just developing TR500SS. We're always looking for ways for more actions to work on your milling machine.
+
+[00:02:13] Speaker: 5X is set up now.
+
+[00:02:16] Speaker: Make it a habit. 7 minutes of Tai Chi every morning all the way for one month.
+
+[00:02:29] Speaker: Alright, so we're coming from rotary assembly into VMC assembly. And that's probably fitting because that's basically the progression that HOS followed from rotary tables to vertical machining centers.
+
+[00:02:40] Speaker: So this is the cast assembly area. And this is actually this assembly line we call a flow line. We just put it to place recently. Really, this is just a more efficient way. And maybe a little more consistent way to put together VMC columns. In this case, small columns. This is our highest volume column assembly that we make here. We can see that this is kitted grade to go. So what's the assembly here? It's taking over to this side.
+
+[00:03:09] Speaker: This is where we do the entire stack access method we were talking about earlier. We place the base on the ground, add the linear guides and ball screws, install the saddle and table. And then we take that column assembly that we built over here, lift it with a crane, drop it onto the top of this guy here, and you essentially have the bare bones of the machine. And we take this finished bare bones machine here, and we take it across the aisle, and we head into what we call final assembly.
+
+[00:03:37] Speaker: Thank you. Like we saw on the UMC line, here in VMC final assembly, we conduct numerous tests to ensure each machine is ready to provide accurate, dependable results day after day. Geometry tests like T-slot parallelism, saddle and column squareness, and spindle sweep verify that the machine is in correct alignment.
+
+[00:03:56] Speaker: Then we move to dynamic checks like ball bar and spindle vibration tests to verify that the machine does what it's supposed to while in motion and in the cut. All of these culminate in the test that we run on every machine before it ships.
+
+[00:04:22] Speaker: Now we're entering the wave assembly area. As you can see right here we have some assemblies that are getting ready to be put on this line. When assembly here with the turret attached, we're going to go over on this side we have spindle head. We're going to go on the line, another one assembly. Now over to my right hand side here, this
+
+[00:04:41] Speaker: lorry put together these small lays ST20s as in over on my left hand side. This lorry put together the ST3s. Now similar to the middle line, we have a cast area and a final assembly area. This is a cast assembly area.
+
+[00:04:59] Speaker: Kind of the same idea here. You place the base of the ground, put down the linear guides of Paul screws, and then you start adding all the large subassemblies. In this case, oh, let's get back to this one here.
+
+[00:05:13] Speaker: As you see here, we have a base casting where I know what assembly work has been done yet. Just get ready, they'll level this out, then they're ready upon the Paul screws and linear guides.
+
+[00:05:23] Speaker: Right here we have an assembly that is progressive along a little bit farther. This is the bare bones spindle head right here. That's what we were watching in the video. Here's our wedge assembly and the turret, tail stock. These are kind of all the main components that need to be on this lathe. See, even those turrets are just... Paul screws level this out. They're just castings with machine work down to it. It's a nice piece. And then that's what all the lathe tools go.
+
+[00:07:12] Speaker: production runs. I seen it when I was at GT.
+
+[00:07:37] Speaker: So you can actually control it.
+
+[00:08:34] Speaker: you're saying at the end of the line.
+
+[00:08:37] Speaker: It can't have any infections in the party, it can't be dirty, it can't be like simple things, like little bugs that you were working on in the line was, when it's serial actually part, it would get a QR code, and it would also get an actual serial number, and it was done on the laser. Okay, sounds not like an issue, right? But that's simple, fast.
+
+[00:09:01] Speaker: That the laser took a second, it takes one second for the laser to actually laser the QR code on to it. One second later, it has been one second, so the QR code and the serial number don't match, because it's based on the timing. So now we can have to go in and...

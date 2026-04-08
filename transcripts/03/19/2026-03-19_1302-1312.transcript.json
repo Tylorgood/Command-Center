@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-19_1302-1312",
+    "created_at": "2026-03-19T16:19:45.558550-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 161.92000000000002,
+      "end": 164.9,
+      "speaker": null,
+      "text": "Thank you very much.",
+      "confidence": 0.5183493148069829,
+      "words": [
+        {
+          "start": 161.92000000000002,
+          "end": 163.32,
+          "text": "Thank",
+          "confidence": 0.007967810146510601,
+          "speaker": null
+        },
+        {
+          "start": 163.32,
+          "end": 163.32,
+          "text": "you",
+          "confidence": 0.9449596405029297,
+          "speaker": null
+        },
+        {
+          "start": 163.32,
+          "end": 164.88,
+          "text": "very",
+          "confidence": 0.12556350231170654,
+          "speaker": null
+        },
+        {
+          "start": 164.88,
+          "end": 164.9,
+          "text": "much.",
+          "confidence": 0.9949063062667847,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 193.58,
+      "end": 194.98,
+      "speaker": null,
+      "text": "Thank you very much.",
+      "confidence": 0.5204018556978554,
+      "words": [
+        {
+          "start": 193.58,
+          "end": 194.98,
+          "text": "Thank",
+          "confidence": 0.004026568494737148,
+          "speaker": null
+        },
+        {
+          "start": 194.98,
+          "end": 194.98,
+          "text": "you",
+          "confidence": 0.9444992542266846,
+          "speaker": null
+        },
+        {
+          "start": 194.98,
+          "end": 194.98,
+          "text": "very",
+          "confidence": 0.13753972947597504,
+          "speaker": null
+        },
+        {
+          "start": 194.98,
+          "end": 194.98,
+          "text": "much.",
+          "confidence": 0.9955418705940247,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": []
+  }
+}

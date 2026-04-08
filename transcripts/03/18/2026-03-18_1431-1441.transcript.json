@@ -1,0 +1,254 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-18_1431-1441",
+    "created_at": "2026-03-18T19:58:21.331212-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 9.780000000000001,
+      "end": 22.18,
+      "speaker": null,
+      "text": "all right so what am I missing like kind of metal sandic stuff like that in addition to what we're api wiring in but also here's the rest of the stuff",
+      "confidence": 0.8621255729425077,
+      "words": [
+        {
+          "start": 9.780000000000001,
+          "end": 10.46,
+          "text": "all",
+          "confidence": 0.03880852833390236,
+          "speaker": null
+        },
+        {
+          "start": 10.46,
+          "end": 11.14,
+          "text": "right",
+          "confidence": 0.9719192981719971,
+          "speaker": null
+        },
+        {
+          "start": 11.14,
+          "end": 11.6,
+          "text": "so",
+          "confidence": 0.8205295205116272,
+          "speaker": null
+        },
+        {
+          "start": 11.6,
+          "end": 11.92,
+          "text": "what",
+          "confidence": 0.9390263557434082,
+          "speaker": null
+        },
+        {
+          "start": 11.92,
+          "end": 12.1,
+          "text": "am",
+          "confidence": 0.9624818563461304,
+          "speaker": null
+        },
+        {
+          "start": 12.1,
+          "end": 12.12,
+          "text": "I",
+          "confidence": 0.842547595500946,
+          "speaker": null
+        },
+        {
+          "start": 12.12,
+          "end": 12.68,
+          "text": "missing",
+          "confidence": 0.9899293780326843,
+          "speaker": null
+        },
+        {
+          "start": 12.68,
+          "end": 13.36,
+          "text": "like",
+          "confidence": 0.7777575254440308,
+          "speaker": null
+        },
+        {
+          "start": 13.36,
+          "end": 13.56,
+          "text": "kind",
+          "confidence": 0.7395948767662048,
+          "speaker": null
+        },
+        {
+          "start": 13.56,
+          "end": 13.66,
+          "text": "of",
+          "confidence": 0.9989301562309265,
+          "speaker": null
+        },
+        {
+          "start": 13.66,
+          "end": 14.46,
+          "text": "metal",
+          "confidence": 0.9382003545761108,
+          "speaker": null
+        },
+        {
+          "start": 14.46,
+          "end": 15.74,
+          "text": "sandic",
+          "confidence": 0.5234160348773003,
+          "speaker": null
+        },
+        {
+          "start": 15.74,
+          "end": 16.1,
+          "text": "stuff",
+          "confidence": 0.9476995468139648,
+          "speaker": null
+        },
+        {
+          "start": 16.1,
+          "end": 16.34,
+          "text": "like",
+          "confidence": 0.9960816502571106,
+          "speaker": null
+        },
+        {
+          "start": 16.34,
+          "end": 16.98,
+          "text": "that",
+          "confidence": 0.9973037242889404,
+          "speaker": null
+        },
+        {
+          "start": 16.98,
+          "end": 17.14,
+          "text": "in",
+          "confidence": 0.9509463906288147,
+          "speaker": null
+        },
+        {
+          "start": 17.14,
+          "end": 17.46,
+          "text": "addition",
+          "confidence": 0.9905630350112915,
+          "speaker": null
+        },
+        {
+          "start": 17.46,
+          "end": 17.9,
+          "text": "to",
+          "confidence": 0.9984835982322693,
+          "speaker": null
+        },
+        {
+          "start": 17.9,
+          "end": 18.12,
+          "text": "what",
+          "confidence": 0.9948970675468445,
+          "speaker": null
+        },
+        {
+          "start": 18.12,
+          "end": 18.38,
+          "text": "we're",
+          "confidence": 0.8685729801654816,
+          "speaker": null
+        },
+        {
+          "start": 18.38,
+          "end": 18.92,
+          "text": "api",
+          "confidence": 0.7173264920711517,
+          "speaker": null
+        },
+        {
+          "start": 18.92,
+          "end": 19.26,
+          "text": "wiring",
+          "confidence": 0.20177114009857178,
+          "speaker": null
+        },
+        {
+          "start": 19.26,
+          "end": 19.88,
+          "text": "in",
+          "confidence": 0.8812840580940247,
+          "speaker": null
+        },
+        {
+          "start": 19.88,
+          "end": 20.28,
+          "text": "but",
+          "confidence": 0.8889209032058716,
+          "speaker": null
+        },
+        {
+          "start": 20.28,
+          "end": 20.54,
+          "text": "also",
+          "confidence": 0.9931939840316772,
+          "speaker": null
+        },
+        {
+          "start": 20.54,
+          "end": 21.0,
+          "text": "here's",
+          "confidence": 0.9204312264919281,
+          "speaker": null
+        },
+        {
+          "start": 21.0,
+          "end": 21.12,
+          "text": "the",
+          "confidence": 0.9978663325309753,
+          "speaker": null
+        },
+        {
+          "start": 21.12,
+          "end": 21.34,
+          "text": "rest",
+          "confidence": 0.9707744717597961,
+          "speaker": null
+        },
+        {
+          "start": 21.34,
+          "end": 21.52,
+          "text": "of",
+          "confidence": 0.988057017326355,
+          "speaker": null
+        },
+        {
+          "start": 21.52,
+          "end": 21.64,
+          "text": "the",
+          "confidence": 0.8591812252998352,
+          "speaker": null
+        },
+        {
+          "start": 21.64,
+          "end": 22.18,
+          "text": "stuff",
+          "confidence": 0.9969691634178162,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 9.780000000000001,
+        "speaker": null,
+        "text": "all right so what am I missing like kind of metal sandic stuff like that in addition to what we're api wiring in but also here's the rest of the stuff"
+      }
+    ]
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-19_1533-1543",
+    "created_at": "2026-03-19T22:58:21.693898-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 0.8,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5265525393188,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.78,
+          "text": "Thank",
+          "confidence": 0.05732318013906479,
+          "speaker": null
+        },
+        {
+          "start": 0.78,
+          "end": 0.8,
+          "text": "you.",
+          "confidence": 0.9957818984985352,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 65.58,
+      "end": 65.88,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5963870286941528,
+      "words": [
+        {
+          "start": 65.58,
+          "end": 65.78,
+          "text": "Thank",
+          "confidence": 0.19394725561141968,
+          "speaker": null
+        },
+        {
+          "start": 65.78,
+          "end": 65.88,
+          "text": "you.",
+          "confidence": 0.998826801776886,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 93.6,
+      "end": 96.4,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5385056026279926,
+      "words": [
+        {
+          "start": 93.6,
+          "end": 95.0,
+          "text": "Thank",
+          "confidence": 0.08431849628686905,
+          "speaker": null
+        },
+        {
+          "start": 95.0,
+          "end": 96.4,
+          "text": "you.",
+          "confidence": 0.9926927089691162,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 117.0,
+      "end": 119.8,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5165947247296572,
+      "words": [
+        {
+          "start": 117.0,
+          "end": 118.4,
+          "text": "Thank",
+          "confidence": 0.040992412716150284,
+          "speaker": null
+        },
+        {
+          "start": 118.4,
+          "end": 119.8,
+          "text": "you.",
+          "confidence": 0.9921970367431641,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 158.14,
+      "end": 159.64,
+      "speaker": null,
+      "text": "I think it has ran over.",
+      "confidence": 0.6698457598686218,
+      "words": [
+        {
+          "start": 158.14,
+          "end": 158.57999999999998,
+          "text": "I",
+          "confidence": 0.33952566981315613,
+          "speaker": null
+        },
+        {
+          "start": 158.57999999999998,
+          "end": 158.84,
+          "text": "think",
+          "confidence": 0.7809463143348694,
+          "speaker": null
+        },
+        {
+          "start": 158.84,
+          "end": 159.02,
+          "text": "it",
+          "confidence": 0.8414454460144043,
+          "speaker": null
+        },
+        {
+          "start": 159.02,
+          "end": 159.14,
+          "text": "has",
+          "confidence": 0.31251320242881775,
+          "speaker": null
+        },
+        {
+          "start": 159.14,
+          "end": 159.32,
+          "text": "ran",
+          "confidence": 0.7762418985366821,
+          "speaker": null
+        },
+        {
+          "start": 159.32,
+          "end": 159.64,
+          "text": "over.",
+          "confidence": 0.9684020280838013,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 177.08,
+      "end": 177.76,
+      "speaker": null,
+      "text": "There we go.",
+      "confidence": 0.5672374044855436,
+      "words": [
+        {
+          "start": 177.08,
+          "end": 177.42,
+          "text": "There",
+          "confidence": 0.008662901818752289,
+          "speaker": null
+        },
+        {
+          "start": 177.42,
+          "end": 177.72,
+          "text": "we",
+          "confidence": 0.7263295650482178,
+          "speaker": null
+        },
+        {
+          "start": 177.72,
+          "end": 177.76,
+          "text": "go.",
+          "confidence": 0.9667197465896606,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 206.92000000000002,
+      "end": 207.56,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5601788461208344,
+      "words": [
+        {
+          "start": 206.92000000000002,
+          "end": 207.36,
+          "text": "Thank",
+          "confidence": 0.12369155883789062,
+          "speaker": null
+        },
+        {
+          "start": 207.36,
+          "end": 207.56,
+          "text": "you.",
+          "confidence": 0.9966661334037781,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 460.84,
+      "end": 461.48,
+      "speaker": null,
+      "text": "I've seen it, but it's time I've seen it,",
+      "confidence": 0.2777020232363914,
+      "words": [
+        {
+          "start": 460.84,
+          "end": 461.04,
+          "text": "I've",
+          "confidence": 0.013687533792108297,
+          "speaker": null
+        },
+        {
+          "start": 461.04,
+          "end": 461.24,
+          "text": "seen",
+          "confidence": 0.016231700778007507,
+          "speaker": null
+        },
+        {
+          "start": 461.24,
+          "end": 461.26,
+          "text": "it,",
+          "confidence": 0.1902557760477066,
+          "speaker": null
+        },
+        {
+          "start": 461.44,
+          "end": 461.44,
+          "text": "but",
+          "confidence": 0.07550349086523056,
+          "speaker": null
+        },
+        {
+          "start": 461.44,
+          "end": 461.44,
+          "text": "it's",
+          "confidence": 0.4720696732401848,
+          "speaker": null
+        },
+        {
+          "start": 461.44,
+          "end": 461.44,
+          "text": "time",
+          "confidence": 0.0016523260856047273,
+          "speaker": null
+        },
+        {
+          "start": 461.44,
+          "end": 461.46,
+          "text": "I've",
+          "confidence": 0.10009044734761119,
+          "speaker": null
+        },
+        {
+          "start": 461.46,
+          "end": 461.48,
+          "text": "seen",
+          "confidence": 0.7466038465499878,
+          "speaker": null
+        },
+        {
+          "start": 461.48,
+          "end": 461.48,
+          "text": "it,",
+          "confidence": 0.8832234144210815,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 471.94,
+      "end": 474.15999999999997,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5684890225529671,
+      "words": [
+        {
+          "start": 471.94,
+          "end": 473.34000000000003,
+          "text": "Thank",
+          "confidence": 0.1402234584093094,
+          "speaker": null
+        },
+        {
+          "start": 473.34000000000003,
+          "end": 474.15999999999997,
+          "text": "you.",
+          "confidence": 0.9967545866966248,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 568.68,
+      "end": 571.48,
+      "speaker": null,
+      "text": "I've seen it, but it's time I've seen it,",
+      "confidence": 0.2776501478187533,
+      "words": [
+        {
+          "start": 568.68,
+          "end": 570.08,
+          "text": "I've",
+          "confidence": 0.012586600612848997,
+          "speaker": null
+        },
+        {
+          "start": 570.08,
+          "end": 571.48,
+          "text": "seen",
+          "confidence": 0.016527079045772552,
+          "speaker": null
+        },
+        {
+          "start": 571.48,
+          "end": 571.48,
+          "text": "it,",
+          "confidence": 0.1867930293083191,
+          "speaker": null
+        },
+        {
+          "start": 571.48,
+          "end": 571.48,
+          "text": "but",
+          "confidence": 0.07320961356163025,
+          "speaker": null
+        },
+        {
+          "start": 571.48,
+          "end": 571.48,
+          "text": "it's",
+          "confidence": 0.4659024253487587,
+          "speaker": null
+        },
+        {
+          "start": 571.48,
+          "end": 571.48,
+          "text": "time",
+          "confidence": 0.0014988424954935908,
+          "speaker": null
+        },
+        {
+          "start": 571.48,
+          "end": 571.48,
+          "text": "I've",
+          "confidence": 0.10202977061271667,
+          "speaker": null
+        },
+        {
+          "start": 571.48,
+          "end": 571.48,
+          "text": "seen",
+          "confidence": 0.754693865776062,
+          "speaker": null
+        },
+        {
+          "start": 571.48,
+          "end": 571.48,
+          "text": "it,",
+          "confidence": 0.8856101036071777,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 581.5,
+      "end": 584.3,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5675092488527298,
+      "words": [
+        {
+          "start": 581.5,
+          "end": 582.9,
+          "text": "Thank",
+          "confidence": 0.13800999522209167,
+          "speaker": null
+        },
+        {
+          "start": 582.9,
+          "end": 584.3,
+          "text": "you.",
+          "confidence": 0.9970085024833679,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 460.84,
+        "speaker": null,
+        "text": "I've seen it, but it's time I've seen it,"
+      },
+      {
+        "timestamp": 568.68,
+        "speaker": null,
+        "text": "I've seen it, but it's time I've seen it,"
+      }
+    ]
+  }
+}

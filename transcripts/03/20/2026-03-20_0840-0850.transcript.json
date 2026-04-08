@@ -1,0 +1,428 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-20_0840-0850",
+    "created_at": "2026-03-20T09:05:02.127739-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 5.4,
+      "end": 29.98,
+      "speaker": null,
+      "text": "Line 13 towards Mörby centrum",
+      "confidence": 0.6086016098658245,
+      "words": [
+        {
+          "start": 5.4,
+          "end": 6.8,
+          "text": "Line",
+          "confidence": 0.01874689757823944,
+          "speaker": null
+        },
+        {
+          "start": 6.8,
+          "end": 6.92,
+          "text": "13",
+          "confidence": 0.5345292687416077,
+          "speaker": null
+        },
+        {
+          "start": 6.92,
+          "end": 6.94,
+          "text": "towards",
+          "confidence": 0.9132547378540039,
+          "speaker": null
+        },
+        {
+          "start": 6.94,
+          "end": 27.86,
+          "text": "Mörby",
+          "confidence": 0.6437312414248785,
+          "speaker": null
+        },
+        {
+          "start": 27.86,
+          "end": 29.98,
+          "text": "centrum",
+          "confidence": 0.9327459037303925,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 40.06,
+      "end": 41.78,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5304390154778957,
+      "words": [
+        {
+          "start": 40.06,
+          "end": 41.46,
+          "text": "Thank",
+          "confidence": 0.06817834824323654,
+          "speaker": null
+        },
+        {
+          "start": 41.46,
+          "end": 41.78,
+          "text": "you.",
+          "confidence": 0.9926996827125549,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 55.0,
+      "end": 84.98,
+      "speaker": null,
+      "text": "13 towards Mörby centrum",
+      "confidence": 0.3272137729121217,
+      "words": [
+        {
+          "start": 55.0,
+          "end": 57.22,
+          "text": "13",
+          "confidence": 0.0003162346256431192,
+          "speaker": null
+        },
+        {
+          "start": 57.22,
+          "end": 57.22,
+          "text": "towards",
+          "confidence": 5.312802386470139e-05,
+          "speaker": null
+        },
+        {
+          "start": 57.22,
+          "end": 84.98,
+          "text": "Mörby",
+          "confidence": 0.5411974017818769,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "centrum",
+          "confidence": 0.767288327217102,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 120.3,
+      "end": 139.98,
+      "speaker": null,
+      "text": "13 towards Mörby centrum",
+      "confidence": 0.34654468797756033,
+      "words": [
+        {
+          "start": 120.3,
+          "end": 121.7,
+          "text": "13",
+          "confidence": 0.00037215251359157264,
+          "speaker": null
+        },
+        {
+          "start": 121.7,
+          "end": 121.86,
+          "text": "towards",
+          "confidence": 5.727672396460548e-05,
+          "speaker": null
+        },
+        {
+          "start": 121.86,
+          "end": 138.9,
+          "text": "Mörby",
+          "confidence": 0.565972757836183,
+          "speaker": null
+        },
+        {
+          "start": 138.9,
+          "end": 139.98,
+          "text": "centrum",
+          "confidence": 0.8197765648365021,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 174.3,
+      "end": 194.98,
+      "speaker": null,
+      "text": "13 towards Mörby centrum",
+      "confidence": 0.3379912984725403,
+      "words": [
+        {
+          "start": 174.3,
+          "end": 175.7,
+          "text": "13",
+          "confidence": 0.000349334062775597,
+          "speaker": null
+        },
+        {
+          "start": 175.7,
+          "end": 176.7,
+          "text": "towards",
+          "confidence": 3.999845284852199e-05,
+          "speaker": null
+        },
+        {
+          "start": 176.7,
+          "end": 193.54,
+          "text": "Mörby",
+          "confidence": 0.5475897888342539,
+          "speaker": null
+        },
+        {
+          "start": 193.54,
+          "end": 194.98,
+          "text": "centrum",
+          "confidence": 0.8039860725402832,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 283.92,
+      "end": 304.98,
+      "speaker": null,
+      "text": "13 towards Mörby centrum",
+      "confidence": 0.3570227851769232,
+      "words": [
+        {
+          "start": 283.92,
+          "end": 285.32,
+          "text": "13",
+          "confidence": 0.0003983416245318949,
+          "speaker": null
+        },
+        {
+          "start": 285.32,
+          "end": 286.14,
+          "text": "towards",
+          "confidence": 3.8540176319656894e-05,
+          "speaker": null
+        },
+        {
+          "start": 286.14,
+          "end": 304.38,
+          "text": "Mörby",
+          "confidence": 0.6014051660895348,
+          "speaker": null
+        },
+        {
+          "start": 304.38,
+          "end": 304.98,
+          "text": "centrum",
+          "confidence": 0.8262490928173065,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 340.82,
+      "end": 359.98,
+      "speaker": null,
+      "text": "13 towards Mörby centrum",
+      "confidence": 0.35422078248817945,
+      "words": [
+        {
+          "start": 340.82,
+          "end": 342.22,
+          "text": "13",
+          "confidence": 0.00039011164335533977,
+          "speaker": null
+        },
+        {
+          "start": 342.22,
+          "end": 342.22,
+          "text": "towards",
+          "confidence": 5.620205411105417e-05,
+          "speaker": null
+        },
+        {
+          "start": 342.22,
+          "end": 358.4,
+          "text": "Mörby",
+          "confidence": 0.5919066617886225,
+          "speaker": null
+        },
+        {
+          "start": 358.4,
+          "end": 359.98,
+          "text": "centrum",
+          "confidence": 0.824530154466629,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 392.84,
+      "end": 414.98,
+      "speaker": null,
+      "text": "13 towards Mörby centrum",
+      "confidence": 0.36609882850279973,
+      "words": [
+        {
+          "start": 392.84,
+          "end": 394.24,
+          "text": "13",
+          "confidence": 0.00023234161199070513,
+          "speaker": null
+        },
+        {
+          "start": 394.24,
+          "end": 394.56,
+          "text": "towards",
+          "confidence": 4.340393206803128e-05,
+          "speaker": null
+        },
+        {
+          "start": 394.56,
+          "end": 414.98,
+          "text": "Mörby",
+          "confidence": 0.6112714558839798,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "centrum",
+          "confidence": 0.8528481125831604,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 455.88,
+      "end": 469.98,
+      "speaker": null,
+      "text": "13 towards Mörby centrum",
+      "confidence": 0.35654606734139327,
+      "words": [
+        {
+          "start": 455.88,
+          "end": 457.28,
+          "text": "13",
+          "confidence": 0.00035790703259408474,
+          "speaker": null
+        },
+        {
+          "start": 457.28,
+          "end": 457.3,
+          "text": "towards",
+          "confidence": 4.731522130896337e-05,
+          "speaker": null
+        },
+        {
+          "start": 457.3,
+          "end": 467.72,
+          "text": "Mörby",
+          "confidence": 0.5744134212533633,
+          "speaker": null
+        },
+        {
+          "start": 467.72,
+          "end": 469.98,
+          "text": "centrum",
+          "confidence": 0.8513656258583069,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 501.0,
+      "end": 524.98,
+      "speaker": null,
+      "text": "13 towards Mörby centrum",
+      "confidence": 0.3554018407194235,
+      "words": [
+        {
+          "start": 501.0,
+          "end": 502.4,
+          "text": "13",
+          "confidence": 0.00026818676269613206,
+          "speaker": null
+        },
+        {
+          "start": 502.4,
+          "end": 502.66,
+          "text": "towards",
+          "confidence": 7.21136893844232e-05,
+          "speaker": null
+        },
+        {
+          "start": 502.66,
+          "end": 522.56,
+          "text": "Mörby",
+          "confidence": 0.5855414867401123,
+          "speaker": null
+        },
+        {
+          "start": 522.56,
+          "end": 524.98,
+          "text": "centrum",
+          "confidence": 0.8357255756855011,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 557.94,
+      "end": 579.98,
+      "speaker": null,
+      "text": "13 towards Mörby centrum",
+      "confidence": 0.34539591496953415,
+      "words": [
+        {
+          "start": 557.94,
+          "end": 559.34,
+          "text": "13",
+          "confidence": 9.21976679819636e-05,
+          "speaker": null
+        },
+        {
+          "start": 559.34,
+          "end": 560.38,
+          "text": "towards",
+          "confidence": 3.396453394088894e-05,
+          "speaker": null
+        },
+        {
+          "start": 560.38,
+          "end": 579.28,
+          "text": "Mörby",
+          "confidence": 0.5565076669057211,
+          "speaker": null
+        },
+        {
+          "start": 579.28,
+          "end": 579.98,
+          "text": "centrum",
+          "confidence": 0.8249498307704926,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 5.4,
+        "speaker": null,
+        "text": "Line 13 towards Mörby centrum"
+      }
+    ]
+  }
+}

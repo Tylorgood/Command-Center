@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-26_1135-1145",
+    "created_at": "2026-03-26T13:48:29.438399-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 3.6999999999999997,
+      "end": 5.1,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5543651580810547,
+      "words": [
+        {
+          "start": 3.6999999999999997,
+          "end": 5.1,
+          "text": "Thank",
+          "confidence": 0.11182266473770142,
+          "speaker": null
+        },
+        {
+          "start": 5.1,
+          "end": 5.1,
+          "text": "you.",
+          "confidence": 0.996907651424408,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 42.78,
+      "end": 43.32,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5752525925636292,
+      "words": [
+        {
+          "start": 42.78,
+          "end": 43.14,
+          "text": "Thank",
+          "confidence": 0.1522093415260315,
+          "speaker": null
+        },
+        {
+          "start": 43.14,
+          "end": 43.32,
+          "text": "you.",
+          "confidence": 0.9982958436012268,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 365.62,
+      "end": 367.92,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.524608738720417,
+      "words": [
+        {
+          "start": 365.62,
+          "end": 367.02,
+          "text": "Thank",
+          "confidence": 0.05695237219333649,
+          "speaker": null
+        },
+        {
+          "start": 367.02,
+          "end": 367.92,
+          "text": "you.",
+          "confidence": 0.9922651052474976,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": []
+  }
+}

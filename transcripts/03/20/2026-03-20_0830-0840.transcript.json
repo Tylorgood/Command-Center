@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-20_0830-0840",
+    "created_at": "2026-03-20T08:54:31.857793-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 314.32,
+      "end": 317.12,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5467695780098438,
+      "words": [
+        {
+          "start": 314.32,
+          "end": 315.72,
+          "text": "Thank",
+          "confidence": 0.09908167272806168,
+          "speaker": null
+        },
+        {
+          "start": 315.72,
+          "end": 317.12,
+          "text": "you.",
+          "confidence": 0.994457483291626,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 483.44,
+      "end": 490.24,
+      "speaker": null,
+      "text": "Yeah, yeah,",
+      "confidence": 0.5666132825426757,
+      "words": [
+        {
+          "start": 483.44,
+          "end": 484.84000000000003,
+          "text": "Yeah,",
+          "confidence": 0.01345793716609478,
+          "speaker": null
+        },
+        {
+          "start": 484.84000000000003,
+          "end": 486.24,
+          "text": "yeah,",
+          "confidence": 0.45562899112701416,
+          "speaker": null
+        },
+        {
+          "start": 486.32,
+          "end": 490.08,
+          "text": "yeah,",
+          "confidence": 0.8735235929489136,
+          "speaker": null
+        },
+        {
+          "start": 490.08,
+          "end": 490.24,
+          "text": "yeah.",
+          "confidence": 0.9238426089286804,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 572.6,
+      "end": 579.18,
+      "speaker": null,
+      "text": "I don't know what I'm talking about, but I don't know what I'm talking about,",
+      "confidence": 0.5660018601765235,
+      "words": [
+        {
+          "start": 572.6,
+          "end": 573.88,
+          "text": "I",
+          "confidence": 0.016187114641070366,
+          "speaker": null
+        },
+        {
+          "start": 573.88,
+          "end": 575.16,
+          "text": "don't",
+          "confidence": 0.5683866590261459,
+          "speaker": null
+        },
+        {
+          "start": 575.16,
+          "end": 575.16,
+          "text": "know",
+          "confidence": 0.7324161529541016,
+          "speaker": null
+        },
+        {
+          "start": 575.16,
+          "end": 575.16,
+          "text": "what",
+          "confidence": 0.04268009960651398,
+          "speaker": null
+        },
+        {
+          "start": 575.16,
+          "end": 575.16,
+          "text": "I'm",
+          "confidence": 0.36095038056373596,
+          "speaker": null
+        },
+        {
+          "start": 575.16,
+          "end": 575.24,
+          "text": "talking",
+          "confidence": 0.18174298107624054,
+          "speaker": null
+        },
+        {
+          "start": 575.24,
+          "end": 575.24,
+          "text": "about,",
+          "confidence": 0.9959575533866882,
+          "speaker": null
+        },
+        {
+          "start": 575.88,
+          "end": 575.9,
+          "text": "but",
+          "confidence": 0.5426618456840515,
+          "speaker": null
+        },
+        {
+          "start": 575.9,
+          "end": 576.78,
+          "text": "I",
+          "confidence": 0.40057018399238586,
+          "speaker": null
+        },
+        {
+          "start": 576.78,
+          "end": 578.02,
+          "text": "don't",
+          "confidence": 0.6259803771972656,
+          "speaker": null
+        },
+        {
+          "start": 578.02,
+          "end": 578.04,
+          "text": "know",
+          "confidence": 0.7314922213554382,
+          "speaker": null
+        },
+        {
+          "start": 578.04,
+          "end": 578.82,
+          "text": "what",
+          "confidence": 0.6334462761878967,
+          "speaker": null
+        },
+        {
+          "start": 578.82,
+          "end": 579.02,
+          "text": "I'm",
+          "confidence": 0.7486861348152161,
+          "speaker": null
+        },
+        {
+          "start": 579.02,
+          "end": 579.16,
+          "text": "talking",
+          "confidence": 0.9104054570198059,
+          "speaker": null
+        },
+        {
+          "start": 579.16,
+          "end": 579.18,
+          "text": "about,",
+          "confidence": 0.9984644651412964,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 572.6,
+        "speaker": null,
+        "text": "I don't know what I'm talking about, but I don't know what I'm talking about,"
+      }
+    ]
+  }
+}

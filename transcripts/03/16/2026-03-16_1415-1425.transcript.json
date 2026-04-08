@@ -1,0 +1,814 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-16_1415-1425",
+    "created_at": "2026-03-17T19:51:43.871092-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 39.080000000000005,
+      "end": 41.88,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5636932700872421,
+      "words": [
+        {
+          "start": 39.080000000000005,
+          "end": 40.480000000000004,
+          "text": "Thank",
+          "confidence": 0.1304953396320343,
+          "speaker": null
+        },
+        {
+          "start": 40.480000000000004,
+          "end": 41.88,
+          "text": "you.",
+          "confidence": 0.99689120054245,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 65.84,
+      "end": 68.0,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.6048767194151878,
+      "words": [
+        {
+          "start": 65.84,
+          "end": 67.24,
+          "text": "Thank",
+          "confidence": 0.21056948602199554,
+          "speaker": null
+        },
+        {
+          "start": 67.24,
+          "end": 68.0,
+          "text": "you.",
+          "confidence": 0.9991839528083801,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 95.03999999999999,
+      "end": 96.9,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5734806135296822,
+      "words": [
+        {
+          "start": 95.03999999999999,
+          "end": 96.28,
+          "text": "Thank",
+          "confidence": 0.14945705235004425,
+          "speaker": null
+        },
+        {
+          "start": 96.28,
+          "end": 96.9,
+          "text": "you.",
+          "confidence": 0.9975041747093201,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 123.64,
+      "end": 125.06,
+      "speaker": null,
+      "text": "Come down.",
+      "confidence": 0.46846823766827583,
+      "words": [
+        {
+          "start": 123.64,
+          "end": 125.03999999999999,
+          "text": "Come",
+          "confidence": 0.059926606714725494,
+          "speaker": null
+        },
+        {
+          "start": 125.03999999999999,
+          "end": 125.06,
+          "text": "down.",
+          "confidence": 0.8770098686218262,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 157.46,
+      "end": 158.28,
+      "speaker": null,
+      "text": "I can't wait to see what it looks like when it's done. It's a little hard to see, but I can't wait to see what it looks like when it's done.",
+      "confidence": 0.6441574609356425,
+      "words": [
+        {
+          "start": 157.46,
+          "end": 157.96,
+          "text": "I",
+          "confidence": 0.05755870044231415,
+          "speaker": null
+        },
+        {
+          "start": 157.96,
+          "end": 158.2,
+          "text": "can't",
+          "confidence": 0.3141967859119177,
+          "speaker": null
+        },
+        {
+          "start": 158.2,
+          "end": 158.2,
+          "text": "wait",
+          "confidence": 0.19256889820098877,
+          "speaker": null
+        },
+        {
+          "start": 158.2,
+          "end": 158.2,
+          "text": "to",
+          "confidence": 0.6967341899871826,
+          "speaker": null
+        },
+        {
+          "start": 158.2,
+          "end": 158.2,
+          "text": "see",
+          "confidence": 0.2306186556816101,
+          "speaker": null
+        },
+        {
+          "start": 158.2,
+          "end": 158.2,
+          "text": "what",
+          "confidence": 0.2621248662471771,
+          "speaker": null
+        },
+        {
+          "start": 158.2,
+          "end": 158.2,
+          "text": "it",
+          "confidence": 0.19832345843315125,
+          "speaker": null
+        },
+        {
+          "start": 158.2,
+          "end": 158.2,
+          "text": "looks",
+          "confidence": 0.35190480947494507,
+          "speaker": null
+        },
+        {
+          "start": 158.2,
+          "end": 158.2,
+          "text": "like",
+          "confidence": 0.9917460083961487,
+          "speaker": null
+        },
+        {
+          "start": 158.2,
+          "end": 158.2,
+          "text": "when",
+          "confidence": 0.05921143665909767,
+          "speaker": null
+        },
+        {
+          "start": 158.2,
+          "end": 158.2,
+          "text": "it's",
+          "confidence": 0.555001363158226,
+          "speaker": null
+        },
+        {
+          "start": 158.2,
+          "end": 158.2,
+          "text": "done.",
+          "confidence": 0.2963801622390747,
+          "speaker": null
+        },
+        {
+          "start": 158.2,
+          "end": 158.2,
+          "text": "It's",
+          "confidence": 0.47659967839717865,
+          "speaker": null
+        },
+        {
+          "start": 158.2,
+          "end": 158.26,
+          "text": "a",
+          "confidence": 0.5707922577857971,
+          "speaker": null
+        },
+        {
+          "start": 158.26,
+          "end": 158.26,
+          "text": "little",
+          "confidence": 0.9164133667945862,
+          "speaker": null
+        },
+        {
+          "start": 158.26,
+          "end": 158.26,
+          "text": "hard",
+          "confidence": 0.9644308686256409,
+          "speaker": null
+        },
+        {
+          "start": 158.26,
+          "end": 158.26,
+          "text": "to",
+          "confidence": 0.9957222938537598,
+          "speaker": null
+        },
+        {
+          "start": 158.26,
+          "end": 158.26,
+          "text": "see,",
+          "confidence": 0.9983470439910889,
+          "speaker": null
+        },
+        {
+          "start": 158.26,
+          "end": 158.26,
+          "text": "but",
+          "confidence": 0.9964138865470886,
+          "speaker": null
+        },
+        {
+          "start": 158.26,
+          "end": 158.26,
+          "text": "I",
+          "confidence": 0.9431118965148926,
+          "speaker": null
+        },
+        {
+          "start": 158.26,
+          "end": 158.28,
+          "text": "can't",
+          "confidence": 0.993804931640625,
+          "speaker": null
+        },
+        {
+          "start": 158.28,
+          "end": 158.28,
+          "text": "wait",
+          "confidence": 0.9992897510528564,
+          "speaker": null
+        },
+        {
+          "start": 158.28,
+          "end": 158.28,
+          "text": "to",
+          "confidence": 0.9990308284759521,
+          "speaker": null
+        },
+        {
+          "start": 158.28,
+          "end": 158.28,
+          "text": "see",
+          "confidence": 0.9993036985397339,
+          "speaker": null
+        },
+        {
+          "start": 158.28,
+          "end": 158.28,
+          "text": "what",
+          "confidence": 0.9814141392707825,
+          "speaker": null
+        },
+        {
+          "start": 158.28,
+          "end": 158.28,
+          "text": "it",
+          "confidence": 0.996874213218689,
+          "speaker": null
+        },
+        {
+          "start": 158.28,
+          "end": 158.28,
+          "text": "looks",
+          "confidence": 0.9980917572975159,
+          "speaker": null
+        },
+        {
+          "start": 158.28,
+          "end": 158.28,
+          "text": "like",
+          "confidence": 0.9997640252113342,
+          "speaker": null
+        },
+        {
+          "start": 158.28,
+          "end": 158.28,
+          "text": "when",
+          "confidence": 0.9928170442581177,
+          "speaker": null
+        },
+        {
+          "start": 158.28,
+          "end": 158.28,
+          "text": "it's",
+          "confidence": 0.9966744184494019,
+          "speaker": null
+        },
+        {
+          "start": 158.28,
+          "end": 158.28,
+          "text": "done.",
+          "confidence": 0.9990026354789734,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 158.28,
+      "end": 158.9,
+      "speaker": null,
+      "text": "It's a little hard to see, but I can't wait to see what it looks like when it's done.",
+      "confidence": 0.9597114912773433,
+      "words": [
+        {
+          "start": 158.28,
+          "end": 158.28,
+          "text": "It's",
+          "confidence": 0.5969901531934738,
+          "speaker": null
+        },
+        {
+          "start": 158.28,
+          "end": 158.9,
+          "text": "a",
+          "confidence": 0.7578861117362976,
+          "speaker": null
+        },
+        {
+          "start": 158.9,
+          "end": 158.9,
+          "text": "little",
+          "confidence": 0.9665390849113464,
+          "speaker": null
+        },
+        {
+          "start": 158.9,
+          "end": 158.9,
+          "text": "hard",
+          "confidence": 0.9813476800918579,
+          "speaker": null
+        },
+        {
+          "start": 158.9,
+          "end": 158.9,
+          "text": "to",
+          "confidence": 0.9977426528930664,
+          "speaker": null
+        },
+        {
+          "start": 158.9,
+          "end": 158.9,
+          "text": "see,",
+          "confidence": 0.9991078972816467,
+          "speaker": null
+        },
+        {
+          "start": 158.9,
+          "end": 158.9,
+          "text": "but",
+          "confidence": 0.9972795844078064,
+          "speaker": null
+        },
+        {
+          "start": 158.9,
+          "end": 158.9,
+          "text": "I",
+          "confidence": 0.9663242697715759,
+          "speaker": null
+        },
+        {
+          "start": 158.9,
+          "end": 158.9,
+          "text": "can't",
+          "confidence": 0.997030109167099,
+          "speaker": null
+        },
+        {
+          "start": 158.9,
+          "end": 158.9,
+          "text": "wait",
+          "confidence": 0.9995163679122925,
+          "speaker": null
+        },
+        {
+          "start": 158.9,
+          "end": 158.9,
+          "text": "to",
+          "confidence": 0.9994514584541321,
+          "speaker": null
+        },
+        {
+          "start": 158.9,
+          "end": 158.9,
+          "text": "see",
+          "confidence": 0.9996206760406494,
+          "speaker": null
+        },
+        {
+          "start": 158.9,
+          "end": 158.9,
+          "text": "what",
+          "confidence": 0.9853916764259338,
+          "speaker": null
+        },
+        {
+          "start": 158.9,
+          "end": 158.9,
+          "text": "it",
+          "confidence": 0.997806966304779,
+          "speaker": null
+        },
+        {
+          "start": 158.9,
+          "end": 158.9,
+          "text": "looks",
+          "confidence": 0.9987543821334839,
+          "speaker": null
+        },
+        {
+          "start": 158.9,
+          "end": 158.9,
+          "text": "like",
+          "confidence": 0.9998393058776855,
+          "speaker": null
+        },
+        {
+          "start": 158.9,
+          "end": 158.9,
+          "text": "when",
+          "confidence": 0.9965283274650574,
+          "speaker": null
+        },
+        {
+          "start": 158.9,
+          "end": 158.9,
+          "text": "it's",
+          "confidence": 0.9979092180728912,
+          "speaker": null
+        },
+        {
+          "start": 158.9,
+          "end": 158.9,
+          "text": "done.",
+          "confidence": 0.9994524121284485,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 158.9,
+      "end": 163.24,
+      "speaker": null,
+      "text": "It's a little hard to see, but I can't wait to see what it looks like when it's done.",
+      "confidence": 0.9766170053105605,
+      "words": [
+        {
+          "start": 158.9,
+          "end": 158.9,
+          "text": "It's",
+          "confidence": 0.7329179048538208,
+          "speaker": null
+        },
+        {
+          "start": 158.9,
+          "end": 158.96,
+          "text": "a",
+          "confidence": 0.8938393592834473,
+          "speaker": null
+        },
+        {
+          "start": 158.96,
+          "end": 159.38,
+          "text": "little",
+          "confidence": 0.9889935851097107,
+          "speaker": null
+        },
+        {
+          "start": 159.38,
+          "end": 159.38,
+          "text": "hard",
+          "confidence": 0.9914679527282715,
+          "speaker": null
+        },
+        {
+          "start": 159.38,
+          "end": 159.6,
+          "text": "to",
+          "confidence": 0.9988008737564087,
+          "speaker": null
+        },
+        {
+          "start": 159.6,
+          "end": 159.6,
+          "text": "see,",
+          "confidence": 0.9994627833366394,
+          "speaker": null
+        },
+        {
+          "start": 160.3,
+          "end": 161.16,
+          "text": "but",
+          "confidence": 0.9977571368217468,
+          "speaker": null
+        },
+        {
+          "start": 161.16,
+          "end": 161.2,
+          "text": "I",
+          "confidence": 0.9827361106872559,
+          "speaker": null
+        },
+        {
+          "start": 161.2,
+          "end": 161.2,
+          "text": "can't",
+          "confidence": 0.9985230565071106,
+          "speaker": null
+        },
+        {
+          "start": 161.2,
+          "end": 162.98,
+          "text": "wait",
+          "confidence": 0.9995517134666443,
+          "speaker": null
+        },
+        {
+          "start": 162.98,
+          "end": 163.24,
+          "text": "to",
+          "confidence": 0.9995974898338318,
+          "speaker": null
+        },
+        {
+          "start": 163.24,
+          "end": 163.24,
+          "text": "see",
+          "confidence": 0.9997465014457703,
+          "speaker": null
+        },
+        {
+          "start": 163.24,
+          "end": 163.24,
+          "text": "what",
+          "confidence": 0.9787108302116394,
+          "speaker": null
+        },
+        {
+          "start": 163.24,
+          "end": 163.24,
+          "text": "it",
+          "confidence": 0.9983676075935364,
+          "speaker": null
+        },
+        {
+          "start": 163.24,
+          "end": 163.24,
+          "text": "looks",
+          "confidence": 0.998914361000061,
+          "speaker": null
+        },
+        {
+          "start": 163.24,
+          "end": 163.24,
+          "text": "like",
+          "confidence": 0.9998739957809448,
+          "speaker": null
+        },
+        {
+          "start": 163.24,
+          "end": 163.24,
+          "text": "when",
+          "confidence": 0.9983729124069214,
+          "speaker": null
+        },
+        {
+          "start": 163.24,
+          "end": 163.24,
+          "text": "it's",
+          "confidence": 0.9984641969203949,
+          "speaker": null
+        },
+        {
+          "start": 163.24,
+          "end": 163.24,
+          "text": "done.",
+          "confidence": 0.9996247291564941,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 163.86,
+      "end": 164.34,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5324572995305061,
+      "words": [
+        {
+          "start": 163.86,
+          "end": 164.18,
+          "text": "Thank",
+          "confidence": 0.07749618589878082,
+          "speaker": null
+        },
+        {
+          "start": 164.18,
+          "end": 164.34,
+          "text": "you.",
+          "confidence": 0.9874184131622314,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 192.82,
+      "end": 194.84,
+      "speaker": null,
+      "text": "It's a little hard to see, but I can't wait",
+      "confidence": 0.23943625242682173,
+      "words": [
+        {
+          "start": 192.82,
+          "end": 193.46,
+          "text": "It's",
+          "confidence": 0.3372405880363658,
+          "speaker": null
+        },
+        {
+          "start": 193.46,
+          "end": 193.48,
+          "text": "a",
+          "confidence": 0.1007319986820221,
+          "speaker": null
+        },
+        {
+          "start": 193.48,
+          "end": 193.84,
+          "text": "little",
+          "confidence": 0.0677230954170227,
+          "speaker": null
+        },
+        {
+          "start": 193.84,
+          "end": 194.2,
+          "text": "hard",
+          "confidence": 0.03748104348778725,
+          "speaker": null
+        },
+        {
+          "start": 194.2,
+          "end": 194.5,
+          "text": "to",
+          "confidence": 0.44615438580513,
+          "speaker": null
+        },
+        {
+          "start": 194.5,
+          "end": 194.5,
+          "text": "see,",
+          "confidence": 0.30020850896835327,
+          "speaker": null
+        },
+        {
+          "start": 194.5,
+          "end": 194.5,
+          "text": "but",
+          "confidence": 0.6854303479194641,
+          "speaker": null
+        },
+        {
+          "start": 194.5,
+          "end": 194.52,
+          "text": "I",
+          "confidence": 0.22621627151966095,
+          "speaker": null
+        },
+        {
+          "start": 194.52,
+          "end": 194.52,
+          "text": "can't",
+          "confidence": 0.17382671311497688,
+          "speaker": null
+        },
+        {
+          "start": 194.52,
+          "end": 194.84,
+          "text": "wait",
+          "confidence": 0.01934957131743431,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 209.96,
+      "end": 210.62,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5299988947808743,
+      "words": [
+        {
+          "start": 209.96,
+          "end": 210.4,
+          "text": "Thank",
+          "confidence": 0.0685761496424675,
+          "speaker": null
+        },
+        {
+          "start": 210.4,
+          "end": 210.62,
+          "text": "you.",
+          "confidence": 0.991421639919281,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 261.22,
+      "end": 264.6,
+      "speaker": null,
+      "text": "You know what I mean?",
+      "confidence": 0.286405910924077,
+      "words": [
+        {
+          "start": 261.22,
+          "end": 262.34000000000003,
+          "text": "You",
+          "confidence": 0.02631017006933689,
+          "speaker": null
+        },
+        {
+          "start": 262.34000000000003,
+          "end": 263.46,
+          "text": "know",
+          "confidence": 0.093770831823349,
+          "speaker": null
+        },
+        {
+          "start": 263.46,
+          "end": 263.9,
+          "text": "what",
+          "confidence": 0.4090340733528137,
+          "speaker": null
+        },
+        {
+          "start": 263.9,
+          "end": 264.36,
+          "text": "I",
+          "confidence": 0.2391708642244339,
+          "speaker": null
+        },
+        {
+          "start": 264.36,
+          "end": 264.6,
+          "text": "mean?",
+          "confidence": 0.6637436151504517,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 157.46,
+        "speaker": null,
+        "text": "I can't wait to see what it looks like when it's done. It's a little hard to see, but I can't wait to see what it looks like when it's done."
+      },
+      {
+        "timestamp": 158.28,
+        "speaker": null,
+        "text": "It's a little hard to see, but I can't wait to see what it looks like when it's done."
+      },
+      {
+        "timestamp": 158.9,
+        "speaker": null,
+        "text": "It's a little hard to see, but I can't wait to see what it looks like when it's done."
+      },
+      {
+        "timestamp": 192.82,
+        "speaker": null,
+        "text": "It's a little hard to see, but I can't wait"
+      }
+    ]
+  }
+}

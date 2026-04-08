@@ -1,0 +1,1557 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-31_1000-1010",
+    "created_at": "2026-04-01T11:52:26.584762-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 46.0,
+      "end": 70.98,
+      "speaker": null,
+      "text": "Okay, okay,",
+      "confidence": 0.9291364578343096,
+      "words": [
+        {
+          "start": 46.0,
+          "end": 70.98,
+          "text": "Okay,",
+          "confidence": 0.003244174411520362,
+          "speaker": null
+        },
+        {
+          "start": 46.28,
+          "end": 46.28,
+          "text": "okay,",
+          "confidence": 0.12552839517593384,
+          "speaker": null
+        },
+        {
+          "start": 46.28,
+          "end": 46.36,
+          "text": "okay,",
+          "confidence": 0.6448895931243896,
+          "speaker": null
+        },
+        {
+          "start": 46.36,
+          "end": 46.88,
+          "text": "okay,",
+          "confidence": 0.7706872820854187,
+          "speaker": null
+        },
+        {
+          "start": 46.88,
+          "end": 47.48,
+          "text": "okay,",
+          "confidence": 0.8279614448547363,
+          "speaker": null
+        },
+        {
+          "start": 47.48,
+          "end": 48.24,
+          "text": "okay,",
+          "confidence": 0.8600159287452698,
+          "speaker": null
+        },
+        {
+          "start": 48.24,
+          "end": 48.24,
+          "text": "okay,",
+          "confidence": 0.878655731678009,
+          "speaker": null
+        },
+        {
+          "start": 48.24,
+          "end": 48.4,
+          "text": "okay,",
+          "confidence": 0.8915682435035706,
+          "speaker": null
+        },
+        {
+          "start": 50.14,
+          "end": 50.14,
+          "text": "okay,",
+          "confidence": 0.8995178937911987,
+          "speaker": null
+        },
+        {
+          "start": 50.14,
+          "end": 50.14,
+          "text": "okay,",
+          "confidence": 0.9045617580413818,
+          "speaker": null
+        },
+        {
+          "start": 50.14,
+          "end": 50.14,
+          "text": "okay,",
+          "confidence": 0.9076201319694519,
+          "speaker": null
+        },
+        {
+          "start": 50.14,
+          "end": 50.14,
+          "text": "okay,",
+          "confidence": 0.910229504108429,
+          "speaker": null
+        },
+        {
+          "start": 50.14,
+          "end": 50.14,
+          "text": "okay,",
+          "confidence": 0.9125810265541077,
+          "speaker": null
+        },
+        {
+          "start": 50.14,
+          "end": 50.14,
+          "text": "okay,",
+          "confidence": 0.9136303067207336,
+          "speaker": null
+        },
+        {
+          "start": 50.14,
+          "end": 50.14,
+          "text": "okay,",
+          "confidence": 0.9165232181549072,
+          "speaker": null
+        },
+        {
+          "start": 50.14,
+          "end": 50.14,
+          "text": "okay,",
+          "confidence": 0.9186908006668091,
+          "speaker": null
+        },
+        {
+          "start": 50.14,
+          "end": 50.14,
+          "text": "okay,",
+          "confidence": 0.9218472242355347,
+          "speaker": null
+        },
+        {
+          "start": 50.14,
+          "end": 50.14,
+          "text": "okay,",
+          "confidence": 0.9217804074287415,
+          "speaker": null
+        },
+        {
+          "start": 50.14,
+          "end": 50.14,
+          "text": "okay,",
+          "confidence": 0.9236263036727905,
+          "speaker": null
+        },
+        {
+          "start": 50.14,
+          "end": 50.14,
+          "text": "okay,",
+          "confidence": 0.9254652857780457,
+          "speaker": null
+        },
+        {
+          "start": 50.14,
+          "end": 50.14,
+          "text": "okay,",
+          "confidence": 0.926403820514679,
+          "speaker": null
+        },
+        {
+          "start": 51.019999999999996,
+          "end": 51.019999999999996,
+          "text": "okay,",
+          "confidence": 0.9275334477424622,
+          "speaker": null
+        },
+        {
+          "start": 51.019999999999996,
+          "end": 51.019999999999996,
+          "text": "okay,",
+          "confidence": 0.9284667372703552,
+          "speaker": null
+        },
+        {
+          "start": 58.2,
+          "end": 58.2,
+          "text": "okay,",
+          "confidence": 0.9293634295463562,
+          "speaker": null
+        },
+        {
+          "start": 58.2,
+          "end": 58.2,
+          "text": "okay,",
+          "confidence": 0.930326521396637,
+          "speaker": null
+        },
+        {
+          "start": 58.2,
+          "end": 58.2,
+          "text": "okay,",
+          "confidence": 0.9309958815574646,
+          "speaker": null
+        },
+        {
+          "start": 58.26,
+          "end": 58.26,
+          "text": "okay,",
+          "confidence": 0.9322643876075745,
+          "speaker": null
+        },
+        {
+          "start": 58.26,
+          "end": 58.26,
+          "text": "okay,",
+          "confidence": 0.9341604113578796,
+          "speaker": null
+        },
+        {
+          "start": 58.26,
+          "end": 58.26,
+          "text": "okay,",
+          "confidence": 0.9354586005210876,
+          "speaker": null
+        },
+        {
+          "start": 58.26,
+          "end": 58.26,
+          "text": "okay,",
+          "confidence": 0.9365411996841431,
+          "speaker": null
+        },
+        {
+          "start": 58.26,
+          "end": 58.26,
+          "text": "okay,",
+          "confidence": 0.9375616908073425,
+          "speaker": null
+        },
+        {
+          "start": 58.26,
+          "end": 58.26,
+          "text": "okay,",
+          "confidence": 0.9381211400032043,
+          "speaker": null
+        },
+        {
+          "start": 58.26,
+          "end": 58.26,
+          "text": "okay,",
+          "confidence": 0.9392953515052795,
+          "speaker": null
+        },
+        {
+          "start": 58.26,
+          "end": 58.26,
+          "text": "okay,",
+          "confidence": 0.9389599561691284,
+          "speaker": null
+        },
+        {
+          "start": 58.26,
+          "end": 58.26,
+          "text": "okay,",
+          "confidence": 0.9400666952133179,
+          "speaker": null
+        },
+        {
+          "start": 58.26,
+          "end": 58.26,
+          "text": "okay,",
+          "confidence": 0.9399309158325195,
+          "speaker": null
+        },
+        {
+          "start": 58.26,
+          "end": 58.26,
+          "text": "okay,",
+          "confidence": 0.940840482711792,
+          "speaker": null
+        },
+        {
+          "start": 58.26,
+          "end": 58.26,
+          "text": "okay,",
+          "confidence": 0.9411019086837769,
+          "speaker": null
+        },
+        {
+          "start": 58.26,
+          "end": 58.26,
+          "text": "okay,",
+          "confidence": 0.9412329792976379,
+          "speaker": null
+        },
+        {
+          "start": 58.26,
+          "end": 58.26,
+          "text": "okay,",
+          "confidence": 0.9430158734321594,
+          "speaker": null
+        },
+        {
+          "start": 58.7,
+          "end": 58.86,
+          "text": "okay,",
+          "confidence": 0.9441892504692078,
+          "speaker": null
+        },
+        {
+          "start": 58.86,
+          "end": 58.86,
+          "text": "okay,",
+          "confidence": 0.9448707699775696,
+          "speaker": null
+        },
+        {
+          "start": 58.86,
+          "end": 58.86,
+          "text": "okay,",
+          "confidence": 0.9460705518722534,
+          "speaker": null
+        },
+        {
+          "start": 58.86,
+          "end": 58.86,
+          "text": "okay,",
+          "confidence": 0.9472145438194275,
+          "speaker": null
+        },
+        {
+          "start": 58.86,
+          "end": 58.86,
+          "text": "okay,",
+          "confidence": 0.948862612247467,
+          "speaker": null
+        },
+        {
+          "start": 58.86,
+          "end": 58.86,
+          "text": "okay,",
+          "confidence": 0.9483655095100403,
+          "speaker": null
+        },
+        {
+          "start": 58.86,
+          "end": 58.86,
+          "text": "okay,",
+          "confidence": 0.9494972825050354,
+          "speaker": null
+        },
+        {
+          "start": 58.86,
+          "end": 58.86,
+          "text": "okay,",
+          "confidence": 0.9515275359153748,
+          "speaker": null
+        },
+        {
+          "start": 58.86,
+          "end": 58.86,
+          "text": "okay,",
+          "confidence": 0.9512234926223755,
+          "speaker": null
+        },
+        {
+          "start": 58.86,
+          "end": 58.86,
+          "text": "okay,",
+          "confidence": 0.9522342085838318,
+          "speaker": null
+        },
+        {
+          "start": 58.86,
+          "end": 58.86,
+          "text": "okay,",
+          "confidence": 0.9523741006851196,
+          "speaker": null
+        },
+        {
+          "start": 58.86,
+          "end": 58.86,
+          "text": "okay,",
+          "confidence": 0.9534581899642944,
+          "speaker": null
+        },
+        {
+          "start": 58.86,
+          "end": 58.86,
+          "text": "okay,",
+          "confidence": 0.9546520709991455,
+          "speaker": null
+        },
+        {
+          "start": 58.86,
+          "end": 58.86,
+          "text": "okay,",
+          "confidence": 0.9547268152236938,
+          "speaker": null
+        },
+        {
+          "start": 58.86,
+          "end": 58.86,
+          "text": "okay,",
+          "confidence": 0.9554075002670288,
+          "speaker": null
+        },
+        {
+          "start": 58.86,
+          "end": 58.86,
+          "text": "okay,",
+          "confidence": 0.9561498761177063,
+          "speaker": null
+        },
+        {
+          "start": 58.86,
+          "end": 58.86,
+          "text": "okay,",
+          "confidence": 0.9568777084350586,
+          "speaker": null
+        },
+        {
+          "start": 58.86,
+          "end": 58.86,
+          "text": "okay,",
+          "confidence": 0.9581179022789001,
+          "speaker": null
+        },
+        {
+          "start": 58.86,
+          "end": 58.86,
+          "text": "okay,",
+          "confidence": 0.9577734470367432,
+          "speaker": null
+        },
+        {
+          "start": 58.86,
+          "end": 58.86,
+          "text": "okay,",
+          "confidence": 0.9589731693267822,
+          "speaker": null
+        },
+        {
+          "start": 58.86,
+          "end": 58.86,
+          "text": "okay,",
+          "confidence": 0.9592296481132507,
+          "speaker": null
+        },
+        {
+          "start": 58.86,
+          "end": 59.8,
+          "text": "okay,",
+          "confidence": 0.9593801498413086,
+          "speaker": null
+        },
+        {
+          "start": 59.8,
+          "end": 59.8,
+          "text": "okay,",
+          "confidence": 0.9596775770187378,
+          "speaker": null
+        },
+        {
+          "start": 59.8,
+          "end": 59.8,
+          "text": "okay,",
+          "confidence": 0.9602188467979431,
+          "speaker": null
+        },
+        {
+          "start": 59.8,
+          "end": 59.8,
+          "text": "okay,",
+          "confidence": 0.9610161185264587,
+          "speaker": null
+        },
+        {
+          "start": 59.8,
+          "end": 61.2,
+          "text": "okay,",
+          "confidence": 0.9624824523925781,
+          "speaker": null
+        },
+        {
+          "start": 61.2,
+          "end": 61.2,
+          "text": "okay,",
+          "confidence": 0.9623927474021912,
+          "speaker": null
+        },
+        {
+          "start": 61.2,
+          "end": 61.2,
+          "text": "okay,",
+          "confidence": 0.9626168608665466,
+          "speaker": null
+        },
+        {
+          "start": 61.2,
+          "end": 61.2,
+          "text": "okay,",
+          "confidence": 0.9631609320640564,
+          "speaker": null
+        },
+        {
+          "start": 61.2,
+          "end": 61.2,
+          "text": "okay,",
+          "confidence": 0.9642805457115173,
+          "speaker": null
+        },
+        {
+          "start": 61.2,
+          "end": 61.2,
+          "text": "okay,",
+          "confidence": 0.9645286798477173,
+          "speaker": null
+        },
+        {
+          "start": 61.2,
+          "end": 61.2,
+          "text": "okay,",
+          "confidence": 0.9647887945175171,
+          "speaker": null
+        },
+        {
+          "start": 61.2,
+          "end": 61.2,
+          "text": "okay,",
+          "confidence": 0.9651846289634705,
+          "speaker": null
+        },
+        {
+          "start": 61.2,
+          "end": 61.2,
+          "text": "okay,",
+          "confidence": 0.96559739112854,
+          "speaker": null
+        },
+        {
+          "start": 61.2,
+          "end": 61.2,
+          "text": "okay,",
+          "confidence": 0.9665846228599548,
+          "speaker": null
+        },
+        {
+          "start": 61.2,
+          "end": 61.5,
+          "text": "okay,",
+          "confidence": 0.9667072296142578,
+          "speaker": null
+        },
+        {
+          "start": 61.5,
+          "end": 61.5,
+          "text": "okay,",
+          "confidence": 0.96610426902771,
+          "speaker": null
+        },
+        {
+          "start": 61.5,
+          "end": 61.5,
+          "text": "okay,",
+          "confidence": 0.9664589762687683,
+          "speaker": null
+        },
+        {
+          "start": 61.5,
+          "end": 61.5,
+          "text": "okay,",
+          "confidence": 0.968039333820343,
+          "speaker": null
+        },
+        {
+          "start": 61.5,
+          "end": 61.5,
+          "text": "okay,",
+          "confidence": 0.9678421020507812,
+          "speaker": null
+        },
+        {
+          "start": 61.5,
+          "end": 62.239999999999995,
+          "text": "okay,",
+          "confidence": 0.9688661694526672,
+          "speaker": null
+        },
+        {
+          "start": 62.239999999999995,
+          "end": 62.239999999999995,
+          "text": "okay,",
+          "confidence": 0.9680810570716858,
+          "speaker": null
+        },
+        {
+          "start": 62.239999999999995,
+          "end": 62.239999999999995,
+          "text": "okay,",
+          "confidence": 0.9689154028892517,
+          "speaker": null
+        },
+        {
+          "start": 62.239999999999995,
+          "end": 62.239999999999995,
+          "text": "okay,",
+          "confidence": 0.9687336087226868,
+          "speaker": null
+        },
+        {
+          "start": 62.239999999999995,
+          "end": 62.239999999999995,
+          "text": "okay,",
+          "confidence": 0.9687895178794861,
+          "speaker": null
+        },
+        {
+          "start": 62.239999999999995,
+          "end": 62.239999999999995,
+          "text": "okay,",
+          "confidence": 0.9684590101242065,
+          "speaker": null
+        },
+        {
+          "start": 62.239999999999995,
+          "end": 62.239999999999995,
+          "text": "okay,",
+          "confidence": 0.968153178691864,
+          "speaker": null
+        },
+        {
+          "start": 62.239999999999995,
+          "end": 62.239999999999995,
+          "text": "okay,",
+          "confidence": 0.9690872430801392,
+          "speaker": null
+        },
+        {
+          "start": 62.239999999999995,
+          "end": 62.239999999999995,
+          "text": "okay,",
+          "confidence": 0.9702019691467285,
+          "speaker": null
+        },
+        {
+          "start": 62.239999999999995,
+          "end": 62.239999999999995,
+          "text": "okay,",
+          "confidence": 0.9705678224563599,
+          "speaker": null
+        },
+        {
+          "start": 62.239999999999995,
+          "end": 62.239999999999995,
+          "text": "okay,",
+          "confidence": 0.9700554609298706,
+          "speaker": null
+        },
+        {
+          "start": 62.239999999999995,
+          "end": 63.64,
+          "text": "okay,",
+          "confidence": 0.9691260457038879,
+          "speaker": null
+        },
+        {
+          "start": 63.64,
+          "end": 63.64,
+          "text": "okay,",
+          "confidence": 0.9713414907455444,
+          "speaker": null
+        },
+        {
+          "start": 63.64,
+          "end": 63.64,
+          "text": "okay,",
+          "confidence": 0.9706932902336121,
+          "speaker": null
+        },
+        {
+          "start": 63.64,
+          "end": 64.0,
+          "text": "okay,",
+          "confidence": 0.969863772392273,
+          "speaker": null
+        },
+        {
+          "start": 64.0,
+          "end": 64.0,
+          "text": "okay,",
+          "confidence": 0.9705689549446106,
+          "speaker": null
+        },
+        {
+          "start": 64.0,
+          "end": 64.0,
+          "text": "okay,",
+          "confidence": 0.9707277417182922,
+          "speaker": null
+        },
+        {
+          "start": 64.0,
+          "end": 64.0,
+          "text": "okay,",
+          "confidence": 0.9723959565162659,
+          "speaker": null
+        },
+        {
+          "start": 64.0,
+          "end": 64.0,
+          "text": "okay,",
+          "confidence": 0.9707415699958801,
+          "speaker": null
+        },
+        {
+          "start": 64.0,
+          "end": 65.38,
+          "text": "okay,",
+          "confidence": 0.9700276255607605,
+          "speaker": null
+        },
+        {
+          "start": 65.38,
+          "end": 65.38,
+          "text": "okay,",
+          "confidence": 0.9709680080413818,
+          "speaker": null
+        },
+        {
+          "start": 65.38,
+          "end": 66.76,
+          "text": "okay,",
+          "confidence": 0.9717068076133728,
+          "speaker": null
+        },
+        {
+          "start": 66.76,
+          "end": 66.76,
+          "text": "okay,",
+          "confidence": 0.9716894030570984,
+          "speaker": null
+        },
+        {
+          "start": 66.76,
+          "end": 66.88,
+          "text": "okay,",
+          "confidence": 0.9712417125701904,
+          "speaker": null
+        },
+        {
+          "start": 66.88,
+          "end": 66.88,
+          "text": "okay,",
+          "confidence": 0.9715386033058167,
+          "speaker": null
+        },
+        {
+          "start": 66.88,
+          "end": 66.88,
+          "text": "okay,",
+          "confidence": 0.971484899520874,
+          "speaker": null
+        },
+        {
+          "start": 66.88,
+          "end": 66.88,
+          "text": "okay,",
+          "confidence": 0.9726709723472595,
+          "speaker": null
+        },
+        {
+          "start": 66.88,
+          "end": 69.1,
+          "text": "okay,",
+          "confidence": 0.9704919457435608,
+          "speaker": null
+        },
+        {
+          "start": 69.1,
+          "end": 69.1,
+          "text": "okay,",
+          "confidence": 0.9712522029876709,
+          "speaker": null
+        },
+        {
+          "start": 69.1,
+          "end": 69.1,
+          "text": "okay,",
+          "confidence": 0.9716798067092896,
+          "speaker": null
+        },
+        {
+          "start": 69.1,
+          "end": 69.9,
+          "text": "okay,",
+          "confidence": 0.969698429107666,
+          "speaker": null
+        },
+        {
+          "start": 70.84,
+          "end": 70.98,
+          "text": "okay",
+          "confidence": 0.9743390679359436,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 119.58,
+      "end": 120.98,
+      "speaker": null,
+      "text": "Subtitles by the Amara.org community",
+      "confidence": 0.9160623497640094,
+      "words": [
+        {
+          "start": 119.58,
+          "end": 120.98,
+          "text": "Subtitles",
+          "confidence": 0.6545978765934706,
+          "speaker": null
+        },
+        {
+          "start": 120.98,
+          "end": 120.98,
+          "text": "by",
+          "confidence": 0.9525138735771179,
+          "speaker": null
+        },
+        {
+          "start": 120.98,
+          "end": 120.98,
+          "text": "the",
+          "confidence": 0.8899902701377869,
+          "speaker": null
+        },
+        {
+          "start": 120.98,
+          "end": 120.98,
+          "text": "Amara",
+          "confidence": 0.9998357594013214,
+          "speaker": null
+        },
+        {
+          "start": 120.98,
+          "end": 120.98,
+          "text": ".org",
+          "confidence": 0.9997056722640991,
+          "speaker": null
+        },
+        {
+          "start": 120.98,
+          "end": 120.98,
+          "text": "community",
+          "confidence": 0.99973064661026,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 168.3,
+      "end": 169.57999999999998,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.4845629015471786,
+      "words": [
+        {
+          "start": 168.3,
+          "end": 168.82,
+          "text": "Thank",
+          "confidence": 0.005824502091854811,
+          "speaker": null
+        },
+        {
+          "start": 168.82,
+          "end": 169.57999999999998,
+          "text": "you.",
+          "confidence": 0.9633013010025024,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 219.58,
+      "end": 220.98,
+      "speaker": null,
+      "text": "that Subtitles by the Amara.org community",
+      "confidence": 0.6495644206452198,
+      "words": [
+        {
+          "start": 219.58,
+          "end": 220.98,
+          "text": "that",
+          "confidence": 0.0016441057668998837,
+          "speaker": null
+        },
+        {
+          "start": 220.98,
+          "end": 220.98,
+          "text": "Subtitles",
+          "confidence": 0.5054124367225086,
+          "speaker": null
+        },
+        {
+          "start": 220.98,
+          "end": 220.98,
+          "text": "by",
+          "confidence": 0.41308000683784485,
+          "speaker": null
+        },
+        {
+          "start": 220.98,
+          "end": 220.98,
+          "text": "the",
+          "confidence": 0.6298019886016846,
+          "speaker": null
+        },
+        {
+          "start": 220.98,
+          "end": 220.98,
+          "text": "Amara",
+          "confidence": 0.9989898502826691,
+          "speaker": null
+        },
+        {
+          "start": 220.98,
+          "end": 220.98,
+          "text": ".org",
+          "confidence": 0.9986966848373413,
+          "speaker": null
+        },
+        {
+          "start": 220.98,
+          "end": 220.98,
+          "text": "community",
+          "confidence": 0.9993258714675903,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 269.28,
+      "end": 270.98,
+      "speaker": null,
+      "text": "Subtitles by the Amara.org community",
+      "confidence": 0.8968525915794695,
+      "words": [
+        {
+          "start": 269.28,
+          "end": 269.34,
+          "text": "Subtitles",
+          "confidence": 0.6501856085378677,
+          "speaker": null
+        },
+        {
+          "start": 269.34,
+          "end": 269.36,
+          "text": "by",
+          "confidence": 0.9160358905792236,
+          "speaker": null
+        },
+        {
+          "start": 269.36,
+          "end": 269.38,
+          "text": "the",
+          "confidence": 0.8157127499580383,
+          "speaker": null
+        },
+        {
+          "start": 269.38,
+          "end": 269.42,
+          "text": "Amara",
+          "confidence": 0.9997861087322235,
+          "speaker": null
+        },
+        {
+          "start": 269.42,
+          "end": 270.96,
+          "text": ".org",
+          "confidence": 0.9997020363807678,
+          "speaker": null
+        },
+        {
+          "start": 270.96,
+          "end": 270.98,
+          "text": "community",
+          "confidence": 0.9996931552886963,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 319.58,
+      "end": 320.98,
+      "speaker": null,
+      "text": "Subtitles by the Amara.org community",
+      "confidence": 0.9008379696557919,
+      "words": [
+        {
+          "start": 319.58,
+          "end": 320.98,
+          "text": "Subtitles",
+          "confidence": 0.6500334553420544,
+          "speaker": null
+        },
+        {
+          "start": 320.98,
+          "end": 320.98,
+          "text": "by",
+          "confidence": 0.9480492472648621,
+          "speaker": null
+        },
+        {
+          "start": 320.98,
+          "end": 320.98,
+          "text": "the",
+          "confidence": 0.8077224493026733,
+          "speaker": null
+        },
+        {
+          "start": 320.98,
+          "end": 320.98,
+          "text": "Amara",
+          "confidence": 0.9997730255126953,
+          "speaker": null
+        },
+        {
+          "start": 320.98,
+          "end": 320.98,
+          "text": ".org",
+          "confidence": 0.9997111260890961,
+          "speaker": null
+        },
+        {
+          "start": 320.98,
+          "end": 320.98,
+          "text": "community",
+          "confidence": 0.9997385144233704,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 336.04,
+      "end": 345.98,
+      "speaker": null,
+      "text": "Subtitles by the Amara.org community",
+      "confidence": 0.8869444101195162,
+      "words": [
+        {
+          "start": 336.04,
+          "end": 337.44,
+          "text": "Subtitles",
+          "confidence": 0.6451461727265269,
+          "speaker": null
+        },
+        {
+          "start": 337.44,
+          "end": 338.84,
+          "text": "by",
+          "confidence": 0.9441221952438354,
+          "speaker": null
+        },
+        {
+          "start": 338.84,
+          "end": 338.86,
+          "text": "the",
+          "confidence": 0.733241617679596,
+          "speaker": null
+        },
+        {
+          "start": 338.86,
+          "end": 338.9,
+          "text": "Amara",
+          "confidence": 0.9997721910476685,
+          "speaker": null
+        },
+        {
+          "start": 338.9,
+          "end": 345.96,
+          "text": ".org",
+          "confidence": 0.9996935129165649,
+          "speaker": null
+        },
+        {
+          "start": 345.96,
+          "end": 345.98,
+          "text": "community",
+          "confidence": 0.9996907711029053,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 369.58,
+      "end": 370.98,
+      "speaker": null,
+      "text": "Subtitles by the Amara.org community",
+      "confidence": 0.9059810918600609,
+      "words": [
+        {
+          "start": 369.58,
+          "end": 370.98,
+          "text": "Subtitles",
+          "confidence": 0.6472230446524918,
+          "speaker": null
+        },
+        {
+          "start": 370.98,
+          "end": 370.98,
+          "text": "by",
+          "confidence": 0.95540851354599,
+          "speaker": null
+        },
+        {
+          "start": 370.98,
+          "end": 370.98,
+          "text": "the",
+          "confidence": 0.8339628577232361,
+          "speaker": null
+        },
+        {
+          "start": 370.98,
+          "end": 370.98,
+          "text": "Amara",
+          "confidence": 0.9997865259647369,
+          "speaker": null
+        },
+        {
+          "start": 370.98,
+          "end": 370.98,
+          "text": ".org",
+          "confidence": 0.9997775852680206,
+          "speaker": null
+        },
+        {
+          "start": 370.98,
+          "end": 370.98,
+          "text": "community",
+          "confidence": 0.9997280240058899,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 394.58,
+      "end": 395.98,
+      "speaker": null,
+      "text": "Subtitles by the Amara.org community",
+      "confidence": 0.8980107408068662,
+      "words": [
+        {
+          "start": 394.58,
+          "end": 395.98,
+          "text": "Subtitles",
+          "confidence": 0.6477203376901647,
+          "speaker": null
+        },
+        {
+          "start": 395.98,
+          "end": 395.98,
+          "text": "by",
+          "confidence": 0.9401268362998962,
+          "speaker": null
+        },
+        {
+          "start": 395.98,
+          "end": 395.98,
+          "text": "the",
+          "confidence": 0.8009562492370605,
+          "speaker": null
+        },
+        {
+          "start": 395.98,
+          "end": 395.98,
+          "text": "Amara",
+          "confidence": 0.9997797012329102,
+          "speaker": null
+        },
+        {
+          "start": 395.98,
+          "end": 395.98,
+          "text": ".org",
+          "confidence": 0.9997383952140808,
+          "speaker": null
+        },
+        {
+          "start": 395.98,
+          "end": 395.98,
+          "text": "community",
+          "confidence": 0.9997429251670837,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 419.86,
+      "end": 420.98,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.48590707615949214,
+      "words": [
+        {
+          "start": 419.86,
+          "end": 420.98,
+          "text": "Thank",
+          "confidence": 0.007370528299361467,
+          "speaker": null
+        },
+        {
+          "start": 420.98,
+          "end": 420.98,
+          "text": "you.",
+          "confidence": 0.9644436240196228,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 469.58,
+      "end": 470.98,
+      "speaker": null,
+      "text": "Subtitles by the Amara.org community",
+      "confidence": 0.9053008608106111,
+      "words": [
+        {
+          "start": 469.58,
+          "end": 470.98,
+          "text": "Subtitles",
+          "confidence": 0.6482315373917421,
+          "speaker": null
+        },
+        {
+          "start": 470.98,
+          "end": 470.98,
+          "text": "by",
+          "confidence": 0.9319874048233032,
+          "speaker": null
+        },
+        {
+          "start": 470.98,
+          "end": 470.98,
+          "text": "the",
+          "confidence": 0.8523606657981873,
+          "speaker": null
+        },
+        {
+          "start": 470.98,
+          "end": 470.98,
+          "text": "Amara",
+          "confidence": 0.9997787475585938,
+          "speaker": null
+        },
+        {
+          "start": 470.98,
+          "end": 470.98,
+          "text": ".org",
+          "confidence": 0.9997043609619141,
+          "speaker": null
+        },
+        {
+          "start": 470.98,
+          "end": 470.98,
+          "text": "community",
+          "confidence": 0.9997424483299255,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 494.58,
+      "end": 495.98,
+      "speaker": null,
+      "text": "Subtitles by the Amara.org community",
+      "confidence": 0.8961798510992797,
+      "words": [
+        {
+          "start": 494.58,
+          "end": 495.98,
+          "text": "Subtitles",
+          "confidence": 0.6378796172405904,
+          "speaker": null
+        },
+        {
+          "start": 495.98,
+          "end": 495.98,
+          "text": "by",
+          "confidence": 0.9335235357284546,
+          "speaker": null
+        },
+        {
+          "start": 495.98,
+          "end": 495.98,
+          "text": "the",
+          "confidence": 0.8064503073692322,
+          "speaker": null
+        },
+        {
+          "start": 495.98,
+          "end": 495.98,
+          "text": "Amara",
+          "confidence": 0.9997538924217224,
+          "speaker": null
+        },
+        {
+          "start": 495.98,
+          "end": 495.98,
+          "text": ".org",
+          "confidence": 0.999716192483902,
+          "speaker": null
+        },
+        {
+          "start": 495.98,
+          "end": 495.98,
+          "text": "community",
+          "confidence": 0.9997555613517761,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 520.08,
+      "end": 521.48,
+      "speaker": null,
+      "text": "Subtitles by the Amara.org community",
+      "confidence": 0.9045734771708439,
+      "words": [
+        {
+          "start": 520.08,
+          "end": 521.48,
+          "text": "Subtitles",
+          "confidence": 0.6479986420987794,
+          "speaker": null
+        },
+        {
+          "start": 521.48,
+          "end": 521.48,
+          "text": "by",
+          "confidence": 0.9359225034713745,
+          "speaker": null
+        },
+        {
+          "start": 521.48,
+          "end": 521.48,
+          "text": "the",
+          "confidence": 0.8443306088447571,
+          "speaker": null
+        },
+        {
+          "start": 521.48,
+          "end": 521.48,
+          "text": "Amara",
+          "confidence": 0.9997759461402893,
+          "speaker": null
+        },
+        {
+          "start": 521.48,
+          "end": 521.48,
+          "text": ".org",
+          "confidence": 0.9996798932552338,
+          "speaker": null
+        },
+        {
+          "start": 521.48,
+          "end": 521.48,
+          "text": "community",
+          "confidence": 0.9997332692146301,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 545.08,
+      "end": 546.48,
+      "speaker": null,
+      "text": "Subtitles by the Amara.org community",
+      "confidence": 0.9014258572521309,
+      "words": [
+        {
+          "start": 545.08,
+          "end": 546.48,
+          "text": "Subtitles",
+          "confidence": 0.6504791313782334,
+          "speaker": null
+        },
+        {
+          "start": 546.48,
+          "end": 546.48,
+          "text": "by",
+          "confidence": 0.9295424222946167,
+          "speaker": null
+        },
+        {
+          "start": 546.48,
+          "end": 546.48,
+          "text": "the",
+          "confidence": 0.829230785369873,
+          "speaker": null
+        },
+        {
+          "start": 546.48,
+          "end": 546.48,
+          "text": "Amara",
+          "confidence": 0.9998305141925812,
+          "speaker": null
+        },
+        {
+          "start": 546.48,
+          "end": 546.48,
+          "text": ".org",
+          "confidence": 0.9997318685054779,
+          "speaker": null
+        },
+        {
+          "start": 546.48,
+          "end": 546.48,
+          "text": "community",
+          "confidence": 0.9997404217720032,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 570.58,
+      "end": 571.98,
+      "speaker": null,
+      "text": "Subtitles by the Amara.org community",
+      "confidence": 0.9102357520670111,
+      "words": [
+        {
+          "start": 570.58,
+          "end": 571.98,
+          "text": "Subtitles",
+          "confidence": 0.6501613521638016,
+          "speaker": null
+        },
+        {
+          "start": 571.98,
+          "end": 571.98,
+          "text": "by",
+          "confidence": 0.9541828632354736,
+          "speaker": null
+        },
+        {
+          "start": 571.98,
+          "end": 571.98,
+          "text": "the",
+          "confidence": 0.8578286170959473,
+          "speaker": null
+        },
+        {
+          "start": 571.98,
+          "end": 571.98,
+          "text": "Amara",
+          "confidence": 0.9997759461402893,
+          "speaker": null
+        },
+        {
+          "start": 571.98,
+          "end": 571.98,
+          "text": ".org",
+          "confidence": 0.999727338552475,
+          "speaker": null
+        },
+        {
+          "start": 571.98,
+          "end": 571.98,
+          "text": "community",
+          "confidence": 0.9997383952140808,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 598.58,
+      "end": 599.98,
+      "speaker": null,
+      "text": "Subtitles by the Amara.org community",
+      "confidence": 0.9129301505163312,
+      "words": [
+        {
+          "start": 598.58,
+          "end": 599.98,
+          "text": "Subtitles",
+          "confidence": 0.6573516111820936,
+          "speaker": null
+        },
+        {
+          "start": 599.98,
+          "end": 599.98,
+          "text": "by",
+          "confidence": 0.9337257742881775,
+          "speaker": null
+        },
+        {
+          "start": 599.98,
+          "end": 599.98,
+          "text": "the",
+          "confidence": 0.8870294094085693,
+          "speaker": null
+        },
+        {
+          "start": 599.98,
+          "end": 599.98,
+          "text": "Amara",
+          "confidence": 0.9998799562454224,
+          "speaker": null
+        },
+        {
+          "start": 599.98,
+          "end": 599.98,
+          "text": ".org",
+          "confidence": 0.9998105764389038,
+          "speaker": null
+        },
+        {
+          "start": 599.98,
+          "end": 599.98,
+          "text": "community",
+          "confidence": 0.9997835755348206,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 119.58,
+        "speaker": null,
+        "text": "Subtitles by the Amara.org community"
+      },
+      {
+        "timestamp": 219.58,
+        "speaker": null,
+        "text": "that Subtitles by the Amara.org community"
+      },
+      {
+        "timestamp": 269.28,
+        "speaker": null,
+        "text": "Subtitles by the Amara.org community"
+      },
+      {
+        "timestamp": 319.58,
+        "speaker": null,
+        "text": "Subtitles by the Amara.org community"
+      },
+      {
+        "timestamp": 336.04,
+        "speaker": null,
+        "text": "Subtitles by the Amara.org community"
+      }
+    ]
+  }
+}

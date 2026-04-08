@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-19_1453-1503",
+    "created_at": "2026-03-19T21:59:40.336451-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 5.959999999999999,
+      "end": 6.02,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5972639992833138,
+      "words": [
+        {
+          "start": 5.959999999999999,
+          "end": 6.0,
+          "text": "Thank",
+          "confidence": 0.1959206610918045,
+          "speaker": null
+        },
+        {
+          "start": 6.0,
+          "end": 6.02,
+          "text": "you.",
+          "confidence": 0.998607337474823,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 30.26,
+      "end": 31.86,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5117991305887699,
+      "words": [
+        {
+          "start": 30.26,
+          "end": 31.66,
+          "text": "Thank",
+          "confidence": 0.03651369363069534,
+          "speaker": null
+        },
+        {
+          "start": 31.66,
+          "end": 31.86,
+          "text": "you.",
+          "confidence": 0.9870845675468445,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": []
+  }
+}

@@ -1,0 +1,738 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-16_1015-1025",
+    "created_at": "2026-03-16T11:12:04.823921-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 29.34,
+      "end": 29.58,
+      "speaker": null,
+      "text": "This video is a derivative work of the Touhou Project. It is a derivative work of the Touhou Project.",
+      "confidence": 0.5501105795769642,
+      "words": [
+        {
+          "start": 29.34,
+          "end": 29.48,
+          "text": "This",
+          "confidence": 0.009985850192606449,
+          "speaker": null
+        },
+        {
+          "start": 29.48,
+          "end": 29.5,
+          "text": "video",
+          "confidence": 0.31918808817863464,
+          "speaker": null
+        },
+        {
+          "start": 29.5,
+          "end": 29.5,
+          "text": "is",
+          "confidence": 0.43444523215293884,
+          "speaker": null
+        },
+        {
+          "start": 29.5,
+          "end": 29.5,
+          "text": "a",
+          "confidence": 0.2506703734397888,
+          "speaker": null
+        },
+        {
+          "start": 29.5,
+          "end": 29.5,
+          "text": "derivative",
+          "confidence": 0.14071696996688843,
+          "speaker": null
+        },
+        {
+          "start": 29.5,
+          "end": 29.5,
+          "text": "work",
+          "confidence": 0.9667134881019592,
+          "speaker": null
+        },
+        {
+          "start": 29.5,
+          "end": 29.5,
+          "text": "of",
+          "confidence": 0.8267410397529602,
+          "speaker": null
+        },
+        {
+          "start": 29.5,
+          "end": 29.5,
+          "text": "the",
+          "confidence": 0.5242434740066528,
+          "speaker": null
+        },
+        {
+          "start": 29.5,
+          "end": 29.5,
+          "text": "Touhou",
+          "confidence": 0.5924070179462433,
+          "speaker": null
+        },
+        {
+          "start": 29.5,
+          "end": 29.5,
+          "text": "Project.",
+          "confidence": 0.9349062442779541,
+          "speaker": null
+        },
+        {
+          "start": 29.5,
+          "end": 29.5,
+          "text": "It",
+          "confidence": 0.16278402507305145,
+          "speaker": null
+        },
+        {
+          "start": 29.5,
+          "end": 29.5,
+          "text": "is",
+          "confidence": 0.4047448933124542,
+          "speaker": null
+        },
+        {
+          "start": 29.5,
+          "end": 29.5,
+          "text": "a",
+          "confidence": 0.23639199137687683,
+          "speaker": null
+        },
+        {
+          "start": 29.5,
+          "end": 29.5,
+          "text": "derivative",
+          "confidence": 0.08130965381860733,
+          "speaker": null
+        },
+        {
+          "start": 29.5,
+          "end": 29.5,
+          "text": "work",
+          "confidence": 0.9906030893325806,
+          "speaker": null
+        },
+        {
+          "start": 29.5,
+          "end": 29.5,
+          "text": "of",
+          "confidence": 0.8099884390830994,
+          "speaker": null
+        },
+        {
+          "start": 29.5,
+          "end": 29.5,
+          "text": "the",
+          "confidence": 0.7486604452133179,
+          "speaker": null
+        },
+        {
+          "start": 29.5,
+          "end": 29.58,
+          "text": "Touhou",
+          "confidence": 0.9865435659885406,
+          "speaker": null
+        },
+        {
+          "start": 29.58,
+          "end": 29.58,
+          "text": "Project.",
+          "confidence": 0.9809483289718628,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 29.58,
+      "end": 29.94,
+      "speaker": null,
+      "text": "It is a derivative work of the Touhou Project.",
+      "confidence": 0.9288799663384756,
+      "words": [
+        {
+          "start": 29.58,
+          "end": 29.58,
+          "text": "It",
+          "confidence": 0.5106455087661743,
+          "speaker": null
+        },
+        {
+          "start": 29.58,
+          "end": 29.58,
+          "text": "is",
+          "confidence": 0.9093674421310425,
+          "speaker": null
+        },
+        {
+          "start": 29.58,
+          "end": 29.58,
+          "text": "a",
+          "confidence": 0.9571460485458374,
+          "speaker": null
+        },
+        {
+          "start": 29.58,
+          "end": 29.58,
+          "text": "derivative",
+          "confidence": 0.9903258085250854,
+          "speaker": null
+        },
+        {
+          "start": 29.58,
+          "end": 29.58,
+          "text": "work",
+          "confidence": 0.9998959302902222,
+          "speaker": null
+        },
+        {
+          "start": 29.58,
+          "end": 29.58,
+          "text": "of",
+          "confidence": 0.9993183612823486,
+          "speaker": null
+        },
+        {
+          "start": 29.58,
+          "end": 29.58,
+          "text": "the",
+          "confidence": 0.9993481040000916,
+          "speaker": null
+        },
+        {
+          "start": 29.58,
+          "end": 29.64,
+          "text": "Touhou",
+          "confidence": 0.9949069917201996,
+          "speaker": null
+        },
+        {
+          "start": 29.64,
+          "end": 29.94,
+          "text": "Project.",
+          "confidence": 0.9989655017852783,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 83.48,
+      "end": 84.98,
+      "speaker": null,
+      "text": "It is a derivative work of the Touhou Project.",
+      "confidence": 0.4168578758140534,
+      "words": [
+        {
+          "start": 83.48,
+          "end": 84.88,
+          "text": "It",
+          "confidence": 0.0042365677654743195,
+          "speaker": null
+        },
+        {
+          "start": 84.88,
+          "end": 84.98,
+          "text": "is",
+          "confidence": 0.18835066258907318,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "a",
+          "confidence": 0.09661976248025894,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "derivative",
+          "confidence": 4.8967383918352425e-05,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "work",
+          "confidence": 0.8594598174095154,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "of",
+          "confidence": 0.5755225419998169,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "the",
+          "confidence": 0.575163722038269,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "Touhou",
+          "confidence": 0.5001983577385545,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "Project.",
+          "confidence": 0.9521204829216003,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 139.4,
+      "end": 139.96,
+      "speaker": null,
+      "text": "It is a derivative work of the Touhou Project.",
+      "confidence": 0.4176067076506216,
+      "words": [
+        {
+          "start": 139.4,
+          "end": 139.52,
+          "text": "It",
+          "confidence": 0.0034275101497769356,
+          "speaker": null
+        },
+        {
+          "start": 139.52,
+          "end": 139.54,
+          "text": "is",
+          "confidence": 0.24301625788211823,
+          "speaker": null
+        },
+        {
+          "start": 139.54,
+          "end": 139.54,
+          "text": "a",
+          "confidence": 0.08820812404155731,
+          "speaker": null
+        },
+        {
+          "start": 139.54,
+          "end": 139.54,
+          "text": "derivative",
+          "confidence": 4.3702206312445924e-05,
+          "speaker": null
+        },
+        {
+          "start": 139.54,
+          "end": 139.54,
+          "text": "work",
+          "confidence": 0.8265582323074341,
+          "speaker": null
+        },
+        {
+          "start": 139.54,
+          "end": 139.54,
+          "text": "of",
+          "confidence": 0.5706120729446411,
+          "speaker": null
+        },
+        {
+          "start": 139.54,
+          "end": 139.54,
+          "text": "the",
+          "confidence": 0.6044964790344238,
+          "speaker": null
+        },
+        {
+          "start": 139.54,
+          "end": 139.6,
+          "text": "Touhou",
+          "confidence": 0.4757200572639704,
+          "speaker": null
+        },
+        {
+          "start": 139.6,
+          "end": 139.96,
+          "text": "Project.",
+          "confidence": 0.9463779330253601,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 193.46,
+      "end": 194.98,
+      "speaker": null,
+      "text": "It is a derivative work of the Touhou Project.",
+      "confidence": 0.41595946199110284,
+      "words": [
+        {
+          "start": 193.46,
+          "end": 194.86,
+          "text": "It",
+          "confidence": 0.005237804260104895,
+          "speaker": null
+        },
+        {
+          "start": 194.86,
+          "end": 194.98,
+          "text": "is",
+          "confidence": 0.16385503113269806,
+          "speaker": null
+        },
+        {
+          "start": 194.98,
+          "end": 194.98,
+          "text": "a",
+          "confidence": 0.0947226956486702,
+          "speaker": null
+        },
+        {
+          "start": 194.98,
+          "end": 194.98,
+          "text": "derivative",
+          "confidence": 5.214415068621747e-05,
+          "speaker": null
+        },
+        {
+          "start": 194.98,
+          "end": 194.98,
+          "text": "work",
+          "confidence": 0.8521460294723511,
+          "speaker": null
+        },
+        {
+          "start": 194.98,
+          "end": 194.98,
+          "text": "of",
+          "confidence": 0.6184144616127014,
+          "speaker": null
+        },
+        {
+          "start": 194.98,
+          "end": 194.98,
+          "text": "the",
+          "confidence": 0.5580667853355408,
+          "speaker": null
+        },
+        {
+          "start": 194.98,
+          "end": 194.98,
+          "text": "Touhou",
+          "confidence": 0.49541113898158073,
+          "speaker": null
+        },
+        {
+          "start": 194.98,
+          "end": 194.98,
+          "text": "Project.",
+          "confidence": 0.955729067325592,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 249.14,
+      "end": 249.96,
+      "speaker": null,
+      "text": "It is a derivative work of the Touhou Project.",
+      "confidence": 0.4162773604204833,
+      "words": [
+        {
+          "start": 249.14,
+          "end": 249.22,
+          "text": "It",
+          "confidence": 0.0049145701341331005,
+          "speaker": null
+        },
+        {
+          "start": 249.22,
+          "end": 249.24,
+          "text": "is",
+          "confidence": 0.18049341440200806,
+          "speaker": null
+        },
+        {
+          "start": 249.24,
+          "end": 249.26,
+          "text": "a",
+          "confidence": 0.09188171476125717,
+          "speaker": null
+        },
+        {
+          "start": 249.26,
+          "end": 249.3,
+          "text": "derivative",
+          "confidence": 3.938182271667756e-05,
+          "speaker": null
+        },
+        {
+          "start": 249.3,
+          "end": 249.3,
+          "text": "work",
+          "confidence": 0.8298632502555847,
+          "speaker": null
+        },
+        {
+          "start": 249.3,
+          "end": 249.3,
+          "text": "of",
+          "confidence": 0.6144255995750427,
+          "speaker": null
+        },
+        {
+          "start": 249.3,
+          "end": 249.3,
+          "text": "the",
+          "confidence": 0.5815536975860596,
+          "speaker": null
+        },
+        {
+          "start": 249.3,
+          "end": 249.34,
+          "text": "Touhou",
+          "confidence": 0.4884657161310315,
+          "speaker": null
+        },
+        {
+          "start": 249.34,
+          "end": 249.96,
+          "text": "Project.",
+          "confidence": 0.9548588991165161,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 303.56,
+      "end": 304.98,
+      "speaker": null,
+      "text": "It is a derivative work of the Touhou Project.",
+      "confidence": 0.37746683180537527,
+      "words": [
+        {
+          "start": 303.56,
+          "end": 304.96,
+          "text": "It",
+          "confidence": 0.004596441984176636,
+          "speaker": null
+        },
+        {
+          "start": 304.96,
+          "end": 304.98,
+          "text": "is",
+          "confidence": 0.21121445298194885,
+          "speaker": null
+        },
+        {
+          "start": 304.98,
+          "end": 304.98,
+          "text": "a",
+          "confidence": 0.08508922159671783,
+          "speaker": null
+        },
+        {
+          "start": 304.98,
+          "end": 304.98,
+          "text": "derivative",
+          "confidence": 4.1315648559248075e-05,
+          "speaker": null
+        },
+        {
+          "start": 304.98,
+          "end": 304.98,
+          "text": "work",
+          "confidence": 0.5884709358215332,
+          "speaker": null
+        },
+        {
+          "start": 304.98,
+          "end": 304.98,
+          "text": "of",
+          "confidence": 0.5013737678527832,
+          "speaker": null
+        },
+        {
+          "start": 304.98,
+          "end": 304.98,
+          "text": "the",
+          "confidence": 0.5699481964111328,
+          "speaker": null
+        },
+        {
+          "start": 304.98,
+          "end": 304.98,
+          "text": "Touhou",
+          "confidence": 0.48075602762401104,
+          "speaker": null
+        },
+        {
+          "start": 304.98,
+          "end": 304.98,
+          "text": "Project.",
+          "confidence": 0.9557111263275146,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 537.12,
+      "end": 539.78,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5344593226909637,
+      "words": [
+        {
+          "start": 537.12,
+          "end": 538.52,
+          "text": "Thank",
+          "confidence": 0.07543683052062988,
+          "speaker": null
+        },
+        {
+          "start": 538.52,
+          "end": 539.78,
+          "text": "you.",
+          "confidence": 0.9934818148612976,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 576.7,
+      "end": 579.58,
+      "speaker": null,
+      "text": "I'm not going to do that, I'm not going to do that,",
+      "confidence": 0.5453625120377789,
+      "words": [
+        {
+          "start": 576.7,
+          "end": 578.1,
+          "text": "I'm",
+          "confidence": 0.13241193164139986,
+          "speaker": null
+        },
+        {
+          "start": 578.1,
+          "end": 579.5,
+          "text": "not",
+          "confidence": 0.10296746343374252,
+          "speaker": null
+        },
+        {
+          "start": 579.5,
+          "end": 579.52,
+          "text": "going",
+          "confidence": 0.2722250819206238,
+          "speaker": null
+        },
+        {
+          "start": 579.52,
+          "end": 579.52,
+          "text": "to",
+          "confidence": 0.9563148021697998,
+          "speaker": null
+        },
+        {
+          "start": 579.52,
+          "end": 579.52,
+          "text": "do",
+          "confidence": 0.1640091836452484,
+          "speaker": null
+        },
+        {
+          "start": 579.52,
+          "end": 579.52,
+          "text": "that,",
+          "confidence": 0.5731965899467468,
+          "speaker": null
+        },
+        {
+          "start": 579.52,
+          "end": 579.52,
+          "text": "I'm",
+          "confidence": 0.46707823872566223,
+          "speaker": null
+        },
+        {
+          "start": 579.52,
+          "end": 579.52,
+          "text": "not",
+          "confidence": 0.24008804559707642,
+          "speaker": null
+        },
+        {
+          "start": 579.52,
+          "end": 579.58,
+          "text": "going",
+          "confidence": 0.8631735444068909,
+          "speaker": null
+        },
+        {
+          "start": 579.58,
+          "end": 579.58,
+          "text": "to",
+          "confidence": 0.998308539390564,
+          "speaker": null
+        },
+        {
+          "start": 579.58,
+          "end": 579.58,
+          "text": "do",
+          "confidence": 0.8041428327560425,
+          "speaker": null
+        },
+        {
+          "start": 579.58,
+          "end": 579.58,
+          "text": "that,",
+          "confidence": 0.9704338908195496,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 29.34,
+        "speaker": null,
+        "text": "This video is a derivative work of the Touhou Project. It is a derivative work of the Touhou Project."
+      },
+      {
+        "timestamp": 29.58,
+        "speaker": null,
+        "text": "It is a derivative work of the Touhou Project."
+      },
+      {
+        "timestamp": 83.48,
+        "speaker": null,
+        "text": "It is a derivative work of the Touhou Project."
+      },
+      {
+        "timestamp": 139.4,
+        "speaker": null,
+        "text": "It is a derivative work of the Touhou Project."
+      },
+      {
+        "timestamp": 193.46,
+        "speaker": null,
+        "text": "It is a derivative work of the Touhou Project."
+      }
+    ]
+  }
+}

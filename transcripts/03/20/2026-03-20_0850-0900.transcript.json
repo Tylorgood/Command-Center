@@ -1,0 +1,500 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-20_0850-0900",
+    "created_at": "2026-03-20T09:13:49.889543-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 11.199999999999994,
+      "end": 16.28,
+      "speaker": null,
+      "text": "This video is a derivative work of the Touhou Project. It is based on the Touhou Project.",
+      "confidence": 0.5207781183932509,
+      "words": [
+        {
+          "start": 11.199999999999994,
+          "end": 11.28,
+          "text": "This",
+          "confidence": 0.041494742035865784,
+          "speaker": null
+        },
+        {
+          "start": 11.28,
+          "end": 11.36,
+          "text": "video",
+          "confidence": 0.3360801637172699,
+          "speaker": null
+        },
+        {
+          "start": 11.36,
+          "end": 11.36,
+          "text": "is",
+          "confidence": 0.42502400279045105,
+          "speaker": null
+        },
+        {
+          "start": 11.36,
+          "end": 11.36,
+          "text": "a",
+          "confidence": 0.28503096103668213,
+          "speaker": null
+        },
+        {
+          "start": 11.36,
+          "end": 11.36,
+          "text": "derivative",
+          "confidence": 0.14985045790672302,
+          "speaker": null
+        },
+        {
+          "start": 11.36,
+          "end": 11.36,
+          "text": "work",
+          "confidence": 0.9550406336784363,
+          "speaker": null
+        },
+        {
+          "start": 11.36,
+          "end": 11.36,
+          "text": "of",
+          "confidence": 0.8631743788719177,
+          "speaker": null
+        },
+        {
+          "start": 11.36,
+          "end": 11.36,
+          "text": "the",
+          "confidence": 0.5211561918258667,
+          "speaker": null
+        },
+        {
+          "start": 11.36,
+          "end": 11.36,
+          "text": "Touhou",
+          "confidence": 0.48212653398513794,
+          "speaker": null
+        },
+        {
+          "start": 11.36,
+          "end": 16.12,
+          "text": "Project.",
+          "confidence": 0.941254198551178,
+          "speaker": null
+        },
+        {
+          "start": 16.14,
+          "end": 16.16,
+          "text": "It",
+          "confidence": 0.17951072752475739,
+          "speaker": null
+        },
+        {
+          "start": 16.16,
+          "end": 16.18,
+          "text": "is",
+          "confidence": 0.41338488459587097,
+          "speaker": null
+        },
+        {
+          "start": 16.18,
+          "end": 16.2,
+          "text": "based",
+          "confidence": 0.1276552677154541,
+          "speaker": null
+        },
+        {
+          "start": 16.2,
+          "end": 16.22,
+          "text": "on",
+          "confidence": 0.967868447303772,
+          "speaker": null
+        },
+        {
+          "start": 16.22,
+          "end": 16.22,
+          "text": "the",
+          "confidence": 0.5445754528045654,
+          "speaker": null
+        },
+        {
+          "start": 16.22,
+          "end": 16.26,
+          "text": "Touhou",
+          "confidence": 0.6996994763612747,
+          "speaker": null
+        },
+        {
+          "start": 16.26,
+          "end": 16.28,
+          "text": "Project.",
+          "confidence": 0.8580368161201477,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 16.28,
+      "end": 18.54,
+      "speaker": null,
+      "text": "It is based on the Touhou Project. It is based on the Touhou Project.",
+      "confidence": 0.7104638979903289,
+      "words": [
+        {
+          "start": 16.28,
+          "end": 16.3,
+          "text": "It",
+          "confidence": 0.11459965258836746,
+          "speaker": null
+        },
+        {
+          "start": 16.3,
+          "end": 16.32,
+          "text": "is",
+          "confidence": 0.4631817638874054,
+          "speaker": null
+        },
+        {
+          "start": 16.32,
+          "end": 16.34,
+          "text": "based",
+          "confidence": 0.1406911462545395,
+          "speaker": null
+        },
+        {
+          "start": 16.34,
+          "end": 16.36,
+          "text": "on",
+          "confidence": 0.9802701473236084,
+          "speaker": null
+        },
+        {
+          "start": 16.36,
+          "end": 16.38,
+          "text": "the",
+          "confidence": 0.5862927436828613,
+          "speaker": null
+        },
+        {
+          "start": 16.38,
+          "end": 16.42,
+          "text": "Touhou",
+          "confidence": 0.8843340873718262,
+          "speaker": null
+        },
+        {
+          "start": 16.42,
+          "end": 16.44,
+          "text": "Project.",
+          "confidence": 0.9308077692985535,
+          "speaker": null
+        },
+        {
+          "start": 16.46,
+          "end": 16.54,
+          "text": "It",
+          "confidence": 0.18814411759376526,
+          "speaker": null
+        },
+        {
+          "start": 16.54,
+          "end": 16.9,
+          "text": "is",
+          "confidence": 0.784754753112793,
+          "speaker": null
+        },
+        {
+          "start": 16.9,
+          "end": 16.96,
+          "text": "based",
+          "confidence": 0.9383675456047058,
+          "speaker": null
+        },
+        {
+          "start": 16.96,
+          "end": 17.28,
+          "text": "on",
+          "confidence": 0.997101366519928,
+          "speaker": null
+        },
+        {
+          "start": 17.28,
+          "end": 17.32,
+          "text": "the",
+          "confidence": 0.9617253541946411,
+          "speaker": null
+        },
+        {
+          "start": 17.32,
+          "end": 18.26,
+          "text": "Touhou",
+          "confidence": 0.9786408543586731,
+          "speaker": null
+        },
+        {
+          "start": 18.26,
+          "end": 18.54,
+          "text": "Project.",
+          "confidence": 0.997583270072937,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 19.9,
+      "end": 25.0,
+      "speaker": null,
+      "text": "It is based on the Touhou Project.",
+      "confidence": 0.8859397726399558,
+      "words": [
+        {
+          "start": 19.9,
+          "end": 19.98,
+          "text": "It",
+          "confidence": 0.39626625180244446,
+          "speaker": null
+        },
+        {
+          "start": 19.98,
+          "end": 20.0,
+          "text": "is",
+          "confidence": 0.8636636734008789,
+          "speaker": null
+        },
+        {
+          "start": 20.0,
+          "end": 20.08,
+          "text": "based",
+          "confidence": 0.9719057679176331,
+          "speaker": null
+        },
+        {
+          "start": 20.08,
+          "end": 20.56,
+          "text": "on",
+          "confidence": 0.9982234835624695,
+          "speaker": null
+        },
+        {
+          "start": 20.56,
+          "end": 20.56,
+          "text": "the",
+          "confidence": 0.9866146445274353,
+          "speaker": null
+        },
+        {
+          "start": 20.56,
+          "end": 21.98,
+          "text": "Touhou",
+          "confidence": 0.9865604043006897,
+          "speaker": null
+        },
+        {
+          "start": 21.98,
+          "end": 25.0,
+          "text": "Project.",
+          "confidence": 0.9983441829681396,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 33.82,
+      "end": 54.98,
+      "speaker": null,
+      "text": "Line 13 towards Mörby centrum",
+      "confidence": 0.6246363972624143,
+      "words": [
+        {
+          "start": 33.82,
+          "end": 35.22,
+          "text": "Line",
+          "confidence": 0.07026498019695282,
+          "speaker": null
+        },
+        {
+          "start": 35.22,
+          "end": 36.62,
+          "text": "13",
+          "confidence": 0.5947595238685608,
+          "speaker": null
+        },
+        {
+          "start": 36.62,
+          "end": 37.76,
+          "text": "towards",
+          "confidence": 0.9150995016098022,
+          "speaker": null
+        },
+        {
+          "start": 37.76,
+          "end": 51.92,
+          "text": "Mörby",
+          "confidence": 0.6333127344648043,
+          "speaker": null
+        },
+        {
+          "start": 51.92,
+          "end": 54.98,
+          "text": "centrum",
+          "confidence": 0.9097452461719513,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 164.34,
+      "end": 164.98,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.48358345218002796,
+      "words": [
+        {
+          "start": 164.34,
+          "end": 164.96,
+          "text": "Thank",
+          "confidence": 0.015007618814706802,
+          "speaker": null
+        },
+        {
+          "start": 164.96,
+          "end": 164.98,
+          "text": "you.",
+          "confidence": 0.9521592855453491,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 438.58,
+      "end": 439.98,
+      "speaker": null,
+      "text": "Thank you very much.",
+      "confidence": 0.5204544498119503,
+      "words": [
+        {
+          "start": 438.58,
+          "end": 439.98,
+          "text": "Thank",
+          "confidence": 0.011726313270628452,
+          "speaker": null
+        },
+        {
+          "start": 439.98,
+          "end": 439.98,
+          "text": "you",
+          "confidence": 0.9512065649032593,
+          "speaker": null
+        },
+        {
+          "start": 439.98,
+          "end": 439.98,
+          "text": "very",
+          "confidence": 0.1252921223640442,
+          "speaker": null
+        },
+        {
+          "start": 439.98,
+          "end": 439.98,
+          "text": "much.",
+          "confidence": 0.9935927987098694,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 446.84,
+      "end": 448.24,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.49498205492272973,
+      "words": [
+        {
+          "start": 446.84,
+          "end": 448.24,
+          "text": "Thank",
+          "confidence": 0.008438211865723133,
+          "speaker": null
+        },
+        {
+          "start": 448.24,
+          "end": 448.24,
+          "text": "you.",
+          "confidence": 0.9815258979797363,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 504.36,
+      "end": 519.92,
+      "speaker": null,
+      "text": "Thank you very much.",
+      "confidence": 0.4980649166973308,
+      "words": [
+        {
+          "start": 504.36,
+          "end": 505.76,
+          "text": "Thank",
+          "confidence": 0.00443720119073987,
+          "speaker": null
+        },
+        {
+          "start": 505.76,
+          "end": 507.16,
+          "text": "you",
+          "confidence": 0.9725702404975891,
+          "speaker": null
+        },
+        {
+          "start": 507.16,
+          "end": 510.48,
+          "text": "very",
+          "confidence": 0.01739697903394699,
+          "speaker": null
+        },
+        {
+          "start": 510.48,
+          "end": 519.92,
+          "text": "much.",
+          "confidence": 0.9978552460670471,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 11.199999999999994,
+        "speaker": null,
+        "text": "This video is a derivative work of the Touhou Project. It is based on the Touhou Project."
+      },
+      {
+        "timestamp": 16.28,
+        "speaker": null,
+        "text": "It is based on the Touhou Project. It is based on the Touhou Project."
+      },
+      {
+        "timestamp": 19.9,
+        "speaker": null,
+        "text": "It is based on the Touhou Project."
+      },
+      {
+        "timestamp": 33.82,
+        "speaker": null,
+        "text": "Line 13 towards Mörby centrum"
+      }
+    ]
+  }
+}

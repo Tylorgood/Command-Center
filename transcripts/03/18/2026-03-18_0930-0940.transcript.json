@@ -1,0 +1,274 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-18_0930-0940",
+    "created_at": "2026-03-18T11:20:08.157910-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 133.96,
+      "end": 134.82,
+      "speaker": null,
+      "text": "You You You You",
+      "confidence": 0.7762970998883247,
+      "words": [
+        {
+          "start": 133.96,
+          "end": 134.04,
+          "text": "You",
+          "confidence": 0.7403750419616699,
+          "speaker": null
+        },
+        {
+          "start": 134.04,
+          "end": 134.3,
+          "text": "You",
+          "confidence": 0.760220468044281,
+          "speaker": null
+        },
+        {
+          "start": 134.3,
+          "end": 134.34,
+          "text": "You",
+          "confidence": 0.7796581387519836,
+          "speaker": null
+        },
+        {
+          "start": 134.66,
+          "end": 134.82,
+          "text": "You",
+          "confidence": 0.7876162528991699,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 152.26,
+      "end": 152.48,
+      "speaker": null,
+      "text": "You You You You",
+      "confidence": 0.815678134560585,
+      "words": [
+        {
+          "start": 152.26,
+          "end": 152.42000000000002,
+          "text": "You",
+          "confidence": 0.8006570339202881,
+          "speaker": null
+        },
+        {
+          "start": 152.42000000000002,
+          "end": 152.44,
+          "text": "You",
+          "confidence": 0.807664155960083,
+          "speaker": null
+        },
+        {
+          "start": 152.44,
+          "end": 152.46,
+          "text": "You",
+          "confidence": 0.814640462398529,
+          "speaker": null
+        },
+        {
+          "start": 152.46,
+          "end": 152.48,
+          "text": "You",
+          "confidence": 0.8219557404518127,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 199.78,
+      "end": 207.48,
+      "speaker": null,
+      "text": "do it, but I'm not sure if I can do it, but I'm not sure if I can do it,",
+      "confidence": 0.44815078362298666,
+      "words": [
+        {
+          "start": 199.78,
+          "end": 201.18,
+          "text": "do",
+          "confidence": 0.002059760969132185,
+          "speaker": null
+        },
+        {
+          "start": 201.18,
+          "end": 202.57999999999998,
+          "text": "it,",
+          "confidence": 0.0008867394062690437,
+          "speaker": null
+        },
+        {
+          "start": 207.48,
+          "end": 207.48,
+          "text": "but",
+          "confidence": 0.024562716484069824,
+          "speaker": null
+        },
+        {
+          "start": 207.48,
+          "end": 207.48,
+          "text": "I'm",
+          "confidence": 0.17702658474445343,
+          "speaker": null
+        },
+        {
+          "start": 207.48,
+          "end": 207.48,
+          "text": "not",
+          "confidence": 0.24639266729354858,
+          "speaker": null
+        },
+        {
+          "start": 207.48,
+          "end": 207.48,
+          "text": "sure",
+          "confidence": 0.16104471683502197,
+          "speaker": null
+        },
+        {
+          "start": 207.48,
+          "end": 207.48,
+          "text": "if",
+          "confidence": 0.11596425622701645,
+          "speaker": null
+        },
+        {
+          "start": 207.48,
+          "end": 207.48,
+          "text": "I",
+          "confidence": 0.27835580706596375,
+          "speaker": null
+        },
+        {
+          "start": 207.48,
+          "end": 207.48,
+          "text": "can",
+          "confidence": 0.2706793546676636,
+          "speaker": null
+        },
+        {
+          "start": 207.48,
+          "end": 207.48,
+          "text": "do",
+          "confidence": 0.23558682203292847,
+          "speaker": null
+        },
+        {
+          "start": 207.48,
+          "end": 207.48,
+          "text": "it,",
+          "confidence": 0.8563842177391052,
+          "speaker": null
+        },
+        {
+          "start": 207.48,
+          "end": 207.48,
+          "text": "but",
+          "confidence": 0.3828524053096771,
+          "speaker": null
+        },
+        {
+          "start": 207.48,
+          "end": 207.48,
+          "text": "I'm",
+          "confidence": 0.48267556726932526,
+          "speaker": null
+        },
+        {
+          "start": 207.48,
+          "end": 207.48,
+          "text": "not",
+          "confidence": 0.47987449169158936,
+          "speaker": null
+        },
+        {
+          "start": 207.48,
+          "end": 207.48,
+          "text": "sure",
+          "confidence": 0.887534499168396,
+          "speaker": null
+        },
+        {
+          "start": 207.48,
+          "end": 207.48,
+          "text": "if",
+          "confidence": 0.6825023889541626,
+          "speaker": null
+        },
+        {
+          "start": 207.48,
+          "end": 207.48,
+          "text": "I",
+          "confidence": 0.9118150472640991,
+          "speaker": null
+        },
+        {
+          "start": 207.48,
+          "end": 207.48,
+          "text": "can",
+          "confidence": 0.8977484107017517,
+          "speaker": null
+        },
+        {
+          "start": 207.48,
+          "end": 207.48,
+          "text": "do",
+          "confidence": 0.8844401836395264,
+          "speaker": null
+        },
+        {
+          "start": 207.48,
+          "end": 207.48,
+          "text": "it,",
+          "confidence": 0.9846290349960327,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 208.88,
+      "end": 211.12,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5548146106302738,
+      "words": [
+        {
+          "start": 208.88,
+          "end": 210.28,
+          "text": "Thank",
+          "confidence": 0.11179638653993607,
+          "speaker": null
+        },
+        {
+          "start": 210.28,
+          "end": 211.12,
+          "text": "you.",
+          "confidence": 0.9978328347206116,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 199.78,
+        "speaker": null,
+        "text": "do it, but I'm not sure if I can do it, but I'm not sure if I can do it,"
+      }
+    ]
+  }
+}

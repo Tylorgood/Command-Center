@@ -1,0 +1,1672 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-19_1322-1332",
+    "created_at": "2026-03-19T20:29:04.035955-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 12.559999999999988,
+      "end": 18.02,
+      "speaker": null,
+      "text": "This video is a derivative work of the Touhou Project. It is based on the Touhou Project.",
+      "confidence": 0.5200091404973397,
+      "words": [
+        {
+          "start": 12.559999999999988,
+          "end": 12.599999999999994,
+          "text": "This",
+          "confidence": 0.020338008180260658,
+          "speaker": null
+        },
+        {
+          "start": 12.599999999999994,
+          "end": 12.64,
+          "text": "video",
+          "confidence": 0.3656061589717865,
+          "speaker": null
+        },
+        {
+          "start": 12.64,
+          "end": 12.64,
+          "text": "is",
+          "confidence": 0.3894004821777344,
+          "speaker": null
+        },
+        {
+          "start": 12.64,
+          "end": 12.64,
+          "text": "a",
+          "confidence": 0.24526843428611755,
+          "speaker": null
+        },
+        {
+          "start": 12.64,
+          "end": 12.64,
+          "text": "derivative",
+          "confidence": 0.13510610163211823,
+          "speaker": null
+        },
+        {
+          "start": 12.64,
+          "end": 12.64,
+          "text": "work",
+          "confidence": 0.9573109149932861,
+          "speaker": null
+        },
+        {
+          "start": 12.64,
+          "end": 12.64,
+          "text": "of",
+          "confidence": 0.847220242023468,
+          "speaker": null
+        },
+        {
+          "start": 12.64,
+          "end": 12.64,
+          "text": "the",
+          "confidence": 0.5174804329872131,
+          "speaker": null
+        },
+        {
+          "start": 12.64,
+          "end": 12.64,
+          "text": "Touhou",
+          "confidence": 0.5684149414300919,
+          "speaker": null
+        },
+        {
+          "start": 12.64,
+          "end": 16.54,
+          "text": "Project.",
+          "confidence": 0.9320465326309204,
+          "speaker": null
+        },
+        {
+          "start": 16.56,
+          "end": 16.58,
+          "text": "It",
+          "confidence": 0.20172913372516632,
+          "speaker": null
+        },
+        {
+          "start": 16.58,
+          "end": 16.72,
+          "text": "is",
+          "confidence": 0.387099027633667,
+          "speaker": null
+        },
+        {
+          "start": 16.72,
+          "end": 16.9,
+          "text": "based",
+          "confidence": 0.13594430685043335,
+          "speaker": null
+        },
+        {
+          "start": 16.9,
+          "end": 16.9,
+          "text": "on",
+          "confidence": 0.9701850414276123,
+          "speaker": null
+        },
+        {
+          "start": 16.9,
+          "end": 16.9,
+          "text": "the",
+          "confidence": 0.534587025642395,
+          "speaker": null
+        },
+        {
+          "start": 16.9,
+          "end": 17.06,
+          "text": "Touhou",
+          "confidence": 0.718305379152298,
+          "speaker": null
+        },
+        {
+          "start": 17.06,
+          "end": 18.02,
+          "text": "Project.",
+          "confidence": 0.847543478012085,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 18.04,
+      "end": 19.22,
+      "speaker": null,
+      "text": "This video is a derivative work of the Touhou Project. This video is a derivative work of the Touhou Project.",
+      "confidence": 0.7500215221196413,
+      "words": [
+        {
+          "start": 18.04,
+          "end": 18.06,
+          "text": "This",
+          "confidence": 0.07317420095205307,
+          "speaker": null
+        },
+        {
+          "start": 18.06,
+          "end": 18.08,
+          "text": "video",
+          "confidence": 0.18239499628543854,
+          "speaker": null
+        },
+        {
+          "start": 18.08,
+          "end": 18.1,
+          "text": "is",
+          "confidence": 0.5041942000389099,
+          "speaker": null
+        },
+        {
+          "start": 18.1,
+          "end": 18.12,
+          "text": "a",
+          "confidence": 0.16350288689136505,
+          "speaker": null
+        },
+        {
+          "start": 18.12,
+          "end": 18.14,
+          "text": "derivative",
+          "confidence": 0.6268079280853271,
+          "speaker": null
+        },
+        {
+          "start": 18.14,
+          "end": 18.16,
+          "text": "work",
+          "confidence": 0.9921546578407288,
+          "speaker": null
+        },
+        {
+          "start": 18.16,
+          "end": 18.18,
+          "text": "of",
+          "confidence": 0.9702115058898926,
+          "speaker": null
+        },
+        {
+          "start": 18.18,
+          "end": 18.2,
+          "text": "the",
+          "confidence": 0.9312750697135925,
+          "speaker": null
+        },
+        {
+          "start": 18.2,
+          "end": 18.24,
+          "text": "Touhou",
+          "confidence": 0.9896252751350403,
+          "speaker": null
+        },
+        {
+          "start": 18.24,
+          "end": 18.26,
+          "text": "Project.",
+          "confidence": 0.9980531930923462,
+          "speaker": null
+        },
+        {
+          "start": 18.32,
+          "end": 18.36,
+          "text": "This",
+          "confidence": 0.24036546051502228,
+          "speaker": null
+        },
+        {
+          "start": 18.36,
+          "end": 18.38,
+          "text": "video",
+          "confidence": 0.6248916983604431,
+          "speaker": null
+        },
+        {
+          "start": 18.38,
+          "end": 18.4,
+          "text": "is",
+          "confidence": 0.9532608985900879,
+          "speaker": null
+        },
+        {
+          "start": 18.4,
+          "end": 18.42,
+          "text": "a",
+          "confidence": 0.7648717164993286,
+          "speaker": null
+        },
+        {
+          "start": 18.42,
+          "end": 18.42,
+          "text": "derivative",
+          "confidence": 0.9956235289573669,
+          "speaker": null
+        },
+        {
+          "start": 18.42,
+          "end": 18.44,
+          "text": "work",
+          "confidence": 0.9999096393585205,
+          "speaker": null
+        },
+        {
+          "start": 18.44,
+          "end": 18.46,
+          "text": "of",
+          "confidence": 0.998803973197937,
+          "speaker": null
+        },
+        {
+          "start": 18.46,
+          "end": 18.6,
+          "text": "the",
+          "confidence": 0.9978668093681335,
+          "speaker": null
+        },
+        {
+          "start": 18.6,
+          "end": 19.2,
+          "text": "Touhou",
+          "confidence": 0.9941935241222382,
+          "speaker": null
+        },
+        {
+          "start": 19.2,
+          "end": 19.22,
+          "text": "Project.",
+          "confidence": 0.999249279499054,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 21.17999999999999,
+      "end": 25.0,
+      "speaker": null,
+      "text": "This video is a derivative work of the Touhou Project.",
+      "confidence": 0.9288446456193924,
+      "words": [
+        {
+          "start": 21.17999999999999,
+          "end": 21.219999999999995,
+          "text": "This",
+          "confidence": 0.5774743556976318,
+          "speaker": null
+        },
+        {
+          "start": 21.219999999999995,
+          "end": 21.26,
+          "text": "video",
+          "confidence": 0.835435688495636,
+          "speaker": null
+        },
+        {
+          "start": 21.26,
+          "end": 21.26,
+          "text": "is",
+          "confidence": 0.9672009348869324,
+          "speaker": null
+        },
+        {
+          "start": 21.26,
+          "end": 21.26,
+          "text": "a",
+          "confidence": 0.918407142162323,
+          "speaker": null
+        },
+        {
+          "start": 21.26,
+          "end": 21.32,
+          "text": "derivative",
+          "confidence": 0.9974653720855713,
+          "speaker": null
+        },
+        {
+          "start": 21.32,
+          "end": 21.32,
+          "text": "work",
+          "confidence": 0.9999446868896484,
+          "speaker": null
+        },
+        {
+          "start": 21.32,
+          "end": 21.32,
+          "text": "of",
+          "confidence": 0.999327540397644,
+          "speaker": null
+        },
+        {
+          "start": 21.32,
+          "end": 21.32,
+          "text": "the",
+          "confidence": 0.9992510676383972,
+          "speaker": null
+        },
+        {
+          "start": 21.32,
+          "end": 22.94,
+          "text": "Touhou",
+          "confidence": 0.9948118627071381,
+          "speaker": null
+        },
+        {
+          "start": 22.94,
+          "end": 25.0,
+          "text": "Project.",
+          "confidence": 0.9991278052330017,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 32.5,
+      "end": 35.22,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5990493297576904,
+      "words": [
+        {
+          "start": 32.5,
+          "end": 33.9,
+          "text": "Thank",
+          "confidence": 0.1997411847114563,
+          "speaker": null
+        },
+        {
+          "start": 33.9,
+          "end": 35.22,
+          "text": "you.",
+          "confidence": 0.9983574748039246,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 70.06,
+      "end": 71.2,
+      "speaker": null,
+      "text": "This video is a derivative work of the Touhou Project. This video is a derivative work of the Touhou Project.",
+      "confidence": 0.5475171967409551,
+      "words": [
+        {
+          "start": 70.06,
+          "end": 70.56,
+          "text": "This",
+          "confidence": 0.005553100258111954,
+          "speaker": null
+        },
+        {
+          "start": 70.56,
+          "end": 71.06,
+          "text": "video",
+          "confidence": 0.03538411483168602,
+          "speaker": null
+        },
+        {
+          "start": 71.06,
+          "end": 71.06,
+          "text": "is",
+          "confidence": 0.35445210337638855,
+          "speaker": null
+        },
+        {
+          "start": 71.06,
+          "end": 71.06,
+          "text": "a",
+          "confidence": 0.18072377145290375,
+          "speaker": null
+        },
+        {
+          "start": 71.06,
+          "end": 71.06,
+          "text": "derivative",
+          "confidence": 0.05674397945404053,
+          "speaker": null
+        },
+        {
+          "start": 71.06,
+          "end": 71.06,
+          "text": "work",
+          "confidence": 0.9236274361610413,
+          "speaker": null
+        },
+        {
+          "start": 71.06,
+          "end": 71.06,
+          "text": "of",
+          "confidence": 0.8801310062408447,
+          "speaker": null
+        },
+        {
+          "start": 71.06,
+          "end": 71.06,
+          "text": "the",
+          "confidence": 0.5334228277206421,
+          "speaker": null
+        },
+        {
+          "start": 71.06,
+          "end": 71.06,
+          "text": "Touhou",
+          "confidence": 0.5228861570358276,
+          "speaker": null
+        },
+        {
+          "start": 71.06,
+          "end": 71.2,
+          "text": "Project.",
+          "confidence": 0.9477225542068481,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "This",
+          "confidence": 0.030377624556422234,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "video",
+          "confidence": 0.14115282893180847,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "is",
+          "confidence": 0.5122146010398865,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "a",
+          "confidence": 0.23472516238689423,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "derivative",
+          "confidence": 0.6339275240898132,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "work",
+          "confidence": 0.9995675683021545,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "of",
+          "confidence": 0.9978901743888855,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "the",
+          "confidence": 0.9723720550537109,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "Touhou",
+          "confidence": 0.9900840222835541,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "Project.",
+          "confidence": 0.9973853230476379,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 71.2,
+      "end": 71.58,
+      "speaker": null,
+      "text": "This video is a derivative work of the Touhou Project. This video is a derivative work of the Touhou Project.",
+      "confidence": 0.9848647177219391,
+      "words": [
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "This",
+          "confidence": 0.870259165763855,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "video",
+          "confidence": 0.9643744230270386,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "is",
+          "confidence": 0.9892409443855286,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "a",
+          "confidence": 0.9906235337257385,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "derivative",
+          "confidence": 0.9987566471099854,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "work",
+          "confidence": 0.9999469518661499,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "of",
+          "confidence": 0.9997672438621521,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "the",
+          "confidence": 0.9995279312133789,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "Touhou",
+          "confidence": 0.9954106211662292,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "Project.",
+          "confidence": 0.9988778233528137,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "This",
+          "confidence": 0.9227219223976135,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "video",
+          "confidence": 0.9865699410438538,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "is",
+          "confidence": 0.9948701858520508,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "a",
+          "confidence": 0.9943957328796387,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "derivative",
+          "confidence": 0.9987961053848267,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.2,
+          "text": "work",
+          "confidence": 0.9999397993087769,
+          "speaker": null
+        },
+        {
+          "start": 71.2,
+          "end": 71.42,
+          "text": "of",
+          "confidence": 0.9997939467430115,
+          "speaker": null
+        },
+        {
+          "start": 71.42,
+          "end": 71.42,
+          "text": "the",
+          "confidence": 0.9996265172958374,
+          "speaker": null
+        },
+        {
+          "start": 71.42,
+          "end": 71.42,
+          "text": "Touhou",
+          "confidence": 0.9952127933502197,
+          "speaker": null
+        },
+        {
+          "start": 71.42,
+          "end": 71.58,
+          "text": "Project.",
+          "confidence": 0.998582124710083,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 71.98,
+      "end": 73.53999999999999,
+      "speaker": null,
+      "text": "This video is a derivative work of the Touhou Project.",
+      "confidence": 0.9925055533647538,
+      "words": [
+        {
+          "start": 71.98,
+          "end": 72.48,
+          "text": "This",
+          "confidence": 0.94597327709198,
+          "speaker": null
+        },
+        {
+          "start": 72.48,
+          "end": 72.84,
+          "text": "video",
+          "confidence": 0.9942514896392822,
+          "speaker": null
+        },
+        {
+          "start": 72.84,
+          "end": 73.02,
+          "text": "is",
+          "confidence": 0.9972564578056335,
+          "speaker": null
+        },
+        {
+          "start": 73.02,
+          "end": 73.48,
+          "text": "a",
+          "confidence": 0.9961588382720947,
+          "speaker": null
+        },
+        {
+          "start": 73.48,
+          "end": 73.5,
+          "text": "derivative",
+          "confidence": 0.9987941980361938,
+          "speaker": null
+        },
+        {
+          "start": 73.5,
+          "end": 73.53999999999999,
+          "text": "work",
+          "confidence": 0.9999384880065918,
+          "speaker": null
+        },
+        {
+          "start": 73.53999999999999,
+          "end": 73.53999999999999,
+          "text": "of",
+          "confidence": 0.9998154044151306,
+          "speaker": null
+        },
+        {
+          "start": 73.53999999999999,
+          "end": 73.53999999999999,
+          "text": "the",
+          "confidence": 0.9997016787528992,
+          "speaker": null
+        },
+        {
+          "start": 73.53999999999999,
+          "end": 73.53999999999999,
+          "text": "Touhou",
+          "confidence": 0.9948710501194,
+          "speaker": null
+        },
+        {
+          "start": 73.53999999999999,
+          "end": 73.53999999999999,
+          "text": "Project.",
+          "confidence": 0.9982946515083313,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 76.84,
+      "end": 80.0,
+      "speaker": null,
+      "text": "This video is a derivative work of the Touhou Project.",
+      "confidence": 0.9939933151006699,
+      "words": [
+        {
+          "start": 76.84,
+          "end": 77.34,
+          "text": "This",
+          "confidence": 0.9569106698036194,
+          "speaker": null
+        },
+        {
+          "start": 77.34,
+          "end": 77.84,
+          "text": "video",
+          "confidence": 0.9969596862792969,
+          "speaker": null
+        },
+        {
+          "start": 77.84,
+          "end": 77.96000000000001,
+          "text": "is",
+          "confidence": 0.9983172416687012,
+          "speaker": null
+        },
+        {
+          "start": 77.96000000000001,
+          "end": 78.22,
+          "text": "a",
+          "confidence": 0.9969671368598938,
+          "speaker": null
+        },
+        {
+          "start": 78.22,
+          "end": 78.22,
+          "text": "derivative",
+          "confidence": 0.9987345337867737,
+          "speaker": null
+        },
+        {
+          "start": 78.22,
+          "end": 78.24,
+          "text": "work",
+          "confidence": 0.9999357461929321,
+          "speaker": null
+        },
+        {
+          "start": 78.24,
+          "end": 78.96000000000001,
+          "text": "of",
+          "confidence": 0.9998337030410767,
+          "speaker": null
+        },
+        {
+          "start": 78.96000000000001,
+          "end": 79.0,
+          "text": "the",
+          "confidence": 0.999747097492218,
+          "speaker": null
+        },
+        {
+          "start": 79.0,
+          "end": 79.18,
+          "text": "Touhou",
+          "confidence": 0.994488388299942,
+          "speaker": null
+        },
+        {
+          "start": 79.18,
+          "end": 80.0,
+          "text": "Project.",
+          "confidence": 0.9980389475822449,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 90.1,
+      "end": 92.9,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5808384940028191,
+      "words": [
+        {
+          "start": 90.1,
+          "end": 91.5,
+          "text": "Thank",
+          "confidence": 0.16341619193553925,
+          "speaker": null
+        },
+        {
+          "start": 91.5,
+          "end": 92.9,
+          "text": "you.",
+          "confidence": 0.9982607960700989,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 127.06,
+      "end": 128.04,
+      "speaker": null,
+      "text": "This video is a derivative work of the Touhou Project. This video is a derivative work of the Touhou Project.",
+      "confidence": 0.5493523357668891,
+      "words": [
+        {
+          "start": 127.06,
+          "end": 127.54,
+          "text": "This",
+          "confidence": 0.00481547461822629,
+          "speaker": null
+        },
+        {
+          "start": 127.54,
+          "end": 128.02,
+          "text": "video",
+          "confidence": 0.028250856325030327,
+          "speaker": null
+        },
+        {
+          "start": 128.02,
+          "end": 128.04,
+          "text": "is",
+          "confidence": 0.3581763207912445,
+          "speaker": null
+        },
+        {
+          "start": 128.04,
+          "end": 128.04,
+          "text": "a",
+          "confidence": 0.19653677940368652,
+          "speaker": null
+        },
+        {
+          "start": 128.04,
+          "end": 128.04,
+          "text": "derivative",
+          "confidence": 0.054528143256902695,
+          "speaker": null
+        },
+        {
+          "start": 128.04,
+          "end": 128.04,
+          "text": "work",
+          "confidence": 0.92057865858078,
+          "speaker": null
+        },
+        {
+          "start": 128.04,
+          "end": 128.04,
+          "text": "of",
+          "confidence": 0.88768470287323,
+          "speaker": null
+        },
+        {
+          "start": 128.04,
+          "end": 128.04,
+          "text": "the",
+          "confidence": 0.5508416891098022,
+          "speaker": null
+        },
+        {
+          "start": 128.04,
+          "end": 128.04,
+          "text": "Touhou",
+          "confidence": 0.5250864550471306,
+          "speaker": null
+        },
+        {
+          "start": 128.04,
+          "end": 128.04,
+          "text": "Project.",
+          "confidence": 0.9487248659133911,
+          "speaker": null
+        },
+        {
+          "start": 128.04,
+          "end": 128.04,
+          "text": "This",
+          "confidence": 0.0273407194763422,
+          "speaker": null
+        },
+        {
+          "start": 128.04,
+          "end": 128.04,
+          "text": "video",
+          "confidence": 0.13826967775821686,
+          "speaker": null
+        },
+        {
+          "start": 128.04,
+          "end": 128.04,
+          "text": "is",
+          "confidence": 0.5186976194381714,
+          "speaker": null
+        },
+        {
+          "start": 128.04,
+          "end": 128.04,
+          "text": "a",
+          "confidence": 0.23432855308055878,
+          "speaker": null
+        },
+        {
+          "start": 128.04,
+          "end": 128.04,
+          "text": "derivative",
+          "confidence": 0.633384644985199,
+          "speaker": null
+        },
+        {
+          "start": 128.04,
+          "end": 128.04,
+          "text": "work",
+          "confidence": 0.9995920062065125,
+          "speaker": null
+        },
+        {
+          "start": 128.04,
+          "end": 128.04,
+          "text": "of",
+          "confidence": 0.997901439666748,
+          "speaker": null
+        },
+        {
+          "start": 128.04,
+          "end": 128.04,
+          "text": "the",
+          "confidence": 0.9747747182846069,
+          "speaker": null
+        },
+        {
+          "start": 128.04,
+          "end": 128.04,
+          "text": "Touhou",
+          "confidence": 0.9900767803192139,
+          "speaker": null
+        },
+        {
+          "start": 128.04,
+          "end": 128.04,
+          "text": "Project.",
+          "confidence": 0.9974566102027893,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 128.04,
+      "end": 128.56,
+      "speaker": null,
+      "text": "This video is a derivative work of the Touhou Project. This video is a derivative work of the Touhou Project.",
+      "confidence": 0.9855598077178002,
+      "words": [
+        {
+          "start": 128.04,
+          "end": 128.04,
+          "text": "This",
+          "confidence": 0.8789351582527161,
+          "speaker": null
+        },
+        {
+          "start": 128.04,
+          "end": 128.04,
+          "text": "video",
+          "confidence": 0.9644624590873718,
+          "speaker": null
+        },
+        {
+          "start": 128.04,
+          "end": 128.07999999999998,
+          "text": "is",
+          "confidence": 0.9893067479133606,
+          "speaker": null
+        },
+        {
+          "start": 128.07999999999998,
+          "end": 128.07999999999998,
+          "text": "a",
+          "confidence": 0.9911201596260071,
+          "speaker": null
+        },
+        {
+          "start": 128.07999999999998,
+          "end": 128.07999999999998,
+          "text": "derivative",
+          "confidence": 0.9987930059432983,
+          "speaker": null
+        },
+        {
+          "start": 128.07999999999998,
+          "end": 128.07999999999998,
+          "text": "work",
+          "confidence": 0.9999464750289917,
+          "speaker": null
+        },
+        {
+          "start": 128.07999999999998,
+          "end": 128.07999999999998,
+          "text": "of",
+          "confidence": 0.9997664093971252,
+          "speaker": null
+        },
+        {
+          "start": 128.07999999999998,
+          "end": 128.07999999999998,
+          "text": "the",
+          "confidence": 0.9995143413543701,
+          "speaker": null
+        },
+        {
+          "start": 128.07999999999998,
+          "end": 128.07999999999998,
+          "text": "Touhou",
+          "confidence": 0.9955373108386993,
+          "speaker": null
+        },
+        {
+          "start": 128.07999999999998,
+          "end": 128.07999999999998,
+          "text": "Project.",
+          "confidence": 0.9989078044891357,
+          "speaker": null
+        },
+        {
+          "start": 128.07999999999998,
+          "end": 128.07999999999998,
+          "text": "This",
+          "confidence": 0.9264015555381775,
+          "speaker": null
+        },
+        {
+          "start": 128.07999999999998,
+          "end": 128.07999999999998,
+          "text": "video",
+          "confidence": 0.9866896867752075,
+          "speaker": null
+        },
+        {
+          "start": 128.07999999999998,
+          "end": 128.14,
+          "text": "is",
+          "confidence": 0.9949253797531128,
+          "speaker": null
+        },
+        {
+          "start": 128.14,
+          "end": 128.32,
+          "text": "a",
+          "confidence": 0.9947082996368408,
+          "speaker": null
+        },
+        {
+          "start": 128.32,
+          "end": 128.32,
+          "text": "derivative",
+          "confidence": 0.9988413453102112,
+          "speaker": null
+        },
+        {
+          "start": 128.32,
+          "end": 128.46,
+          "text": "work",
+          "confidence": 0.9999390840530396,
+          "speaker": null
+        },
+        {
+          "start": 128.46,
+          "end": 128.56,
+          "text": "of",
+          "confidence": 0.9997946619987488,
+          "speaker": null
+        },
+        {
+          "start": 128.56,
+          "end": 128.56,
+          "text": "the",
+          "confidence": 0.9996129870414734,
+          "speaker": null
+        },
+        {
+          "start": 128.56,
+          "end": 128.56,
+          "text": "Touhou",
+          "confidence": 0.9953805208206177,
+          "speaker": null
+        },
+        {
+          "start": 128.56,
+          "end": 128.56,
+          "text": "Project.",
+          "confidence": 0.9986127614974976,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 129.7,
+      "end": 131.0,
+      "speaker": null,
+      "text": "This video is a derivative work of the Touhou Project.",
+      "confidence": 0.992725881934166,
+      "words": [
+        {
+          "start": 129.7,
+          "end": 130.18,
+          "text": "This",
+          "confidence": 0.9476435780525208,
+          "speaker": null
+        },
+        {
+          "start": 130.18,
+          "end": 130.42000000000002,
+          "text": "video",
+          "confidence": 0.9942951798439026,
+          "speaker": null
+        },
+        {
+          "start": 130.42000000000002,
+          "end": 130.42000000000002,
+          "text": "is",
+          "confidence": 0.9972800016403198,
+          "speaker": null
+        },
+        {
+          "start": 130.42000000000002,
+          "end": 130.42000000000002,
+          "text": "a",
+          "confidence": 0.9963558912277222,
+          "speaker": null
+        },
+        {
+          "start": 130.42000000000002,
+          "end": 130.42000000000002,
+          "text": "derivative",
+          "confidence": 0.9988390803337097,
+          "speaker": null
+        },
+        {
+          "start": 130.42000000000002,
+          "end": 130.82,
+          "text": "work",
+          "confidence": 0.9999376535415649,
+          "speaker": null
+        },
+        {
+          "start": 130.82,
+          "end": 131.0,
+          "text": "of",
+          "confidence": 0.9998156428337097,
+          "speaker": null
+        },
+        {
+          "start": 131.0,
+          "end": 131.0,
+          "text": "the",
+          "confidence": 0.9996894598007202,
+          "speaker": null
+        },
+        {
+          "start": 131.0,
+          "end": 131.0,
+          "text": "Touhou",
+          "confidence": 0.9950723946094513,
+          "speaker": null
+        },
+        {
+          "start": 131.0,
+          "end": 131.0,
+          "text": "Project.",
+          "confidence": 0.9983299374580383,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 133.16,
+      "end": 138.0,
+      "speaker": null,
+      "text": "This video is a derivative work of the Touhou Project.",
+      "confidence": 0.9941093474626541,
+      "words": [
+        {
+          "start": 133.16,
+          "end": 133.64,
+          "text": "This",
+          "confidence": 0.9576520919799805,
+          "speaker": null
+        },
+        {
+          "start": 133.64,
+          "end": 133.88,
+          "text": "video",
+          "confidence": 0.9969527721405029,
+          "speaker": null
+        },
+        {
+          "start": 133.88,
+          "end": 133.88,
+          "text": "is",
+          "confidence": 0.9983141422271729,
+          "speaker": null
+        },
+        {
+          "start": 133.88,
+          "end": 133.88,
+          "text": "a",
+          "confidence": 0.9970927238464355,
+          "speaker": null
+        },
+        {
+          "start": 133.88,
+          "end": 133.88,
+          "text": "derivative",
+          "confidence": 0.9987757802009583,
+          "speaker": null
+        },
+        {
+          "start": 133.88,
+          "end": 133.88,
+          "text": "work",
+          "confidence": 0.9999340772628784,
+          "speaker": null
+        },
+        {
+          "start": 133.88,
+          "end": 133.88,
+          "text": "of",
+          "confidence": 0.9998332262039185,
+          "speaker": null
+        },
+        {
+          "start": 133.88,
+          "end": 133.88,
+          "text": "the",
+          "confidence": 0.9997345805168152,
+          "speaker": null
+        },
+        {
+          "start": 133.88,
+          "end": 133.88,
+          "text": "Touhou",
+          "confidence": 0.9947246611118317,
+          "speaker": null
+        },
+        {
+          "start": 133.88,
+          "end": 138.0,
+          "text": "Project.",
+          "confidence": 0.9980794191360474,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 148.18,
+      "end": 150.98,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5306343734264374,
+      "words": [
+        {
+          "start": 148.18,
+          "end": 149.57999999999998,
+          "text": "Thank",
+          "confidence": 0.06639999151229858,
+          "speaker": null
+        },
+        {
+          "start": 149.57999999999998,
+          "end": 150.98,
+          "text": "you.",
+          "confidence": 0.9948687553405762,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 217.82,
+      "end": 218.84,
+      "speaker": null,
+      "text": "Thank you very much.",
+      "confidence": 0.527477843221277,
+      "words": [
+        {
+          "start": 217.82,
+          "end": 218.76,
+          "text": "Thank",
+          "confidence": 0.01025012694299221,
+          "speaker": null
+        },
+        {
+          "start": 218.76,
+          "end": 218.84,
+          "text": "you",
+          "confidence": 0.9626358151435852,
+          "speaker": null
+        },
+        {
+          "start": 218.84,
+          "end": 218.84,
+          "text": "very",
+          "confidence": 0.14188911020755768,
+          "speaker": null
+        },
+        {
+          "start": 218.84,
+          "end": 218.84,
+          "text": "much.",
+          "confidence": 0.9951363205909729,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 244.6,
+      "end": 248.48,
+      "speaker": null,
+      "text": "Thank you very much.",
+      "confidence": 0.5285986339440569,
+      "words": [
+        {
+          "start": 244.6,
+          "end": 246.0,
+          "text": "Thank",
+          "confidence": 0.002719526644796133,
+          "speaker": null
+        },
+        {
+          "start": 246.0,
+          "end": 246.0,
+          "text": "you",
+          "confidence": 0.9484975337982178,
+          "speaker": null
+        },
+        {
+          "start": 246.0,
+          "end": 248.46,
+          "text": "very",
+          "confidence": 0.16909228265285492,
+          "speaker": null
+        },
+        {
+          "start": 248.46,
+          "end": 248.48,
+          "text": "much.",
+          "confidence": 0.9940851926803589,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 274.62,
+      "end": 274.68,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.48877818090841174,
+      "words": [
+        {
+          "start": 274.62,
+          "end": 274.65999999999997,
+          "text": "Thank",
+          "confidence": 0.015253438614308834,
+          "speaker": null
+        },
+        {
+          "start": 274.65999999999997,
+          "end": 274.68,
+          "text": "you.",
+          "confidence": 0.9623029232025146,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 382.6,
+      "end": 384.64,
+      "speaker": null,
+      "text": "Thank you very much.",
+      "confidence": 0.5282477305736393,
+      "words": [
+        {
+          "start": 382.6,
+          "end": 384.58,
+          "text": "Thank",
+          "confidence": 0.00966965314000845,
+          "speaker": null
+        },
+        {
+          "start": 384.58,
+          "end": 384.58,
+          "text": "you",
+          "confidence": 0.9591392874717712,
+          "speaker": null
+        },
+        {
+          "start": 384.58,
+          "end": 384.64,
+          "text": "very",
+          "confidence": 0.149222269654274,
+          "speaker": null
+        },
+        {
+          "start": 384.64,
+          "end": 384.64,
+          "text": "much.",
+          "confidence": 0.9949597120285034,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 413.58,
+      "end": 414.98,
+      "speaker": null,
+      "text": "Thank you very much.",
+      "confidence": 0.5275943191372789,
+      "words": [
+        {
+          "start": 413.58,
+          "end": 414.98,
+          "text": "Thank",
+          "confidence": 0.0016679263208061457,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "you",
+          "confidence": 0.9421623945236206,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "very",
+          "confidence": 0.17176134884357452,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "much.",
+          "confidence": 0.9947856068611145,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 436.58,
+      "end": 439.78,
+      "speaker": null,
+      "text": "Thank you so much for watching!",
+      "confidence": 0.5354588890137771,
+      "words": [
+        {
+          "start": 436.58,
+          "end": 437.98,
+          "text": "Thank",
+          "confidence": 0.006843172945082188,
+          "speaker": null
+        },
+        {
+          "start": 437.98,
+          "end": 437.98,
+          "text": "you",
+          "confidence": 0.9355646967887878,
+          "speaker": null
+        },
+        {
+          "start": 437.98,
+          "end": 439.78,
+          "text": "so",
+          "confidence": 0.05065266788005829,
+          "speaker": null
+        },
+        {
+          "start": 439.78,
+          "end": 439.78,
+          "text": "much",
+          "confidence": 0.9961060881614685,
+          "speaker": null
+        },
+        {
+          "start": 439.78,
+          "end": 439.78,
+          "text": "for",
+          "confidence": 0.4991103708744049,
+          "speaker": null
+        },
+        {
+          "start": 439.78,
+          "end": 439.78,
+          "text": "watching!",
+          "confidence": 0.7244763374328613,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 468.58,
+      "end": 469.98,
+      "speaker": null,
+      "text": "Thank you very much, thank you very much.",
+      "confidence": 0.5363830015412532,
+      "words": [
+        {
+          "start": 468.58,
+          "end": 469.98,
+          "text": "Thank",
+          "confidence": 0.0039794775657355785,
+          "speaker": null
+        },
+        {
+          "start": 469.98,
+          "end": 469.98,
+          "text": "you",
+          "confidence": 0.9562103748321533,
+          "speaker": null
+        },
+        {
+          "start": 469.98,
+          "end": 469.98,
+          "text": "very",
+          "confidence": 0.13220566511154175,
+          "speaker": null
+        },
+        {
+          "start": 469.98,
+          "end": 469.98,
+          "text": "much,",
+          "confidence": 0.9949806332588196,
+          "speaker": null
+        },
+        {
+          "start": 469.98,
+          "end": 469.98,
+          "text": "thank",
+          "confidence": 0.05406671762466431,
+          "speaker": null
+        },
+        {
+          "start": 469.98,
+          "end": 469.98,
+          "text": "you",
+          "confidence": 0.993198812007904,
+          "speaker": null
+        },
+        {
+          "start": 469.98,
+          "end": 469.98,
+          "text": "very",
+          "confidence": 0.16736485064029694,
+          "speaker": null
+        },
+        {
+          "start": 469.98,
+          "end": 469.98,
+          "text": "much.",
+          "confidence": 0.9890574812889099,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 12.559999999999988,
+        "speaker": null,
+        "text": "This video is a derivative work of the Touhou Project. It is based on the Touhou Project."
+      },
+      {
+        "timestamp": 18.04,
+        "speaker": null,
+        "text": "This video is a derivative work of the Touhou Project. This video is a derivative work of the Touhou Project."
+      },
+      {
+        "timestamp": 21.17999999999999,
+        "speaker": null,
+        "text": "This video is a derivative work of the Touhou Project."
+      },
+      {
+        "timestamp": 70.06,
+        "speaker": null,
+        "text": "This video is a derivative work of the Touhou Project. This video is a derivative work of the Touhou Project."
+      },
+      {
+        "timestamp": 71.2,
+        "speaker": null,
+        "text": "This video is a derivative work of the Touhou Project. This video is a derivative work of the Touhou Project."
+      }
+    ]
+  }
+}

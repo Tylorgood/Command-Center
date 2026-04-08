@@ -1,0 +1,250 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-19_1513-1523",
+    "created_at": "2026-03-19T22:30:09.570258-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 49.94,
+      "end": 51.94,
+      "speaker": null,
+      "text": "I don't know.",
+      "confidence": 0.4947289240856965,
+      "words": [
+        {
+          "start": 49.94,
+          "end": 51.18,
+          "text": "I",
+          "confidence": 0.021111439913511276,
+          "speaker": null
+        },
+        {
+          "start": 51.18,
+          "end": 51.8,
+          "text": "don't",
+          "confidence": 0.592225544154644,
+          "speaker": null
+        },
+        {
+          "start": 51.8,
+          "end": 51.94,
+          "text": "know.",
+          "confidence": 0.8708497881889343,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 83.68,
+      "end": 86.48,
+      "speaker": null,
+      "text": "I don't know.",
+      "confidence": 0.4972375159462293,
+      "words": [
+        {
+          "start": 83.68,
+          "end": 85.08,
+          "text": "I",
+          "confidence": 0.035501427948474884,
+          "speaker": null
+        },
+        {
+          "start": 85.08,
+          "end": 86.48,
+          "text": "don't",
+          "confidence": 0.5887961685657501,
+          "speaker": null
+        },
+        {
+          "start": 86.48,
+          "end": 86.48,
+          "text": "know.",
+          "confidence": 0.8674149513244629,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 108.32000000000001,
+      "end": 111.32,
+      "speaker": null,
+      "text": "I don't know.",
+      "confidence": 0.5020358885327975,
+      "words": [
+        {
+          "start": 108.32000000000001,
+          "end": 109.72,
+          "text": "I",
+          "confidence": 0.03955975919961929,
+          "speaker": null
+        },
+        {
+          "start": 109.72,
+          "end": 111.12,
+          "text": "don't",
+          "confidence": 0.5879168510437012,
+          "speaker": null
+        },
+        {
+          "start": 111.12,
+          "end": 111.32,
+          "text": "know.",
+          "confidence": 0.878631055355072,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 362.76,
+      "end": 365.48,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.562485970556736,
+      "words": [
+        {
+          "start": 362.76,
+          "end": 364.16,
+          "text": "Thank",
+          "confidence": 0.13040633499622345,
+          "speaker": null
+        },
+        {
+          "start": 364.16,
+          "end": 365.48,
+          "text": "you.",
+          "confidence": 0.9945656061172485,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 476.24,
+      "end": 482.8,
+      "speaker": null,
+      "text": "don't know, I don't know, I don't know, I don't know,",
+      "confidence": 0.5900741217959545,
+      "words": [
+        {
+          "start": 476.24,
+          "end": 476.28,
+          "text": "don't",
+          "confidence": 0.48123807660886087,
+          "speaker": null
+        },
+        {
+          "start": 476.28,
+          "end": 476.32,
+          "text": "know,",
+          "confidence": 0.04553334042429924,
+          "speaker": null
+        },
+        {
+          "start": 482.52,
+          "end": 482.54,
+          "text": "I",
+          "confidence": 0.09207618981599808,
+          "speaker": null
+        },
+        {
+          "start": 482.54,
+          "end": 482.58,
+          "text": "don't",
+          "confidence": 0.5675190687179565,
+          "speaker": null
+        },
+        {
+          "start": 482.58,
+          "end": 482.6,
+          "text": "know,",
+          "confidence": 0.6275139451026917,
+          "speaker": null
+        },
+        {
+          "start": 482.62,
+          "end": 482.64,
+          "text": "I",
+          "confidence": 0.34898829460144043,
+          "speaker": null
+        },
+        {
+          "start": 482.64,
+          "end": 482.68,
+          "text": "don't",
+          "confidence": 0.7978578507900238,
+          "speaker": null
+        },
+        {
+          "start": 482.68,
+          "end": 482.7,
+          "text": "know,",
+          "confidence": 0.9024942517280579,
+          "speaker": null
+        },
+        {
+          "start": 482.72,
+          "end": 482.74,
+          "text": "I",
+          "confidence": 0.7257406115531921,
+          "speaker": null
+        },
+        {
+          "start": 482.74,
+          "end": 482.78,
+          "text": "don't",
+          "confidence": 0.9337323606014252,
+          "speaker": null
+        },
+        {
+          "start": 482.78,
+          "end": 482.8,
+          "text": "know,",
+          "confidence": 0.968121349811554,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 488.36,
+      "end": 490.48,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5357932969927788,
+      "words": [
+        {
+          "start": 488.36,
+          "end": 489.76,
+          "text": "Thank",
+          "confidence": 0.08183078467845917,
+          "speaker": null
+        },
+        {
+          "start": 489.76,
+          "end": 490.48,
+          "text": "you.",
+          "confidence": 0.9897558093070984,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 476.24,
+        "speaker": null,
+        "text": "don't know, I don't know, I don't know, I don't know,"
+      }
+    ]
+  }
+}

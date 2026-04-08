@@ -1,0 +1,612 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-31_0830-0840",
+    "created_at": "2026-03-31T20:33:08.438607-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 39.260000000000005,
+      "end": 42.06,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5514421798288822,
+      "words": [
+        {
+          "start": 39.260000000000005,
+          "end": 40.660000000000004,
+          "text": "Thank",
+          "confidence": 0.10766161233186722,
+          "speaker": null
+        },
+        {
+          "start": 40.660000000000004,
+          "end": 42.06,
+          "text": "you.",
+          "confidence": 0.9952227473258972,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 107.42,
+      "end": 109.28,
+      "speaker": null,
+      "text": "Let's go, let's go.",
+      "confidence": 0.573545403429307,
+      "words": [
+        {
+          "start": 107.42,
+          "end": 108.42,
+          "text": "Let's",
+          "confidence": 0.4814994470216334,
+          "speaker": null
+        },
+        {
+          "start": 108.42,
+          "end": 108.72,
+          "text": "go,",
+          "confidence": 0.25773191452026367,
+          "speaker": null
+        },
+        {
+          "start": 108.78,
+          "end": 109.28,
+          "text": "let's",
+          "confidence": 0.6074866205453873,
+          "speaker": null
+        },
+        {
+          "start": 109.28,
+          "end": 109.28,
+          "text": "go.",
+          "confidence": 0.9474636316299438,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 132.18,
+      "end": 134.98,
+      "speaker": null,
+      "text": "Let's go.",
+      "confidence": 0.474501283490099,
+      "words": [
+        {
+          "start": 132.18,
+          "end": 133.58,
+          "text": "Let's",
+          "confidence": 0.44901073281653225,
+          "speaker": null
+        },
+        {
+          "start": 133.58,
+          "end": 134.98,
+          "text": "go.",
+          "confidence": 0.49999183416366577,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 158.58,
+      "end": 159.98,
+      "speaker": null,
+      "text": "Let's go.",
+      "confidence": 0.3583923012338346,
+      "words": [
+        {
+          "start": 158.58,
+          "end": 159.98,
+          "text": "Let's",
+          "confidence": 0.4359521032019984,
+          "speaker": null
+        },
+        {
+          "start": 159.98,
+          "end": 159.98,
+          "text": "go.",
+          "confidence": 0.2808324992656708,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 165.9,
+      "end": 168.32,
+      "speaker": null,
+      "text": "Let's go.",
+      "confidence": 0.3844215500866994,
+      "words": [
+        {
+          "start": 165.9,
+          "end": 167.3,
+          "text": "Let's",
+          "confidence": 0.4034756876062602,
+          "speaker": null
+        },
+        {
+          "start": 167.3,
+          "end": 168.32,
+          "text": "go.",
+          "confidence": 0.36536741256713867,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 208.58,
+      "end": 209.98,
+      "speaker": null,
+      "text": "Let's go.",
+      "confidence": 0.3362640775012551,
+      "words": [
+        {
+          "start": 208.58,
+          "end": 209.98,
+          "text": "Let's",
+          "confidence": 0.43619158104411326,
+          "speaker": null
+        },
+        {
+          "start": 209.98,
+          "end": 209.98,
+          "text": "go.",
+          "confidence": 0.2363365739583969,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 215.38,
+      "end": 216.36,
+      "speaker": null,
+      "text": "Let's go, let's go.",
+      "confidence": 0.43768122294568457,
+      "words": [
+        {
+          "start": 215.38,
+          "end": 215.66,
+          "text": "Let's",
+          "confidence": 0.3693345884094015,
+          "speaker": null
+        },
+        {
+          "start": 215.66,
+          "end": 215.8,
+          "text": "go,",
+          "confidence": 0.10158087313175201,
+          "speaker": null
+        },
+        {
+          "start": 216.2,
+          "end": 216.34,
+          "text": "let's",
+          "confidence": 0.5780773311853409,
+          "speaker": null
+        },
+        {
+          "start": 216.34,
+          "end": 216.36,
+          "text": "go.",
+          "confidence": 0.7017320990562439,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 243.98,
+      "end": 246.62,
+      "speaker": null,
+      "text": "Let's go.",
+      "confidence": 0.36893425858579576,
+      "words": [
+        {
+          "start": 243.98,
+          "end": 245.38,
+          "text": "Let's",
+          "confidence": 0.4091213936917484,
+          "speaker": null
+        },
+        {
+          "start": 245.38,
+          "end": 246.62,
+          "text": "go.",
+          "confidence": 0.32874712347984314,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 281.0,
+      "end": 284.56,
+      "speaker": null,
+      "text": "Let's go, let's go.",
+      "confidence": 0.44222323466965463,
+      "words": [
+        {
+          "start": 281.0,
+          "end": 282.4,
+          "text": "Let's",
+          "confidence": 0.3736024074605666,
+          "speaker": null
+        },
+        {
+          "start": 282.4,
+          "end": 283.8,
+          "text": "go,",
+          "confidence": 0.1811765730381012,
+          "speaker": null
+        },
+        {
+          "start": 284.56,
+          "end": 284.56,
+          "text": "let's",
+          "confidence": 0.6157307103276253,
+          "speaker": null
+        },
+        {
+          "start": 284.56,
+          "end": 284.56,
+          "text": "go.",
+          "confidence": 0.5983832478523254,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 308.58,
+      "end": 309.98,
+      "speaker": null,
+      "text": "Let's go.",
+      "confidence": 0.33146596426377073,
+      "words": [
+        {
+          "start": 308.58,
+          "end": 309.98,
+          "text": "Let's",
+          "confidence": 0.4362331872107461,
+          "speaker": null
+        },
+        {
+          "start": 309.98,
+          "end": 309.98,
+          "text": "go.",
+          "confidence": 0.22669874131679535,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 333.58,
+      "end": 334.98,
+      "speaker": null,
+      "text": "Let's go.",
+      "confidence": 0.32689739995112177,
+      "words": [
+        {
+          "start": 333.58,
+          "end": 334.98,
+          "text": "Let's",
+          "confidence": 0.4345219777605962,
+          "speaker": null
+        },
+        {
+          "start": 334.98,
+          "end": 334.98,
+          "text": "go.",
+          "confidence": 0.21927282214164734,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 358.58,
+      "end": 359.98,
+      "speaker": null,
+      "text": "Let's go.",
+      "confidence": 0.33119641775556374,
+      "words": [
+        {
+          "start": 358.58,
+          "end": 359.98,
+          "text": "Let's",
+          "confidence": 0.43479553927318193,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "go.",
+          "confidence": 0.22759729623794556,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 369.38,
+      "end": 370.28,
+      "speaker": null,
+      "text": "Let's go.",
+      "confidence": 0.3590490985661745,
+      "words": [
+        {
+          "start": 369.38,
+          "end": 369.98,
+          "text": "Let's",
+          "confidence": 0.40973449125885963,
+          "speaker": null
+        },
+        {
+          "start": 369.98,
+          "end": 370.28,
+          "text": "go.",
+          "confidence": 0.3083637058734894,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 395.14,
+      "end": 396.64,
+      "speaker": null,
+      "text": "Let's go, let's go.",
+      "confidence": 0.5202973527484573,
+      "words": [
+        {
+          "start": 395.14,
+          "end": 396.14,
+          "text": "Let's",
+          "confidence": 0.40479009808041155,
+          "speaker": null
+        },
+        {
+          "start": 396.14,
+          "end": 396.14,
+          "text": "go,",
+          "confidence": 0.247931569814682,
+          "speaker": null
+        },
+        {
+          "start": 396.14,
+          "end": 396.64,
+          "text": "let's",
+          "confidence": 0.5982530638575554,
+          "speaker": null
+        },
+        {
+          "start": 396.64,
+          "end": 396.64,
+          "text": "go.",
+          "confidence": 0.8302146792411804,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 410.5,
+      "end": 415.28,
+      "speaker": null,
+      "text": "Let's go.",
+      "confidence": 0.31671241504955105,
+      "words": [
+        {
+          "start": 410.5,
+          "end": 411.38,
+          "text": "Let's",
+          "confidence": 0.4205943461856805,
+          "speaker": null
+        },
+        {
+          "start": 411.38,
+          "end": 415.28,
+          "text": "go.",
+          "confidence": 0.21283048391342163,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 435.5,
+      "end": 437.32,
+      "speaker": null,
+      "text": "Let's go, let's go.",
+      "confidence": 0.4778595863208466,
+      "words": [
+        {
+          "start": 435.5,
+          "end": 437.32,
+          "text": "Let's",
+          "confidence": 0.3641770773829194,
+          "speaker": null
+        },
+        {
+          "start": 435.5,
+          "end": 437.32,
+          "text": "go,",
+          "confidence": 0.2434457242488861,
+          "speaker": null
+        },
+        {
+          "start": 435.5,
+          "end": 437.32,
+          "text": "let's",
+          "confidence": 0.5931059718132019,
+          "speaker": null
+        },
+        {
+          "start": 437.32,
+          "end": 437.32,
+          "text": "go.",
+          "confidence": 0.7107095718383789,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 484.08,
+      "end": 485.48,
+      "speaker": null,
+      "text": "Let's go.",
+      "confidence": 0.3383651181065943,
+      "words": [
+        {
+          "start": 484.08,
+          "end": 485.48,
+          "text": "Let's",
+          "confidence": 0.43331471661804244,
+          "speaker": null
+        },
+        {
+          "start": 485.48,
+          "end": 485.48,
+          "text": "go.",
+          "confidence": 0.24341551959514618,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 494.22,
+      "end": 497.02,
+      "speaker": null,
+      "text": "Let's go.",
+      "confidence": 0.42105693160556257,
+      "words": [
+        {
+          "start": 494.22,
+          "end": 495.62,
+          "text": "Let's",
+          "confidence": 0.43019334552809596,
+          "speaker": null
+        },
+        {
+          "start": 495.62,
+          "end": 497.02,
+          "text": "go.",
+          "confidence": 0.4119205176830292,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 510.5,
+      "end": 531.66,
+      "speaker": null,
+      "text": "Let's go, let's go.",
+      "confidence": 0.46045069966930896,
+      "words": [
+        {
+          "start": 510.5,
+          "end": 531.66,
+          "text": "Let's",
+          "confidence": 0.16702616261318326,
+          "speaker": null
+        },
+        {
+          "start": 510.5,
+          "end": 524.44,
+          "text": "go,",
+          "confidence": 0.3217598795890808,
+          "speaker": null
+        },
+        {
+          "start": 526.26,
+          "end": 531.2,
+          "text": "let's",
+          "confidence": 0.5885518416762352,
+          "speaker": null
+        },
+        {
+          "start": 531.2,
+          "end": 531.66,
+          "text": "go.",
+          "confidence": 0.7644649147987366,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 544.42,
+      "end": 547.22,
+      "speaker": null,
+      "text": "Let's go.",
+      "confidence": 0.4435008552391082,
+      "words": [
+        {
+          "start": 544.42,
+          "end": 545.82,
+          "text": "Let's",
+          "confidence": 0.42998172575607896,
+          "speaker": null
+        },
+        {
+          "start": 545.82,
+          "end": 547.22,
+          "text": "go.",
+          "confidence": 0.45701998472213745,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 584.08,
+      "end": 585.48,
+      "speaker": null,
+      "text": "Let's go.",
+      "confidence": 0.3512540382507723,
+      "words": [
+        {
+          "start": 584.08,
+          "end": 585.48,
+          "text": "Let's",
+          "confidence": 0.438124492240604,
+          "speaker": null
+        },
+        {
+          "start": 585.48,
+          "end": 585.48,
+          "text": "go.",
+          "confidence": 0.26438358426094055,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 598.58,
+      "end": 599.98,
+      "speaker": null,
+      "text": "Let's go.",
+      "confidence": 0.35979089872853365,
+      "words": [
+        {
+          "start": 598.58,
+          "end": 599.98,
+          "text": "Let's",
+          "confidence": 0.42292757306131534,
+          "speaker": null
+        },
+        {
+          "start": 599.98,
+          "end": 599.98,
+          "text": "go.",
+          "confidence": 0.29665422439575195,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": []
+  }
+}

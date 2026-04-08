@@ -1,0 +1,804 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-18_1210-1220",
+    "created_at": "2026-03-18T15:36:02.105642-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 7.619999999999999,
+      "end": 9.34,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5495264492928982,
+      "words": [
+        {
+          "start": 7.619999999999999,
+          "end": 9.02,
+          "text": "Thank",
+          "confidence": 0.10045676678419113,
+          "speaker": null
+        },
+        {
+          "start": 9.02,
+          "end": 9.34,
+          "text": "you.",
+          "confidence": 0.9985961318016052,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 79.5,
+      "end": 104.98,
+      "speaker": null,
+      "text": "I don't know.",
+      "confidence": 0.484930965428551,
+      "words": [
+        {
+          "start": 79.5,
+          "end": 80.2,
+          "text": "I",
+          "confidence": 0.02302195318043232,
+          "speaker": null
+        },
+        {
+          "start": 80.2,
+          "end": 104.98,
+          "text": "don't",
+          "confidence": 0.5812751278281212,
+          "speaker": null
+        },
+        {
+          "start": 104.98,
+          "end": 104.98,
+          "text": "know.",
+          "confidence": 0.8504958152770996,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 127.18,
+      "end": 129.98,
+      "speaker": null,
+      "text": "I don't know.",
+      "confidence": 0.4302170518785715,
+      "words": [
+        {
+          "start": 127.18,
+          "end": 128.58,
+          "text": "I",
+          "confidence": 0.02082124538719654,
+          "speaker": null
+        },
+        {
+          "start": 128.58,
+          "end": 129.98,
+          "text": "don't",
+          "confidence": 0.5439060740172863,
+          "speaker": null
+        },
+        {
+          "start": 129.98,
+          "end": 129.98,
+          "text": "know.",
+          "confidence": 0.7259238362312317,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 354.6,
+      "end": 354.94,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5618273466825485,
+      "words": [
+        {
+          "start": 354.6,
+          "end": 354.94,
+          "text": "Thank",
+          "confidence": 0.1259683072566986,
+          "speaker": null
+        },
+        {
+          "start": 354.94,
+          "end": 354.94,
+          "text": "you.",
+          "confidence": 0.9976863861083984,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 367.84,
+      "end": 377.06,
+      "speaker": null,
+      "text": "I'm going to do, but I don't know what I'm going to do, Thank you.",
+      "confidence": 0.4731227157082265,
+      "words": [
+        {
+          "start": 367.84,
+          "end": 369.06,
+          "text": "I'm",
+          "confidence": 0.11932604108005762,
+          "speaker": null
+        },
+        {
+          "start": 369.06,
+          "end": 369.06,
+          "text": "going",
+          "confidence": 0.2338317185640335,
+          "speaker": null
+        },
+        {
+          "start": 369.06,
+          "end": 369.06,
+          "text": "to",
+          "confidence": 0.9784964323043823,
+          "speaker": null
+        },
+        {
+          "start": 369.06,
+          "end": 369.06,
+          "text": "do,",
+          "confidence": 0.05709446594119072,
+          "speaker": null
+        },
+        {
+          "start": 369.06,
+          "end": 369.12,
+          "text": "but",
+          "confidence": 0.0035456570331007242,
+          "speaker": null
+        },
+        {
+          "start": 369.12,
+          "end": 369.12,
+          "text": "I",
+          "confidence": 0.3351227045059204,
+          "speaker": null
+        },
+        {
+          "start": 369.12,
+          "end": 373.78,
+          "text": "don't",
+          "confidence": 0.5587146617472172,
+          "speaker": null
+        },
+        {
+          "start": 373.78,
+          "end": 373.92,
+          "text": "know",
+          "confidence": 0.3607843220233917,
+          "speaker": null
+        },
+        {
+          "start": 373.92,
+          "end": 373.96,
+          "text": "what",
+          "confidence": 0.1424192190170288,
+          "speaker": null
+        },
+        {
+          "start": 373.96,
+          "end": 374.0,
+          "text": "I'm",
+          "confidence": 0.4792052358388901,
+          "speaker": null
+        },
+        {
+          "start": 374.0,
+          "end": 374.02,
+          "text": "going",
+          "confidence": 0.43053171038627625,
+          "speaker": null
+        },
+        {
+          "start": 374.02,
+          "end": 375.1,
+          "text": "to",
+          "confidence": 0.9918270111083984,
+          "speaker": null
+        },
+        {
+          "start": 375.1,
+          "end": 376.32,
+          "text": "do,",
+          "confidence": 0.9037743806838989,
+          "speaker": null
+        },
+        {
+          "start": 376.32,
+          "end": 377.04,
+          "text": "Thank",
+          "confidence": 0.043557241559028625,
+          "speaker": null
+        },
+        {
+          "start": 377.04,
+          "end": 377.06,
+          "text": "you.",
+          "confidence": 0.9882146120071411,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 380.0,
+      "end": 386.94,
+      "speaker": null,
+      "text": "I'm going to do.",
+      "confidence": 0.32383852067869157,
+      "words": [
+        {
+          "start": 380.0,
+          "end": 380.28,
+          "text": "I'm",
+          "confidence": 0.11943897558376193,
+          "speaker": null
+        },
+        {
+          "start": 380.28,
+          "end": 381.16,
+          "text": "going",
+          "confidence": 0.15595918893814087,
+          "speaker": null
+        },
+        {
+          "start": 381.16,
+          "end": 386.44,
+          "text": "to",
+          "confidence": 0.9720361828804016,
+          "speaker": null
+        },
+        {
+          "start": 386.44,
+          "end": 386.94,
+          "text": "do.",
+          "confidence": 0.04791973531246185,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 389.34,
+      "end": 392.94,
+      "speaker": null,
+      "text": "It's a tool, so you can get the library.",
+      "confidence": 0.6385011116249694,
+      "words": [
+        {
+          "start": 389.34,
+          "end": 389.94,
+          "text": "It's",
+          "confidence": 0.4578585382550955,
+          "speaker": null
+        },
+        {
+          "start": 389.94,
+          "end": 389.96,
+          "text": "a",
+          "confidence": 0.7429028749465942,
+          "speaker": null
+        },
+        {
+          "start": 389.96,
+          "end": 390.26,
+          "text": "tool,",
+          "confidence": 0.5787769556045532,
+          "speaker": null
+        },
+        {
+          "start": 390.4,
+          "end": 391.06,
+          "text": "so",
+          "confidence": 0.4388420581817627,
+          "speaker": null
+        },
+        {
+          "start": 391.06,
+          "end": 391.26,
+          "text": "you",
+          "confidence": 0.9604800343513489,
+          "speaker": null
+        },
+        {
+          "start": 391.26,
+          "end": 391.36,
+          "text": "can",
+          "confidence": 0.789691150188446,
+          "speaker": null
+        },
+        {
+          "start": 391.36,
+          "end": 391.66,
+          "text": "get",
+          "confidence": 0.6005197167396545,
+          "speaker": null
+        },
+        {
+          "start": 391.66,
+          "end": 392.58,
+          "text": "the",
+          "confidence": 0.5900917649269104,
+          "speaker": null
+        },
+        {
+          "start": 392.58,
+          "end": 392.94,
+          "text": "library.",
+          "confidence": 0.5873469114303589,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 454.94,
+      "end": 454.98,
+      "speaker": null,
+      "text": "Thank you so much for watching this video and I'll see you in the next video.",
+      "confidence": 0.5640194970765151,
+      "words": [
+        {
+          "start": 454.94,
+          "end": 454.96,
+          "text": "Thank",
+          "confidence": 0.004676108248531818,
+          "speaker": null
+        },
+        {
+          "start": 454.96,
+          "end": 454.96,
+          "text": "you",
+          "confidence": 0.948947548866272,
+          "speaker": null
+        },
+        {
+          "start": 454.96,
+          "end": 454.96,
+          "text": "so",
+          "confidence": 0.03275506570935249,
+          "speaker": null
+        },
+        {
+          "start": 454.96,
+          "end": 454.96,
+          "text": "much",
+          "confidence": 0.9943040013313293,
+          "speaker": null
+        },
+        {
+          "start": 454.96,
+          "end": 454.96,
+          "text": "for",
+          "confidence": 0.4620223939418793,
+          "speaker": null
+        },
+        {
+          "start": 454.96,
+          "end": 454.96,
+          "text": "watching",
+          "confidence": 0.7141133546829224,
+          "speaker": null
+        },
+        {
+          "start": 454.96,
+          "end": 454.96,
+          "text": "this",
+          "confidence": 0.11718855053186417,
+          "speaker": null
+        },
+        {
+          "start": 454.96,
+          "end": 454.96,
+          "text": "video",
+          "confidence": 0.8826237320899963,
+          "speaker": null
+        },
+        {
+          "start": 454.96,
+          "end": 454.96,
+          "text": "and",
+          "confidence": 0.07251834869384766,
+          "speaker": null
+        },
+        {
+          "start": 454.96,
+          "end": 454.96,
+          "text": "I'll",
+          "confidence": 0.1649620458483696,
+          "speaker": null
+        },
+        {
+          "start": 454.96,
+          "end": 454.98,
+          "text": "see",
+          "confidence": 0.7548871040344238,
+          "speaker": null
+        },
+        {
+          "start": 454.98,
+          "end": 454.98,
+          "text": "you",
+          "confidence": 0.9820391535758972,
+          "speaker": null
+        },
+        {
+          "start": 454.98,
+          "end": 454.98,
+          "text": "in",
+          "confidence": 0.41981834173202515,
+          "speaker": null
+        },
+        {
+          "start": 454.98,
+          "end": 454.98,
+          "text": "the",
+          "confidence": 0.7690953016281128,
+          "speaker": null
+        },
+        {
+          "start": 454.98,
+          "end": 454.98,
+          "text": "next",
+          "confidence": 0.9838355779647827,
+          "speaker": null
+        },
+        {
+          "start": 454.98,
+          "end": 454.98,
+          "text": "video.",
+          "confidence": 0.720525324344635,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 472.2,
+      "end": 479.98,
+      "speaker": null,
+      "text": "Subtitles by the Amara.org community",
+      "confidence": 0.8964171299917831,
+      "words": [
+        {
+          "start": 472.2,
+          "end": 473.6,
+          "text": "Subtitles",
+          "confidence": 0.6454773483177026,
+          "speaker": null
+        },
+        {
+          "start": 473.6,
+          "end": 475.0,
+          "text": "by",
+          "confidence": 0.9412254691123962,
+          "speaker": null
+        },
+        {
+          "start": 475.0,
+          "end": 475.02,
+          "text": "the",
+          "confidence": 0.7927479147911072,
+          "speaker": null
+        },
+        {
+          "start": 475.02,
+          "end": 475.06,
+          "text": "Amara",
+          "confidence": 0.9997058808803558,
+          "speaker": null
+        },
+        {
+          "start": 475.06,
+          "end": 479.96,
+          "text": ".org",
+          "confidence": 0.9996294677257538,
+          "speaker": null
+        },
+        {
+          "start": 479.96,
+          "end": 479.98,
+          "text": "community",
+          "confidence": 0.9997166991233826,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 495.86,
+      "end": 503.74,
+      "speaker": null,
+      "text": "See you in the next video.",
+      "confidence": 0.4971385676568995,
+      "words": [
+        {
+          "start": 495.86,
+          "end": 496.08,
+          "text": "See",
+          "confidence": 0.0005632215179502964,
+          "speaker": null
+        },
+        {
+          "start": 496.08,
+          "end": 496.22,
+          "text": "you",
+          "confidence": 0.4135020673274994,
+          "speaker": null
+        },
+        {
+          "start": 496.22,
+          "end": 496.22,
+          "text": "in",
+          "confidence": 0.10664409399032593,
+          "speaker": null
+        },
+        {
+          "start": 496.22,
+          "end": 503.7,
+          "text": "the",
+          "confidence": 0.7264520525932312,
+          "speaker": null
+        },
+        {
+          "start": 503.7,
+          "end": 503.72,
+          "text": "next",
+          "confidence": 0.9230591058731079,
+          "speaker": null
+        },
+        {
+          "start": 503.72,
+          "end": 503.74,
+          "text": "video.",
+          "confidence": 0.8126108646392822,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 518.46,
+      "end": 528.32,
+      "speaker": null,
+      "text": "See you in the next video.",
+      "confidence": 0.46736358587319654,
+      "words": [
+        {
+          "start": 518.46,
+          "end": 519.86,
+          "text": "See",
+          "confidence": 0.001043400727212429,
+          "speaker": null
+        },
+        {
+          "start": 519.86,
+          "end": 519.86,
+          "text": "you",
+          "confidence": 0.2755264341831207,
+          "speaker": null
+        },
+        {
+          "start": 519.86,
+          "end": 521.04,
+          "text": "in",
+          "confidence": 0.09945578128099442,
+          "speaker": null
+        },
+        {
+          "start": 521.04,
+          "end": 528.32,
+          "text": "the",
+          "confidence": 0.7107989192008972,
+          "speaker": null
+        },
+        {
+          "start": 528.32,
+          "end": 528.32,
+          "text": "next",
+          "confidence": 0.8963887095451355,
+          "speaker": null
+        },
+        {
+          "start": 528.32,
+          "end": 528.32,
+          "text": "video.",
+          "confidence": 0.8209682703018188,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 553.58,
+      "end": 554.98,
+      "speaker": null,
+      "text": "See you in the next video.",
+      "confidence": 0.46434762588857365,
+      "words": [
+        {
+          "start": 553.58,
+          "end": 554.98,
+          "text": "See",
+          "confidence": 0.0037483430933207273,
+          "speaker": null
+        },
+        {
+          "start": 554.98,
+          "end": 554.98,
+          "text": "you",
+          "confidence": 0.8168480396270752,
+          "speaker": null
+        },
+        {
+          "start": 554.98,
+          "end": 554.98,
+          "text": "in",
+          "confidence": 0.049358829855918884,
+          "speaker": null
+        },
+        {
+          "start": 554.98,
+          "end": 554.98,
+          "text": "the",
+          "confidence": 0.4117867350578308,
+          "speaker": null
+        },
+        {
+          "start": 554.98,
+          "end": 554.98,
+          "text": "next",
+          "confidence": 0.7647114992141724,
+          "speaker": null
+        },
+        {
+          "start": 554.98,
+          "end": 554.98,
+          "text": "video.",
+          "confidence": 0.7396323084831238,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 566.84,
+      "end": 579.42,
+      "speaker": null,
+      "text": "See you in the next video.",
+      "confidence": 0.5259273969568312,
+      "words": [
+        {
+          "start": 566.84,
+          "end": 568.24,
+          "text": "See",
+          "confidence": 0.003146491013467312,
+          "speaker": null
+        },
+        {
+          "start": 568.24,
+          "end": 569.24,
+          "text": "you",
+          "confidence": 0.8864105939865112,
+          "speaker": null
+        },
+        {
+          "start": 569.24,
+          "end": 578.58,
+          "text": "in",
+          "confidence": 0.04812168329954147,
+          "speaker": null
+        },
+        {
+          "start": 578.58,
+          "end": 578.6,
+          "text": "the",
+          "confidence": 0.48408687114715576,
+          "speaker": null
+        },
+        {
+          "start": 578.6,
+          "end": 579.3,
+          "text": "next",
+          "confidence": 0.8799150586128235,
+          "speaker": null
+        },
+        {
+          "start": 579.3,
+          "end": 579.42,
+          "text": "video.",
+          "confidence": 0.853883683681488,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 595.02,
+      "end": 599.68,
+      "speaker": null,
+      "text": "Subtitles by the Amara.org community",
+      "confidence": 0.8910389845647538,
+      "words": [
+        {
+          "start": 595.02,
+          "end": 596.42,
+          "text": "Subtitles",
+          "confidence": 0.6384296745527536,
+          "speaker": null
+        },
+        {
+          "start": 596.42,
+          "end": 597.82,
+          "text": "by",
+          "confidence": 0.9208120703697205,
+          "speaker": null
+        },
+        {
+          "start": 597.82,
+          "end": 597.84,
+          "text": "the",
+          "confidence": 0.7880076766014099,
+          "speaker": null
+        },
+        {
+          "start": 597.84,
+          "end": 597.88,
+          "text": "Amara",
+          "confidence": 0.9996845722198486,
+          "speaker": null
+        },
+        {
+          "start": 597.88,
+          "end": 599.66,
+          "text": ".org",
+          "confidence": 0.9995597302913666,
+          "speaker": null
+        },
+        {
+          "start": 599.66,
+          "end": 599.68,
+          "text": "community",
+          "confidence": 0.9997401833534241,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 367.84,
+        "speaker": null,
+        "text": "I'm going to do, but I don't know what I'm going to do, Thank you."
+      },
+      {
+        "timestamp": 389.34,
+        "speaker": null,
+        "text": "It's a tool, so you can get the library."
+      },
+      {
+        "timestamp": 454.94,
+        "speaker": null,
+        "text": "Thank you so much for watching this video and I'll see you in the next video."
+      },
+      {
+        "timestamp": 472.2,
+        "speaker": null,
+        "text": "Subtitles by the Amara.org community"
+      },
+      {
+        "timestamp": 495.86,
+        "speaker": null,
+        "text": "See you in the next video."
+      }
+    ]
+  }
+}

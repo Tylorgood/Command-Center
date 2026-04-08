@@ -1,0 +1,813 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-30_1349-1359",
+    "created_at": "2026-03-31T17:52:43.455579-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 17.0,
+      "end": 22.74,
+      "speaker": null,
+      "text": "Transcribed by ESO, translated by —",
+      "confidence": 0.8199330134472499,
+      "words": [
+        {
+          "start": 17.0,
+          "end": 17.6,
+          "text": "Transcribed",
+          "confidence": 0.09126053052023053,
+          "speaker": null
+        },
+        {
+          "start": 17.6,
+          "end": 17.62,
+          "text": "by",
+          "confidence": 0.9720481038093567,
+          "speaker": null
+        },
+        {
+          "start": 17.62,
+          "end": 17.84,
+          "text": "ESO,",
+          "confidence": 0.8675403594970703,
+          "speaker": null
+        },
+        {
+          "start": 18.04,
+          "end": 18.42,
+          "text": "translated",
+          "confidence": 0.9961398243904114,
+          "speaker": null
+        },
+        {
+          "start": 18.42,
+          "end": 18.42,
+          "text": "by",
+          "confidence": 0.9999715089797974,
+          "speaker": null
+        },
+        {
+          "start": 18.42,
+          "end": 22.74,
+          "text": "—",
+          "confidence": 0.9926377534866333,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 42.3,
+      "end": 43.06,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5332473777234554,
+      "words": [
+        {
+          "start": 42.3,
+          "end": 42.86,
+          "text": "Thank",
+          "confidence": 0.07108115404844284,
+          "speaker": null
+        },
+        {
+          "start": 42.86,
+          "end": 43.06,
+          "text": "you.",
+          "confidence": 0.995413601398468,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 57.48,
+      "end": 59.66,
+      "speaker": null,
+      "text": "All right.",
+      "confidence": 0.6980214267969131,
+      "words": [
+        {
+          "start": 57.48,
+          "end": 58.88,
+          "text": "All",
+          "confidence": 0.3999721109867096,
+          "speaker": null
+        },
+        {
+          "start": 58.88,
+          "end": 59.66,
+          "text": "right.",
+          "confidence": 0.9960707426071167,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 95.22,
+      "end": 96.84,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5533078536391258,
+      "words": [
+        {
+          "start": 95.22,
+          "end": 96.3,
+          "text": "Thank",
+          "confidence": 0.11097739636898041,
+          "speaker": null
+        },
+        {
+          "start": 96.3,
+          "end": 96.84,
+          "text": "you.",
+          "confidence": 0.9956383109092712,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 139.48,
+      "end": 139.98,
+      "speaker": null,
+      "text": "Transcription by ESO, translated by —",
+      "confidence": 0.6125938798516776,
+      "words": [
+        {
+          "start": 139.48,
+          "end": 139.8,
+          "text": "Transcription",
+          "confidence": 0.12091239126311848,
+          "speaker": null
+        },
+        {
+          "start": 139.8,
+          "end": 139.82,
+          "text": "by",
+          "confidence": 0.9928435683250427,
+          "speaker": null
+        },
+        {
+          "start": 139.82,
+          "end": 139.98,
+          "text": "ESO,",
+          "confidence": 0.5349672958254814,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "translated",
+          "confidence": 0.04689716547727585,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "by",
+          "confidence": 0.9977059364318848,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "—",
+          "confidence": 0.982236921787262,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 146.96,
+      "end": 147.98,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5726838633418083,
+      "words": [
+        {
+          "start": 146.96,
+          "end": 147.64,
+          "text": "Thank",
+          "confidence": 0.1496777981519699,
+          "speaker": null
+        },
+        {
+          "start": 147.64,
+          "end": 147.98,
+          "text": "you.",
+          "confidence": 0.9956899285316467,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 178.62,
+      "end": 194.98,
+      "speaker": null,
+      "text": "Transcription by —",
+      "confidence": 0.4393629975384101,
+      "words": [
+        {
+          "start": 178.62,
+          "end": 180.02,
+          "text": "Transcription",
+          "confidence": 0.30877792288083583,
+          "speaker": null
+        },
+        {
+          "start": 180.02,
+          "end": 180.22,
+          "text": "by",
+          "confidence": 0.9955101013183594,
+          "speaker": null
+        },
+        {
+          "start": 180.22,
+          "end": 194.98,
+          "text": "—",
+          "confidence": 0.013800968416035175,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 210.57999999999998,
+      "end": 211.98,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5474866591393948,
+      "words": [
+        {
+          "start": 210.57999999999998,
+          "end": 211.98,
+          "text": "Thank",
+          "confidence": 0.09799432009458542,
+          "speaker": null
+        },
+        {
+          "start": 211.98,
+          "end": 211.98,
+          "text": "you.",
+          "confidence": 0.9969789981842041,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 248.5,
+      "end": 249.96,
+      "speaker": null,
+      "text": "Transcription by ESO, translated by —",
+      "confidence": 0.6004562475864077,
+      "words": [
+        {
+          "start": 248.5,
+          "end": 249.9,
+          "text": "Transcription",
+          "confidence": 0.02414235015749,
+          "speaker": null
+        },
+        {
+          "start": 249.9,
+          "end": 249.9,
+          "text": "by",
+          "confidence": 0.9961143732070923,
+          "speaker": null
+        },
+        {
+          "start": 249.9,
+          "end": 249.96,
+          "text": "ESO,",
+          "confidence": 0.5463158823549747,
+          "speaker": null
+        },
+        {
+          "start": 249.96,
+          "end": 249.96,
+          "text": "translated",
+          "confidence": 0.05256319046020508,
+          "speaker": null
+        },
+        {
+          "start": 249.96,
+          "end": 249.96,
+          "text": "by",
+          "confidence": 0.9959553480148315,
+          "speaker": null
+        },
+        {
+          "start": 249.96,
+          "end": 249.96,
+          "text": "—",
+          "confidence": 0.9876463413238525,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 260.18,
+      "end": 262.98,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5960243418812752,
+      "words": [
+        {
+          "start": 260.18,
+          "end": 261.58,
+          "text": "Thank",
+          "confidence": 0.1932382732629776,
+          "speaker": null
+        },
+        {
+          "start": 261.58,
+          "end": 262.98,
+          "text": "you.",
+          "confidence": 0.9988104104995728,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 289.68,
+      "end": 304.6,
+      "speaker": null,
+      "text": "Transcription by ESO, translated by —",
+      "confidence": 0.6306696027895669,
+      "words": [
+        {
+          "start": 289.68,
+          "end": 289.8,
+          "text": "Transcription",
+          "confidence": 0.21957311578444205,
+          "speaker": null
+        },
+        {
+          "start": 289.8,
+          "end": 289.82,
+          "text": "by",
+          "confidence": 0.9954478144645691,
+          "speaker": null
+        },
+        {
+          "start": 289.82,
+          "end": 304.52,
+          "text": "ESO,",
+          "confidence": 0.5325789600610733,
+          "speaker": null
+        },
+        {
+          "start": 304.52,
+          "end": 304.58,
+          "text": "translated",
+          "confidence": 0.05465013161301613,
+          "speaker": null
+        },
+        {
+          "start": 304.58,
+          "end": 304.58,
+          "text": "by",
+          "confidence": 0.9962819218635559,
+          "speaker": null
+        },
+        {
+          "start": 304.58,
+          "end": 304.6,
+          "text": "—",
+          "confidence": 0.9854856729507446,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 313.42,
+      "end": 316.22,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5893017277121544,
+      "words": [
+        {
+          "start": 313.42,
+          "end": 314.82,
+          "text": "Thank",
+          "confidence": 0.1798432320356369,
+          "speaker": null
+        },
+        {
+          "start": 314.82,
+          "end": 316.22,
+          "text": "you.",
+          "confidence": 0.9987602233886719,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 344.22,
+      "end": 359.82,
+      "speaker": null,
+      "text": "Transcription by ESO, translated by —",
+      "confidence": 0.6439959456013943,
+      "words": [
+        {
+          "start": 344.22,
+          "end": 344.26,
+          "text": "Transcription",
+          "confidence": 0.3073421024455456,
+          "speaker": null
+        },
+        {
+          "start": 344.26,
+          "end": 344.28,
+          "text": "by",
+          "confidence": 0.9945563077926636,
+          "speaker": null
+        },
+        {
+          "start": 344.28,
+          "end": 359.74,
+          "text": "ESO,",
+          "confidence": 0.5239514764398336,
+          "speaker": null
+        },
+        {
+          "start": 359.76,
+          "end": 359.78,
+          "text": "translated",
+          "confidence": 0.05642566457390785,
+          "speaker": null
+        },
+        {
+          "start": 359.78,
+          "end": 359.8,
+          "text": "by",
+          "confidence": 0.9964510202407837,
+          "speaker": null
+        },
+        {
+          "start": 359.8,
+          "end": 359.82,
+          "text": "—",
+          "confidence": 0.9852491021156311,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 371.92,
+      "end": 372.18,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5977619960904121,
+      "words": [
+        {
+          "start": 371.92,
+          "end": 372.12,
+          "text": "Thank",
+          "confidence": 0.19647987186908722,
+          "speaker": null
+        },
+        {
+          "start": 372.12,
+          "end": 372.18,
+          "text": "you.",
+          "confidence": 0.9990441203117371,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 398.9,
+      "end": 414.98,
+      "speaker": null,
+      "text": "Transcription by ESO, translated by —",
+      "confidence": 0.6530772292850694,
+      "words": [
+        {
+          "start": 398.9,
+          "end": 400.3,
+          "text": "Transcription",
+          "confidence": 0.34828628069953993,
+          "speaker": null
+        },
+        {
+          "start": 400.3,
+          "end": 400.32,
+          "text": "by",
+          "confidence": 0.9960667490959167,
+          "speaker": null
+        },
+        {
+          "start": 400.32,
+          "end": 414.98,
+          "text": "ESO,",
+          "confidence": 0.5308265592902899,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "translated",
+          "confidence": 0.06036313995718956,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "by",
+          "confidence": 0.9962968230247498,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "—",
+          "confidence": 0.9866238236427307,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 424.26,
+      "end": 426.48,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5878259167075157,
+      "words": [
+        {
+          "start": 424.26,
+          "end": 425.65999999999997,
+          "text": "Thank",
+          "confidence": 0.1768919676542282,
+          "speaker": null
+        },
+        {
+          "start": 425.65999999999997,
+          "end": 426.48,
+          "text": "you.",
+          "confidence": 0.9987598657608032,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 453.28,
+      "end": 469.8,
+      "speaker": null,
+      "text": "Transcription by ESO, translated by —",
+      "confidence": 0.6445458790694829,
+      "words": [
+        {
+          "start": 453.28,
+          "end": 454.68,
+          "text": "Transcription",
+          "confidence": 0.31712929817149416,
+          "speaker": null
+        },
+        {
+          "start": 454.68,
+          "end": 454.68,
+          "text": "by",
+          "confidence": 0.9940357208251953,
+          "speaker": null
+        },
+        {
+          "start": 454.68,
+          "end": 467.24,
+          "text": "ESO,",
+          "confidence": 0.5204427652060986,
+          "speaker": null
+        },
+        {
+          "start": 469.74,
+          "end": 469.76,
+          "text": "translated",
+          "confidence": 0.05465282127261162,
+          "speaker": null
+        },
+        {
+          "start": 469.76,
+          "end": 469.78,
+          "text": "by",
+          "confidence": 0.9966590404510498,
+          "speaker": null
+        },
+        {
+          "start": 469.78,
+          "end": 469.8,
+          "text": "—",
+          "confidence": 0.984355628490448,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 478.22,
+      "end": 480.94,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5850865989923477,
+      "words": [
+        {
+          "start": 478.22,
+          "end": 479.62,
+          "text": "Thank",
+          "confidence": 0.1718621551990509,
+          "speaker": null
+        },
+        {
+          "start": 479.62,
+          "end": 480.94,
+          "text": "you.",
+          "confidence": 0.9983110427856445,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 505.5,
+      "end": 524.98,
+      "speaker": null,
+      "text": "Transcription by ESO, translated by —",
+      "confidence": 0.612652932536245,
+      "words": [
+        {
+          "start": 505.5,
+          "end": 506.9,
+          "text": "Transcription",
+          "confidence": 0.131554278137628,
+          "speaker": null
+        },
+        {
+          "start": 506.9,
+          "end": 507.0,
+          "text": "by",
+          "confidence": 0.9948998093605042,
+          "speaker": null
+        },
+        {
+          "start": 507.0,
+          "end": 524.98,
+          "text": "ESO,",
+          "confidence": 0.5151708135381341,
+          "speaker": null
+        },
+        {
+          "start": 524.98,
+          "end": 524.98,
+          "text": "translated",
+          "confidence": 0.05495559796690941,
+          "speaker": null
+        },
+        {
+          "start": 524.98,
+          "end": 524.98,
+          "text": "by",
+          "confidence": 0.9934579730033875,
+          "speaker": null
+        },
+        {
+          "start": 524.98,
+          "end": 524.98,
+          "text": "—",
+          "confidence": 0.985879123210907,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 534.36,
+      "end": 537.16,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5843891724944115,
+      "words": [
+        {
+          "start": 534.36,
+          "end": 535.76,
+          "text": "Thank",
+          "confidence": 0.17089496552944183,
+          "speaker": null
+        },
+        {
+          "start": 535.76,
+          "end": 537.16,
+          "text": "you.",
+          "confidence": 0.9978833794593811,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 562.66,
+      "end": 579.98,
+      "speaker": null,
+      "text": "Transcription by ESO, translated by —",
+      "confidence": 0.6242363503054852,
+      "words": [
+        {
+          "start": 562.66,
+          "end": 564.06,
+          "text": "Transcription",
+          "confidence": 0.20104703614924802,
+          "speaker": null
+        },
+        {
+          "start": 564.06,
+          "end": 564.12,
+          "text": "by",
+          "confidence": 0.9944625496864319,
+          "speaker": null
+        },
+        {
+          "start": 564.12,
+          "end": 579.98,
+          "text": "ESO,",
+          "confidence": 0.5132994065061212,
+          "speaker": null
+        },
+        {
+          "start": 579.98,
+          "end": 579.98,
+          "text": "translated",
+          "confidence": 0.059084173291921616,
+          "speaker": null
+        },
+        {
+          "start": 579.98,
+          "end": 579.98,
+          "text": "by",
+          "confidence": 0.9944347739219666,
+          "speaker": null
+        },
+        {
+          "start": 579.98,
+          "end": 579.98,
+          "text": "—",
+          "confidence": 0.9830901622772217,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 589.72,
+      "end": 592.0,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5802081972360611,
+      "words": [
+        {
+          "start": 589.72,
+          "end": 591.12,
+          "text": "Thank",
+          "confidence": 0.16288462281227112,
+          "speaker": null
+        },
+        {
+          "start": 591.12,
+          "end": 592.0,
+          "text": "you.",
+          "confidence": 0.9975317716598511,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 17.0,
+        "speaker": null,
+        "text": "Transcribed by ESO, translated by —"
+      },
+      {
+        "timestamp": 139.48,
+        "speaker": null,
+        "text": "Transcription by ESO, translated by —"
+      },
+      {
+        "timestamp": 248.5,
+        "speaker": null,
+        "text": "Transcription by ESO, translated by —"
+      },
+      {
+        "timestamp": 289.68,
+        "speaker": null,
+        "text": "Transcription by ESO, translated by —"
+      },
+      {
+        "timestamp": 344.22,
+        "speaker": null,
+        "text": "Transcription by ESO, translated by —"
+      }
+    ]
+  }
+}

@@ -1,0 +1,738 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-26_0935-0945",
+    "created_at": "2026-03-26T10:19:52.978369-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 10.46,
+      "speaker": null,
+      "text": "Hello and welcome back to my channel! In this video, I'm going to show you how to fix a flat tire",
+      "confidence": 0.42524642068227486,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.58,
+          "text": "Hello",
+          "confidence": 0.006592615507543087,
+          "speaker": null
+        },
+        {
+          "start": 0.58,
+          "end": 1.6,
+          "text": "and",
+          "confidence": 0.21568648517131805,
+          "speaker": null
+        },
+        {
+          "start": 1.6,
+          "end": 6.2,
+          "text": "welcome",
+          "confidence": 0.9201807379722595,
+          "speaker": null
+        },
+        {
+          "start": 6.2,
+          "end": 6.42,
+          "text": "back",
+          "confidence": 0.24354086816310883,
+          "speaker": null
+        },
+        {
+          "start": 6.42,
+          "end": 6.5,
+          "text": "to",
+          "confidence": 0.8199106454849243,
+          "speaker": null
+        },
+        {
+          "start": 6.5,
+          "end": 6.5,
+          "text": "my",
+          "confidence": 0.22913125157356262,
+          "speaker": null
+        },
+        {
+          "start": 6.5,
+          "end": 9.5,
+          "text": "channel!",
+          "confidence": 0.7943115830421448,
+          "speaker": null
+        },
+        {
+          "start": 9.5,
+          "end": 9.5,
+          "text": "In",
+          "confidence": 0.08060833811759949,
+          "speaker": null
+        },
+        {
+          "start": 9.5,
+          "end": 9.9,
+          "text": "this",
+          "confidence": 0.783721387386322,
+          "speaker": null
+        },
+        {
+          "start": 9.9,
+          "end": 9.9,
+          "text": "video,",
+          "confidence": 0.6668258905410767,
+          "speaker": null
+        },
+        {
+          "start": 9.9,
+          "end": 9.9,
+          "text": "I'm",
+          "confidence": 0.3688427656888962,
+          "speaker": null
+        },
+        {
+          "start": 9.9,
+          "end": 9.9,
+          "text": "going",
+          "confidence": 0.5150309205055237,
+          "speaker": null
+        },
+        {
+          "start": 9.9,
+          "end": 9.9,
+          "text": "to",
+          "confidence": 0.9622316956520081,
+          "speaker": null
+        },
+        {
+          "start": 9.9,
+          "end": 9.94,
+          "text": "show",
+          "confidence": 0.5781958103179932,
+          "speaker": null
+        },
+        {
+          "start": 9.94,
+          "end": 9.94,
+          "text": "you",
+          "confidence": 0.934114396572113,
+          "speaker": null
+        },
+        {
+          "start": 9.94,
+          "end": 9.94,
+          "text": "how",
+          "confidence": 0.3815302550792694,
+          "speaker": null
+        },
+        {
+          "start": 9.94,
+          "end": 10.04,
+          "text": "to",
+          "confidence": 0.7241916656494141,
+          "speaker": null
+        },
+        {
+          "start": 10.04,
+          "end": 10.4,
+          "text": "fix",
+          "confidence": 0.02545425109565258,
+          "speaker": null
+        },
+        {
+          "start": 10.4,
+          "end": 10.4,
+          "text": "a",
+          "confidence": 0.2829626500606537,
+          "speaker": null
+        },
+        {
+          "start": 10.4,
+          "end": 10.46,
+          "text": "flat",
+          "confidence": 0.058637093752622604,
+          "speaker": null
+        },
+        {
+          "start": 10.46,
+          "end": 10.46,
+          "text": "tire",
+          "confidence": 0.41258299350738525,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 10.46,
+      "end": 11.96,
+      "speaker": null,
+      "text": "on a track on a track on a track",
+      "confidence": 0.846794743090868,
+      "words": [
+        {
+          "start": 10.46,
+          "end": 10.46,
+          "text": "on",
+          "confidence": 0.20253978669643402,
+          "speaker": null
+        },
+        {
+          "start": 10.46,
+          "end": 10.78,
+          "text": "a",
+          "confidence": 0.6379412412643433,
+          "speaker": null
+        },
+        {
+          "start": 10.78,
+          "end": 10.78,
+          "text": "track",
+          "confidence": 0.8443855047225952,
+          "speaker": null
+        },
+        {
+          "start": 10.78,
+          "end": 10.78,
+          "text": "on",
+          "confidence": 0.8660179972648621,
+          "speaker": null
+        },
+        {
+          "start": 10.78,
+          "end": 10.82,
+          "text": "a",
+          "confidence": 0.9462286233901978,
+          "speaker": null
+        },
+        {
+          "start": 10.82,
+          "end": 10.82,
+          "text": "track",
+          "confidence": 0.9691926836967468,
+          "speaker": null
+        },
+        {
+          "start": 10.82,
+          "end": 11.76,
+          "text": "on",
+          "confidence": 0.9118111729621887,
+          "speaker": null
+        },
+        {
+          "start": 11.76,
+          "end": 11.76,
+          "text": "a",
+          "confidence": 0.9613233804702759,
+          "speaker": null
+        },
+        {
+          "start": 11.76,
+          "end": 11.96,
+          "text": "track",
+          "confidence": 0.9744809865951538,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 12.859999999999998,
+      "end": 15.58,
+      "speaker": null,
+      "text": "on a track on a track",
+      "confidence": 0.9655676980813345,
+      "words": [
+        {
+          "start": 12.859999999999998,
+          "end": 13.58,
+          "text": "on",
+          "confidence": 0.9385020136833191,
+          "speaker": null
+        },
+        {
+          "start": 13.58,
+          "end": 13.76,
+          "text": "a",
+          "confidence": 0.9693745970726013,
+          "speaker": null
+        },
+        {
+          "start": 13.76,
+          "end": 14.08,
+          "text": "track",
+          "confidence": 0.9774075150489807,
+          "speaker": null
+        },
+        {
+          "start": 14.08,
+          "end": 14.6,
+          "text": "on",
+          "confidence": 0.9542244076728821,
+          "speaker": null
+        },
+        {
+          "start": 14.6,
+          "end": 14.6,
+          "text": "a",
+          "confidence": 0.9745529890060425,
+          "speaker": null
+        },
+        {
+          "start": 14.6,
+          "end": 15.58,
+          "text": "track",
+          "confidence": 0.9793446660041809,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 18.519999999999996,
+      "end": 21.04,
+      "speaker": null,
+      "text": "on a track",
+      "confidence": 0.9743006825447083,
+      "words": [
+        {
+          "start": 18.519999999999996,
+          "end": 19.24,
+          "text": "on",
+          "confidence": 0.9640356302261353,
+          "speaker": null
+        },
+        {
+          "start": 19.24,
+          "end": 19.54,
+          "text": "a",
+          "confidence": 0.9780423045158386,
+          "speaker": null
+        },
+        {
+          "start": 19.54,
+          "end": 21.04,
+          "text": "track",
+          "confidence": 0.9808241128921509,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 33.06,
+      "end": 51.02,
+      "speaker": null,
+      "text": "Line 13 towards Mörby centrum",
+      "confidence": 0.5864639659722646,
+      "words": [
+        {
+          "start": 33.06,
+          "end": 34.46,
+          "text": "Line",
+          "confidence": 0.020673036575317383,
+          "speaker": null
+        },
+        {
+          "start": 34.46,
+          "end": 34.46,
+          "text": "13",
+          "confidence": 0.5544335246086121,
+          "speaker": null
+        },
+        {
+          "start": 34.46,
+          "end": 35.46,
+          "text": "towards",
+          "confidence": 0.8181299567222595,
+          "speaker": null
+        },
+        {
+          "start": 35.46,
+          "end": 50.52,
+          "text": "Mörby",
+          "confidence": 0.6369318465391794,
+          "speaker": null
+        },
+        {
+          "start": 50.52,
+          "end": 51.02,
+          "text": "centrum",
+          "confidence": 0.9021514654159546,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 62.980000000000004,
+      "end": 84.98,
+      "speaker": null,
+      "text": "Line 13 towards Mörby centrum",
+      "confidence": 0.5801150021453698,
+      "words": [
+        {
+          "start": 62.980000000000004,
+          "end": 64.38,
+          "text": "Line",
+          "confidence": 0.021316278725862503,
+          "speaker": null
+        },
+        {
+          "start": 64.38,
+          "end": 65.0,
+          "text": "13",
+          "confidence": 0.48082414269447327,
+          "speaker": null
+        },
+        {
+          "start": 65.0,
+          "end": 65.02,
+          "text": "towards",
+          "confidence": 0.8338783979415894,
+          "speaker": null
+        },
+        {
+          "start": 65.02,
+          "end": 71.86,
+          "text": "Mörby",
+          "confidence": 0.6467168430487314,
+          "speaker": null
+        },
+        {
+          "start": 71.86,
+          "end": 84.98,
+          "text": "centrum",
+          "confidence": 0.9178393483161926,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 118.34,
+      "end": 139.98,
+      "speaker": null,
+      "text": "Line 13 towards Mörby centrum",
+      "confidence": 0.5604192450797807,
+      "words": [
+        {
+          "start": 118.34,
+          "end": 119.74,
+          "text": "Line",
+          "confidence": 0.002932260511443019,
+          "speaker": null
+        },
+        {
+          "start": 119.74,
+          "end": 119.76,
+          "text": "13",
+          "confidence": 0.4025014340877533,
+          "speaker": null
+        },
+        {
+          "start": 119.76,
+          "end": 120.0,
+          "text": "towards",
+          "confidence": 0.8380407094955444,
+          "speaker": null
+        },
+        {
+          "start": 120.0,
+          "end": 138.84,
+          "text": "Mörby",
+          "confidence": 0.642148402829965,
+          "speaker": null
+        },
+        {
+          "start": 138.84,
+          "end": 139.98,
+          "text": "centrum",
+          "confidence": 0.9164734184741974,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 550.0,
+      "end": 557.6,
+      "speaker": null,
+      "text": "I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry,",
+      "confidence": 0.6230475780554116,
+      "words": [
+        {
+          "start": 550.0,
+          "end": 550.62,
+          "text": "I'm",
+          "confidence": 0.09542603511363268,
+          "speaker": null
+        },
+        {
+          "start": 550.62,
+          "end": 551.4,
+          "text": "sorry,",
+          "confidence": 0.07938557118177414,
+          "speaker": null
+        },
+        {
+          "start": 551.4,
+          "end": 551.4,
+          "text": "I'm",
+          "confidence": 0.2595524415373802,
+          "speaker": null
+        },
+        {
+          "start": 551.4,
+          "end": 551.74,
+          "text": "sorry,",
+          "confidence": 0.2567092776298523,
+          "speaker": null
+        },
+        {
+          "start": 551.74,
+          "end": 553.4,
+          "text": "I'm",
+          "confidence": 0.8249873518943787,
+          "speaker": null
+        },
+        {
+          "start": 553.4,
+          "end": 553.72,
+          "text": "sorry,",
+          "confidence": 0.9242762327194214,
+          "speaker": null
+        },
+        {
+          "start": 554.68,
+          "end": 555.2,
+          "text": "I'm",
+          "confidence": 0.9094154238700867,
+          "speaker": null
+        },
+        {
+          "start": 555.2,
+          "end": 555.88,
+          "text": "sorry,",
+          "confidence": 0.9615408182144165,
+          "speaker": null
+        },
+        {
+          "start": 556.14,
+          "end": 556.26,
+          "text": "I'm",
+          "confidence": 0.9440946280956268,
+          "speaker": null
+        },
+        {
+          "start": 556.26,
+          "end": 557.6,
+          "text": "sorry,",
+          "confidence": 0.9750880002975464,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 581.98,
+      "end": 587.18,
+      "speaker": null,
+      "text": "We are now at the end of our drive, we hope you enjoyed it, and we will see you in the next video.",
+      "confidence": 0.4360692753335056,
+      "words": [
+        {
+          "start": 581.98,
+          "end": 582.76,
+          "text": "We",
+          "confidence": 0.009539405815303326,
+          "speaker": null
+        },
+        {
+          "start": 582.76,
+          "end": 583.54,
+          "text": "are",
+          "confidence": 0.46568745374679565,
+          "speaker": null
+        },
+        {
+          "start": 583.54,
+          "end": 583.88,
+          "text": "now",
+          "confidence": 0.31201136112213135,
+          "speaker": null
+        },
+        {
+          "start": 583.88,
+          "end": 584.34,
+          "text": "at",
+          "confidence": 0.15452587604522705,
+          "speaker": null
+        },
+        {
+          "start": 584.34,
+          "end": 584.72,
+          "text": "the",
+          "confidence": 0.35267120599746704,
+          "speaker": null
+        },
+        {
+          "start": 584.72,
+          "end": 584.84,
+          "text": "end",
+          "confidence": 0.04424075409770012,
+          "speaker": null
+        },
+        {
+          "start": 584.84,
+          "end": 584.84,
+          "text": "of",
+          "confidence": 0.9717838168144226,
+          "speaker": null
+        },
+        {
+          "start": 584.84,
+          "end": 587.04,
+          "text": "our",
+          "confidence": 0.10325178503990173,
+          "speaker": null
+        },
+        {
+          "start": 587.04,
+          "end": 587.14,
+          "text": "drive,",
+          "confidence": 0.13900282979011536,
+          "speaker": null
+        },
+        {
+          "start": 587.14,
+          "end": 587.14,
+          "text": "we",
+          "confidence": 0.11568387597799301,
+          "speaker": null
+        },
+        {
+          "start": 587.14,
+          "end": 587.14,
+          "text": "hope",
+          "confidence": 0.47874805331230164,
+          "speaker": null
+        },
+        {
+          "start": 587.14,
+          "end": 587.14,
+          "text": "you",
+          "confidence": 0.8303062915802002,
+          "speaker": null
+        },
+        {
+          "start": 587.14,
+          "end": 587.14,
+          "text": "enjoyed",
+          "confidence": 0.7199625372886658,
+          "speaker": null
+        },
+        {
+          "start": 587.14,
+          "end": 587.14,
+          "text": "it,",
+          "confidence": 0.30828797817230225,
+          "speaker": null
+        },
+        {
+          "start": 587.14,
+          "end": 587.14,
+          "text": "and",
+          "confidence": 0.3532924950122833,
+          "speaker": null
+        },
+        {
+          "start": 587.14,
+          "end": 587.14,
+          "text": "we",
+          "confidence": 0.23816744983196259,
+          "speaker": null
+        },
+        {
+          "start": 587.14,
+          "end": 587.14,
+          "text": "will",
+          "confidence": 0.23150695860385895,
+          "speaker": null
+        },
+        {
+          "start": 587.14,
+          "end": 587.14,
+          "text": "see",
+          "confidence": 0.8578804135322571,
+          "speaker": null
+        },
+        {
+          "start": 587.14,
+          "end": 587.14,
+          "text": "you",
+          "confidence": 0.9854379892349243,
+          "speaker": null
+        },
+        {
+          "start": 587.14,
+          "end": 587.14,
+          "text": "in",
+          "confidence": 0.21490055322647095,
+          "speaker": null
+        },
+        {
+          "start": 587.14,
+          "end": 587.14,
+          "text": "the",
+          "confidence": 0.6112866401672363,
+          "speaker": null
+        },
+        {
+          "start": 587.14,
+          "end": 587.14,
+          "text": "next",
+          "confidence": 0.9752312898635864,
+          "speaker": null
+        },
+        {
+          "start": 587.14,
+          "end": 587.18,
+          "text": "video.",
+          "confidence": 0.556186318397522,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 0.0,
+        "speaker": null,
+        "text": "Hello and welcome back to my channel! In this video, I'm going to show you how to fix a flat tire"
+      },
+      {
+        "timestamp": 10.46,
+        "speaker": null,
+        "text": "on a track on a track on a track"
+      },
+      {
+        "timestamp": 33.06,
+        "speaker": null,
+        "text": "Line 13 towards Mörby centrum"
+      },
+      {
+        "timestamp": 62.980000000000004,
+        "speaker": null,
+        "text": "Line 13 towards Mörby centrum"
+      },
+      {
+        "timestamp": 118.34,
+        "speaker": null,
+        "text": "Line 13 towards Mörby centrum"
+      }
+    ]
+  }
+}

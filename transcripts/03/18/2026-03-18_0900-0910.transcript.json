@@ -1,0 +1,665 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-18_0900-0910",
+    "created_at": "2026-03-18T10:56:53.071189-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 58.980000000000004,
+      "end": 61.74,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5353360325098038,
+      "words": [
+        {
+          "start": 58.980000000000004,
+          "end": 60.38,
+          "text": "Thank",
+          "confidence": 0.07997831702232361,
+          "speaker": null
+        },
+        {
+          "start": 60.38,
+          "end": 61.74,
+          "text": "you.",
+          "confidence": 0.9906937479972839,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 112.1,
+      "end": 115.46000000000001,
+      "speaker": null,
+      "text": "You always want.",
+      "confidence": 0.6020561257998148,
+      "words": [
+        {
+          "start": 112.1,
+          "end": 113.5,
+          "text": "You",
+          "confidence": 0.3772186040878296,
+          "speaker": null
+        },
+        {
+          "start": 113.5,
+          "end": 114.9,
+          "text": "always",
+          "confidence": 0.9333823919296265,
+          "speaker": null
+        },
+        {
+          "start": 114.9,
+          "end": 115.46000000000001,
+          "text": "want.",
+          "confidence": 0.4955673813819885,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 150.2,
+      "end": 177.02,
+      "speaker": null,
+      "text": "I'm going to put it. I'm going to put it. I'm going to put it.",
+      "confidence": 0.4702772402204573,
+      "words": [
+        {
+          "start": 150.2,
+          "end": 150.86,
+          "text": "I'm",
+          "confidence": 0.4184385761618614,
+          "speaker": null
+        },
+        {
+          "start": 150.86,
+          "end": 150.86,
+          "text": "going",
+          "confidence": 0.5909068584442139,
+          "speaker": null
+        },
+        {
+          "start": 150.86,
+          "end": 152.22,
+          "text": "to",
+          "confidence": 0.5212622433900833,
+          "speaker": null
+        },
+        {
+          "start": 152.22,
+          "end": 152.9,
+          "text": "put",
+          "confidence": 0.6048820614814758,
+          "speaker": null
+        },
+        {
+          "start": 152.9,
+          "end": 152.9,
+          "text": "it.",
+          "confidence": 0.6892380118370056,
+          "speaker": null
+        },
+        {
+          "start": 152.92000000000002,
+          "end": 152.92000000000002,
+          "text": "I'm",
+          "confidence": 0.6402475237846375,
+          "speaker": null
+        },
+        {
+          "start": 152.92000000000002,
+          "end": 152.92000000000002,
+          "text": "going",
+          "confidence": 0.8531804084777832,
+          "speaker": null
+        },
+        {
+          "start": 152.92000000000002,
+          "end": 152.98,
+          "text": "to",
+          "confidence": 0.8268980383872986,
+          "speaker": null
+        },
+        {
+          "start": 152.98,
+          "end": 152.98,
+          "text": "put",
+          "confidence": 0.732545793056488,
+          "speaker": null
+        },
+        {
+          "start": 152.98,
+          "end": 152.98,
+          "text": "it.",
+          "confidence": 0.8770523071289062,
+          "speaker": null
+        },
+        {
+          "start": 153.0,
+          "end": 154.98,
+          "text": "I'm",
+          "confidence": 0.1072979997843504,
+          "speaker": null
+        },
+        {
+          "start": 154.98,
+          "end": 155.38,
+          "text": "going",
+          "confidence": 0.08489438146352768,
+          "speaker": null
+        },
+        {
+          "start": 155.38,
+          "end": 155.38,
+          "text": "to",
+          "confidence": 0.9808427691459656,
+          "speaker": null
+        },
+        {
+          "start": 155.38,
+          "end": 155.38,
+          "text": "put",
+          "confidence": 0.009124143980443478,
+          "speaker": null
+        },
+        {
+          "start": 155.38,
+          "end": 177.02,
+          "text": "it.",
+          "confidence": 0.14328719675540924,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 376.58,
+      "end": 377.98,
+      "speaker": null,
+      "text": "I'm going to put it. I'm going to put it. I'm going",
+      "confidence": 0.34957870170615024,
+      "words": [
+        {
+          "start": 376.58,
+          "end": 377.98,
+          "text": "I'm",
+          "confidence": 0.101289551705122,
+          "speaker": null
+        },
+        {
+          "start": 377.98,
+          "end": 377.98,
+          "text": "going",
+          "confidence": 0.10203853994607925,
+          "speaker": null
+        },
+        {
+          "start": 377.98,
+          "end": 377.98,
+          "text": "to",
+          "confidence": 1.7862877029983792e-05,
+          "speaker": null
+        },
+        {
+          "start": 377.98,
+          "end": 377.98,
+          "text": "put",
+          "confidence": 0.007121653761714697,
+          "speaker": null
+        },
+        {
+          "start": 377.98,
+          "end": 377.98,
+          "text": "it.",
+          "confidence": 0.08401262015104294,
+          "speaker": null
+        },
+        {
+          "start": 377.98,
+          "end": 377.98,
+          "text": "I'm",
+          "confidence": 0.34467530250549316,
+          "speaker": null
+        },
+        {
+          "start": 377.98,
+          "end": 377.98,
+          "text": "going",
+          "confidence": 0.6286421418190002,
+          "speaker": null
+        },
+        {
+          "start": 377.98,
+          "end": 377.98,
+          "text": "to",
+          "confidence": 0.30792516469955444,
+          "speaker": null
+        },
+        {
+          "start": 377.98,
+          "end": 377.98,
+          "text": "put",
+          "confidence": 0.47980526089668274,
+          "speaker": null
+        },
+        {
+          "start": 377.98,
+          "end": 377.98,
+          "text": "it.",
+          "confidence": 0.6339616775512695,
+          "speaker": null
+        },
+        {
+          "start": 377.98,
+          "end": 377.98,
+          "text": "I'm",
+          "confidence": 0.6394448727369308,
+          "speaker": null
+        },
+        {
+          "start": 377.98,
+          "end": 377.98,
+          "text": "going",
+          "confidence": 0.8660097718238831,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 407.06,
+      "end": 428.48,
+      "speaker": null,
+      "text": "I'm going to put it. I'm going to put it. Thank you so much for watching this video and I'll see you in the next video.",
+      "confidence": 0.42113194847315755,
+      "words": [
+        {
+          "start": 407.06,
+          "end": 408.46,
+          "text": "I'm",
+          "confidence": 0.11388959176838398,
+          "speaker": null
+        },
+        {
+          "start": 408.46,
+          "end": 408.46,
+          "text": "going",
+          "confidence": 0.04693863168358803,
+          "speaker": null
+        },
+        {
+          "start": 408.46,
+          "end": 408.48,
+          "text": "to",
+          "confidence": 2.2824704501545057e-05,
+          "speaker": null
+        },
+        {
+          "start": 408.48,
+          "end": 408.48,
+          "text": "put",
+          "confidence": 0.005956351291388273,
+          "speaker": null
+        },
+        {
+          "start": 408.48,
+          "end": 408.48,
+          "text": "it.",
+          "confidence": 0.13483856618404388,
+          "speaker": null
+        },
+        {
+          "start": 408.7,
+          "end": 410.1,
+          "text": "I'm",
+          "confidence": 0.3804543688893318,
+          "speaker": null
+        },
+        {
+          "start": 410.1,
+          "end": 410.1,
+          "text": "going",
+          "confidence": 0.5559845566749573,
+          "speaker": null
+        },
+        {
+          "start": 410.1,
+          "end": 411.0,
+          "text": "to",
+          "confidence": 0.33434299379587173,
+          "speaker": null
+        },
+        {
+          "start": 411.0,
+          "end": 428.44,
+          "text": "put",
+          "confidence": 0.5184749960899353,
+          "speaker": null
+        },
+        {
+          "start": 428.44,
+          "end": 428.46,
+          "text": "it.",
+          "confidence": 0.7257371544837952,
+          "speaker": null
+        },
+        {
+          "start": 428.46,
+          "end": 428.48,
+          "text": "Thank",
+          "confidence": 0.004485077224671841,
+          "speaker": null
+        },
+        {
+          "start": 428.48,
+          "end": 428.48,
+          "text": "you",
+          "confidence": 0.9519569873809814,
+          "speaker": null
+        },
+        {
+          "start": 428.48,
+          "end": 428.48,
+          "text": "so",
+          "confidence": 0.030402803793549538,
+          "speaker": null
+        },
+        {
+          "start": 428.48,
+          "end": 428.48,
+          "text": "much",
+          "confidence": 0.9938849806785583,
+          "speaker": null
+        },
+        {
+          "start": 428.48,
+          "end": 428.48,
+          "text": "for",
+          "confidence": 0.4479338526725769,
+          "speaker": null
+        },
+        {
+          "start": 428.48,
+          "end": 428.48,
+          "text": "watching",
+          "confidence": 0.6809027194976807,
+          "speaker": null
+        },
+        {
+          "start": 428.48,
+          "end": 428.48,
+          "text": "this",
+          "confidence": 0.11589544266462326,
+          "speaker": null
+        },
+        {
+          "start": 428.48,
+          "end": 428.48,
+          "text": "video",
+          "confidence": 0.8796095252037048,
+          "speaker": null
+        },
+        {
+          "start": 428.48,
+          "end": 428.48,
+          "text": "and",
+          "confidence": 0.07316841930150986,
+          "speaker": null
+        },
+        {
+          "start": 428.48,
+          "end": 428.48,
+          "text": "I'll",
+          "confidence": 0.16840393841266632,
+          "speaker": null
+        },
+        {
+          "start": 428.48,
+          "end": 428.48,
+          "text": "see",
+          "confidence": 0.7527312636375427,
+          "speaker": null
+        },
+        {
+          "start": 428.48,
+          "end": 428.48,
+          "text": "you",
+          "confidence": 0.9823324084281921,
+          "speaker": null
+        },
+        {
+          "start": 428.48,
+          "end": 428.48,
+          "text": "in",
+          "confidence": 0.42328715324401855,
+          "speaker": null
+        },
+        {
+          "start": 428.48,
+          "end": 428.48,
+          "text": "the",
+          "confidence": 0.7682308554649353,
+          "speaker": null
+        },
+        {
+          "start": 428.48,
+          "end": 428.48,
+          "text": "next",
+          "confidence": 0.9843267798423767,
+          "speaker": null
+        },
+        {
+          "start": 428.48,
+          "end": 428.48,
+          "text": "video.",
+          "confidence": 0.7120460867881775,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 477.08,
+      "end": 478.48,
+      "speaker": null,
+      "text": "I'm going to put it.",
+      "confidence": 0.30150172859430313,
+      "words": [
+        {
+          "start": 477.08,
+          "end": 478.48,
+          "text": "I'm",
+          "confidence": 0.1315968930721283,
+          "speaker": null
+        },
+        {
+          "start": 478.48,
+          "end": 478.48,
+          "text": "going",
+          "confidence": 0.19729603826999664,
+          "speaker": null
+        },
+        {
+          "start": 478.48,
+          "end": 478.48,
+          "text": "to",
+          "confidence": 0.9815860390663147,
+          "speaker": null
+        },
+        {
+          "start": 478.48,
+          "end": 478.48,
+          "text": "put",
+          "confidence": 0.030498959124088287,
+          "speaker": null
+        },
+        {
+          "start": 478.48,
+          "end": 478.48,
+          "text": "it.",
+          "confidence": 0.16653071343898773,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 489.94,
+      "end": 492.74,
+      "speaker": null,
+      "text": "I'm going to put it.",
+      "confidence": 0.3492530945688486,
+      "words": [
+        {
+          "start": 489.94,
+          "end": 491.34,
+          "text": "I'm",
+          "confidence": 0.13033531419932842,
+          "speaker": null
+        },
+        {
+          "start": 491.34,
+          "end": 492.74,
+          "text": "going",
+          "confidence": 0.32903623580932617,
+          "speaker": null
+        },
+        {
+          "start": 492.74,
+          "end": 492.74,
+          "text": "to",
+          "confidence": 0.9884782433509827,
+          "speaker": null
+        },
+        {
+          "start": 492.74,
+          "end": 492.74,
+          "text": "put",
+          "confidence": 0.0580260343849659,
+          "speaker": null
+        },
+        {
+          "start": 492.74,
+          "end": 492.74,
+          "text": "it.",
+          "confidence": 0.2403896450996399,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 526.34,
+      "end": 528.48,
+      "speaker": null,
+      "text": "I'm going to put it.",
+      "confidence": 0.3030871791765094,
+      "words": [
+        {
+          "start": 526.34,
+          "end": 527.74,
+          "text": "I'm",
+          "confidence": 0.1365469777956605,
+          "speaker": null
+        },
+        {
+          "start": 527.74,
+          "end": 528.48,
+          "text": "going",
+          "confidence": 0.19407306611537933,
+          "speaker": null
+        },
+        {
+          "start": 528.48,
+          "end": 528.48,
+          "text": "to",
+          "confidence": 0.9821662306785583,
+          "speaker": null
+        },
+        {
+          "start": 528.48,
+          "end": 528.48,
+          "text": "put",
+          "confidence": 0.025962455198168755,
+          "speaker": null
+        },
+        {
+          "start": 528.48,
+          "end": 528.48,
+          "text": "it.",
+          "confidence": 0.17668716609477997,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 541.7,
+      "end": 541.84,
+      "speaker": null,
+      "text": "I'm going to put it.",
+      "confidence": 0.3207601599395275,
+      "words": [
+        {
+          "start": 541.7,
+          "end": 541.74,
+          "text": "I'm",
+          "confidence": 0.13832073658704758,
+          "speaker": null
+        },
+        {
+          "start": 541.74,
+          "end": 541.78,
+          "text": "going",
+          "confidence": 0.25041475892066956,
+          "speaker": null
+        },
+        {
+          "start": 541.78,
+          "end": 541.8,
+          "text": "to",
+          "confidence": 0.9847210049629211,
+          "speaker": null
+        },
+        {
+          "start": 541.8,
+          "end": 541.82,
+          "text": "put",
+          "confidence": 0.03752635791897774,
+          "speaker": null
+        },
+        {
+          "start": 541.82,
+          "end": 541.84,
+          "text": "it.",
+          "confidence": 0.19281794130802155,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 150.2,
+        "speaker": null,
+        "text": "I'm going to put it. I'm going to put it. I'm going to put it."
+      },
+      {
+        "timestamp": 376.58,
+        "speaker": null,
+        "text": "I'm going to put it. I'm going to put it. I'm going"
+      },
+      {
+        "timestamp": 407.06,
+        "speaker": null,
+        "text": "I'm going to put it. I'm going to put it. Thank you so much for watching this video and I'll see you in the next video."
+      }
+    ]
+  }
+}

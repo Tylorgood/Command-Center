@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-19_1412-1422",
+    "created_at": "2026-03-19T21:24:35.350313-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 149.9,
+      "end": 152.7,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5354107804596424,
+      "words": [
+        {
+          "start": 149.9,
+          "end": 151.3,
+          "text": "Thank",
+          "confidence": 0.07635674625635147,
+          "speaker": null
+        },
+        {
+          "start": 151.3,
+          "end": 152.7,
+          "text": "you.",
+          "confidence": 0.9944648146629333,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 493.58,
+      "end": 494.98,
+      "speaker": null,
+      "text": "Thank you so much for watching!",
+      "confidence": 0.5398765010759234,
+      "words": [
+        {
+          "start": 493.58,
+          "end": 494.98,
+          "text": "Thank",
+          "confidence": 0.007116908207535744,
+          "speaker": null
+        },
+        {
+          "start": 494.98,
+          "end": 494.98,
+          "text": "you",
+          "confidence": 0.9339168071746826,
+          "speaker": null
+        },
+        {
+          "start": 494.98,
+          "end": 494.98,
+          "text": "so",
+          "confidence": 0.06046915799379349,
+          "speaker": null
+        },
+        {
+          "start": 494.98,
+          "end": 494.98,
+          "text": "much",
+          "confidence": 0.9955387711524963,
+          "speaker": null
+        },
+        {
+          "start": 494.98,
+          "end": 494.98,
+          "text": "for",
+          "confidence": 0.5095838308334351,
+          "speaker": null
+        },
+        {
+          "start": 494.98,
+          "end": 494.98,
+          "text": "watching!",
+          "confidence": 0.7326335310935974,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 507.34,
+      "end": 524.96,
+      "speaker": null,
+      "text": "Thank you so much for watching!",
+      "confidence": 0.5188151171896607,
+      "words": [
+        {
+          "start": 507.34,
+          "end": 508.5,
+          "text": "Thank",
+          "confidence": 0.022527454420924187,
+          "speaker": null
+        },
+        {
+          "start": 508.5,
+          "end": 508.74,
+          "text": "you",
+          "confidence": 0.9817731976509094,
+          "speaker": null
+        },
+        {
+          "start": 508.74,
+          "end": 521.06,
+          "text": "so",
+          "confidence": 0.00584848178550601,
+          "speaker": null
+        },
+        {
+          "start": 521.06,
+          "end": 521.64,
+          "text": "much",
+          "confidence": 0.9908254742622375,
+          "speaker": null
+        },
+        {
+          "start": 521.64,
+          "end": 524.68,
+          "text": "for",
+          "confidence": 0.39003685116767883,
+          "speaker": null
+        },
+        {
+          "start": 524.68,
+          "end": 524.96,
+          "text": "watching!",
+          "confidence": 0.721879243850708,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 531.7,
+      "end": 532.48,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5372324734926224,
+      "words": [
+        {
+          "start": 531.7,
+          "end": 532.22,
+          "text": "Thank",
+          "confidence": 0.0806560218334198,
+          "speaker": null
+        },
+        {
+          "start": 532.22,
+          "end": 532.48,
+          "text": "you.",
+          "confidence": 0.993808925151825,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 596.56,
+      "end": 599.96,
+      "speaker": null,
+      "text": "Thank you very much.",
+      "confidence": 0.5171704436652362,
+      "words": [
+        {
+          "start": 596.56,
+          "end": 597.96,
+          "text": "Thank",
+          "confidence": 0.008345557376742363,
+          "speaker": null
+        },
+        {
+          "start": 597.96,
+          "end": 597.96,
+          "text": "you",
+          "confidence": 0.9343986511230469,
+          "speaker": null
+        },
+        {
+          "start": 597.96,
+          "end": 599.94,
+          "text": "very",
+          "confidence": 0.13210885226726532,
+          "speaker": null
+        },
+        {
+          "start": 599.94,
+          "end": 599.96,
+          "text": "much.",
+          "confidence": 0.9938287138938904,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 493.58,
+        "speaker": null,
+        "text": "Thank you so much for watching!"
+      },
+      {
+        "timestamp": 507.34,
+        "speaker": null,
+        "text": "Thank you so much for watching!"
+      }
+    ]
+  }
+}

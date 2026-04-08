@@ -1,0 +1,1267 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-16_0925-0935",
+    "created_at": "2026-03-16T10:21:15.821583-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 16.8,
+      "end": 18.56,
+      "speaker": null,
+      "text": "Hello friends, welcome to my channel. Today, I will show you how to make a very simple and easy cake.",
+      "confidence": 0.46297994739420356,
+      "words": [
+        {
+          "start": 16.8,
+          "end": 17.62,
+          "text": "Hello",
+          "confidence": 0.017665423452854156,
+          "speaker": null
+        },
+        {
+          "start": 17.62,
+          "end": 18.44,
+          "text": "friends,",
+          "confidence": 0.19138596951961517,
+          "speaker": null
+        },
+        {
+          "start": 18.44,
+          "end": 18.44,
+          "text": "welcome",
+          "confidence": 0.4013144373893738,
+          "speaker": null
+        },
+        {
+          "start": 18.44,
+          "end": 18.44,
+          "text": "to",
+          "confidence": 0.762955904006958,
+          "speaker": null
+        },
+        {
+          "start": 18.44,
+          "end": 18.44,
+          "text": "my",
+          "confidence": 0.6964223980903625,
+          "speaker": null
+        },
+        {
+          "start": 18.44,
+          "end": 18.44,
+          "text": "channel.",
+          "confidence": 0.899290919303894,
+          "speaker": null
+        },
+        {
+          "start": 18.44,
+          "end": 18.44,
+          "text": "Today,",
+          "confidence": 0.35382843017578125,
+          "speaker": null
+        },
+        {
+          "start": 18.44,
+          "end": 18.44,
+          "text": "I",
+          "confidence": 0.6326660513877869,
+          "speaker": null
+        },
+        {
+          "start": 18.44,
+          "end": 18.44,
+          "text": "will",
+          "confidence": 0.42281457781791687,
+          "speaker": null
+        },
+        {
+          "start": 18.44,
+          "end": 18.44,
+          "text": "show",
+          "confidence": 0.4345720112323761,
+          "speaker": null
+        },
+        {
+          "start": 18.44,
+          "end": 18.44,
+          "text": "you",
+          "confidence": 0.937108039855957,
+          "speaker": null
+        },
+        {
+          "start": 18.44,
+          "end": 18.56,
+          "text": "how",
+          "confidence": 0.6531699895858765,
+          "speaker": null
+        },
+        {
+          "start": 18.56,
+          "end": 18.56,
+          "text": "to",
+          "confidence": 0.9377171993255615,
+          "speaker": null
+        },
+        {
+          "start": 18.56,
+          "end": 18.56,
+          "text": "make",
+          "confidence": 0.5485506057739258,
+          "speaker": null
+        },
+        {
+          "start": 18.56,
+          "end": 18.56,
+          "text": "a",
+          "confidence": 0.39116913080215454,
+          "speaker": null
+        },
+        {
+          "start": 18.56,
+          "end": 18.56,
+          "text": "very",
+          "confidence": 0.03567313402891159,
+          "speaker": null
+        },
+        {
+          "start": 18.56,
+          "end": 18.56,
+          "text": "simple",
+          "confidence": 0.22241738438606262,
+          "speaker": null
+        },
+        {
+          "start": 18.56,
+          "end": 18.56,
+          "text": "and",
+          "confidence": 0.2308627814054489,
+          "speaker": null
+        },
+        {
+          "start": 18.56,
+          "end": 18.56,
+          "text": "easy",
+          "confidence": 0.19426488876342773,
+          "speaker": null
+        },
+        {
+          "start": 18.56,
+          "end": 18.56,
+          "text": "cake.",
+          "confidence": 0.04087584838271141,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 18.56,
+      "end": 18.62,
+      "speaker": null,
+      "text": "Please subscribe to my channel and press the bell icon to receive notifications of my new videos.",
+      "confidence": 0.9600854270598468,
+      "words": [
+        {
+          "start": 18.56,
+          "end": 18.56,
+          "text": "Please",
+          "confidence": 0.40024334192276,
+          "speaker": null
+        },
+        {
+          "start": 18.56,
+          "end": 18.56,
+          "text": "subscribe",
+          "confidence": 0.9504404067993164,
+          "speaker": null
+        },
+        {
+          "start": 18.56,
+          "end": 18.62,
+          "text": "to",
+          "confidence": 0.9983088970184326,
+          "speaker": null
+        },
+        {
+          "start": 18.62,
+          "end": 18.62,
+          "text": "my",
+          "confidence": 0.9913802742958069,
+          "speaker": null
+        },
+        {
+          "start": 18.62,
+          "end": 18.62,
+          "text": "channel",
+          "confidence": 0.9998962879180908,
+          "speaker": null
+        },
+        {
+          "start": 18.62,
+          "end": 18.62,
+          "text": "and",
+          "confidence": 0.9945430755615234,
+          "speaker": null
+        },
+        {
+          "start": 18.62,
+          "end": 18.62,
+          "text": "press",
+          "confidence": 0.9987398982048035,
+          "speaker": null
+        },
+        {
+          "start": 18.62,
+          "end": 18.62,
+          "text": "the",
+          "confidence": 0.9996597766876221,
+          "speaker": null
+        },
+        {
+          "start": 18.62,
+          "end": 18.62,
+          "text": "bell",
+          "confidence": 0.9989110231399536,
+          "speaker": null
+        },
+        {
+          "start": 18.62,
+          "end": 18.62,
+          "text": "icon",
+          "confidence": 0.9995144605636597,
+          "speaker": null
+        },
+        {
+          "start": 18.62,
+          "end": 18.62,
+          "text": "to",
+          "confidence": 0.9969533681869507,
+          "speaker": null
+        },
+        {
+          "start": 18.62,
+          "end": 18.62,
+          "text": "receive",
+          "confidence": 0.9978613257408142,
+          "speaker": null
+        },
+        {
+          "start": 18.62,
+          "end": 18.62,
+          "text": "notifications",
+          "confidence": 0.9975922703742981,
+          "speaker": null
+        },
+        {
+          "start": 18.62,
+          "end": 18.62,
+          "text": "of",
+          "confidence": 0.9998010993003845,
+          "speaker": null
+        },
+        {
+          "start": 18.62,
+          "end": 18.62,
+          "text": "my",
+          "confidence": 0.9993600249290466,
+          "speaker": null
+        },
+        {
+          "start": 18.62,
+          "end": 18.62,
+          "text": "new",
+          "confidence": 0.9992802739143372,
+          "speaker": null
+        },
+        {
+          "start": 18.62,
+          "end": 18.62,
+          "text": "videos.",
+          "confidence": 0.9989664554595947,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 18.62,
+      "end": 18.96,
+      "speaker": null,
+      "text": "Please subscribe to my channel and press the bell icon to receive notifications of my new videos.",
+      "confidence": 0.9760016904157751,
+      "words": [
+        {
+          "start": 18.62,
+          "end": 18.62,
+          "text": "Please",
+          "confidence": 0.6330203413963318,
+          "speaker": null
+        },
+        {
+          "start": 18.62,
+          "end": 18.62,
+          "text": "subscribe",
+          "confidence": 0.9814757108688354,
+          "speaker": null
+        },
+        {
+          "start": 18.62,
+          "end": 18.96,
+          "text": "to",
+          "confidence": 0.9993178844451904,
+          "speaker": null
+        },
+        {
+          "start": 18.96,
+          "end": 18.96,
+          "text": "my",
+          "confidence": 0.994087815284729,
+          "speaker": null
+        },
+        {
+          "start": 18.96,
+          "end": 18.96,
+          "text": "channel",
+          "confidence": 0.9999244213104248,
+          "speaker": null
+        },
+        {
+          "start": 18.96,
+          "end": 18.96,
+          "text": "and",
+          "confidence": 0.9970933198928833,
+          "speaker": null
+        },
+        {
+          "start": 18.96,
+          "end": 18.96,
+          "text": "press",
+          "confidence": 0.9991039633750916,
+          "speaker": null
+        },
+        {
+          "start": 18.96,
+          "end": 18.96,
+          "text": "the",
+          "confidence": 0.9997931122779846,
+          "speaker": null
+        },
+        {
+          "start": 18.96,
+          "end": 18.96,
+          "text": "bell",
+          "confidence": 0.9991897940635681,
+          "speaker": null
+        },
+        {
+          "start": 18.96,
+          "end": 18.96,
+          "text": "icon",
+          "confidence": 0.9995648264884949,
+          "speaker": null
+        },
+        {
+          "start": 18.96,
+          "end": 18.96,
+          "text": "to",
+          "confidence": 0.9974057078361511,
+          "speaker": null
+        },
+        {
+          "start": 18.96,
+          "end": 18.96,
+          "text": "receive",
+          "confidence": 0.9963955283164978,
+          "speaker": null
+        },
+        {
+          "start": 18.96,
+          "end": 18.96,
+          "text": "notifications",
+          "confidence": 0.9977737069129944,
+          "speaker": null
+        },
+        {
+          "start": 18.96,
+          "end": 18.96,
+          "text": "of",
+          "confidence": 0.9998568296432495,
+          "speaker": null
+        },
+        {
+          "start": 18.96,
+          "end": 18.96,
+          "text": "my",
+          "confidence": 0.999542236328125,
+          "speaker": null
+        },
+        {
+          "start": 18.96,
+          "end": 18.96,
+          "text": "new",
+          "confidence": 0.9995940327644348,
+          "speaker": null
+        },
+        {
+          "start": 18.96,
+          "end": 18.96,
+          "text": "videos.",
+          "confidence": 0.9988895058631897,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 18.96,
+      "end": 22.58,
+      "speaker": null,
+      "text": "Please subscribe to my channel and press the bell icon to receive notifications of my new videos.",
+      "confidence": 0.9848411258529214,
+      "words": [
+        {
+          "start": 18.96,
+          "end": 18.96,
+          "text": "Please",
+          "confidence": 0.7714781761169434,
+          "speaker": null
+        },
+        {
+          "start": 18.96,
+          "end": 18.96,
+          "text": "subscribe",
+          "confidence": 0.992258608341217,
+          "speaker": null
+        },
+        {
+          "start": 18.96,
+          "end": 19.22,
+          "text": "to",
+          "confidence": 0.9996857643127441,
+          "speaker": null
+        },
+        {
+          "start": 19.22,
+          "end": 19.22,
+          "text": "my",
+          "confidence": 0.9954822063446045,
+          "speaker": null
+        },
+        {
+          "start": 19.22,
+          "end": 19.22,
+          "text": "channel",
+          "confidence": 0.9999256134033203,
+          "speaker": null
+        },
+        {
+          "start": 19.22,
+          "end": 19.22,
+          "text": "and",
+          "confidence": 0.9979904890060425,
+          "speaker": null
+        },
+        {
+          "start": 19.22,
+          "end": 19.22,
+          "text": "press",
+          "confidence": 0.9992116689682007,
+          "speaker": null
+        },
+        {
+          "start": 19.22,
+          "end": 19.22,
+          "text": "the",
+          "confidence": 0.999854564666748,
+          "speaker": null
+        },
+        {
+          "start": 19.22,
+          "end": 19.22,
+          "text": "bell",
+          "confidence": 0.9993613362312317,
+          "speaker": null
+        },
+        {
+          "start": 19.22,
+          "end": 19.22,
+          "text": "icon",
+          "confidence": 0.9995884299278259,
+          "speaker": null
+        },
+        {
+          "start": 19.22,
+          "end": 21.54,
+          "text": "to",
+          "confidence": 0.9974984526634216,
+          "speaker": null
+        },
+        {
+          "start": 21.54,
+          "end": 21.54,
+          "text": "receive",
+          "confidence": 0.9941533207893372,
+          "speaker": null
+        },
+        {
+          "start": 21.54,
+          "end": 22.36,
+          "text": "notifications",
+          "confidence": 0.9979156851768494,
+          "speaker": null
+        },
+        {
+          "start": 22.36,
+          "end": 22.46,
+          "text": "of",
+          "confidence": 0.999893307685852,
+          "speaker": null
+        },
+        {
+          "start": 22.46,
+          "end": 22.46,
+          "text": "my",
+          "confidence": 0.9995688796043396,
+          "speaker": null
+        },
+        {
+          "start": 22.46,
+          "end": 22.46,
+          "text": "new",
+          "confidence": 0.9996774196624756,
+          "speaker": null
+        },
+        {
+          "start": 22.46,
+          "end": 22.58,
+          "text": "videos.",
+          "confidence": 0.9987552165985107,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 22.58,
+      "end": 23.76,
+      "speaker": null,
+      "text": "Please subscribe to my channel and press the bell icon to receive notifications of my new videos.",
+      "confidence": 0.989879359217251,
+      "words": [
+        {
+          "start": 22.58,
+          "end": 22.58,
+          "text": "Please",
+          "confidence": 0.8548796772956848,
+          "speaker": null
+        },
+        {
+          "start": 22.58,
+          "end": 22.58,
+          "text": "subscribe",
+          "confidence": 0.9960294961929321,
+          "speaker": null
+        },
+        {
+          "start": 22.58,
+          "end": 22.58,
+          "text": "to",
+          "confidence": 0.9998364448547363,
+          "speaker": null
+        },
+        {
+          "start": 22.58,
+          "end": 22.58,
+          "text": "my",
+          "confidence": 0.9962610602378845,
+          "speaker": null
+        },
+        {
+          "start": 22.58,
+          "end": 22.58,
+          "text": "channel",
+          "confidence": 0.9999040365219116,
+          "speaker": null
+        },
+        {
+          "start": 22.58,
+          "end": 22.58,
+          "text": "and",
+          "confidence": 0.9984645843505859,
+          "speaker": null
+        },
+        {
+          "start": 22.58,
+          "end": 22.58,
+          "text": "press",
+          "confidence": 0.9992697834968567,
+          "speaker": null
+        },
+        {
+          "start": 22.58,
+          "end": 22.58,
+          "text": "the",
+          "confidence": 0.9998869895935059,
+          "speaker": null
+        },
+        {
+          "start": 22.58,
+          "end": 22.58,
+          "text": "bell",
+          "confidence": 0.9994682669639587,
+          "speaker": null
+        },
+        {
+          "start": 22.58,
+          "end": 22.58,
+          "text": "icon",
+          "confidence": 0.9996210336685181,
+          "speaker": null
+        },
+        {
+          "start": 22.58,
+          "end": 22.58,
+          "text": "to",
+          "confidence": 0.9974741339683533,
+          "speaker": null
+        },
+        {
+          "start": 22.58,
+          "end": 22.58,
+          "text": "receive",
+          "confidence": 0.9910083413124084,
+          "speaker": null
+        },
+        {
+          "start": 22.58,
+          "end": 23.28,
+          "text": "notifications",
+          "confidence": 0.9980337023735046,
+          "speaker": null
+        },
+        {
+          "start": 23.28,
+          "end": 23.76,
+          "text": "of",
+          "confidence": 0.999915599822998,
+          "speaker": null
+        },
+        {
+          "start": 23.76,
+          "end": 23.76,
+          "text": "my",
+          "confidence": 0.9995567202568054,
+          "speaker": null
+        },
+        {
+          "start": 23.76,
+          "end": 23.76,
+          "text": "new",
+          "confidence": 0.9997263550758362,
+          "speaker": null
+        },
+        {
+          "start": 23.76,
+          "end": 23.76,
+          "text": "videos.",
+          "confidence": 0.9986128807067871,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 40.379999999999995,
+      "end": 40.9,
+      "speaker": null,
+      "text": "Please subscribe to my channel and press the bell icon to receive notifications of my new videos.",
+      "confidence": 0.4432711811215781,
+      "words": [
+        {
+          "start": 40.379999999999995,
+          "end": 40.9,
+          "text": "Please",
+          "confidence": 0.0013337184209376574,
+          "speaker": null
+        },
+        {
+          "start": 40.9,
+          "end": 40.9,
+          "text": "subscribe",
+          "confidence": 0.022672342136502266,
+          "speaker": null
+        },
+        {
+          "start": 40.9,
+          "end": 40.9,
+          "text": "to",
+          "confidence": 0.4415615499019623,
+          "speaker": null
+        },
+        {
+          "start": 40.9,
+          "end": 40.9,
+          "text": "my",
+          "confidence": 0.5403473377227783,
+          "speaker": null
+        },
+        {
+          "start": 40.9,
+          "end": 40.9,
+          "text": "channel",
+          "confidence": 0.9109435677528381,
+          "speaker": null
+        },
+        {
+          "start": 40.9,
+          "end": 40.9,
+          "text": "and",
+          "confidence": 0.12236075848340988,
+          "speaker": null
+        },
+        {
+          "start": 40.9,
+          "end": 40.9,
+          "text": "press",
+          "confidence": 0.23354394733905792,
+          "speaker": null
+        },
+        {
+          "start": 40.9,
+          "end": 40.9,
+          "text": "the",
+          "confidence": 0.9445910453796387,
+          "speaker": null
+        },
+        {
+          "start": 40.9,
+          "end": 40.9,
+          "text": "bell",
+          "confidence": 0.7925870418548584,
+          "speaker": null
+        },
+        {
+          "start": 40.9,
+          "end": 40.9,
+          "text": "icon",
+          "confidence": 0.4128991663455963,
+          "speaker": null
+        },
+        {
+          "start": 40.9,
+          "end": 40.9,
+          "text": "to",
+          "confidence": 0.25190678238868713,
+          "speaker": null
+        },
+        {
+          "start": 40.9,
+          "end": 40.9,
+          "text": "receive",
+          "confidence": 0.5011765956878662,
+          "speaker": null
+        },
+        {
+          "start": 40.9,
+          "end": 40.9,
+          "text": "notifications",
+          "confidence": 0.4372141659259796,
+          "speaker": null
+        },
+        {
+          "start": 40.9,
+          "end": 40.9,
+          "text": "of",
+          "confidence": 0.5241149663925171,
+          "speaker": null
+        },
+        {
+          "start": 40.9,
+          "end": 40.9,
+          "text": "my",
+          "confidence": 0.3491119146347046,
+          "speaker": null
+        },
+        {
+          "start": 40.9,
+          "end": 40.9,
+          "text": "new",
+          "confidence": 0.3723660111427307,
+          "speaker": null
+        },
+        {
+          "start": 40.9,
+          "end": 40.9,
+          "text": "videos.",
+          "confidence": 0.6768791675567627,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 40.92,
+      "end": 41.2,
+      "speaker": null,
+      "text": "Please subscribe to my channel and press the bell icon to receive notifications of my new videos.",
+      "confidence": 0.8664079641320688,
+      "words": [
+        {
+          "start": 40.92,
+          "end": 40.92,
+          "text": "Please",
+          "confidence": 0.0074613350443542,
+          "speaker": null
+        },
+        {
+          "start": 40.92,
+          "end": 40.92,
+          "text": "subscribe",
+          "confidence": 0.03688788786530495,
+          "speaker": null
+        },
+        {
+          "start": 40.92,
+          "end": 40.94,
+          "text": "to",
+          "confidence": 0.9370884895324707,
+          "speaker": null
+        },
+        {
+          "start": 40.94,
+          "end": 40.94,
+          "text": "my",
+          "confidence": 0.9788213968276978,
+          "speaker": null
+        },
+        {
+          "start": 40.94,
+          "end": 41.2,
+          "text": "channel",
+          "confidence": 0.9659759998321533,
+          "speaker": null
+        },
+        {
+          "start": 41.2,
+          "end": 41.2,
+          "text": "and",
+          "confidence": 0.8838863968849182,
+          "speaker": null
+        },
+        {
+          "start": 41.2,
+          "end": 41.2,
+          "text": "press",
+          "confidence": 0.9865272641181946,
+          "speaker": null
+        },
+        {
+          "start": 41.2,
+          "end": 41.2,
+          "text": "the",
+          "confidence": 0.9977405071258545,
+          "speaker": null
+        },
+        {
+          "start": 41.2,
+          "end": 41.2,
+          "text": "bell",
+          "confidence": 0.9900533556938171,
+          "speaker": null
+        },
+        {
+          "start": 41.2,
+          "end": 41.2,
+          "text": "icon",
+          "confidence": 0.9984928369522095,
+          "speaker": null
+        },
+        {
+          "start": 41.2,
+          "end": 41.2,
+          "text": "to",
+          "confidence": 0.9753820896148682,
+          "speaker": null
+        },
+        {
+          "start": 41.2,
+          "end": 41.2,
+          "text": "receive",
+          "confidence": 0.992572546005249,
+          "speaker": null
+        },
+        {
+          "start": 41.2,
+          "end": 41.2,
+          "text": "notifications",
+          "confidence": 0.997505247592926,
+          "speaker": null
+        },
+        {
+          "start": 41.2,
+          "end": 41.2,
+          "text": "of",
+          "confidence": 0.9995985627174377,
+          "speaker": null
+        },
+        {
+          "start": 41.2,
+          "end": 41.2,
+          "text": "my",
+          "confidence": 0.994408905506134,
+          "speaker": null
+        },
+        {
+          "start": 41.2,
+          "end": 41.2,
+          "text": "new",
+          "confidence": 0.9876245260238647,
+          "speaker": null
+        },
+        {
+          "start": 41.2,
+          "end": 41.2,
+          "text": "videos.",
+          "confidence": 0.9989080429077148,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 41.2,
+      "end": 41.34,
+      "speaker": null,
+      "text": "Please subscribe to my channel and press the bell icon to receive notifications of my new videos.",
+      "confidence": 0.965300928143894,
+      "words": [
+        {
+          "start": 41.2,
+          "end": 41.2,
+          "text": "Please",
+          "confidence": 0.4396435022354126,
+          "speaker": null
+        },
+        {
+          "start": 41.2,
+          "end": 41.2,
+          "text": "subscribe",
+          "confidence": 0.9891135692596436,
+          "speaker": null
+        },
+        {
+          "start": 41.2,
+          "end": 41.2,
+          "text": "to",
+          "confidence": 0.9988930821418762,
+          "speaker": null
+        },
+        {
+          "start": 41.2,
+          "end": 41.2,
+          "text": "my",
+          "confidence": 0.9978546500205994,
+          "speaker": null
+        },
+        {
+          "start": 41.2,
+          "end": 41.2,
+          "text": "channel",
+          "confidence": 0.9995490908622742,
+          "speaker": null
+        },
+        {
+          "start": 41.2,
+          "end": 41.34,
+          "text": "and",
+          "confidence": 0.9967681169509888,
+          "speaker": null
+        },
+        {
+          "start": 41.34,
+          "end": 41.34,
+          "text": "press",
+          "confidence": 0.9972072243690491,
+          "speaker": null
+        },
+        {
+          "start": 41.34,
+          "end": 41.34,
+          "text": "the",
+          "confidence": 0.9997645020484924,
+          "speaker": null
+        },
+        {
+          "start": 41.34,
+          "end": 41.34,
+          "text": "bell",
+          "confidence": 0.9990034699440002,
+          "speaker": null
+        },
+        {
+          "start": 41.34,
+          "end": 41.34,
+          "text": "icon",
+          "confidence": 0.9995500445365906,
+          "speaker": null
+        },
+        {
+          "start": 41.34,
+          "end": 41.34,
+          "text": "to",
+          "confidence": 0.9987987279891968,
+          "speaker": null
+        },
+        {
+          "start": 41.34,
+          "end": 41.34,
+          "text": "receive",
+          "confidence": 0.9987866282463074,
+          "speaker": null
+        },
+        {
+          "start": 41.34,
+          "end": 41.34,
+          "text": "notifications",
+          "confidence": 0.9986172914505005,
+          "speaker": null
+        },
+        {
+          "start": 41.34,
+          "end": 41.34,
+          "text": "of",
+          "confidence": 0.999911904335022,
+          "speaker": null
+        },
+        {
+          "start": 41.34,
+          "end": 41.34,
+          "text": "my",
+          "confidence": 0.9993245601654053,
+          "speaker": null
+        },
+        {
+          "start": 41.34,
+          "end": 41.34,
+          "text": "new",
+          "confidence": 0.9980804920196533,
+          "speaker": null
+        },
+        {
+          "start": 41.34,
+          "end": 41.34,
+          "text": "videos.",
+          "confidence": 0.9992489218711853,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 41.34,
+      "end": 47.480000000000004,
+      "speaker": null,
+      "text": "Please subscribe to my channel and press the bell icon to receive notifications of my new videos.",
+      "confidence": 0.9789346807143268,
+      "words": [
+        {
+          "start": 41.34,
+          "end": 41.78,
+          "text": "Please",
+          "confidence": 0.6599758863449097,
+          "speaker": null
+        },
+        {
+          "start": 41.78,
+          "end": 41.78,
+          "text": "subscribe",
+          "confidence": 0.9939711093902588,
+          "speaker": null
+        },
+        {
+          "start": 41.78,
+          "end": 43.16,
+          "text": "to",
+          "confidence": 0.9993089437484741,
+          "speaker": null
+        },
+        {
+          "start": 43.16,
+          "end": 43.16,
+          "text": "my",
+          "confidence": 0.9981545805931091,
+          "speaker": null
+        },
+        {
+          "start": 43.16,
+          "end": 43.16,
+          "text": "channel",
+          "confidence": 0.999771773815155,
+          "speaker": null
+        },
+        {
+          "start": 43.16,
+          "end": 43.42,
+          "text": "and",
+          "confidence": 0.9985687732696533,
+          "speaker": null
+        },
+        {
+          "start": 43.42,
+          "end": 43.42,
+          "text": "press",
+          "confidence": 0.9984764456748962,
+          "speaker": null
+        },
+        {
+          "start": 43.42,
+          "end": 43.42,
+          "text": "the",
+          "confidence": 0.9998596906661987,
+          "speaker": null
+        },
+        {
+          "start": 43.42,
+          "end": 43.42,
+          "text": "bell",
+          "confidence": 0.9994267225265503,
+          "speaker": null
+        },
+        {
+          "start": 43.42,
+          "end": 43.42,
+          "text": "icon",
+          "confidence": 0.9996271133422852,
+          "speaker": null
+        },
+        {
+          "start": 43.42,
+          "end": 47.480000000000004,
+          "text": "to",
+          "confidence": 0.999219536781311,
+          "speaker": null
+        },
+        {
+          "start": 47.480000000000004,
+          "end": 47.480000000000004,
+          "text": "receive",
+          "confidence": 0.9987519979476929,
+          "speaker": null
+        },
+        {
+          "start": 47.480000000000004,
+          "end": 47.480000000000004,
+          "text": "notifications",
+          "confidence": 0.9988678693771362,
+          "speaker": null
+        },
+        {
+          "start": 47.480000000000004,
+          "end": 47.480000000000004,
+          "text": "of",
+          "confidence": 0.9999395608901978,
+          "speaker": null
+        },
+        {
+          "start": 47.480000000000004,
+          "end": 47.480000000000004,
+          "text": "my",
+          "confidence": 0.9995711445808411,
+          "speaker": null
+        },
+        {
+          "start": 47.480000000000004,
+          "end": 47.480000000000004,
+          "text": "new",
+          "confidence": 0.9991580247879028,
+          "speaker": null
+        },
+        {
+          "start": 47.480000000000004,
+          "end": 47.480000000000004,
+          "text": "videos.",
+          "confidence": 0.9992403984069824,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 104.98,
+      "end": 105.2,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.4881866651121527,
+      "words": [
+        {
+          "start": 104.98,
+          "end": 105.2,
+          "text": "Thank",
+          "confidence": 0.003860012162476778,
+          "speaker": null
+        },
+        {
+          "start": 105.2,
+          "end": 105.2,
+          "text": "you.",
+          "confidence": 0.9725133180618286,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 408.06,
+      "end": 408.4,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.48904895584564656,
+      "words": [
+        {
+          "start": 408.06,
+          "end": 408.4,
+          "text": "Thank",
+          "confidence": 0.003027375554665923,
+          "speaker": null
+        },
+        {
+          "start": 408.4,
+          "end": 408.4,
+          "text": "you.",
+          "confidence": 0.9750705361366272,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 16.8,
+        "speaker": null,
+        "text": "Hello friends, welcome to my channel. Today, I will show you how to make a very simple and easy cake."
+      },
+      {
+        "timestamp": 18.56,
+        "speaker": null,
+        "text": "Please subscribe to my channel and press the bell icon to receive notifications of my new videos."
+      },
+      {
+        "timestamp": 18.62,
+        "speaker": null,
+        "text": "Please subscribe to my channel and press the bell icon to receive notifications of my new videos."
+      },
+      {
+        "timestamp": 18.96,
+        "speaker": null,
+        "text": "Please subscribe to my channel and press the bell icon to receive notifications of my new videos."
+      },
+      {
+        "timestamp": 22.58,
+        "speaker": null,
+        "text": "Please subscribe to my channel and press the bell icon to receive notifications of my new videos."
+      }
+    ]
+  }
+}

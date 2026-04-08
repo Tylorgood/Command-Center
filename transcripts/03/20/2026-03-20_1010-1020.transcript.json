@@ -1,0 +1,3058 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-20_1010-1020",
+    "created_at": "2026-03-21T20:09:15.486741-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 13.919999999999998,
+      "end": 29.98,
+      "speaker": null,
+      "text": "Please wear on earphones!! If you can't move your device and watch it, Please watch while dragging the screen!",
+      "confidence": 0.7188896919755886,
+      "words": [
+        {
+          "start": 13.919999999999998,
+          "end": 15.319999999999999,
+          "text": "Please",
+          "confidence": 0.006086545065045357,
+          "speaker": null
+        },
+        {
+          "start": 15.319999999999999,
+          "end": 16.72,
+          "text": "wear",
+          "confidence": 0.08028233796358109,
+          "speaker": null
+        },
+        {
+          "start": 16.72,
+          "end": 29.1,
+          "text": "on",
+          "confidence": 0.9378560185432434,
+          "speaker": null
+        },
+        {
+          "start": 29.1,
+          "end": 29.54,
+          "text": "earphones!!",
+          "confidence": 0.9215000669161478,
+          "speaker": null
+        },
+        {
+          "start": 29.54,
+          "end": 29.54,
+          "text": "If",
+          "confidence": 0.8780612349510193,
+          "speaker": null
+        },
+        {
+          "start": 29.54,
+          "end": 29.54,
+          "text": "you",
+          "confidence": 0.9933172464370728,
+          "speaker": null
+        },
+        {
+          "start": 29.54,
+          "end": 29.6,
+          "text": "can't",
+          "confidence": 0.9774234890937805,
+          "speaker": null
+        },
+        {
+          "start": 29.6,
+          "end": 29.6,
+          "text": "move",
+          "confidence": 0.9674724340438843,
+          "speaker": null
+        },
+        {
+          "start": 29.6,
+          "end": 29.6,
+          "text": "your",
+          "confidence": 0.989246666431427,
+          "speaker": null
+        },
+        {
+          "start": 29.6,
+          "end": 29.6,
+          "text": "device",
+          "confidence": 0.8786934614181519,
+          "speaker": null
+        },
+        {
+          "start": 29.6,
+          "end": 29.6,
+          "text": "and",
+          "confidence": 0.9917425513267517,
+          "speaker": null
+        },
+        {
+          "start": 29.6,
+          "end": 29.6,
+          "text": "watch",
+          "confidence": 0.9616922736167908,
+          "speaker": null
+        },
+        {
+          "start": 29.6,
+          "end": 29.6,
+          "text": "it,",
+          "confidence": 0.9929433465003967,
+          "speaker": null
+        },
+        {
+          "start": 29.6,
+          "end": 29.6,
+          "text": "Please",
+          "confidence": 0.9563925266265869,
+          "speaker": null
+        },
+        {
+          "start": 29.6,
+          "end": 29.6,
+          "text": "watch",
+          "confidence": 0.9434072971343994,
+          "speaker": null
+        },
+        {
+          "start": 29.6,
+          "end": 29.98,
+          "text": "while",
+          "confidence": 0.8755365610122681,
+          "speaker": null
+        },
+        {
+          "start": 29.98,
+          "end": 29.98,
+          "text": "dragging",
+          "confidence": 0.9493013620376587,
+          "speaker": null
+        },
+        {
+          "start": 29.98,
+          "end": 29.98,
+          "text": "the",
+          "confidence": 0.994669497013092,
+          "speaker": null
+        },
+        {
+          "start": 29.98,
+          "end": 29.98,
+          "text": "screen!",
+          "confidence": 0.9203221797943115,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 83.58,
+      "end": 84.98,
+      "speaker": null,
+      "text": "Okay, okay,",
+      "confidence": 0.9299860501113082,
+      "words": [
+        {
+          "start": 83.58,
+          "end": 84.98,
+          "text": "Okay,",
+          "confidence": 0.004388461820781231,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.08351033180952072,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.6606243252754211,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.7827885746955872,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.8351540565490723,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.8622740507125854,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.8784109950065613,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.8900160789489746,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.8968726992607117,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9017308950424194,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9047070741653442,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9079723954200745,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9110932946205139,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9128967523574829,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.916391134262085,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9193872809410095,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9234815239906311,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9240032434463501,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9261992573738098,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9281269311904907,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9294250011444092,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9308328628540039,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9313791394233704,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9321619272232056,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9331493973731995,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9339221119880676,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9350373148918152,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9369329214096069,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9381662607192993,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9392136335372925,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9401072263717651,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9403532147407532,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.941467821598053,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9409804940223694,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.941960871219635,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9415038228034973,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9423919916152954,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9426736831665039,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9426276087760925,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9443527460098267,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9453012347221375,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9460200071334839,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9469135999679565,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9477059841156006,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9493933320045471,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9489534497261047,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9498100280761719,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9515841007232666,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9513863921165466,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9524798393249512,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9524207711219788,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9535982012748718,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.954673707485199,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9547492265701294,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9555487632751465,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9559078812599182,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9569246172904968,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9581466913223267,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.957770049571991,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9589242339134216,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9591865539550781,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.959618091583252,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9599597454071045,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9604965448379517,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9613051414489746,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9627416729927063,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9628852605819702,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9629561901092529,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.96344393491745,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9647336602210999,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9650644063949585,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9652444124221802,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9656127095222473,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9659708738327026,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9668835401535034,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9673146605491638,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9667425751686096,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9673937559127808,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9687399864196777,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9686650037765503,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9696637988090515,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9689004421234131,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9698931574821472,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9697771072387695,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9697037935256958,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9695140719413757,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9693200588226318,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9702127575874329,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9713347554206848,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9716352224349976,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.971327543258667,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9706432819366455,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9727028608322144,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9722192287445068,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9715283513069153,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9720732569694519,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9723929166793823,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9738461971282959,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9723787307739258,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9718057513237,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9725193977355957,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9733004570007324,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9733299016952515,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9726898074150085,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9728953242301941,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9729883074760437,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9740361571311951,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9718019366264343,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9725471138954163,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.9728091359138489,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay,",
+          "confidence": 0.970731794834137,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "okay",
+          "confidence": 0.976074755191803,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 138.24,
+      "end": 139.98,
+      "speaker": null,
+      "text": "If you can't move your device and watch it, Please watch while dragging the screen!",
+      "confidence": 0.20511106668272988,
+      "words": [
+        {
+          "start": 138.24,
+          "end": 138.78,
+          "text": "If",
+          "confidence": 0.0006816568202339113,
+          "speaker": null
+        },
+        {
+          "start": 138.78,
+          "end": 139.32,
+          "text": "you",
+          "confidence": 0.660266637802124,
+          "speaker": null
+        },
+        {
+          "start": 139.32,
+          "end": 139.62,
+          "text": "can't",
+          "confidence": 0.11606628075242043,
+          "speaker": null
+        },
+        {
+          "start": 139.62,
+          "end": 139.86,
+          "text": "move",
+          "confidence": 0.027305372059345245,
+          "speaker": null
+        },
+        {
+          "start": 139.86,
+          "end": 139.94,
+          "text": "your",
+          "confidence": 0.24454107880592346,
+          "speaker": null
+        },
+        {
+          "start": 139.94,
+          "end": 139.94,
+          "text": "device",
+          "confidence": 0.00840587168931961,
+          "speaker": null
+        },
+        {
+          "start": 139.94,
+          "end": 139.94,
+          "text": "and",
+          "confidence": 0.06817328184843063,
+          "speaker": null
+        },
+        {
+          "start": 139.94,
+          "end": 139.94,
+          "text": "watch",
+          "confidence": 0.19703876972198486,
+          "speaker": null
+        },
+        {
+          "start": 139.94,
+          "end": 139.94,
+          "text": "it,",
+          "confidence": 0.1844669133424759,
+          "speaker": null
+        },
+        {
+          "start": 139.94,
+          "end": 139.94,
+          "text": "Please",
+          "confidence": 0.0037781032733619213,
+          "speaker": null
+        },
+        {
+          "start": 139.94,
+          "end": 139.98,
+          "text": "watch",
+          "confidence": 0.15388569235801697,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "while",
+          "confidence": 0.22436293959617615,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "dragging",
+          "confidence": 0.17065806686878204,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "the",
+          "confidence": 0.42850521206855774,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "screen!",
+          "confidence": 0.5885301232337952,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 147.98000000000002,
+      "end": 150.56,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5289716795086861,
+      "words": [
+        {
+          "start": 147.98000000000002,
+          "end": 149.38,
+          "text": "Thank",
+          "confidence": 0.07048995792865753,
+          "speaker": null
+        },
+        {
+          "start": 149.38,
+          "end": 150.56,
+          "text": "you.",
+          "confidence": 0.9874534010887146,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 194.66,
+      "end": 194.84,
+      "speaker": null,
+      "text": "If you can't move your device and watch it, Please watch while dragging the screen!",
+      "confidence": 0.21351647282329697,
+      "words": [
+        {
+          "start": 194.66,
+          "end": 194.78,
+          "text": "If",
+          "confidence": 0.0010133064351975918,
+          "speaker": null
+        },
+        {
+          "start": 194.78,
+          "end": 194.84,
+          "text": "you",
+          "confidence": 0.6508760452270508,
+          "speaker": null
+        },
+        {
+          "start": 194.84,
+          "end": 194.84,
+          "text": "can't",
+          "confidence": 0.16392193362116814,
+          "speaker": null
+        },
+        {
+          "start": 194.84,
+          "end": 194.84,
+          "text": "move",
+          "confidence": 0.02578604221343994,
+          "speaker": null
+        },
+        {
+          "start": 194.84,
+          "end": 194.84,
+          "text": "your",
+          "confidence": 0.20018954575061798,
+          "speaker": null
+        },
+        {
+          "start": 194.84,
+          "end": 194.84,
+          "text": "device",
+          "confidence": 0.013741760514676571,
+          "speaker": null
+        },
+        {
+          "start": 194.84,
+          "end": 194.84,
+          "text": "and",
+          "confidence": 0.07282783836126328,
+          "speaker": null
+        },
+        {
+          "start": 194.84,
+          "end": 194.84,
+          "text": "watch",
+          "confidence": 0.18593311309814453,
+          "speaker": null
+        },
+        {
+          "start": 194.84,
+          "end": 194.84,
+          "text": "it,",
+          "confidence": 0.19671115279197693,
+          "speaker": null
+        },
+        {
+          "start": 194.84,
+          "end": 194.84,
+          "text": "Please",
+          "confidence": 0.0037000032607465982,
+          "speaker": null
+        },
+        {
+          "start": 194.84,
+          "end": 194.84,
+          "text": "watch",
+          "confidence": 0.20127078890800476,
+          "speaker": null
+        },
+        {
+          "start": 194.84,
+          "end": 194.84,
+          "text": "while",
+          "confidence": 0.23491215705871582,
+          "speaker": null
+        },
+        {
+          "start": 194.84,
+          "end": 194.84,
+          "text": "dragging",
+          "confidence": 0.23844937980175018,
+          "speaker": null
+        },
+        {
+          "start": 194.84,
+          "end": 194.84,
+          "text": "the",
+          "confidence": 0.42954128980636597,
+          "speaker": null
+        },
+        {
+          "start": 194.84,
+          "end": 194.84,
+          "text": "screen!",
+          "confidence": 0.5838727355003357,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 194.84,
+      "end": 194.98,
+      "speaker": null,
+      "text": "If you can't move your device and watch it, Please watch while dragging the screen!",
+      "confidence": 0.8250611364841461,
+      "words": [
+        {
+          "start": 194.84,
+          "end": 194.84,
+          "text": "If",
+          "confidence": 0.11718931794166565,
+          "speaker": null
+        },
+        {
+          "start": 194.84,
+          "end": 194.84,
+          "text": "you",
+          "confidence": 0.7046557664871216,
+          "speaker": null
+        },
+        {
+          "start": 194.84,
+          "end": 194.86,
+          "text": "can't",
+          "confidence": 0.617964506149292,
+          "speaker": null
+        },
+        {
+          "start": 194.86,
+          "end": 194.94,
+          "text": "move",
+          "confidence": 0.7996453046798706,
+          "speaker": null
+        },
+        {
+          "start": 194.94,
+          "end": 194.94,
+          "text": "your",
+          "confidence": 0.7725815176963806,
+          "speaker": null
+        },
+        {
+          "start": 194.94,
+          "end": 194.94,
+          "text": "device",
+          "confidence": 0.9526433944702148,
+          "speaker": null
+        },
+        {
+          "start": 194.94,
+          "end": 194.94,
+          "text": "and",
+          "confidence": 0.7841285467147827,
+          "speaker": null
+        },
+        {
+          "start": 194.94,
+          "end": 194.94,
+          "text": "watch",
+          "confidence": 0.9863176345825195,
+          "speaker": null
+        },
+        {
+          "start": 194.94,
+          "end": 194.94,
+          "text": "it,",
+          "confidence": 0.9333847761154175,
+          "speaker": null
+        },
+        {
+          "start": 194.94,
+          "end": 194.94,
+          "text": "Please",
+          "confidence": 0.8184271454811096,
+          "speaker": null
+        },
+        {
+          "start": 194.94,
+          "end": 194.94,
+          "text": "watch",
+          "confidence": 0.9310506582260132,
+          "speaker": null
+        },
+        {
+          "start": 194.94,
+          "end": 194.98,
+          "text": "while",
+          "confidence": 0.9900909662246704,
+          "speaker": null
+        },
+        {
+          "start": 194.98,
+          "end": 194.98,
+          "text": "dragging",
+          "confidence": 0.9946566820144653,
+          "speaker": null
+        },
+        {
+          "start": 194.98,
+          "end": 194.98,
+          "text": "the",
+          "confidence": 0.9746053814888,
+          "speaker": null
+        },
+        {
+          "start": 194.98,
+          "end": 194.98,
+          "text": "screen!",
+          "confidence": 0.9985754489898682,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 247.18,
+      "end": 249.98,
+      "speaker": null,
+      "text": "If you can't move your device and watch it, Please watch while dragging the screen!",
+      "confidence": 0.22646082933836928,
+      "words": [
+        {
+          "start": 247.18,
+          "end": 248.58,
+          "text": "If",
+          "confidence": 0.0010342815658077598,
+          "speaker": null
+        },
+        {
+          "start": 248.58,
+          "end": 249.98,
+          "text": "you",
+          "confidence": 0.7102887034416199,
+          "speaker": null
+        },
+        {
+          "start": 249.98,
+          "end": 249.98,
+          "text": "can't",
+          "confidence": 0.13739121053367853,
+          "speaker": null
+        },
+        {
+          "start": 249.98,
+          "end": 249.98,
+          "text": "move",
+          "confidence": 0.028015997260808945,
+          "speaker": null
+        },
+        {
+          "start": 249.98,
+          "end": 249.98,
+          "text": "your",
+          "confidence": 0.1993858963251114,
+          "speaker": null
+        },
+        {
+          "start": 249.98,
+          "end": 249.98,
+          "text": "device",
+          "confidence": 0.012472985312342644,
+          "speaker": null
+        },
+        {
+          "start": 249.98,
+          "end": 249.98,
+          "text": "and",
+          "confidence": 0.07515522837638855,
+          "speaker": null
+        },
+        {
+          "start": 249.98,
+          "end": 249.98,
+          "text": "watch",
+          "confidence": 0.22909848392009735,
+          "speaker": null
+        },
+        {
+          "start": 249.98,
+          "end": 249.98,
+          "text": "it,",
+          "confidence": 0.1912752091884613,
+          "speaker": null
+        },
+        {
+          "start": 249.98,
+          "end": 249.98,
+          "text": "Please",
+          "confidence": 0.004901287145912647,
+          "speaker": null
+        },
+        {
+          "start": 249.98,
+          "end": 249.98,
+          "text": "watch",
+          "confidence": 0.2121492326259613,
+          "speaker": null
+        },
+        {
+          "start": 249.98,
+          "end": 249.98,
+          "text": "while",
+          "confidence": 0.2735316753387451,
+          "speaker": null
+        },
+        {
+          "start": 249.98,
+          "end": 249.98,
+          "text": "dragging",
+          "confidence": 0.2630058228969574,
+          "speaker": null
+        },
+        {
+          "start": 249.98,
+          "end": 249.98,
+          "text": "the",
+          "confidence": 0.4421565532684326,
+          "speaker": null
+        },
+        {
+          "start": 249.98,
+          "end": 249.98,
+          "text": "screen!",
+          "confidence": 0.6170498728752136,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 284.08,
+      "end": 285.48,
+      "speaker": null,
+      "text": "If you can't move your device and watch it, Please watch while dragging the screen!",
+      "confidence": 0.18790677841752768,
+      "words": [
+        {
+          "start": 284.08,
+          "end": 285.48,
+          "text": "If",
+          "confidence": 0.0007153834449127316,
+          "speaker": null
+        },
+        {
+          "start": 285.48,
+          "end": 285.48,
+          "text": "you",
+          "confidence": 0.6139552593231201,
+          "speaker": null
+        },
+        {
+          "start": 285.48,
+          "end": 285.48,
+          "text": "can't",
+          "confidence": 0.18959078378975391,
+          "speaker": null
+        },
+        {
+          "start": 285.48,
+          "end": 285.48,
+          "text": "move",
+          "confidence": 0.01436596643179655,
+          "speaker": null
+        },
+        {
+          "start": 285.48,
+          "end": 285.48,
+          "text": "your",
+          "confidence": 0.12667731940746307,
+          "speaker": null
+        },
+        {
+          "start": 285.48,
+          "end": 285.48,
+          "text": "device",
+          "confidence": 0.004721094388514757,
+          "speaker": null
+        },
+        {
+          "start": 285.48,
+          "end": 285.48,
+          "text": "and",
+          "confidence": 0.08245237171649933,
+          "speaker": null
+        },
+        {
+          "start": 285.48,
+          "end": 285.48,
+          "text": "watch",
+          "confidence": 0.1241360530257225,
+          "speaker": null
+        },
+        {
+          "start": 285.48,
+          "end": 285.48,
+          "text": "it,",
+          "confidence": 0.20142774283885956,
+          "speaker": null
+        },
+        {
+          "start": 285.48,
+          "end": 285.48,
+          "text": "Please",
+          "confidence": 0.0017754643922671676,
+          "speaker": null
+        },
+        {
+          "start": 285.48,
+          "end": 285.48,
+          "text": "watch",
+          "confidence": 0.2397484928369522,
+          "speaker": null
+        },
+        {
+          "start": 285.48,
+          "end": 285.48,
+          "text": "while",
+          "confidence": 0.13424614071846008,
+          "speaker": null
+        },
+        {
+          "start": 285.48,
+          "end": 285.48,
+          "text": "dragging",
+          "confidence": 0.20653951168060303,
+          "speaker": null
+        },
+        {
+          "start": 285.48,
+          "end": 285.48,
+          "text": "the",
+          "confidence": 0.4041857123374939,
+          "speaker": null
+        },
+        {
+          "start": 285.48,
+          "end": 285.48,
+          "text": "screen!",
+          "confidence": 0.4740643799304962,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 309.08,
+      "end": 310.48,
+      "speaker": null,
+      "text": "If you can't move your device and watch it, Please watch while dragging the screen!",
+      "confidence": 0.18790677841752768,
+      "words": [
+        {
+          "start": 309.08,
+          "end": 310.48,
+          "text": "If",
+          "confidence": 0.0007153834449127316,
+          "speaker": null
+        },
+        {
+          "start": 310.48,
+          "end": 310.48,
+          "text": "you",
+          "confidence": 0.6139552593231201,
+          "speaker": null
+        },
+        {
+          "start": 310.48,
+          "end": 310.48,
+          "text": "can't",
+          "confidence": 0.18959078378975391,
+          "speaker": null
+        },
+        {
+          "start": 310.48,
+          "end": 310.48,
+          "text": "move",
+          "confidence": 0.01436596643179655,
+          "speaker": null
+        },
+        {
+          "start": 310.48,
+          "end": 310.48,
+          "text": "your",
+          "confidence": 0.12667731940746307,
+          "speaker": null
+        },
+        {
+          "start": 310.48,
+          "end": 310.48,
+          "text": "device",
+          "confidence": 0.004721094388514757,
+          "speaker": null
+        },
+        {
+          "start": 310.48,
+          "end": 310.48,
+          "text": "and",
+          "confidence": 0.08245237171649933,
+          "speaker": null
+        },
+        {
+          "start": 310.48,
+          "end": 310.48,
+          "text": "watch",
+          "confidence": 0.1241360530257225,
+          "speaker": null
+        },
+        {
+          "start": 310.48,
+          "end": 310.48,
+          "text": "it,",
+          "confidence": 0.20142774283885956,
+          "speaker": null
+        },
+        {
+          "start": 310.48,
+          "end": 310.48,
+          "text": "Please",
+          "confidence": 0.0017754643922671676,
+          "speaker": null
+        },
+        {
+          "start": 310.48,
+          "end": 310.48,
+          "text": "watch",
+          "confidence": 0.2397484928369522,
+          "speaker": null
+        },
+        {
+          "start": 310.48,
+          "end": 310.48,
+          "text": "while",
+          "confidence": 0.13424614071846008,
+          "speaker": null
+        },
+        {
+          "start": 310.48,
+          "end": 310.48,
+          "text": "dragging",
+          "confidence": 0.20653951168060303,
+          "speaker": null
+        },
+        {
+          "start": 310.48,
+          "end": 310.48,
+          "text": "the",
+          "confidence": 0.4041857123374939,
+          "speaker": null
+        },
+        {
+          "start": 310.48,
+          "end": 310.48,
+          "text": "screen!",
+          "confidence": 0.4740643799304962,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 334.08,
+      "end": 335.48,
+      "speaker": null,
+      "text": "If you can't move your device and watch it, Please watch while dragging the screen!",
+      "confidence": 0.18790677841752768,
+      "words": [
+        {
+          "start": 334.08,
+          "end": 335.48,
+          "text": "If",
+          "confidence": 0.0007153834449127316,
+          "speaker": null
+        },
+        {
+          "start": 335.48,
+          "end": 335.48,
+          "text": "you",
+          "confidence": 0.6139552593231201,
+          "speaker": null
+        },
+        {
+          "start": 335.48,
+          "end": 335.48,
+          "text": "can't",
+          "confidence": 0.18959078378975391,
+          "speaker": null
+        },
+        {
+          "start": 335.48,
+          "end": 335.48,
+          "text": "move",
+          "confidence": 0.01436596643179655,
+          "speaker": null
+        },
+        {
+          "start": 335.48,
+          "end": 335.48,
+          "text": "your",
+          "confidence": 0.12667731940746307,
+          "speaker": null
+        },
+        {
+          "start": 335.48,
+          "end": 335.48,
+          "text": "device",
+          "confidence": 0.004721094388514757,
+          "speaker": null
+        },
+        {
+          "start": 335.48,
+          "end": 335.48,
+          "text": "and",
+          "confidence": 0.08245237171649933,
+          "speaker": null
+        },
+        {
+          "start": 335.48,
+          "end": 335.48,
+          "text": "watch",
+          "confidence": 0.1241360530257225,
+          "speaker": null
+        },
+        {
+          "start": 335.48,
+          "end": 335.48,
+          "text": "it,",
+          "confidence": 0.20142774283885956,
+          "speaker": null
+        },
+        {
+          "start": 335.48,
+          "end": 335.48,
+          "text": "Please",
+          "confidence": 0.0017754643922671676,
+          "speaker": null
+        },
+        {
+          "start": 335.48,
+          "end": 335.48,
+          "text": "watch",
+          "confidence": 0.2397484928369522,
+          "speaker": null
+        },
+        {
+          "start": 335.48,
+          "end": 335.48,
+          "text": "while",
+          "confidence": 0.13424614071846008,
+          "speaker": null
+        },
+        {
+          "start": 335.48,
+          "end": 335.48,
+          "text": "dragging",
+          "confidence": 0.20653951168060303,
+          "speaker": null
+        },
+        {
+          "start": 335.48,
+          "end": 335.48,
+          "text": "the",
+          "confidence": 0.4041857123374939,
+          "speaker": null
+        },
+        {
+          "start": 335.48,
+          "end": 335.48,
+          "text": "screen!",
+          "confidence": 0.4740643799304962,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 359.08,
+      "end": 360.48,
+      "speaker": null,
+      "text": "If you can't move your device and watch it, Please watch while dragging the screen!",
+      "confidence": 0.18790677841752768,
+      "words": [
+        {
+          "start": 359.08,
+          "end": 360.48,
+          "text": "If",
+          "confidence": 0.0007153834449127316,
+          "speaker": null
+        },
+        {
+          "start": 360.48,
+          "end": 360.48,
+          "text": "you",
+          "confidence": 0.6139552593231201,
+          "speaker": null
+        },
+        {
+          "start": 360.48,
+          "end": 360.48,
+          "text": "can't",
+          "confidence": 0.18959078378975391,
+          "speaker": null
+        },
+        {
+          "start": 360.48,
+          "end": 360.48,
+          "text": "move",
+          "confidence": 0.01436596643179655,
+          "speaker": null
+        },
+        {
+          "start": 360.48,
+          "end": 360.48,
+          "text": "your",
+          "confidence": 0.12667731940746307,
+          "speaker": null
+        },
+        {
+          "start": 360.48,
+          "end": 360.48,
+          "text": "device",
+          "confidence": 0.004721094388514757,
+          "speaker": null
+        },
+        {
+          "start": 360.48,
+          "end": 360.48,
+          "text": "and",
+          "confidence": 0.08245237171649933,
+          "speaker": null
+        },
+        {
+          "start": 360.48,
+          "end": 360.48,
+          "text": "watch",
+          "confidence": 0.1241360530257225,
+          "speaker": null
+        },
+        {
+          "start": 360.48,
+          "end": 360.48,
+          "text": "it,",
+          "confidence": 0.20142774283885956,
+          "speaker": null
+        },
+        {
+          "start": 360.48,
+          "end": 360.48,
+          "text": "Please",
+          "confidence": 0.0017754643922671676,
+          "speaker": null
+        },
+        {
+          "start": 360.48,
+          "end": 360.48,
+          "text": "watch",
+          "confidence": 0.2397484928369522,
+          "speaker": null
+        },
+        {
+          "start": 360.48,
+          "end": 360.48,
+          "text": "while",
+          "confidence": 0.13424614071846008,
+          "speaker": null
+        },
+        {
+          "start": 360.48,
+          "end": 360.48,
+          "text": "dragging",
+          "confidence": 0.20653951168060303,
+          "speaker": null
+        },
+        {
+          "start": 360.48,
+          "end": 360.48,
+          "text": "the",
+          "confidence": 0.4041857123374939,
+          "speaker": null
+        },
+        {
+          "start": 360.48,
+          "end": 360.48,
+          "text": "screen!",
+          "confidence": 0.4740643799304962,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 384.08,
+      "end": 385.48,
+      "speaker": null,
+      "text": "If you can't move your device and watch it, Please watch while dragging the screen!",
+      "confidence": 0.18790677841752768,
+      "words": [
+        {
+          "start": 384.08,
+          "end": 385.48,
+          "text": "If",
+          "confidence": 0.0007153834449127316,
+          "speaker": null
+        },
+        {
+          "start": 385.48,
+          "end": 385.48,
+          "text": "you",
+          "confidence": 0.6139552593231201,
+          "speaker": null
+        },
+        {
+          "start": 385.48,
+          "end": 385.48,
+          "text": "can't",
+          "confidence": 0.18959078378975391,
+          "speaker": null
+        },
+        {
+          "start": 385.48,
+          "end": 385.48,
+          "text": "move",
+          "confidence": 0.01436596643179655,
+          "speaker": null
+        },
+        {
+          "start": 385.48,
+          "end": 385.48,
+          "text": "your",
+          "confidence": 0.12667731940746307,
+          "speaker": null
+        },
+        {
+          "start": 385.48,
+          "end": 385.48,
+          "text": "device",
+          "confidence": 0.004721094388514757,
+          "speaker": null
+        },
+        {
+          "start": 385.48,
+          "end": 385.48,
+          "text": "and",
+          "confidence": 0.08245237171649933,
+          "speaker": null
+        },
+        {
+          "start": 385.48,
+          "end": 385.48,
+          "text": "watch",
+          "confidence": 0.1241360530257225,
+          "speaker": null
+        },
+        {
+          "start": 385.48,
+          "end": 385.48,
+          "text": "it,",
+          "confidence": 0.20142774283885956,
+          "speaker": null
+        },
+        {
+          "start": 385.48,
+          "end": 385.48,
+          "text": "Please",
+          "confidence": 0.0017754643922671676,
+          "speaker": null
+        },
+        {
+          "start": 385.48,
+          "end": 385.48,
+          "text": "watch",
+          "confidence": 0.2397484928369522,
+          "speaker": null
+        },
+        {
+          "start": 385.48,
+          "end": 385.48,
+          "text": "while",
+          "confidence": 0.13424614071846008,
+          "speaker": null
+        },
+        {
+          "start": 385.48,
+          "end": 385.48,
+          "text": "dragging",
+          "confidence": 0.20653951168060303,
+          "speaker": null
+        },
+        {
+          "start": 385.48,
+          "end": 385.48,
+          "text": "the",
+          "confidence": 0.4041857123374939,
+          "speaker": null
+        },
+        {
+          "start": 385.48,
+          "end": 385.48,
+          "text": "screen!",
+          "confidence": 0.4740643799304962,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 409.08,
+      "end": 410.48,
+      "speaker": null,
+      "text": "If you can't move your device and watch it, Please watch while dragging the screen!",
+      "confidence": 0.18790677841752768,
+      "words": [
+        {
+          "start": 409.08,
+          "end": 410.48,
+          "text": "If",
+          "confidence": 0.0007153834449127316,
+          "speaker": null
+        },
+        {
+          "start": 410.48,
+          "end": 410.48,
+          "text": "you",
+          "confidence": 0.6139552593231201,
+          "speaker": null
+        },
+        {
+          "start": 410.48,
+          "end": 410.48,
+          "text": "can't",
+          "confidence": 0.18959078378975391,
+          "speaker": null
+        },
+        {
+          "start": 410.48,
+          "end": 410.48,
+          "text": "move",
+          "confidence": 0.01436596643179655,
+          "speaker": null
+        },
+        {
+          "start": 410.48,
+          "end": 410.48,
+          "text": "your",
+          "confidence": 0.12667731940746307,
+          "speaker": null
+        },
+        {
+          "start": 410.48,
+          "end": 410.48,
+          "text": "device",
+          "confidence": 0.004721094388514757,
+          "speaker": null
+        },
+        {
+          "start": 410.48,
+          "end": 410.48,
+          "text": "and",
+          "confidence": 0.08245237171649933,
+          "speaker": null
+        },
+        {
+          "start": 410.48,
+          "end": 410.48,
+          "text": "watch",
+          "confidence": 0.1241360530257225,
+          "speaker": null
+        },
+        {
+          "start": 410.48,
+          "end": 410.48,
+          "text": "it,",
+          "confidence": 0.20142774283885956,
+          "speaker": null
+        },
+        {
+          "start": 410.48,
+          "end": 410.48,
+          "text": "Please",
+          "confidence": 0.0017754643922671676,
+          "speaker": null
+        },
+        {
+          "start": 410.48,
+          "end": 410.48,
+          "text": "watch",
+          "confidence": 0.2397484928369522,
+          "speaker": null
+        },
+        {
+          "start": 410.48,
+          "end": 410.48,
+          "text": "while",
+          "confidence": 0.13424614071846008,
+          "speaker": null
+        },
+        {
+          "start": 410.48,
+          "end": 410.48,
+          "text": "dragging",
+          "confidence": 0.20653951168060303,
+          "speaker": null
+        },
+        {
+          "start": 410.48,
+          "end": 410.48,
+          "text": "the",
+          "confidence": 0.4041857123374939,
+          "speaker": null
+        },
+        {
+          "start": 410.48,
+          "end": 410.48,
+          "text": "screen!",
+          "confidence": 0.4740643799304962,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 434.08,
+      "end": 435.48,
+      "speaker": null,
+      "text": "If you can't move your device and watch it, Please watch while dragging the screen!",
+      "confidence": 0.18790677841752768,
+      "words": [
+        {
+          "start": 434.08,
+          "end": 435.48,
+          "text": "If",
+          "confidence": 0.0007153834449127316,
+          "speaker": null
+        },
+        {
+          "start": 435.48,
+          "end": 435.48,
+          "text": "you",
+          "confidence": 0.6139552593231201,
+          "speaker": null
+        },
+        {
+          "start": 435.48,
+          "end": 435.48,
+          "text": "can't",
+          "confidence": 0.18959078378975391,
+          "speaker": null
+        },
+        {
+          "start": 435.48,
+          "end": 435.48,
+          "text": "move",
+          "confidence": 0.01436596643179655,
+          "speaker": null
+        },
+        {
+          "start": 435.48,
+          "end": 435.48,
+          "text": "your",
+          "confidence": 0.12667731940746307,
+          "speaker": null
+        },
+        {
+          "start": 435.48,
+          "end": 435.48,
+          "text": "device",
+          "confidence": 0.004721094388514757,
+          "speaker": null
+        },
+        {
+          "start": 435.48,
+          "end": 435.48,
+          "text": "and",
+          "confidence": 0.08245237171649933,
+          "speaker": null
+        },
+        {
+          "start": 435.48,
+          "end": 435.48,
+          "text": "watch",
+          "confidence": 0.1241360530257225,
+          "speaker": null
+        },
+        {
+          "start": 435.48,
+          "end": 435.48,
+          "text": "it,",
+          "confidence": 0.20142774283885956,
+          "speaker": null
+        },
+        {
+          "start": 435.48,
+          "end": 435.48,
+          "text": "Please",
+          "confidence": 0.0017754643922671676,
+          "speaker": null
+        },
+        {
+          "start": 435.48,
+          "end": 435.48,
+          "text": "watch",
+          "confidence": 0.2397484928369522,
+          "speaker": null
+        },
+        {
+          "start": 435.48,
+          "end": 435.48,
+          "text": "while",
+          "confidence": 0.13424614071846008,
+          "speaker": null
+        },
+        {
+          "start": 435.48,
+          "end": 435.48,
+          "text": "dragging",
+          "confidence": 0.20653951168060303,
+          "speaker": null
+        },
+        {
+          "start": 435.48,
+          "end": 435.48,
+          "text": "the",
+          "confidence": 0.4041857123374939,
+          "speaker": null
+        },
+        {
+          "start": 435.48,
+          "end": 435.48,
+          "text": "screen!",
+          "confidence": 0.4740643799304962,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 459.08,
+      "end": 460.48,
+      "speaker": null,
+      "text": "If you can't move your device and watch it, Please watch while dragging the screen!",
+      "confidence": 0.18790677841752768,
+      "words": [
+        {
+          "start": 459.08,
+          "end": 460.48,
+          "text": "If",
+          "confidence": 0.0007153834449127316,
+          "speaker": null
+        },
+        {
+          "start": 460.48,
+          "end": 460.48,
+          "text": "you",
+          "confidence": 0.6139552593231201,
+          "speaker": null
+        },
+        {
+          "start": 460.48,
+          "end": 460.48,
+          "text": "can't",
+          "confidence": 0.18959078378975391,
+          "speaker": null
+        },
+        {
+          "start": 460.48,
+          "end": 460.48,
+          "text": "move",
+          "confidence": 0.01436596643179655,
+          "speaker": null
+        },
+        {
+          "start": 460.48,
+          "end": 460.48,
+          "text": "your",
+          "confidence": 0.12667731940746307,
+          "speaker": null
+        },
+        {
+          "start": 460.48,
+          "end": 460.48,
+          "text": "device",
+          "confidence": 0.004721094388514757,
+          "speaker": null
+        },
+        {
+          "start": 460.48,
+          "end": 460.48,
+          "text": "and",
+          "confidence": 0.08245237171649933,
+          "speaker": null
+        },
+        {
+          "start": 460.48,
+          "end": 460.48,
+          "text": "watch",
+          "confidence": 0.1241360530257225,
+          "speaker": null
+        },
+        {
+          "start": 460.48,
+          "end": 460.48,
+          "text": "it,",
+          "confidence": 0.20142774283885956,
+          "speaker": null
+        },
+        {
+          "start": 460.48,
+          "end": 460.48,
+          "text": "Please",
+          "confidence": 0.0017754643922671676,
+          "speaker": null
+        },
+        {
+          "start": 460.48,
+          "end": 460.48,
+          "text": "watch",
+          "confidence": 0.2397484928369522,
+          "speaker": null
+        },
+        {
+          "start": 460.48,
+          "end": 460.48,
+          "text": "while",
+          "confidence": 0.13424614071846008,
+          "speaker": null
+        },
+        {
+          "start": 460.48,
+          "end": 460.48,
+          "text": "dragging",
+          "confidence": 0.20653951168060303,
+          "speaker": null
+        },
+        {
+          "start": 460.48,
+          "end": 460.48,
+          "text": "the",
+          "confidence": 0.4041857123374939,
+          "speaker": null
+        },
+        {
+          "start": 460.48,
+          "end": 460.48,
+          "text": "screen!",
+          "confidence": 0.4740643799304962,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 484.08,
+      "end": 485.48,
+      "speaker": null,
+      "text": "If you can't move your device and watch it, Please watch while dragging the screen!",
+      "confidence": 0.18790677841752768,
+      "words": [
+        {
+          "start": 484.08,
+          "end": 485.48,
+          "text": "If",
+          "confidence": 0.0007153834449127316,
+          "speaker": null
+        },
+        {
+          "start": 485.48,
+          "end": 485.48,
+          "text": "you",
+          "confidence": 0.6139552593231201,
+          "speaker": null
+        },
+        {
+          "start": 485.48,
+          "end": 485.48,
+          "text": "can't",
+          "confidence": 0.18959078378975391,
+          "speaker": null
+        },
+        {
+          "start": 485.48,
+          "end": 485.48,
+          "text": "move",
+          "confidence": 0.01436596643179655,
+          "speaker": null
+        },
+        {
+          "start": 485.48,
+          "end": 485.48,
+          "text": "your",
+          "confidence": 0.12667731940746307,
+          "speaker": null
+        },
+        {
+          "start": 485.48,
+          "end": 485.48,
+          "text": "device",
+          "confidence": 0.004721094388514757,
+          "speaker": null
+        },
+        {
+          "start": 485.48,
+          "end": 485.48,
+          "text": "and",
+          "confidence": 0.08245237171649933,
+          "speaker": null
+        },
+        {
+          "start": 485.48,
+          "end": 485.48,
+          "text": "watch",
+          "confidence": 0.1241360530257225,
+          "speaker": null
+        },
+        {
+          "start": 485.48,
+          "end": 485.48,
+          "text": "it,",
+          "confidence": 0.20142774283885956,
+          "speaker": null
+        },
+        {
+          "start": 485.48,
+          "end": 485.48,
+          "text": "Please",
+          "confidence": 0.0017754643922671676,
+          "speaker": null
+        },
+        {
+          "start": 485.48,
+          "end": 485.48,
+          "text": "watch",
+          "confidence": 0.2397484928369522,
+          "speaker": null
+        },
+        {
+          "start": 485.48,
+          "end": 485.48,
+          "text": "while",
+          "confidence": 0.13424614071846008,
+          "speaker": null
+        },
+        {
+          "start": 485.48,
+          "end": 485.48,
+          "text": "dragging",
+          "confidence": 0.20653951168060303,
+          "speaker": null
+        },
+        {
+          "start": 485.48,
+          "end": 485.48,
+          "text": "the",
+          "confidence": 0.4041857123374939,
+          "speaker": null
+        },
+        {
+          "start": 485.48,
+          "end": 485.48,
+          "text": "screen!",
+          "confidence": 0.4740643799304962,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 509.08,
+      "end": 510.48,
+      "speaker": null,
+      "text": "If you can't move your device and watch it, Please watch while dragging the screen!",
+      "confidence": 0.18790677841752768,
+      "words": [
+        {
+          "start": 509.08,
+          "end": 510.48,
+          "text": "If",
+          "confidence": 0.0007153834449127316,
+          "speaker": null
+        },
+        {
+          "start": 510.48,
+          "end": 510.48,
+          "text": "you",
+          "confidence": 0.6139552593231201,
+          "speaker": null
+        },
+        {
+          "start": 510.48,
+          "end": 510.48,
+          "text": "can't",
+          "confidence": 0.18959078378975391,
+          "speaker": null
+        },
+        {
+          "start": 510.48,
+          "end": 510.48,
+          "text": "move",
+          "confidence": 0.01436596643179655,
+          "speaker": null
+        },
+        {
+          "start": 510.48,
+          "end": 510.48,
+          "text": "your",
+          "confidence": 0.12667731940746307,
+          "speaker": null
+        },
+        {
+          "start": 510.48,
+          "end": 510.48,
+          "text": "device",
+          "confidence": 0.004721094388514757,
+          "speaker": null
+        },
+        {
+          "start": 510.48,
+          "end": 510.48,
+          "text": "and",
+          "confidence": 0.08245237171649933,
+          "speaker": null
+        },
+        {
+          "start": 510.48,
+          "end": 510.48,
+          "text": "watch",
+          "confidence": 0.1241360530257225,
+          "speaker": null
+        },
+        {
+          "start": 510.48,
+          "end": 510.48,
+          "text": "it,",
+          "confidence": 0.20142774283885956,
+          "speaker": null
+        },
+        {
+          "start": 510.48,
+          "end": 510.48,
+          "text": "Please",
+          "confidence": 0.0017754643922671676,
+          "speaker": null
+        },
+        {
+          "start": 510.48,
+          "end": 510.48,
+          "text": "watch",
+          "confidence": 0.2397484928369522,
+          "speaker": null
+        },
+        {
+          "start": 510.48,
+          "end": 510.48,
+          "text": "while",
+          "confidence": 0.13424614071846008,
+          "speaker": null
+        },
+        {
+          "start": 510.48,
+          "end": 510.48,
+          "text": "dragging",
+          "confidence": 0.20653951168060303,
+          "speaker": null
+        },
+        {
+          "start": 510.48,
+          "end": 510.48,
+          "text": "the",
+          "confidence": 0.4041857123374939,
+          "speaker": null
+        },
+        {
+          "start": 510.48,
+          "end": 510.48,
+          "text": "screen!",
+          "confidence": 0.4740643799304962,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 534.08,
+      "end": 535.48,
+      "speaker": null,
+      "text": "If you can't move your device and watch it, Please watch while dragging the screen!",
+      "confidence": 0.18790677841752768,
+      "words": [
+        {
+          "start": 534.08,
+          "end": 535.48,
+          "text": "If",
+          "confidence": 0.0007153834449127316,
+          "speaker": null
+        },
+        {
+          "start": 535.48,
+          "end": 535.48,
+          "text": "you",
+          "confidence": 0.6139552593231201,
+          "speaker": null
+        },
+        {
+          "start": 535.48,
+          "end": 535.48,
+          "text": "can't",
+          "confidence": 0.18959078378975391,
+          "speaker": null
+        },
+        {
+          "start": 535.48,
+          "end": 535.48,
+          "text": "move",
+          "confidence": 0.01436596643179655,
+          "speaker": null
+        },
+        {
+          "start": 535.48,
+          "end": 535.48,
+          "text": "your",
+          "confidence": 0.12667731940746307,
+          "speaker": null
+        },
+        {
+          "start": 535.48,
+          "end": 535.48,
+          "text": "device",
+          "confidence": 0.004721094388514757,
+          "speaker": null
+        },
+        {
+          "start": 535.48,
+          "end": 535.48,
+          "text": "and",
+          "confidence": 0.08245237171649933,
+          "speaker": null
+        },
+        {
+          "start": 535.48,
+          "end": 535.48,
+          "text": "watch",
+          "confidence": 0.1241360530257225,
+          "speaker": null
+        },
+        {
+          "start": 535.48,
+          "end": 535.48,
+          "text": "it,",
+          "confidence": 0.20142774283885956,
+          "speaker": null
+        },
+        {
+          "start": 535.48,
+          "end": 535.48,
+          "text": "Please",
+          "confidence": 0.0017754643922671676,
+          "speaker": null
+        },
+        {
+          "start": 535.48,
+          "end": 535.48,
+          "text": "watch",
+          "confidence": 0.2397484928369522,
+          "speaker": null
+        },
+        {
+          "start": 535.48,
+          "end": 535.48,
+          "text": "while",
+          "confidence": 0.13424614071846008,
+          "speaker": null
+        },
+        {
+          "start": 535.48,
+          "end": 535.48,
+          "text": "dragging",
+          "confidence": 0.20653951168060303,
+          "speaker": null
+        },
+        {
+          "start": 535.48,
+          "end": 535.48,
+          "text": "the",
+          "confidence": 0.4041857123374939,
+          "speaker": null
+        },
+        {
+          "start": 535.48,
+          "end": 535.48,
+          "text": "screen!",
+          "confidence": 0.4740643799304962,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 559.08,
+      "end": 560.48,
+      "speaker": null,
+      "text": "If you can't move your device and watch it, Please watch while dragging the screen!",
+      "confidence": 0.18790677841752768,
+      "words": [
+        {
+          "start": 559.08,
+          "end": 560.48,
+          "text": "If",
+          "confidence": 0.0007153834449127316,
+          "speaker": null
+        },
+        {
+          "start": 560.48,
+          "end": 560.48,
+          "text": "you",
+          "confidence": 0.6139552593231201,
+          "speaker": null
+        },
+        {
+          "start": 560.48,
+          "end": 560.48,
+          "text": "can't",
+          "confidence": 0.18959078378975391,
+          "speaker": null
+        },
+        {
+          "start": 560.48,
+          "end": 560.48,
+          "text": "move",
+          "confidence": 0.01436596643179655,
+          "speaker": null
+        },
+        {
+          "start": 560.48,
+          "end": 560.48,
+          "text": "your",
+          "confidence": 0.12667731940746307,
+          "speaker": null
+        },
+        {
+          "start": 560.48,
+          "end": 560.48,
+          "text": "device",
+          "confidence": 0.004721094388514757,
+          "speaker": null
+        },
+        {
+          "start": 560.48,
+          "end": 560.48,
+          "text": "and",
+          "confidence": 0.08245237171649933,
+          "speaker": null
+        },
+        {
+          "start": 560.48,
+          "end": 560.48,
+          "text": "watch",
+          "confidence": 0.1241360530257225,
+          "speaker": null
+        },
+        {
+          "start": 560.48,
+          "end": 560.48,
+          "text": "it,",
+          "confidence": 0.20142774283885956,
+          "speaker": null
+        },
+        {
+          "start": 560.48,
+          "end": 560.48,
+          "text": "Please",
+          "confidence": 0.0017754643922671676,
+          "speaker": null
+        },
+        {
+          "start": 560.48,
+          "end": 560.48,
+          "text": "watch",
+          "confidence": 0.2397484928369522,
+          "speaker": null
+        },
+        {
+          "start": 560.48,
+          "end": 560.48,
+          "text": "while",
+          "confidence": 0.13424614071846008,
+          "speaker": null
+        },
+        {
+          "start": 560.48,
+          "end": 560.48,
+          "text": "dragging",
+          "confidence": 0.20653951168060303,
+          "speaker": null
+        },
+        {
+          "start": 560.48,
+          "end": 560.48,
+          "text": "the",
+          "confidence": 0.4041857123374939,
+          "speaker": null
+        },
+        {
+          "start": 560.48,
+          "end": 560.48,
+          "text": "screen!",
+          "confidence": 0.4740643799304962,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 584.08,
+      "end": 585.48,
+      "speaker": null,
+      "text": "If you can't move your device and watch it, Please watch while dragging the screen!",
+      "confidence": 0.18790677841752768,
+      "words": [
+        {
+          "start": 584.08,
+          "end": 585.48,
+          "text": "If",
+          "confidence": 0.0007153834449127316,
+          "speaker": null
+        },
+        {
+          "start": 585.48,
+          "end": 585.48,
+          "text": "you",
+          "confidence": 0.6139552593231201,
+          "speaker": null
+        },
+        {
+          "start": 585.48,
+          "end": 585.48,
+          "text": "can't",
+          "confidence": 0.18959078378975391,
+          "speaker": null
+        },
+        {
+          "start": 585.48,
+          "end": 585.48,
+          "text": "move",
+          "confidence": 0.01436596643179655,
+          "speaker": null
+        },
+        {
+          "start": 585.48,
+          "end": 585.48,
+          "text": "your",
+          "confidence": 0.12667731940746307,
+          "speaker": null
+        },
+        {
+          "start": 585.48,
+          "end": 585.48,
+          "text": "device",
+          "confidence": 0.004721094388514757,
+          "speaker": null
+        },
+        {
+          "start": 585.48,
+          "end": 585.48,
+          "text": "and",
+          "confidence": 0.08245237171649933,
+          "speaker": null
+        },
+        {
+          "start": 585.48,
+          "end": 585.48,
+          "text": "watch",
+          "confidence": 0.1241360530257225,
+          "speaker": null
+        },
+        {
+          "start": 585.48,
+          "end": 585.48,
+          "text": "it,",
+          "confidence": 0.20142774283885956,
+          "speaker": null
+        },
+        {
+          "start": 585.48,
+          "end": 585.48,
+          "text": "Please",
+          "confidence": 0.0017754643922671676,
+          "speaker": null
+        },
+        {
+          "start": 585.48,
+          "end": 585.48,
+          "text": "watch",
+          "confidence": 0.2397484928369522,
+          "speaker": null
+        },
+        {
+          "start": 585.48,
+          "end": 585.48,
+          "text": "while",
+          "confidence": 0.13424614071846008,
+          "speaker": null
+        },
+        {
+          "start": 585.48,
+          "end": 585.48,
+          "text": "dragging",
+          "confidence": 0.20653951168060303,
+          "speaker": null
+        },
+        {
+          "start": 585.48,
+          "end": 585.48,
+          "text": "the",
+          "confidence": 0.4041857123374939,
+          "speaker": null
+        },
+        {
+          "start": 585.48,
+          "end": 585.48,
+          "text": "screen!",
+          "confidence": 0.4740643799304962,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 598.58,
+      "end": 599.98,
+      "speaker": null,
+      "text": "If you can't move your device and watch it, Please watch while dragging the screen!",
+      "confidence": 0.19508761572263514,
+      "words": [
+        {
+          "start": 598.58,
+          "end": 599.98,
+          "text": "If",
+          "confidence": 0.0007661248673684895,
+          "speaker": null
+        },
+        {
+          "start": 599.98,
+          "end": 599.98,
+          "text": "you",
+          "confidence": 0.617204487323761,
+          "speaker": null
+        },
+        {
+          "start": 599.98,
+          "end": 599.98,
+          "text": "can't",
+          "confidence": 0.19285743683576584,
+          "speaker": null
+        },
+        {
+          "start": 599.98,
+          "end": 599.98,
+          "text": "move",
+          "confidence": 0.01685904711484909,
+          "speaker": null
+        },
+        {
+          "start": 599.98,
+          "end": 599.98,
+          "text": "your",
+          "confidence": 0.13952843844890594,
+          "speaker": null
+        },
+        {
+          "start": 599.98,
+          "end": 599.98,
+          "text": "device",
+          "confidence": 0.006894783116877079,
+          "speaker": null
+        },
+        {
+          "start": 599.98,
+          "end": 599.98,
+          "text": "and",
+          "confidence": 0.08104094117879868,
+          "speaker": null
+        },
+        {
+          "start": 599.98,
+          "end": 599.98,
+          "text": "watch",
+          "confidence": 0.12872566282749176,
+          "speaker": null
+        },
+        {
+          "start": 599.98,
+          "end": 599.98,
+          "text": "it,",
+          "confidence": 0.19912946224212646,
+          "speaker": null
+        },
+        {
+          "start": 599.98,
+          "end": 599.98,
+          "text": "Please",
+          "confidence": 0.0016740969149395823,
+          "speaker": null
+        },
+        {
+          "start": 599.98,
+          "end": 599.98,
+          "text": "watch",
+          "confidence": 0.24243272840976715,
+          "speaker": null
+        },
+        {
+          "start": 599.98,
+          "end": 599.98,
+          "text": "while",
+          "confidence": 0.15316487848758698,
+          "speaker": null
+        },
+        {
+          "start": 599.98,
+          "end": 599.98,
+          "text": "dragging",
+          "confidence": 0.24306610226631165,
+          "speaker": null
+        },
+        {
+          "start": 599.98,
+          "end": 599.98,
+          "text": "the",
+          "confidence": 0.40861597657203674,
+          "speaker": null
+        },
+        {
+          "start": 599.98,
+          "end": 599.98,
+          "text": "screen!",
+          "confidence": 0.4943540692329407,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 13.919999999999998,
+        "speaker": null,
+        "text": "Please wear on earphones!! If you can't move your device and watch it, Please watch while dragging the screen!"
+      },
+      {
+        "timestamp": 138.24,
+        "speaker": null,
+        "text": "If you can't move your device and watch it, Please watch while dragging the screen!"
+      },
+      {
+        "timestamp": 194.66,
+        "speaker": null,
+        "text": "If you can't move your device and watch it, Please watch while dragging the screen!"
+      },
+      {
+        "timestamp": 194.84,
+        "speaker": null,
+        "text": "If you can't move your device and watch it, Please watch while dragging the screen!"
+      },
+      {
+        "timestamp": 247.18,
+        "speaker": null,
+        "text": "If you can't move your device and watch it, Please watch while dragging the screen!"
+      }
+    ]
+  }
+}

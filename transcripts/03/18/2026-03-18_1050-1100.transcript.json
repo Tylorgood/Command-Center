@@ -1,0 +1,599 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-18_1050-1100",
+    "created_at": "2026-03-18T13:02:53.381642-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 0.5,
+      "speaker": null,
+      "text": "Yeah!",
+      "confidence": 0.41082459688186646,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.5,
+          "text": "Yeah!",
+          "confidence": 0.41082459688186646,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 30.0,
+      "end": 30.36,
+      "speaker": null,
+      "text": "Let's go!",
+      "confidence": 0.6273005697876215,
+      "words": [
+        {
+          "start": 30.0,
+          "end": 30.36,
+          "text": "Let's",
+          "confidence": 0.48294248059391975,
+          "speaker": null
+        },
+        {
+          "start": 30.36,
+          "end": 30.36,
+          "text": "go!",
+          "confidence": 0.7716586589813232,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 31.0,
+      "end": 31.86,
+      "speaker": null,
+      "text": "Yeah!",
+      "confidence": 0.4732195734977722,
+      "words": [
+        {
+          "start": 31.0,
+          "end": 31.86,
+          "text": "Yeah!",
+          "confidence": 0.4732195734977722,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 32.84,
+      "end": 34.12,
+      "speaker": null,
+      "text": "Fuck!",
+      "confidence": 0.87140291929245,
+      "words": [
+        {
+          "start": 32.84,
+          "end": 34.12,
+          "text": "Fuck!",
+          "confidence": 0.87140291929245,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 67.52,
+      "end": 67.76,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5587730295956135,
+      "words": [
+        {
+          "start": 67.52,
+          "end": 67.68,
+          "text": "Thank",
+          "confidence": 0.12239614874124527,
+          "speaker": null
+        },
+        {
+          "start": 67.68,
+          "end": 67.76,
+          "text": "you.",
+          "confidence": 0.9951499104499817,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 91.44,
+      "end": 93.12,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5532957427203655,
+      "words": [
+        {
+          "start": 91.44,
+          "end": 92.56,
+          "text": "Thank",
+          "confidence": 0.11251934617757797,
+          "speaker": null
+        },
+        {
+          "start": 92.56,
+          "end": 93.12,
+          "text": "you.",
+          "confidence": 0.9940721392631531,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 117.76,
+      "end": 117.82,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.550555482506752,
+      "words": [
+        {
+          "start": 117.76,
+          "end": 117.8,
+          "text": "Thank",
+          "confidence": 0.10826751589775085,
+          "speaker": null
+        },
+        {
+          "start": 117.8,
+          "end": 117.82,
+          "text": "you.",
+          "confidence": 0.9928434491157532,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 154.58,
+      "end": 155.98,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5462057627737522,
+      "words": [
+        {
+          "start": 154.58,
+          "end": 155.98,
+          "text": "Thank",
+          "confidence": 0.10195887833833694,
+          "speaker": null
+        },
+        {
+          "start": 155.98,
+          "end": 155.98,
+          "text": "you.",
+          "confidence": 0.9904526472091675,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 165.64,
+      "end": 167.2,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5614472180604935,
+      "words": [
+        {
+          "start": 165.64,
+          "end": 167.04,
+          "text": "Thank",
+          "confidence": 0.1288844645023346,
+          "speaker": null
+        },
+        {
+          "start": 167.04,
+          "end": 167.2,
+          "text": "you.",
+          "confidence": 0.9940099716186523,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 191.84,
+      "end": 193.1,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5519610680639744,
+      "words": [
+        {
+          "start": 191.84,
+          "end": 192.68,
+          "text": "Thank",
+          "confidence": 0.10935653001070023,
+          "speaker": null
+        },
+        {
+          "start": 192.68,
+          "end": 193.1,
+          "text": "you.",
+          "confidence": 0.9945656061172485,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 215.92000000000002,
+      "end": 217.48,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5488109439611435,
+      "words": [
+        {
+          "start": 215.92000000000002,
+          "end": 216.96,
+          "text": "Thank",
+          "confidence": 0.10452255606651306,
+          "speaker": null
+        },
+        {
+          "start": 216.96,
+          "end": 217.48,
+          "text": "you.",
+          "confidence": 0.9930993318557739,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 240.9,
+      "end": 242.34,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5473555810749531,
+      "words": [
+        {
+          "start": 240.9,
+          "end": 242.3,
+          "text": "Thank",
+          "confidence": 0.10329393297433853,
+          "speaker": null
+        },
+        {
+          "start": 242.3,
+          "end": 242.34,
+          "text": "you.",
+          "confidence": 0.9914172291755676,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 265.86,
+      "end": 267.12,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5409674048423767,
+      "words": [
+        {
+          "start": 265.86,
+          "end": 266.7,
+          "text": "Thank",
+          "confidence": 0.09065067768096924,
+          "speaker": null
+        },
+        {
+          "start": 266.7,
+          "end": 267.12,
+          "text": "you.",
+          "confidence": 0.9912841320037842,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 292.62,
+      "end": 293.04,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5578488856554031,
+      "words": [
+        {
+          "start": 292.62,
+          "end": 292.9,
+          "text": "Thank",
+          "confidence": 0.1226067841053009,
+          "speaker": null
+        },
+        {
+          "start": 292.9,
+          "end": 293.04,
+          "text": "you.",
+          "confidence": 0.9930909872055054,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 317.3,
+      "end": 318.08,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5487651079893112,
+      "words": [
+        {
+          "start": 317.3,
+          "end": 317.82,
+          "text": "Thank",
+          "confidence": 0.10529884696006775,
+          "speaker": null
+        },
+        {
+          "start": 317.82,
+          "end": 318.08,
+          "text": "you.",
+          "confidence": 0.9922313690185547,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 344.16,
+      "end": 344.28,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5625414475798607,
+      "words": [
+        {
+          "start": 344.16,
+          "end": 344.24,
+          "text": "Thank",
+          "confidence": 0.1294974535703659,
+          "speaker": null
+        },
+        {
+          "start": 344.24,
+          "end": 344.28,
+          "text": "you.",
+          "confidence": 0.9955854415893555,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 366.71999999999997,
+      "end": 367.8,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5447394549846649,
+      "words": [
+        {
+          "start": 366.71999999999997,
+          "end": 367.44,
+          "text": "Thank",
+          "confidence": 0.09751617908477783,
+          "speaker": null
+        },
+        {
+          "start": 367.44,
+          "end": 367.8,
+          "text": "you.",
+          "confidence": 0.991962730884552,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 390.48,
+      "end": 393.02,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5556479059159756,
+      "words": [
+        {
+          "start": 390.48,
+          "end": 391.88,
+          "text": "Thank",
+          "confidence": 0.11739706248044968,
+          "speaker": null
+        },
+        {
+          "start": 391.88,
+          "end": 393.02,
+          "text": "you.",
+          "confidence": 0.9938987493515015,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 415.84,
+      "end": 416.56,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5503592304885387,
+      "words": [
+        {
+          "start": 415.84,
+          "end": 416.32,
+          "text": "Thank",
+          "confidence": 0.1075495108962059,
+          "speaker": null
+        },
+        {
+          "start": 416.32,
+          "end": 416.56,
+          "text": "you.",
+          "confidence": 0.9931689500808716,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 442.34,
+      "end": 442.88,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5452734716236591,
+      "words": [
+        {
+          "start": 442.34,
+          "end": 442.7,
+          "text": "Thank",
+          "confidence": 0.0983838215470314,
+          "speaker": null
+        },
+        {
+          "start": 442.7,
+          "end": 442.88,
+          "text": "you.",
+          "confidence": 0.9921631217002869,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 468.68,
+      "end": 469.58,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5588742941617966,
+      "words": [
+        {
+          "start": 468.68,
+          "end": 469.28,
+          "text": "Thank",
+          "confidence": 0.12336274981498718,
+          "speaker": null
+        },
+        {
+          "start": 469.28,
+          "end": 469.58,
+          "text": "you.",
+          "confidence": 0.994385838508606,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 492.24,
+      "end": 493.78,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.523524884134531,
+      "words": [
+        {
+          "start": 492.24,
+          "end": 493.64,
+          "text": "Thank",
+          "confidence": 0.05793464928865433,
+          "speaker": null
+        },
+        {
+          "start": 493.64,
+          "end": 493.78,
+          "text": "you.",
+          "confidence": 0.9891151189804077,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 517.06,
+      "end": 518.74,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5386692397296429,
+      "words": [
+        {
+          "start": 517.06,
+          "end": 518.18,
+          "text": "Thank",
+          "confidence": 0.08496644347906113,
+          "speaker": null
+        },
+        {
+          "start": 518.18,
+          "end": 518.74,
+          "text": "you.",
+          "confidence": 0.9923720359802246,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 552.56,
+      "end": 555.36,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5291312336921692,
+      "words": [
+        {
+          "start": 552.56,
+          "end": 553.96,
+          "text": "Thank",
+          "confidence": 0.06471991539001465,
+          "speaker": null
+        },
+        {
+          "start": 553.96,
+          "end": 555.36,
+          "text": "you.",
+          "confidence": 0.9935425519943237,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 556.0,
+      "end": 556.92,
+      "speaker": null,
+      "text": "That's beautiful.",
+      "confidence": 0.7985376715660095,
+      "words": [
+        {
+          "start": 556.0,
+          "end": 556.5,
+          "text": "That's",
+          "confidence": 0.6266310214996338,
+          "speaker": null
+        },
+        {
+          "start": 556.5,
+          "end": 556.92,
+          "text": "beautiful.",
+          "confidence": 0.9704443216323853,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 586.38,
+      "end": 589.18,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.6203043237328529,
+      "words": [
+        {
+          "start": 586.38,
+          "end": 587.78,
+          "text": "Thank",
+          "confidence": 0.24442775547504425,
+          "speaker": null
+        },
+        {
+          "start": 587.78,
+          "end": 589.18,
+          "text": "you.",
+          "confidence": 0.9961808919906616,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": []
+  }
+}

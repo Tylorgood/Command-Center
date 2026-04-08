@@ -1,0 +1,256 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-19_1251-1301",
+    "created_at": "2026-03-19T16:00:06.935203-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 19.92,
+      "end": 29.96,
+      "speaker": null,
+      "text": "This video was made possible by the generous donation of donations to the U.S. Department of State.",
+      "confidence": 0.40233927680916776,
+      "words": [
+        {
+          "start": 19.92,
+          "end": 19.96,
+          "text": "This",
+          "confidence": 0.000575677549932152,
+          "speaker": null
+        },
+        {
+          "start": 19.96,
+          "end": 20.0,
+          "text": "video",
+          "confidence": 0.40045055747032166,
+          "speaker": null
+        },
+        {
+          "start": 20.0,
+          "end": 20.02,
+          "text": "was",
+          "confidence": 0.2825942635536194,
+          "speaker": null
+        },
+        {
+          "start": 20.02,
+          "end": 20.04,
+          "text": "made",
+          "confidence": 0.2711312174797058,
+          "speaker": null
+        },
+        {
+          "start": 20.04,
+          "end": 20.06,
+          "text": "possible",
+          "confidence": 0.44225043058395386,
+          "speaker": null
+        },
+        {
+          "start": 20.06,
+          "end": 20.08,
+          "text": "by",
+          "confidence": 0.6823643445968628,
+          "speaker": null
+        },
+        {
+          "start": 20.08,
+          "end": 20.1,
+          "text": "the",
+          "confidence": 0.15314434468746185,
+          "speaker": null
+        },
+        {
+          "start": 20.1,
+          "end": 20.12,
+          "text": "generous",
+          "confidence": 0.24381491541862488,
+          "speaker": null
+        },
+        {
+          "start": 20.12,
+          "end": 20.36,
+          "text": "donation",
+          "confidence": 0.18096159398555756,
+          "speaker": null
+        },
+        {
+          "start": 20.36,
+          "end": 20.48,
+          "text": "of",
+          "confidence": 0.9051486253738403,
+          "speaker": null
+        },
+        {
+          "start": 20.48,
+          "end": 20.5,
+          "text": "donations",
+          "confidence": 0.07538069784641266,
+          "speaker": null
+        },
+        {
+          "start": 20.5,
+          "end": 20.52,
+          "text": "to",
+          "confidence": 0.4067123532295227,
+          "speaker": null
+        },
+        {
+          "start": 20.52,
+          "end": 20.54,
+          "text": "the",
+          "confidence": 0.42497193813323975,
+          "speaker": null
+        },
+        {
+          "start": 20.54,
+          "end": 20.56,
+          "text": "U",
+          "confidence": 0.04218951612710953,
+          "speaker": null
+        },
+        {
+          "start": 20.56,
+          "end": 20.6,
+          "text": ".S.",
+          "confidence": 0.9460375010967255,
+          "speaker": null
+        },
+        {
+          "start": 29.9,
+          "end": 29.92,
+          "text": "Department",
+          "confidence": 0.5483512878417969,
+          "speaker": null
+        },
+        {
+          "start": 29.92,
+          "end": 29.94,
+          "text": "of",
+          "confidence": 0.9963646531105042,
+          "speaker": null
+        },
+        {
+          "start": 29.94,
+          "end": 29.96,
+          "text": "State.",
+          "confidence": 0.23966306447982788,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 39.92,
+      "end": 40.76,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5361827053129673,
+      "words": [
+        {
+          "start": 39.92,
+          "end": 40.48,
+          "text": "Thank",
+          "confidence": 0.07489920407533646,
+          "speaker": null
+        },
+        {
+          "start": 40.48,
+          "end": 40.76,
+          "text": "you.",
+          "confidence": 0.9974662065505981,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 163.57999999999998,
+      "end": 164.98,
+      "speaker": null,
+      "text": "I can't wait to see what's going on.",
+      "confidence": 0.3433172855293378,
+      "words": [
+        {
+          "start": 163.57999999999998,
+          "end": 164.98,
+          "text": "I",
+          "confidence": 0.008571143262088299,
+          "speaker": null
+        },
+        {
+          "start": 164.98,
+          "end": 164.98,
+          "text": "can't",
+          "confidence": 0.3399824798107147,
+          "speaker": null
+        },
+        {
+          "start": 164.98,
+          "end": 164.98,
+          "text": "wait",
+          "confidence": 0.12060066312551498,
+          "speaker": null
+        },
+        {
+          "start": 164.98,
+          "end": 164.98,
+          "text": "to",
+          "confidence": 0.5565060973167419,
+          "speaker": null
+        },
+        {
+          "start": 164.98,
+          "end": 164.98,
+          "text": "see",
+          "confidence": 0.310264527797699,
+          "speaker": null
+        },
+        {
+          "start": 164.98,
+          "end": 164.98,
+          "text": "what's",
+          "confidence": 0.1587725728750229,
+          "speaker": null
+        },
+        {
+          "start": 164.98,
+          "end": 164.98,
+          "text": "going",
+          "confidence": 0.2982862889766693,
+          "speaker": null
+        },
+        {
+          "start": 164.98,
+          "end": 164.98,
+          "text": "on.",
+          "confidence": 0.9535545110702515,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 19.92,
+        "speaker": null,
+        "text": "This video was made possible by the generous donation of donations to the U.S. Department of State."
+      },
+      {
+        "timestamp": 163.57999999999998,
+        "speaker": null,
+        "text": "I can't wait to see what's going on."
+      }
+    ]
+  }
+}

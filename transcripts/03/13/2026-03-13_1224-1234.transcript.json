@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-13_1224-1234",
+    "created_at": "2026-03-13T12:34:36.609517-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 220.16,
+      "end": 222.14,
+      "speaker": null,
+      "text": "I'm done.",
+      "confidence": 0.1803798363544047,
+      "words": [
+        {
+          "start": 220.16,
+          "end": 221.56,
+          "text": "I'm",
+          "confidence": 0.21715439576655626,
+          "speaker": null
+        },
+        {
+          "start": 221.56,
+          "end": 222.14,
+          "text": "done.",
+          "confidence": 0.1436052769422531,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 229.18,
+      "end": 229.78,
+      "speaker": null,
+      "text": "Oh.",
+      "confidence": 0.17933227121829987,
+      "words": [
+        {
+          "start": 229.18,
+          "end": 229.78,
+          "text": "Oh.",
+          "confidence": 0.17933227121829987,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 231.6,
+      "end": 232.78,
+      "speaker": null,
+      "text": "That might change the way.",
+      "confidence": 0.2501216307282448,
+      "words": [
+        {
+          "start": 231.6,
+          "end": 231.74,
+          "text": "That",
+          "confidence": 0.467510849237442,
+          "speaker": null
+        },
+        {
+          "start": 231.74,
+          "end": 231.98,
+          "text": "might",
+          "confidence": 0.11927186697721481,
+          "speaker": null
+        },
+        {
+          "start": 231.98,
+          "end": 232.2,
+          "text": "change",
+          "confidence": 0.11202338337898254,
+          "speaker": null
+        },
+        {
+          "start": 232.2,
+          "end": 232.42,
+          "text": "the",
+          "confidence": 0.4165560007095337,
+          "speaker": null
+        },
+        {
+          "start": 232.42,
+          "end": 232.78,
+          "text": "way.",
+          "confidence": 0.13524605333805084,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 233.2,
+      "end": 234.36,
+      "speaker": null,
+      "text": "Go on, like that.",
+      "confidence": 0.33406396210193634,
+      "words": [
+        {
+          "start": 233.2,
+          "end": 233.3,
+          "text": "Go",
+          "confidence": 0.4684757888317108,
+          "speaker": null
+        },
+        {
+          "start": 233.3,
+          "end": 233.5,
+          "text": "on,",
+          "confidence": 0.12671688199043274,
+          "speaker": null
+        },
+        {
+          "start": 233.54,
+          "end": 233.72,
+          "text": "like",
+          "confidence": 0.2949109971523285,
+          "speaker": null
+        },
+        {
+          "start": 233.72,
+          "end": 234.36,
+          "text": "that.",
+          "confidence": 0.4461521804332733,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 234.8,
+      "end": 235.22,
+      "speaker": null,
+      "text": "So.",
+      "confidence": 0.3160478174686432,
+      "words": [
+        {
+          "start": 234.8,
+          "end": 235.22,
+          "text": "So.",
+          "confidence": 0.3160478174686432,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 231.6,
+        "speaker": null,
+        "text": "That might change the way."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1105 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-31_1220-1230",
+    "created_at": "2026-04-02T15:06:44.265479-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 29.64,
+      "end": 31.4,
+      "speaker": null,
+      "text": "That's crazy.",
+      "confidence": 0.7993611991405487,
+      "words": [
+        {
+          "start": 29.64,
+          "end": 30.88,
+          "text": "That's",
+          "confidence": 0.6300627589225769,
+          "speaker": null
+        },
+        {
+          "start": 30.88,
+          "end": 31.4,
+          "text": "crazy.",
+          "confidence": 0.9686596393585205,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 47.48,
+      "end": 51.94,
+      "speaker": null,
+      "text": "Dude, the sustain.",
+      "confidence": 0.8347133795420328,
+      "words": [
+        {
+          "start": 47.48,
+          "end": 48.72,
+          "text": "Dude,",
+          "confidence": 0.9611502289772034,
+          "speaker": null
+        },
+        {
+          "start": 51.34,
+          "end": 51.46,
+          "text": "the",
+          "confidence": 0.9291492104530334,
+          "speaker": null
+        },
+        {
+          "start": 51.46,
+          "end": 51.94,
+          "text": "sustain.",
+          "confidence": 0.6138406991958618,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 53.72,
+      "end": 55.44,
+      "speaker": null,
+      "text": "It's going to change a little bit.",
+      "confidence": 0.6159468040402446,
+      "words": [
+        {
+          "start": 53.72,
+          "end": 54.36,
+          "text": "It's",
+          "confidence": 0.4296995420008898,
+          "speaker": null
+        },
+        {
+          "start": 54.36,
+          "end": 54.46,
+          "text": "going",
+          "confidence": 0.533747673034668,
+          "speaker": null
+        },
+        {
+          "start": 54.46,
+          "end": 54.52,
+          "text": "to",
+          "confidence": 0.989976704120636,
+          "speaker": null
+        },
+        {
+          "start": 54.52,
+          "end": 54.78,
+          "text": "change",
+          "confidence": 0.7709723114967346,
+          "speaker": null
+        },
+        {
+          "start": 54.78,
+          "end": 55.1,
+          "text": "a",
+          "confidence": 0.2638435363769531,
+          "speaker": null
+        },
+        {
+          "start": 55.1,
+          "end": 55.2,
+          "text": "little",
+          "confidence": 0.9471339583396912,
+          "speaker": null
+        },
+        {
+          "start": 55.2,
+          "end": 55.44,
+          "text": "bit.",
+          "confidence": 0.3762539029121399,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 63.16,
+      "end": 64.2,
+      "speaker": null,
+      "text": "It changed.",
+      "confidence": 0.258048839867115,
+      "words": [
+        {
+          "start": 63.16,
+          "end": 63.8,
+          "text": "It",
+          "confidence": 0.1307859569787979,
+          "speaker": null
+        },
+        {
+          "start": 63.8,
+          "end": 64.2,
+          "text": "changed.",
+          "confidence": 0.38531172275543213,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 65.94,
+      "end": 66.58,
+      "speaker": null,
+      "text": "521.",
+      "confidence": 0.8298855423927307,
+      "words": [
+        {
+          "start": 65.94,
+          "end": 66.58,
+          "text": "521.",
+          "confidence": 0.8298855423927307,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 107.28,
+      "end": 112.86,
+      "speaker": null,
+      "text": "Cool. Good work, Tyler. You're welcome.",
+      "confidence": 0.9253910928964615,
+      "words": [
+        {
+          "start": 107.28,
+          "end": 107.8,
+          "text": "Cool.",
+          "confidence": 0.6378212571144104,
+          "speaker": null
+        },
+        {
+          "start": 107.8,
+          "end": 108.32,
+          "text": "Good",
+          "confidence": 0.9868890047073364,
+          "speaker": null
+        },
+        {
+          "start": 108.32,
+          "end": 108.58,
+          "text": "work,",
+          "confidence": 0.9954904913902283,
+          "speaker": null
+        },
+        {
+          "start": 108.64,
+          "end": 108.84,
+          "text": "Tyler.",
+          "confidence": 0.9727041125297546,
+          "speaker": null
+        },
+        {
+          "start": 112.08,
+          "end": 112.6,
+          "text": "You're",
+          "confidence": 0.964529424905777,
+          "speaker": null
+        },
+        {
+          "start": 112.6,
+          "end": 112.86,
+          "text": "welcome.",
+          "confidence": 0.9949122667312622,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 284.72,
+      "end": 302.48,
+      "speaker": null,
+      "text": "to 521. Let's go to 521. Let's go to 521. Let's go to 521. Thank you.",
+      "confidence": 0.5687809476871085,
+      "words": [
+        {
+          "start": 284.72,
+          "end": 286.12,
+          "text": "to",
+          "confidence": 0.0015695025213062763,
+          "speaker": null
+        },
+        {
+          "start": 286.12,
+          "end": 287.52,
+          "text": "521.",
+          "confidence": 0.0011893505725311115,
+          "speaker": null
+        },
+        {
+          "start": 287.56,
+          "end": 287.56,
+          "text": "Let's",
+          "confidence": 0.38374433701392263,
+          "speaker": null
+        },
+        {
+          "start": 287.56,
+          "end": 287.56,
+          "text": "go",
+          "confidence": 0.3007422387599945,
+          "speaker": null
+        },
+        {
+          "start": 287.56,
+          "end": 287.56,
+          "text": "to",
+          "confidence": 0.04803645983338356,
+          "speaker": null
+        },
+        {
+          "start": 287.56,
+          "end": 287.56,
+          "text": "521.",
+          "confidence": 0.3507498521357775,
+          "speaker": null
+        },
+        {
+          "start": 287.56,
+          "end": 287.56,
+          "text": "Let's",
+          "confidence": 0.6235994100570679,
+          "speaker": null
+        },
+        {
+          "start": 287.56,
+          "end": 287.56,
+          "text": "go",
+          "confidence": 0.8325187563896179,
+          "speaker": null
+        },
+        {
+          "start": 287.56,
+          "end": 287.56,
+          "text": "to",
+          "confidence": 0.7878108024597168,
+          "speaker": null
+        },
+        {
+          "start": 287.56,
+          "end": 287.56,
+          "text": "521.",
+          "confidence": 0.9398890137672424,
+          "speaker": null
+        },
+        {
+          "start": 287.56,
+          "end": 287.58,
+          "text": "Let's",
+          "confidence": 0.7927338778972626,
+          "speaker": null
+        },
+        {
+          "start": 287.58,
+          "end": 301.78,
+          "text": "go",
+          "confidence": 0.9638393521308899,
+          "speaker": null
+        },
+        {
+          "start": 301.78,
+          "end": 301.88,
+          "text": "to",
+          "confidence": 0.9661739468574524,
+          "speaker": null
+        },
+        {
+          "start": 301.88,
+          "end": 301.88,
+          "text": "521.",
+          "confidence": 0.9837826788425446,
+          "speaker": null
+        },
+        {
+          "start": 301.88,
+          "end": 302.48,
+          "text": "Thank",
+          "confidence": 0.13834674656391144,
+          "speaker": null
+        },
+        {
+          "start": 302.48,
+          "end": 302.48,
+          "text": "you.",
+          "confidence": 0.9972942471504211,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 402.34,
+      "end": 427.48,
+      "speaker": null,
+      "text": "Thank you. to 521. Let's go to 521. Let's go to 521. Let's go to 521. Thank you.",
+      "confidence": 0.5375913823102434,
+      "words": [
+        {
+          "start": 402.34,
+          "end": 402.38,
+          "text": "Thank",
+          "confidence": 0.005763809196650982,
+          "speaker": null
+        },
+        {
+          "start": 402.38,
+          "end": 402.4,
+          "text": "you.",
+          "confidence": 0.969149112701416,
+          "speaker": null
+        },
+        {
+          "start": 402.5,
+          "end": 426.52,
+          "text": "to",
+          "confidence": 0.0018084587063640356,
+          "speaker": null
+        },
+        {
+          "start": 402.5,
+          "end": 414.32,
+          "text": "521.",
+          "confidence": 0.0008772033033892512,
+          "speaker": null
+        },
+        {
+          "start": 414.34,
+          "end": 414.34,
+          "text": "Let's",
+          "confidence": 0.373170634964481,
+          "speaker": null
+        },
+        {
+          "start": 414.34,
+          "end": 414.34,
+          "text": "go",
+          "confidence": 0.2779901623725891,
+          "speaker": null
+        },
+        {
+          "start": 414.34,
+          "end": 414.34,
+          "text": "to",
+          "confidence": 0.06791989505290985,
+          "speaker": null
+        },
+        {
+          "start": 414.34,
+          "end": 414.34,
+          "text": "521.",
+          "confidence": 0.33333757519721985,
+          "speaker": null
+        },
+        {
+          "start": 414.34,
+          "end": 414.34,
+          "text": "Let's",
+          "confidence": 0.6011281758546829,
+          "speaker": null
+        },
+        {
+          "start": 414.34,
+          "end": 414.34,
+          "text": "go",
+          "confidence": 0.7933496832847595,
+          "speaker": null
+        },
+        {
+          "start": 414.34,
+          "end": 414.34,
+          "text": "to",
+          "confidence": 0.8076639175415039,
+          "speaker": null
+        },
+        {
+          "start": 414.34,
+          "end": 414.34,
+          "text": "521.",
+          "confidence": 0.9273135960102081,
+          "speaker": null
+        },
+        {
+          "start": 414.34,
+          "end": 414.34,
+          "text": "Let's",
+          "confidence": 0.7799826264381409,
+          "speaker": null
+        },
+        {
+          "start": 414.34,
+          "end": 426.42,
+          "text": "go",
+          "confidence": 0.9582276940345764,
+          "speaker": null
+        },
+        {
+          "start": 426.42,
+          "end": 426.48,
+          "text": "to",
+          "confidence": 0.9680037498474121,
+          "speaker": null
+        },
+        {
+          "start": 426.48,
+          "end": 426.52,
+          "text": "521.",
+          "confidence": 0.9832209944725037,
+          "speaker": null
+        },
+        {
+          "start": 426.52,
+          "end": 427.48,
+          "text": "Thank",
+          "confidence": 0.1064741462469101,
+          "speaker": null
+        },
+        {
+          "start": 427.48,
+          "end": 427.48,
+          "text": "you.",
+          "confidence": 0.9940067529678345,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 440.14,
+      "end": 450.64,
+      "speaker": null,
+      "text": "Let's go to 521. Let's go to 521. Let's go to 521.",
+      "confidence": 0.6520308449980803,
+      "words": [
+        {
+          "start": 440.14,
+          "end": 440.22,
+          "text": "Let's",
+          "confidence": 0.4359959582798183,
+          "speaker": null
+        },
+        {
+          "start": 440.22,
+          "end": 440.3,
+          "text": "go",
+          "confidence": 0.38418495655059814,
+          "speaker": null
+        },
+        {
+          "start": 440.3,
+          "end": 440.32,
+          "text": "to",
+          "confidence": 0.008229547180235386,
+          "speaker": null
+        },
+        {
+          "start": 440.32,
+          "end": 440.36,
+          "text": "521.",
+          "confidence": 0.001706772716715932,
+          "speaker": null
+        },
+        {
+          "start": 440.38,
+          "end": 440.4,
+          "text": "Let's",
+          "confidence": 0.6444303244352341,
+          "speaker": null
+        },
+        {
+          "start": 440.4,
+          "end": 441.4,
+          "text": "go",
+          "confidence": 0.9151830673217773,
+          "speaker": null
+        },
+        {
+          "start": 441.4,
+          "end": 441.42,
+          "text": "to",
+          "confidence": 0.6600633859634399,
+          "speaker": null
+        },
+        {
+          "start": 441.42,
+          "end": 441.46,
+          "text": "521.",
+          "confidence": 0.9558594226837158,
+          "speaker": null
+        },
+        {
+          "start": 441.48,
+          "end": 441.52,
+          "text": "Let's",
+          "confidence": 0.8652355968952179,
+          "speaker": null
+        },
+        {
+          "start": 441.52,
+          "end": 449.96,
+          "text": "go",
+          "confidence": 0.9915959239006042,
+          "speaker": null
+        },
+        {
+          "start": 449.96,
+          "end": 450.06,
+          "text": "to",
+          "confidence": 0.9700198173522949,
+          "speaker": null
+        },
+        {
+          "start": 450.06,
+          "end": 450.64,
+          "text": "521.",
+          "confidence": 0.9918653666973114,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 477.5,
+      "end": 502.48,
+      "speaker": null,
+      "text": "to 521. Let's go to 521. Let's go to 521. Let's go to 521. Thank you.",
+      "confidence": 0.5640748023891189,
+      "words": [
+        {
+          "start": 477.5,
+          "end": 477.62,
+          "text": "to",
+          "confidence": 0.0018141668988391757,
+          "speaker": null
+        },
+        {
+          "start": 477.62,
+          "end": 489.62,
+          "text": "521.",
+          "confidence": 0.0010992023162543774,
+          "speaker": null
+        },
+        {
+          "start": 489.62,
+          "end": 489.64,
+          "text": "Let's",
+          "confidence": 0.3811101801111363,
+          "speaker": null
+        },
+        {
+          "start": 489.64,
+          "end": 489.64,
+          "text": "go",
+          "confidence": 0.31764253973960876,
+          "speaker": null
+        },
+        {
+          "start": 489.64,
+          "end": 489.64,
+          "text": "to",
+          "confidence": 0.05829203128814697,
+          "speaker": null
+        },
+        {
+          "start": 489.64,
+          "end": 489.64,
+          "text": "521.",
+          "confidence": 0.3133989339694381,
+          "speaker": null
+        },
+        {
+          "start": 489.64,
+          "end": 489.64,
+          "text": "Let's",
+          "confidence": 0.6145583242177963,
+          "speaker": null
+        },
+        {
+          "start": 489.64,
+          "end": 489.64,
+          "text": "go",
+          "confidence": 0.8219707012176514,
+          "speaker": null
+        },
+        {
+          "start": 489.64,
+          "end": 489.64,
+          "text": "to",
+          "confidence": 0.8101669549942017,
+          "speaker": null
+        },
+        {
+          "start": 489.64,
+          "end": 489.64,
+          "text": "521.",
+          "confidence": 0.9251009523868561,
+          "speaker": null
+        },
+        {
+          "start": 489.64,
+          "end": 489.64,
+          "text": "Let's",
+          "confidence": 0.7762631177902222,
+          "speaker": null
+        },
+        {
+          "start": 489.64,
+          "end": 501.98,
+          "text": "go",
+          "confidence": 0.9600304961204529,
+          "speaker": null
+        },
+        {
+          "start": 501.98,
+          "end": 501.98,
+          "text": "to",
+          "confidence": 0.9669923186302185,
+          "speaker": null
+        },
+        {
+          "start": 501.98,
+          "end": 502.02,
+          "text": "521.",
+          "confidence": 0.9811327159404755,
+          "speaker": null
+        },
+        {
+          "start": 502.02,
+          "end": 502.48,
+          "text": "Thank",
+          "confidence": 0.126554936170578,
+          "speaker": null
+        },
+        {
+          "start": 502.48,
+          "end": 502.48,
+          "text": "you.",
+          "confidence": 0.9969481825828552,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 515.0600000000001,
+      "end": 526.68,
+      "speaker": null,
+      "text": "Let's go to 521. Let's go to 521.",
+      "confidence": 0.4746081902485457,
+      "words": [
+        {
+          "start": 515.0600000000001,
+          "end": 515.16,
+          "text": "Let's",
+          "confidence": 0.44251494901254773,
+          "speaker": null
+        },
+        {
+          "start": 515.16,
+          "end": 515.26,
+          "text": "go",
+          "confidence": 0.13037186861038208,
+          "speaker": null
+        },
+        {
+          "start": 515.26,
+          "end": 515.46,
+          "text": "to",
+          "confidence": 0.010539691895246506,
+          "speaker": null
+        },
+        {
+          "start": 515.46,
+          "end": 515.5,
+          "text": "521.",
+          "confidence": 0.0025446811341680586,
+          "speaker": null
+        },
+        {
+          "start": 515.52,
+          "end": 515.54,
+          "text": "Let's",
+          "confidence": 0.6699035912752151,
+          "speaker": null
+        },
+        {
+          "start": 515.54,
+          "end": 526.6,
+          "text": "go",
+          "confidence": 0.8868988156318665,
+          "speaker": null
+        },
+        {
+          "start": 526.6,
+          "end": 526.62,
+          "text": "to",
+          "confidence": 0.6989229321479797,
+          "speaker": null
+        },
+        {
+          "start": 526.62,
+          "end": 526.68,
+          "text": "521.",
+          "confidence": 0.9551689922809601,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 539.64,
+      "end": 545.24,
+      "speaker": null,
+      "text": "Let's go to 521. Let's go to 521. Let's go to 521. Let's go to 521. Let's go to 521.",
+      "confidence": 0.9194902093558994,
+      "words": [
+        {
+          "start": 539.64,
+          "end": 539.84,
+          "text": "Let's",
+          "confidence": 0.4500381243415177,
+          "speaker": null
+        },
+        {
+          "start": 539.84,
+          "end": 539.84,
+          "text": "go",
+          "confidence": 0.1524423211812973,
+          "speaker": null
+        },
+        {
+          "start": 539.84,
+          "end": 539.86,
+          "text": "to",
+          "confidence": 0.006878420244902372,
+          "speaker": null
+        },
+        {
+          "start": 539.86,
+          "end": 539.86,
+          "text": "521.",
+          "confidence": 0.0026451785233803093,
+          "speaker": null
+        },
+        {
+          "start": 539.86,
+          "end": 539.86,
+          "text": "Let's",
+          "confidence": 0.6858701109886169,
+          "speaker": null
+        },
+        {
+          "start": 539.86,
+          "end": 539.86,
+          "text": "go",
+          "confidence": 0.8969242572784424,
+          "speaker": null
+        },
+        {
+          "start": 539.86,
+          "end": 539.86,
+          "text": "to",
+          "confidence": 0.6457093954086304,
+          "speaker": null
+        },
+        {
+          "start": 539.86,
+          "end": 539.86,
+          "text": "521.",
+          "confidence": 0.9616171419620514,
+          "speaker": null
+        },
+        {
+          "start": 539.86,
+          "end": 539.88,
+          "text": "Let's",
+          "confidence": 0.8897651433944702,
+          "speaker": null
+        },
+        {
+          "start": 539.88,
+          "end": 541.56,
+          "text": "go",
+          "confidence": 0.9897360801696777,
+          "speaker": null
+        },
+        {
+          "start": 541.56,
+          "end": 541.72,
+          "text": "to",
+          "confidence": 0.9662613868713379,
+          "speaker": null
+        },
+        {
+          "start": 541.72,
+          "end": 541.74,
+          "text": "521.",
+          "confidence": 0.9912659823894501,
+          "speaker": null
+        },
+        {
+          "start": 541.74,
+          "end": 541.74,
+          "text": "Let's",
+          "confidence": 0.9467729926109314,
+          "speaker": null
+        },
+        {
+          "start": 541.74,
+          "end": 544.88,
+          "text": "go",
+          "confidence": 0.9964612126350403,
+          "speaker": null
+        },
+        {
+          "start": 544.88,
+          "end": 544.88,
+          "text": "to",
+          "confidence": 0.9856993556022644,
+          "speaker": null
+        },
+        {
+          "start": 544.88,
+          "end": 544.88,
+          "text": "521.",
+          "confidence": 0.9940239191055298,
+          "speaker": null
+        },
+        {
+          "start": 544.88,
+          "end": 544.88,
+          "text": "Let's",
+          "confidence": 0.9739502668380737,
+          "speaker": null
+        },
+        {
+          "start": 544.88,
+          "end": 545.14,
+          "text": "go",
+          "confidence": 0.9983345866203308,
+          "speaker": null
+        },
+        {
+          "start": 545.14,
+          "end": 545.24,
+          "text": "to",
+          "confidence": 0.9924095869064331,
+          "speaker": null
+        },
+        {
+          "start": 545.24,
+          "end": 545.24,
+          "text": "521.",
+          "confidence": 0.995225727558136,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 545.24,
+      "end": 546.66,
+      "speaker": null,
+      "text": "Let's go to 521. Let's go to 521. Let's go to 521. Let's go to 521.",
+      "confidence": 0.9933655010536313,
+      "words": [
+        {
+          "start": 545.24,
+          "end": 545.24,
+          "text": "Let's",
+          "confidence": 0.9777164459228516,
+          "speaker": null
+        },
+        {
+          "start": 545.24,
+          "end": 545.24,
+          "text": "go",
+          "confidence": 0.9985311031341553,
+          "speaker": null
+        },
+        {
+          "start": 545.24,
+          "end": 545.28,
+          "text": "to",
+          "confidence": 0.9937137961387634,
+          "speaker": null
+        },
+        {
+          "start": 545.28,
+          "end": 545.28,
+          "text": "521.",
+          "confidence": 0.9954313337802887,
+          "speaker": null
+        },
+        {
+          "start": 545.28,
+          "end": 545.28,
+          "text": "Let's",
+          "confidence": 0.982948511838913,
+          "speaker": null
+        },
+        {
+          "start": 545.28,
+          "end": 545.28,
+          "text": "go",
+          "confidence": 0.9986659288406372,
+          "speaker": null
+        },
+        {
+          "start": 545.28,
+          "end": 545.34,
+          "text": "to",
+          "confidence": 0.9962360262870789,
+          "speaker": null
+        },
+        {
+          "start": 545.34,
+          "end": 545.36,
+          "text": "521.",
+          "confidence": 0.9958279430866241,
+          "speaker": null
+        },
+        {
+          "start": 545.38,
+          "end": 545.42,
+          "text": "Let's",
+          "confidence": 0.9835255742073059,
+          "speaker": null
+        },
+        {
+          "start": 545.42,
+          "end": 545.54,
+          "text": "go",
+          "confidence": 0.9986787438392639,
+          "speaker": null
+        },
+        {
+          "start": 545.54,
+          "end": 545.58,
+          "text": "to",
+          "confidence": 0.9964659214019775,
+          "speaker": null
+        },
+        {
+          "start": 545.58,
+          "end": 545.58,
+          "text": "521.",
+          "confidence": 0.995760977268219,
+          "speaker": null
+        },
+        {
+          "start": 545.68,
+          "end": 545.88,
+          "text": "Let's",
+          "confidence": 0.9838854074478149,
+          "speaker": null
+        },
+        {
+          "start": 545.88,
+          "end": 546.58,
+          "text": "go",
+          "confidence": 0.9986598491668701,
+          "speaker": null
+        },
+        {
+          "start": 546.58,
+          "end": 546.66,
+          "text": "to",
+          "confidence": 0.996634304523468,
+          "speaker": null
+        },
+        {
+          "start": 546.66,
+          "end": 546.66,
+          "text": "521.",
+          "confidence": 0.9957610666751862,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 549.6800000000001,
+      "end": 552.48,
+      "speaker": null,
+      "text": "Let's go to 521. Thank you.",
+      "confidence": 0.7647853940725327,
+      "words": [
+        {
+          "start": 549.6800000000001,
+          "end": 549.88,
+          "text": "Let's",
+          "confidence": 0.9843113124370575,
+          "speaker": null
+        },
+        {
+          "start": 549.88,
+          "end": 550.08,
+          "text": "go",
+          "confidence": 0.9986677169799805,
+          "speaker": null
+        },
+        {
+          "start": 550.08,
+          "end": 550.08,
+          "text": "to",
+          "confidence": 0.9967317581176758,
+          "speaker": null
+        },
+        {
+          "start": 550.08,
+          "end": 550.08,
+          "text": "521.",
+          "confidence": 0.9956185519695282,
+          "speaker": null
+        },
+        {
+          "start": 550.08,
+          "end": 552.48,
+          "text": "Thank",
+          "confidence": 0.08032944798469543,
+          "speaker": null
+        },
+        {
+          "start": 552.48,
+          "end": 552.48,
+          "text": "you.",
+          "confidence": 0.9911474585533142,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 53.72,
+        "speaker": null,
+        "text": "It's going to change a little bit."
+      },
+      {
+        "timestamp": 107.28,
+        "speaker": null,
+        "text": "Cool. Good work, Tyler. You're welcome."
+      },
+      {
+        "timestamp": 284.72,
+        "speaker": null,
+        "text": "to 521. Let's go to 521. Let's go to 521. Let's go to 521. Thank you."
+      },
+      {
+        "timestamp": 402.34,
+        "speaker": null,
+        "text": "Thank you. to 521. Let's go to 521. Let's go to 521. Let's go to 521. Thank you."
+      },
+      {
+        "timestamp": 440.14,
+        "speaker": null,
+        "text": "Let's go to 521. Let's go to 521. Let's go to 521."
+      }
+    ]
+  }
+}

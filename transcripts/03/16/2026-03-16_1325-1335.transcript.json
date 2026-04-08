@@ -1,0 +1,503 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-16_1325-1335",
+    "created_at": "2026-03-16T14:51:40.197160-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 45.32,
+      "end": 45.92,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5665741637349129,
+      "words": [
+        {
+          "start": 45.32,
+          "end": 45.72,
+          "text": "Thank",
+          "confidence": 0.13730944693088531,
+          "speaker": null
+        },
+        {
+          "start": 45.72,
+          "end": 45.92,
+          "text": "you.",
+          "confidence": 0.9958388805389404,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 61.98,
+      "end": 64.78,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5787944123148918,
+      "words": [
+        {
+          "start": 61.98,
+          "end": 63.379999999999995,
+          "text": "Thank",
+          "confidence": 0.15863369405269623,
+          "speaker": null
+        },
+        {
+          "start": 63.379999999999995,
+          "end": 64.78,
+          "text": "you.",
+          "confidence": 0.9989551305770874,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 96.12,
+      "end": 97.38,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5820373073220253,
+      "words": [
+        {
+          "start": 96.12,
+          "end": 96.96000000000001,
+          "text": "Thank",
+          "confidence": 0.16666091978549957,
+          "speaker": null
+        },
+        {
+          "start": 96.96000000000001,
+          "end": 97.38,
+          "text": "you.",
+          "confidence": 0.997413694858551,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 120.18,
+      "end": 120.24,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.6059836819767952,
+      "words": [
+        {
+          "start": 120.18,
+          "end": 120.22,
+          "text": "Thank",
+          "confidence": 0.21262605488300323,
+          "speaker": null
+        },
+        {
+          "start": 120.22,
+          "end": 120.24,
+          "text": "you.",
+          "confidence": 0.9993413090705872,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 140.68,
+      "end": 140.74,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.535481683909893,
+      "words": [
+        {
+          "start": 140.68,
+          "end": 140.72,
+          "text": "Thank",
+          "confidence": 0.0776313990354538,
+          "speaker": null
+        },
+        {
+          "start": 140.72,
+          "end": 140.74,
+          "text": "you.",
+          "confidence": 0.9933319687843323,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 214.14,
+      "end": 227.04,
+      "speaker": null,
+      "text": "going to do.",
+      "confidence": 0.23667966369733526,
+      "words": [
+        {
+          "start": 214.14,
+          "end": 215.54,
+          "text": "going",
+          "confidence": 0.0001340000017080456,
+          "speaker": null
+        },
+        {
+          "start": 215.54,
+          "end": 215.7,
+          "text": "to",
+          "confidence": 0.6358302235603333,
+          "speaker": null
+        },
+        {
+          "start": 215.7,
+          "end": 227.04,
+          "text": "do.",
+          "confidence": 0.07407476752996445,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 237.08,
+      "end": 239.88,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5267988629639149,
+      "words": [
+        {
+          "start": 237.08,
+          "end": 238.48000000000002,
+          "text": "Thank",
+          "confidence": 0.05713365226984024,
+          "speaker": null
+        },
+        {
+          "start": 238.48000000000002,
+          "end": 239.88,
+          "text": "you.",
+          "confidence": 0.9964640736579895,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 260.36,
+      "end": 282.02,
+      "speaker": null,
+      "text": "going to do.",
+      "confidence": 0.25336529854636564,
+      "words": [
+        {
+          "start": 260.36,
+          "end": 261.76,
+          "text": "going",
+          "confidence": 9.721647802507505e-05,
+          "speaker": null
+        },
+        {
+          "start": 261.76,
+          "end": 263.16,
+          "text": "to",
+          "confidence": 0.6838245987892151,
+          "speaker": null
+        },
+        {
+          "start": 263.16,
+          "end": 282.02,
+          "text": "do.",
+          "confidence": 0.07617408037185669,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 295.82,
+      "end": 296.68,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5570263974368572,
+      "words": [
+        {
+          "start": 295.82,
+          "end": 296.46,
+          "text": "Thank",
+          "confidence": 0.11905279010534286,
+          "speaker": null
+        },
+        {
+          "start": 296.46,
+          "end": 296.68,
+          "text": "you.",
+          "confidence": 0.9950000047683716,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 525.46,
+      "end": 527.48,
+      "speaker": null,
+      "text": "Hey Chris, it's Tyler over the team.",
+      "confidence": 0.6745559764759881,
+      "words": [
+        {
+          "start": 525.46,
+          "end": 525.9,
+          "text": "Hey",
+          "confidence": 0.4897492825984955,
+          "speaker": null
+        },
+        {
+          "start": 525.9,
+          "end": 526.34,
+          "text": "Chris,",
+          "confidence": 0.8241895437240601,
+          "speaker": null
+        },
+        {
+          "start": 526.54,
+          "end": 526.76,
+          "text": "it's",
+          "confidence": 0.9637750387191772,
+          "speaker": null
+        },
+        {
+          "start": 526.76,
+          "end": 526.96,
+          "text": "Tyler",
+          "confidence": 0.9803865551948547,
+          "speaker": null
+        },
+        {
+          "start": 526.96,
+          "end": 527.3,
+          "text": "over",
+          "confidence": 0.8668513298034668,
+          "speaker": null
+        },
+        {
+          "start": 527.3,
+          "end": 527.48,
+          "text": "the",
+          "confidence": 0.22976087033748627,
+          "speaker": null
+        },
+        {
+          "start": 527.48,
+          "end": 527.48,
+          "text": "team.",
+          "confidence": 0.3671792149543762,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 528.2,
+      "end": 536.36,
+      "speaker": null,
+      "text": "Give me a call back when you get a chance, 5-8-6, give me 9-4701, before and again, for me, have a great day.",
+      "confidence": 0.7310045340026801,
+      "words": [
+        {
+          "start": 528.2,
+          "end": 528.62,
+          "text": "Give",
+          "confidence": 0.07719007134437561,
+          "speaker": null
+        },
+        {
+          "start": 528.62,
+          "end": 529.04,
+          "text": "me",
+          "confidence": 0.9881206750869751,
+          "speaker": null
+        },
+        {
+          "start": 529.04,
+          "end": 529.22,
+          "text": "a",
+          "confidence": 0.9563581943511963,
+          "speaker": null
+        },
+        {
+          "start": 529.22,
+          "end": 529.36,
+          "text": "call",
+          "confidence": 0.9883694648742676,
+          "speaker": null
+        },
+        {
+          "start": 529.36,
+          "end": 529.82,
+          "text": "back",
+          "confidence": 0.9392457008361816,
+          "speaker": null
+        },
+        {
+          "start": 529.82,
+          "end": 530.08,
+          "text": "when",
+          "confidence": 0.36822056770324707,
+          "speaker": null
+        },
+        {
+          "start": 530.08,
+          "end": 530.16,
+          "text": "you",
+          "confidence": 0.901536226272583,
+          "speaker": null
+        },
+        {
+          "start": 530.16,
+          "end": 530.3,
+          "text": "get",
+          "confidence": 0.7991043329238892,
+          "speaker": null
+        },
+        {
+          "start": 530.3,
+          "end": 530.48,
+          "text": "a",
+          "confidence": 0.9905319213867188,
+          "speaker": null
+        },
+        {
+          "start": 530.48,
+          "end": 530.8,
+          "text": "chance,",
+          "confidence": 0.9958912134170532,
+          "speaker": null
+        },
+        {
+          "start": 531.0,
+          "end": 531.06,
+          "text": "5",
+          "confidence": 0.7099658250808716,
+          "speaker": null
+        },
+        {
+          "start": 531.06,
+          "end": 531.28,
+          "text": "-8",
+          "confidence": 0.5151863284409046,
+          "speaker": null
+        },
+        {
+          "start": 531.28,
+          "end": 531.64,
+          "text": "-6,",
+          "confidence": 0.9332658350467682,
+          "speaker": null
+        },
+        {
+          "start": 531.86,
+          "end": 531.92,
+          "text": "give",
+          "confidence": 0.6277036666870117,
+          "speaker": null
+        },
+        {
+          "start": 531.92,
+          "end": 532.12,
+          "text": "me",
+          "confidence": 0.7868638634681702,
+          "speaker": null
+        },
+        {
+          "start": 532.12,
+          "end": 532.4,
+          "text": "9",
+          "confidence": 0.7594691514968872,
+          "speaker": null
+        },
+        {
+          "start": 532.4,
+          "end": 533.86,
+          "text": "-4701,",
+          "confidence": 0.8342839330434799,
+          "speaker": null
+        },
+        {
+          "start": 534.0,
+          "end": 534.22,
+          "text": "before",
+          "confidence": 0.1442602276802063,
+          "speaker": null
+        },
+        {
+          "start": 534.22,
+          "end": 534.44,
+          "text": "and",
+          "confidence": 0.14166989922523499,
+          "speaker": null
+        },
+        {
+          "start": 534.44,
+          "end": 534.66,
+          "text": "again,",
+          "confidence": 0.9842286109924316,
+          "speaker": null
+        },
+        {
+          "start": 534.82,
+          "end": 534.86,
+          "text": "for",
+          "confidence": 0.42455601692199707,
+          "speaker": null
+        },
+        {
+          "start": 534.86,
+          "end": 535.3,
+          "text": "me,",
+          "confidence": 0.9821959137916565,
+          "speaker": null
+        },
+        {
+          "start": 535.4,
+          "end": 535.56,
+          "text": "have",
+          "confidence": 0.24601975083351135,
+          "speaker": null
+        },
+        {
+          "start": 535.56,
+          "end": 535.58,
+          "text": "a",
+          "confidence": 0.9968762397766113,
+          "speaker": null
+        },
+        {
+          "start": 535.58,
+          "end": 535.78,
+          "text": "great",
+          "confidence": 0.9222927093505859,
+          "speaker": null
+        },
+        {
+          "start": 535.78,
+          "end": 536.36,
+          "text": "day.",
+          "confidence": 0.9927115440368652,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 525.46,
+        "speaker": null,
+        "text": "Hey Chris, it's Tyler over the team."
+      },
+      {
+        "timestamp": 528.2,
+        "speaker": null,
+        "text": "Give me a call back when you get a chance, 5-8-6, give me 9-4701, before and again, for me, have a great day."
+      }
+    ]
+  }
+}

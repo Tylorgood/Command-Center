@@ -1,0 +1,384 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-18_1040-1050",
+    "created_at": "2026-03-18T12:49:49.408483-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 12.540000000000001,
+      "end": 14.8,
+      "speaker": null,
+      "text": "So now he's kind of looking at her.",
+      "confidence": 0.7067967765033245,
+      "words": [
+        {
+          "start": 12.540000000000001,
+          "end": 13.06,
+          "text": "So",
+          "confidence": 0.25493162870407104,
+          "speaker": null
+        },
+        {
+          "start": 13.06,
+          "end": 13.26,
+          "text": "now",
+          "confidence": 0.5485973954200745,
+          "speaker": null
+        },
+        {
+          "start": 13.26,
+          "end": 13.68,
+          "text": "he's",
+          "confidence": 0.7796774208545685,
+          "speaker": null
+        },
+        {
+          "start": 13.68,
+          "end": 13.86,
+          "text": "kind",
+          "confidence": 0.7160063982009888,
+          "speaker": null
+        },
+        {
+          "start": 13.86,
+          "end": 14.02,
+          "text": "of",
+          "confidence": 0.9953193068504333,
+          "speaker": null
+        },
+        {
+          "start": 14.02,
+          "end": 14.3,
+          "text": "looking",
+          "confidence": 0.9823101162910461,
+          "speaker": null
+        },
+        {
+          "start": 14.3,
+          "end": 14.64,
+          "text": "at",
+          "confidence": 0.9832627773284912,
+          "speaker": null
+        },
+        {
+          "start": 14.64,
+          "end": 14.8,
+          "text": "her.",
+          "confidence": 0.3942691683769226,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 41.120000000000005,
+      "end": 44.78,
+      "speaker": null,
+      "text": "The gimmick, it kind of takes away, like this isn't a gimmick.",
+      "confidence": 0.8461746623118719,
+      "words": [
+        {
+          "start": 41.120000000000005,
+          "end": 41.6,
+          "text": "The",
+          "confidence": 0.1397375762462616,
+          "speaker": null
+        },
+        {
+          "start": 41.6,
+          "end": 42.08,
+          "text": "gimmick,",
+          "confidence": 0.8572860360145569,
+          "speaker": null
+        },
+        {
+          "start": 42.18,
+          "end": 42.56,
+          "text": "it",
+          "confidence": 0.9681222438812256,
+          "speaker": null
+        },
+        {
+          "start": 42.56,
+          "end": 42.760000000000005,
+          "text": "kind",
+          "confidence": 0.7167208790779114,
+          "speaker": null
+        },
+        {
+          "start": 42.760000000000005,
+          "end": 42.9,
+          "text": "of",
+          "confidence": 0.996425449848175,
+          "speaker": null
+        },
+        {
+          "start": 42.9,
+          "end": 43.120000000000005,
+          "text": "takes",
+          "confidence": 0.9919579029083252,
+          "speaker": null
+        },
+        {
+          "start": 43.120000000000005,
+          "end": 43.36,
+          "text": "away,",
+          "confidence": 0.9195416569709778,
+          "speaker": null
+        },
+        {
+          "start": 43.480000000000004,
+          "end": 43.68,
+          "text": "like",
+          "confidence": 0.8647813200950623,
+          "speaker": null
+        },
+        {
+          "start": 43.68,
+          "end": 43.980000000000004,
+          "text": "this",
+          "confidence": 0.7739054560661316,
+          "speaker": null
+        },
+        {
+          "start": 43.980000000000004,
+          "end": 44.36,
+          "text": "isn't",
+          "confidence": 0.9862144291400909,
+          "speaker": null
+        },
+        {
+          "start": 44.36,
+          "end": 44.42,
+          "text": "a",
+          "confidence": 0.9406061768531799,
+          "speaker": null
+        },
+        {
+          "start": 44.42,
+          "end": 44.78,
+          "text": "gimmick.",
+          "confidence": 0.998796820640564,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 76.0,
+      "end": 80.46,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5877046212553978,
+      "words": [
+        {
+          "start": 76.0,
+          "end": 77.92,
+          "text": "Thank",
+          "confidence": 0.1774071305990219,
+          "speaker": null
+        },
+        {
+          "start": 77.92,
+          "end": 80.46,
+          "text": "you.",
+          "confidence": 0.9980021119117737,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 463.08,
+      "end": 464.48,
+      "speaker": null,
+      "text": "talking about, but I don't know what I'm talking about, but I don't know what I'm talking about,",
+      "confidence": 0.48331742812757106,
+      "words": [
+        {
+          "start": 463.08,
+          "end": 464.48,
+          "text": "talking",
+          "confidence": 1.5105378224689048e-05,
+          "speaker": null
+        },
+        {
+          "start": 464.48,
+          "end": 464.48,
+          "text": "about,",
+          "confidence": 0.2948651611804962,
+          "speaker": null
+        },
+        {
+          "start": 464.48,
+          "end": 464.48,
+          "text": "but",
+          "confidence": 0.03196578472852707,
+          "speaker": null
+        },
+        {
+          "start": 464.48,
+          "end": 464.48,
+          "text": "I",
+          "confidence": 0.1813913732767105,
+          "speaker": null
+        },
+        {
+          "start": 464.48,
+          "end": 464.48,
+          "text": "don't",
+          "confidence": 0.5378538519144058,
+          "speaker": null
+        },
+        {
+          "start": 464.48,
+          "end": 464.48,
+          "text": "know",
+          "confidence": 0.3563765585422516,
+          "speaker": null
+        },
+        {
+          "start": 464.48,
+          "end": 464.48,
+          "text": "what",
+          "confidence": 0.2131810188293457,
+          "speaker": null
+        },
+        {
+          "start": 464.48,
+          "end": 464.48,
+          "text": "I'm",
+          "confidence": 0.25978754088282585,
+          "speaker": null
+        },
+        {
+          "start": 464.48,
+          "end": 464.48,
+          "text": "talking",
+          "confidence": 0.5432426333427429,
+          "speaker": null
+        },
+        {
+          "start": 464.48,
+          "end": 464.48,
+          "text": "about,",
+          "confidence": 0.9897627830505371,
+          "speaker": null
+        },
+        {
+          "start": 464.48,
+          "end": 464.48,
+          "text": "but",
+          "confidence": 0.13242144882678986,
+          "speaker": null
+        },
+        {
+          "start": 464.48,
+          "end": 464.48,
+          "text": "I",
+          "confidence": 0.39834368228912354,
+          "speaker": null
+        },
+        {
+          "start": 464.48,
+          "end": 464.48,
+          "text": "don't",
+          "confidence": 0.6523024886846542,
+          "speaker": null
+        },
+        {
+          "start": 464.48,
+          "end": 464.48,
+          "text": "know",
+          "confidence": 0.8197054862976074,
+          "speaker": null
+        },
+        {
+          "start": 464.48,
+          "end": 464.48,
+          "text": "what",
+          "confidence": 0.665595293045044,
+          "speaker": null
+        },
+        {
+          "start": 464.48,
+          "end": 464.48,
+          "text": "I'm",
+          "confidence": 0.7460702955722809,
+          "speaker": null
+        },
+        {
+          "start": 464.48,
+          "end": 464.48,
+          "text": "talking",
+          "confidence": 0.8958916664123535,
+          "speaker": null
+        },
+        {
+          "start": 464.48,
+          "end": 464.48,
+          "text": "about,",
+          "confidence": 0.9809415340423584,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 506.14,
+      "end": 508.7,
+      "speaker": null,
+      "text": "all right shower",
+      "confidence": 0.5369200731317202,
+      "words": [
+        {
+          "start": 506.14,
+          "end": 507.54,
+          "text": "all",
+          "confidence": 0.048832304775714874,
+          "speaker": null
+        },
+        {
+          "start": 507.54,
+          "end": 507.68,
+          "text": "right",
+          "confidence": 0.9921727180480957,
+          "speaker": null
+        },
+        {
+          "start": 507.68,
+          "end": 508.7,
+          "text": "shower",
+          "confidence": 0.5697551965713501,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 12.540000000000001,
+        "speaker": null,
+        "text": "So now he's kind of looking at her."
+      },
+      {
+        "timestamp": 41.120000000000005,
+        "speaker": null,
+        "text": "The gimmick, it kind of takes away, like this isn't a gimmick."
+      },
+      {
+        "timestamp": 463.08,
+        "speaker": null,
+        "text": "talking about, but I don't know what I'm talking about, but I don't know what I'm talking about,"
+      }
+    ]
+  }
+}

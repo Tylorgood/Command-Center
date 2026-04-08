@@ -1,0 +1,481 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-31_0940-0950",
+    "created_at": "2026-03-31T22:27:57.560580-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 308.58,
+      "end": 309.64,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.4876592744840309,
+      "words": [
+        {
+          "start": 308.58,
+          "end": 309.64,
+          "text": "Thank",
+          "confidence": 0.0024979093577712774,
+          "speaker": null
+        },
+        {
+          "start": 309.64,
+          "end": 309.64,
+          "text": "you.",
+          "confidence": 0.9728206396102905,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 337.68,
+      "end": 340.48,
+      "speaker": null,
+      "text": "never seen it before, but I've never seen it before, but I've never seen it",
+      "confidence": 0.42160669153709024,
+      "words": [
+        {
+          "start": 337.68,
+          "end": 339.08,
+          "text": "never",
+          "confidence": 8.005392373888753e-06,
+          "speaker": null
+        },
+        {
+          "start": 339.08,
+          "end": 340.48,
+          "text": "seen",
+          "confidence": 0.012206602841615677,
+          "speaker": null
+        },
+        {
+          "start": 340.48,
+          "end": 340.48,
+          "text": "it",
+          "confidence": 0.09061449766159058,
+          "speaker": null
+        },
+        {
+          "start": 340.48,
+          "end": 340.48,
+          "text": "before,",
+          "confidence": 0.2418975532054901,
+          "speaker": null
+        },
+        {
+          "start": 340.48,
+          "end": 340.48,
+          "text": "but",
+          "confidence": 0.08496281504631042,
+          "speaker": null
+        },
+        {
+          "start": 340.48,
+          "end": 340.48,
+          "text": "I've",
+          "confidence": 0.10509460233151913,
+          "speaker": null
+        },
+        {
+          "start": 340.48,
+          "end": 340.48,
+          "text": "never",
+          "confidence": 0.2848878800868988,
+          "speaker": null
+        },
+        {
+          "start": 340.48,
+          "end": 340.48,
+          "text": "seen",
+          "confidence": 0.6245763897895813,
+          "speaker": null
+        },
+        {
+          "start": 340.48,
+          "end": 340.48,
+          "text": "it",
+          "confidence": 0.608632504940033,
+          "speaker": null
+        },
+        {
+          "start": 340.48,
+          "end": 340.48,
+          "text": "before,",
+          "confidence": 0.6392335891723633,
+          "speaker": null
+        },
+        {
+          "start": 340.48,
+          "end": 340.48,
+          "text": "but",
+          "confidence": 0.2734900116920471,
+          "speaker": null
+        },
+        {
+          "start": 340.48,
+          "end": 340.48,
+          "text": "I've",
+          "confidence": 0.6312711536884308,
+          "speaker": null
+        },
+        {
+          "start": 340.48,
+          "end": 340.48,
+          "text": "never",
+          "confidence": 0.8491349816322327,
+          "speaker": null
+        },
+        {
+          "start": 340.48,
+          "end": 340.48,
+          "text": "seen",
+          "confidence": 0.9415932297706604,
+          "speaker": null
+        },
+        {
+          "start": 340.48,
+          "end": 340.48,
+          "text": "it",
+          "confidence": 0.9364965558052063,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 352.36,
+      "end": 352.7,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5287186838686466,
+      "words": [
+        {
+          "start": 352.36,
+          "end": 352.68,
+          "text": "Thank",
+          "confidence": 0.06883818656206131,
+          "speaker": null
+        },
+        {
+          "start": 352.68,
+          "end": 352.7,
+          "text": "you.",
+          "confidence": 0.9885991811752319,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 405.8,
+      "end": 406.88,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5171590726822615,
+      "words": [
+        {
+          "start": 405.8,
+          "end": 406.52,
+          "text": "Thank",
+          "confidence": 0.04602986201643944,
+          "speaker": null
+        },
+        {
+          "start": 406.52,
+          "end": 406.88,
+          "text": "you.",
+          "confidence": 0.9882882833480835,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 514.26,
+      "end": 516.82,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5300584435462952,
+      "words": [
+        {
+          "start": 514.26,
+          "end": 515.66,
+          "text": "Thank",
+          "confidence": 0.07120221853256226,
+          "speaker": null
+        },
+        {
+          "start": 515.66,
+          "end": 516.82,
+          "text": "you.",
+          "confidence": 0.9889146685600281,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 572.04,
+      "end": 597.72,
+      "speaker": null,
+      "text": "Let's take a look at what's going on in the middle of the house. never seen it before, but I've never seen it before, but I've never seen it before.",
+      "confidence": 0.4032965421508448,
+      "words": [
+        {
+          "start": 572.04,
+          "end": 573.44,
+          "text": "Let's",
+          "confidence": 0.37523564067669213,
+          "speaker": null
+        },
+        {
+          "start": 573.44,
+          "end": 573.86,
+          "text": "take",
+          "confidence": 0.03183434531092644,
+          "speaker": null
+        },
+        {
+          "start": 573.86,
+          "end": 573.86,
+          "text": "a",
+          "confidence": 0.47688308358192444,
+          "speaker": null
+        },
+        {
+          "start": 573.86,
+          "end": 573.86,
+          "text": "look",
+          "confidence": 0.5558580756187439,
+          "speaker": null
+        },
+        {
+          "start": 573.86,
+          "end": 579.1,
+          "text": "at",
+          "confidence": 0.6213588118553162,
+          "speaker": null
+        },
+        {
+          "start": 579.1,
+          "end": 580.52,
+          "text": "what's",
+          "confidence": 0.12613504938781261,
+          "speaker": null
+        },
+        {
+          "start": 580.52,
+          "end": 580.52,
+          "text": "going",
+          "confidence": 0.1006886437535286,
+          "speaker": null
+        },
+        {
+          "start": 580.52,
+          "end": 580.52,
+          "text": "on",
+          "confidence": 0.9516257047653198,
+          "speaker": null
+        },
+        {
+          "start": 580.52,
+          "end": 583.48,
+          "text": "in",
+          "confidence": 0.07222865521907806,
+          "speaker": null
+        },
+        {
+          "start": 583.48,
+          "end": 583.48,
+          "text": "the",
+          "confidence": 0.42905789613723755,
+          "speaker": null
+        },
+        {
+          "start": 583.48,
+          "end": 583.48,
+          "text": "middle",
+          "confidence": 0.11432298272848129,
+          "speaker": null
+        },
+        {
+          "start": 583.48,
+          "end": 583.48,
+          "text": "of",
+          "confidence": 0.33267807960510254,
+          "speaker": null
+        },
+        {
+          "start": 583.48,
+          "end": 583.48,
+          "text": "the",
+          "confidence": 0.7490941286087036,
+          "speaker": null
+        },
+        {
+          "start": 583.48,
+          "end": 583.48,
+          "text": "house.",
+          "confidence": 0.04020145907998085,
+          "speaker": null
+        },
+        {
+          "start": 583.5,
+          "end": 597.72,
+          "text": "never",
+          "confidence": 4.683109636971494e-06,
+          "speaker": null
+        },
+        {
+          "start": 583.5,
+          "end": 594.52,
+          "text": "seen",
+          "confidence": 0.031054433435201645,
+          "speaker": null
+        },
+        {
+          "start": 594.52,
+          "end": 594.86,
+          "text": "it",
+          "confidence": 0.09045165032148361,
+          "speaker": null
+        },
+        {
+          "start": 594.86,
+          "end": 595.16,
+          "text": "before,",
+          "confidence": 0.2455213963985443,
+          "speaker": null
+        },
+        {
+          "start": 596.26,
+          "end": 596.28,
+          "text": "but",
+          "confidence": 0.11862348765134811,
+          "speaker": null
+        },
+        {
+          "start": 596.28,
+          "end": 596.32,
+          "text": "I've",
+          "confidence": 0.10701963119208813,
+          "speaker": null
+        },
+        {
+          "start": 596.32,
+          "end": 596.34,
+          "text": "never",
+          "confidence": 0.2944004237651825,
+          "speaker": null
+        },
+        {
+          "start": 596.34,
+          "end": 596.36,
+          "text": "seen",
+          "confidence": 0.6651701927185059,
+          "speaker": null
+        },
+        {
+          "start": 596.36,
+          "end": 596.38,
+          "text": "it",
+          "confidence": 0.5505663752555847,
+          "speaker": null
+        },
+        {
+          "start": 596.38,
+          "end": 596.4,
+          "text": "before,",
+          "confidence": 0.6226832866668701,
+          "speaker": null
+        },
+        {
+          "start": 596.42,
+          "end": 596.44,
+          "text": "but",
+          "confidence": 0.22891004383563995,
+          "speaker": null
+        },
+        {
+          "start": 596.44,
+          "end": 597.14,
+          "text": "I've",
+          "confidence": 0.5921159982681274,
+          "speaker": null
+        },
+        {
+          "start": 597.14,
+          "end": 597.66,
+          "text": "never",
+          "confidence": 0.8522501587867737,
+          "speaker": null
+        },
+        {
+          "start": 597.66,
+          "end": 597.68,
+          "text": "seen",
+          "confidence": 0.9622502326965332,
+          "speaker": null
+        },
+        {
+          "start": 597.68,
+          "end": 597.7,
+          "text": "it",
+          "confidence": 0.9175348281860352,
+          "speaker": null
+        },
+        {
+          "start": 597.7,
+          "end": 597.72,
+          "text": "before.",
+          "confidence": 0.9387010335922241,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 597.72,
+      "end": 599.98,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5423072129487991,
+      "words": [
+        {
+          "start": 597.72,
+          "end": 598.82,
+          "text": "Thank",
+          "confidence": 0.0935947597026825,
+          "speaker": null
+        },
+        {
+          "start": 598.82,
+          "end": 599.98,
+          "text": "you.",
+          "confidence": 0.9910196661949158,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 337.68,
+        "speaker": null,
+        "text": "never seen it before, but I've never seen it before, but I've never seen it"
+      },
+      {
+        "timestamp": 572.04,
+        "speaker": null,
+        "text": "Let's take a look at what's going on in the middle of the house. never seen it before, but I've never seen it before, but I've never seen it before."
+      }
+    ]
+  }
+}

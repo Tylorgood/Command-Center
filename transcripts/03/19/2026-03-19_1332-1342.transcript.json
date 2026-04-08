@@ -1,0 +1,311 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-19_1332-1342",
+    "created_at": "2026-03-19T20:43:14.805229-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 16.22,
+      "end": 19.2,
+      "speaker": null,
+      "text": "All right, what do you say in the past world?",
+      "confidence": 0.49547790698707106,
+      "words": [
+        {
+          "start": 16.22,
+          "end": 16.68,
+          "text": "All",
+          "confidence": 0.03431461378931999,
+          "speaker": null
+        },
+        {
+          "start": 16.68,
+          "end": 17.14,
+          "text": "right,",
+          "confidence": 0.9398586750030518,
+          "speaker": null
+        },
+        {
+          "start": 17.32,
+          "end": 17.4,
+          "text": "what",
+          "confidence": 0.5686217546463013,
+          "speaker": null
+        },
+        {
+          "start": 17.4,
+          "end": 17.54,
+          "text": "do",
+          "confidence": 0.7736746668815613,
+          "speaker": null
+        },
+        {
+          "start": 17.54,
+          "end": 17.76,
+          "text": "you",
+          "confidence": 0.8450007438659668,
+          "speaker": null
+        },
+        {
+          "start": 17.76,
+          "end": 17.92,
+          "text": "say",
+          "confidence": 0.3159435987472534,
+          "speaker": null
+        },
+        {
+          "start": 17.92,
+          "end": 18.18,
+          "text": "in",
+          "confidence": 0.12225309014320374,
+          "speaker": null
+        },
+        {
+          "start": 18.18,
+          "end": 18.32,
+          "text": "the",
+          "confidence": 0.32482701539993286,
+          "speaker": null
+        },
+        {
+          "start": 18.32,
+          "end": 18.56,
+          "text": "past",
+          "confidence": 0.4184902608394623,
+          "speaker": null
+        },
+        {
+          "start": 18.56,
+          "end": 19.2,
+          "text": "world?",
+          "confidence": 0.611794650554657,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 164.64,
+      "end": 164.7,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.4846375535707921,
+      "words": [
+        {
+          "start": 164.64,
+          "end": 164.68,
+          "text": "Thank",
+          "confidence": 0.007740785833448172,
+          "speaker": null
+        },
+        {
+          "start": 164.68,
+          "end": 164.7,
+          "text": "you.",
+          "confidence": 0.961534321308136,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 217.86,
+      "end": 218.2,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.48758733458817005,
+      "words": [
+        {
+          "start": 217.86,
+          "end": 218.2,
+          "text": "Thank",
+          "confidence": 0.010809246450662613,
+          "speaker": null
+        },
+        {
+          "start": 218.2,
+          "end": 218.2,
+          "text": "you.",
+          "confidence": 0.9643654227256775,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 273.14,
+      "end": 274.54,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.4846585947088897,
+      "words": [
+        {
+          "start": 273.14,
+          "end": 274.54,
+          "text": "Thank",
+          "confidence": 0.009851566515862942,
+          "speaker": null
+        },
+        {
+          "start": 274.54,
+          "end": 274.54,
+          "text": "you.",
+          "confidence": 0.9594656229019165,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 494.72,
+      "end": 494.78,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.4897045074030757,
+      "words": [
+        {
+          "start": 494.72,
+          "end": 494.76,
+          "text": "Thank",
+          "confidence": 0.012126898393034935,
+          "speaker": null
+        },
+        {
+          "start": 494.76,
+          "end": 494.78,
+          "text": "you.",
+          "confidence": 0.9672821164131165,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 548.58,
+      "end": 549.98,
+      "speaker": null,
+      "text": "Thank you so much for watching!",
+      "confidence": 0.5454182746664932,
+      "words": [
+        {
+          "start": 548.58,
+          "end": 549.98,
+          "text": "Thank",
+          "confidence": 0.004531847778707743,
+          "speaker": null
+        },
+        {
+          "start": 549.98,
+          "end": 549.98,
+          "text": "you",
+          "confidence": 0.9221696257591248,
+          "speaker": null
+        },
+        {
+          "start": 549.98,
+          "end": 549.98,
+          "text": "so",
+          "confidence": 0.05144568905234337,
+          "speaker": null
+        },
+        {
+          "start": 549.98,
+          "end": 549.98,
+          "text": "much",
+          "confidence": 0.9956159591674805,
+          "speaker": null
+        },
+        {
+          "start": 549.98,
+          "end": 549.98,
+          "text": "for",
+          "confidence": 0.5251246690750122,
+          "speaker": null
+        },
+        {
+          "start": 549.98,
+          "end": 549.98,
+          "text": "watching!",
+          "confidence": 0.7736218571662903,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 562.86,
+      "end": 579.96,
+      "speaker": null,
+      "text": "Thank you so much for watching!",
+      "confidence": 0.48529156390577555,
+      "words": [
+        {
+          "start": 562.86,
+          "end": 564.26,
+          "text": "Thank",
+          "confidence": 0.238813117146492,
+          "speaker": null
+        },
+        {
+          "start": 564.26,
+          "end": 564.26,
+          "text": "you",
+          "confidence": 0.9985053539276123,
+          "speaker": null
+        },
+        {
+          "start": 564.26,
+          "end": 565.72,
+          "text": "so",
+          "confidence": 0.0008243676275014877,
+          "speaker": null
+        },
+        {
+          "start": 565.72,
+          "end": 576.58,
+          "text": "much",
+          "confidence": 0.9948773980140686,
+          "speaker": null
+        },
+        {
+          "start": 576.58,
+          "end": 579.94,
+          "text": "for",
+          "confidence": 0.22973796725273132,
+          "speaker": null
+        },
+        {
+          "start": 579.94,
+          "end": 579.96,
+          "text": "watching!",
+          "confidence": 0.44899117946624756,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 16.22,
+        "speaker": null,
+        "text": "All right, what do you say in the past world?"
+      },
+      {
+        "timestamp": 548.58,
+        "speaker": null,
+        "text": "Thank you so much for watching!"
+      },
+      {
+        "timestamp": 562.86,
+        "speaker": null,
+        "text": "Thank you so much for watching!"
+      }
+    ]
+  }
+}

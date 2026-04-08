@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-13_1344-1354",
+    "created_at": "2026-03-13T13:54:41.251590-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 523.08,
+      "end": 524.48,
+      "speaker": null,
+      "text": "I'm going to use a little bit of water to make the water easier.",
+      "confidence": 0.27960359054018874,
+      "words": [
+        {
+          "start": 523.08,
+          "end": 524.48,
+          "text": "I'm",
+          "confidence": 0.1431878397706896,
+          "speaker": null
+        },
+        {
+          "start": 524.48,
+          "end": 524.48,
+          "text": "going",
+          "confidence": 0.16683344542980194,
+          "speaker": null
+        },
+        {
+          "start": 524.48,
+          "end": 524.48,
+          "text": "to",
+          "confidence": 0.9295568466186523,
+          "speaker": null
+        },
+        {
+          "start": 524.48,
+          "end": 524.48,
+          "text": "use",
+          "confidence": 0.07906986773014069,
+          "speaker": null
+        },
+        {
+          "start": 524.48,
+          "end": 524.48,
+          "text": "a",
+          "confidence": 0.3193292021751404,
+          "speaker": null
+        },
+        {
+          "start": 524.48,
+          "end": 524.48,
+          "text": "little",
+          "confidence": 0.03362651541829109,
+          "speaker": null
+        },
+        {
+          "start": 524.48,
+          "end": 524.48,
+          "text": "bit",
+          "confidence": 0.4861294627189636,
+          "speaker": null
+        },
+        {
+          "start": 524.48,
+          "end": 524.48,
+          "text": "of",
+          "confidence": 0.7352227568626404,
+          "speaker": null
+        },
+        {
+          "start": 524.48,
+          "end": 524.48,
+          "text": "water",
+          "confidence": 0.12848538160324097,
+          "speaker": null
+        },
+        {
+          "start": 524.48,
+          "end": 524.48,
+          "text": "to",
+          "confidence": 0.47997915744781494,
+          "speaker": null
+        },
+        {
+          "start": 524.48,
+          "end": 524.48,
+          "text": "make",
+          "confidence": 0.09829054027795792,
+          "speaker": null
+        },
+        {
+          "start": 524.48,
+          "end": 524.48,
+          "text": "the",
+          "confidence": 0.2203110307455063,
+          "speaker": null
+        },
+        {
+          "start": 524.48,
+          "end": 524.48,
+          "text": "water",
+          "confidence": 0.027081722393631935,
+          "speaker": null
+        },
+        {
+          "start": 524.48,
+          "end": 524.48,
+          "text": "easier.",
+          "confidence": 0.0673464983701706,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 523.08,
+        "speaker": null,
+        "text": "I'm going to use a little bit of water to make the water easier."
+      }
+    ]
+  }
+}

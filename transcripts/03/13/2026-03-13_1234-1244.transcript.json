@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-13_1234-1244",
+    "created_at": "2026-03-13T12:44:35.927409-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 549.22,
+      "end": 551.24,
+      "speaker": null,
+      "text": "There she is.",
+      "confidence": 0.8514468272527059,
+      "words": [
+        {
+          "start": 549.22,
+          "end": 550.18,
+          "text": "There",
+          "confidence": 0.574212372303009,
+          "speaker": null
+        },
+        {
+          "start": 550.18,
+          "end": 550.46,
+          "text": "she",
+          "confidence": 0.9832467436790466,
+          "speaker": null
+        },
+        {
+          "start": 550.46,
+          "end": 551.24,
+          "text": "is.",
+          "confidence": 0.996881365776062,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 551.74,
+      "end": 553.04,
+      "speaker": null,
+      "text": "There she is.",
+      "confidence": 0.9871934056282043,
+      "words": [
+        {
+          "start": 551.74,
+          "end": 552.2,
+          "text": "There",
+          "confidence": 0.9810997843742371,
+          "speaker": null
+        },
+        {
+          "start": 552.2,
+          "end": 552.46,
+          "text": "she",
+          "confidence": 0.9815954566001892,
+          "speaker": null
+        },
+        {
+          "start": 552.46,
+          "end": 553.04,
+          "text": "is.",
+          "confidence": 0.9988849759101868,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": []
+  }
+}

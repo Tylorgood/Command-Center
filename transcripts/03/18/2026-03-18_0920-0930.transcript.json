@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-18_0920-0930",
+    "created_at": "2026-03-18T11:15:20.179821-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 36.04,
+      "end": 37.6,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5428280718624592,
+      "words": [
+        {
+          "start": 36.04,
+          "end": 37.08,
+          "text": "Thank",
+          "confidence": 0.0929817333817482,
+          "speaker": null
+        },
+        {
+          "start": 37.08,
+          "end": 37.6,
+          "text": "you.",
+          "confidence": 0.9926744103431702,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 58.12,
+      "end": 58.84,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.520319078117609,
+      "words": [
+        {
+          "start": 58.12,
+          "end": 58.6,
+          "text": "Thank",
+          "confidence": 0.04543561488389969,
+          "speaker": null
+        },
+        {
+          "start": 58.6,
+          "end": 58.84,
+          "text": "you.",
+          "confidence": 0.9952025413513184,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 112.64,
+      "end": 113.53999999999999,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5078309401869774,
+      "words": [
+        {
+          "start": 112.64,
+          "end": 113.28,
+          "text": "Thank",
+          "confidence": 0.02326802909374237,
+          "speaker": null
+        },
+        {
+          "start": 113.28,
+          "end": 113.53999999999999,
+          "text": "you.",
+          "confidence": 0.9923938512802124,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 134.98,
+      "end": 136.56,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5123536102473736,
+      "words": [
+        {
+          "start": 134.98,
+          "end": 136.38,
+          "text": "Thank",
+          "confidence": 0.03404798358678818,
+          "speaker": null
+        },
+        {
+          "start": 136.38,
+          "end": 136.56,
+          "text": "you.",
+          "confidence": 0.990659236907959,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": []
+  }
+}

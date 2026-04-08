@@ -1,0 +1,1287 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-19_1352-1402",
+    "created_at": "2026-03-19T21:05:55.752101-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 9.139999999999997,
+      "end": 18.62,
+      "speaker": null,
+      "text": "This video is a work of fiction. Any resemblance to anyone, living or dead, is coincidental and unintentional.",
+      "confidence": 0.688042654397173,
+      "words": [
+        {
+          "start": 9.139999999999997,
+          "end": 9.3,
+          "text": "This",
+          "confidence": 0.014567197300493717,
+          "speaker": null
+        },
+        {
+          "start": 9.3,
+          "end": 9.3,
+          "text": "video",
+          "confidence": 0.34662288427352905,
+          "speaker": null
+        },
+        {
+          "start": 9.3,
+          "end": 9.3,
+          "text": "is",
+          "confidence": 0.40070661902427673,
+          "speaker": null
+        },
+        {
+          "start": 9.3,
+          "end": 9.3,
+          "text": "a",
+          "confidence": 0.23532801866531372,
+          "speaker": null
+        },
+        {
+          "start": 9.3,
+          "end": 9.3,
+          "text": "work",
+          "confidence": 0.08280790597200394,
+          "speaker": null
+        },
+        {
+          "start": 9.3,
+          "end": 9.3,
+          "text": "of",
+          "confidence": 0.7006487250328064,
+          "speaker": null
+        },
+        {
+          "start": 9.3,
+          "end": 10.62,
+          "text": "fiction.",
+          "confidence": 0.9427680969238281,
+          "speaker": null
+        },
+        {
+          "start": 10.62,
+          "end": 10.62,
+          "text": "Any",
+          "confidence": 0.9646586775779724,
+          "speaker": null
+        },
+        {
+          "start": 10.62,
+          "end": 16.74,
+          "text": "resemblance",
+          "confidence": 0.9685857594013214,
+          "speaker": null
+        },
+        {
+          "start": 16.74,
+          "end": 17.7,
+          "text": "to",
+          "confidence": 0.9919955730438232,
+          "speaker": null
+        },
+        {
+          "start": 17.7,
+          "end": 17.72,
+          "text": "anyone,",
+          "confidence": 0.21587687730789185,
+          "speaker": null
+        },
+        {
+          "start": 17.74,
+          "end": 17.76,
+          "text": "living",
+          "confidence": 0.9951016306877136,
+          "speaker": null
+        },
+        {
+          "start": 17.76,
+          "end": 17.78,
+          "text": "or",
+          "confidence": 0.9965258240699768,
+          "speaker": null
+        },
+        {
+          "start": 17.78,
+          "end": 17.8,
+          "text": "dead,",
+          "confidence": 0.9887890219688416,
+          "speaker": null
+        },
+        {
+          "start": 17.82,
+          "end": 17.94,
+          "text": "is",
+          "confidence": 0.9720537662506104,
+          "speaker": null
+        },
+        {
+          "start": 17.94,
+          "end": 18.56,
+          "text": "coincidental",
+          "confidence": 0.8615283668041229,
+          "speaker": null
+        },
+        {
+          "start": 18.56,
+          "end": 18.58,
+          "text": "and",
+          "confidence": 0.7155154347419739,
+          "speaker": null
+        },
+        {
+          "start": 18.58,
+          "end": 18.62,
+          "text": "unintentional.",
+          "confidence": 0.9906874001026154,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 39.480000000000004,
+      "end": 42.28,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5479404926300049,
+      "words": [
+        {
+          "start": 39.480000000000004,
+          "end": 40.88,
+          "text": "Thank",
+          "confidence": 0.10040199756622314,
+          "speaker": null
+        },
+        {
+          "start": 40.88,
+          "end": 42.28,
+          "text": "you.",
+          "confidence": 0.9954789876937866,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 149.88,
+      "end": 156.34,
+      "speaker": null,
+      "text": "This is the first time I've ever seen a car in my life.",
+      "confidence": 0.2825337921340878,
+      "words": [
+        {
+          "start": 149.88,
+          "end": 150.32,
+          "text": "This",
+          "confidence": 0.006408420391380787,
+          "speaker": null
+        },
+        {
+          "start": 150.32,
+          "end": 150.32,
+          "text": "is",
+          "confidence": 0.43843144178390503,
+          "speaker": null
+        },
+        {
+          "start": 150.32,
+          "end": 150.48,
+          "text": "the",
+          "confidence": 0.2728823721408844,
+          "speaker": null
+        },
+        {
+          "start": 150.48,
+          "end": 150.78,
+          "text": "first",
+          "confidence": 0.048810482025146484,
+          "speaker": null
+        },
+        {
+          "start": 150.78,
+          "end": 152.7,
+          "text": "time",
+          "confidence": 0.3730148673057556,
+          "speaker": null
+        },
+        {
+          "start": 152.7,
+          "end": 156.0,
+          "text": "I've",
+          "confidence": 0.4006388783454895,
+          "speaker": null
+        },
+        {
+          "start": 156.0,
+          "end": 156.0,
+          "text": "ever",
+          "confidence": 0.39288240671157837,
+          "speaker": null
+        },
+        {
+          "start": 156.0,
+          "end": 156.02,
+          "text": "seen",
+          "confidence": 0.6448929905891418,
+          "speaker": null
+        },
+        {
+          "start": 156.02,
+          "end": 156.02,
+          "text": "a",
+          "confidence": 0.2705687880516052,
+          "speaker": null
+        },
+        {
+          "start": 156.02,
+          "end": 156.02,
+          "text": "car",
+          "confidence": 0.03766676038503647,
+          "speaker": null
+        },
+        {
+          "start": 156.02,
+          "end": 156.3,
+          "text": "in",
+          "confidence": 0.12576383352279663,
+          "speaker": null
+        },
+        {
+          "start": 156.3,
+          "end": 156.32,
+          "text": "my",
+          "confidence": 0.11802301555871964,
+          "speaker": null
+        },
+        {
+          "start": 156.32,
+          "end": 156.34,
+          "text": "life.",
+          "confidence": 0.5429550409317017,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 273.58,
+      "end": 284.12,
+      "speaker": null,
+      "text": "Thank you so much for watching! Thank you so much for watching, and if you enjoyed the video, don't forget to like, share, and subscribe to our channel!",
+      "confidence": 0.5272027269891237,
+      "words": [
+        {
+          "start": 273.58,
+          "end": 274.98,
+          "text": "Thank",
+          "confidence": 0.005722591187804937,
+          "speaker": null
+        },
+        {
+          "start": 274.98,
+          "end": 274.98,
+          "text": "you",
+          "confidence": 0.9211170077323914,
+          "speaker": null
+        },
+        {
+          "start": 274.98,
+          "end": 274.98,
+          "text": "so",
+          "confidence": 0.05574357882142067,
+          "speaker": null
+        },
+        {
+          "start": 274.98,
+          "end": 274.98,
+          "text": "much",
+          "confidence": 0.9955378770828247,
+          "speaker": null
+        },
+        {
+          "start": 274.98,
+          "end": 274.98,
+          "text": "for",
+          "confidence": 0.5233157873153687,
+          "speaker": null
+        },
+        {
+          "start": 274.98,
+          "end": 274.98,
+          "text": "watching!",
+          "confidence": 0.739072322845459,
+          "speaker": null
+        },
+        {
+          "start": 275.0,
+          "end": 276.52,
+          "text": "Thank",
+          "confidence": 0.003490056609734893,
+          "speaker": null
+        },
+        {
+          "start": 276.52,
+          "end": 276.52,
+          "text": "you",
+          "confidence": 0.9540247321128845,
+          "speaker": null
+        },
+        {
+          "start": 276.52,
+          "end": 276.84,
+          "text": "so",
+          "confidence": 0.040526848286390305,
+          "speaker": null
+        },
+        {
+          "start": 276.84,
+          "end": 276.84,
+          "text": "much",
+          "confidence": 0.9962520003318787,
+          "speaker": null
+        },
+        {
+          "start": 276.84,
+          "end": 276.84,
+          "text": "for",
+          "confidence": 0.23648972809314728,
+          "speaker": null
+        },
+        {
+          "start": 276.84,
+          "end": 281.88,
+          "text": "watching,",
+          "confidence": 0.47937148809432983,
+          "speaker": null
+        },
+        {
+          "start": 282.92,
+          "end": 282.92,
+          "text": "and",
+          "confidence": 0.1414002627134323,
+          "speaker": null
+        },
+        {
+          "start": 282.92,
+          "end": 282.92,
+          "text": "if",
+          "confidence": 0.0970301628112793,
+          "speaker": null
+        },
+        {
+          "start": 282.92,
+          "end": 283.36,
+          "text": "you",
+          "confidence": 0.8261926770210266,
+          "speaker": null
+        },
+        {
+          "start": 283.36,
+          "end": 283.36,
+          "text": "enjoyed",
+          "confidence": 0.2554992139339447,
+          "speaker": null
+        },
+        {
+          "start": 283.36,
+          "end": 283.36,
+          "text": "the",
+          "confidence": 0.3192662298679352,
+          "speaker": null
+        },
+        {
+          "start": 283.36,
+          "end": 283.36,
+          "text": "video,",
+          "confidence": 0.9214648604393005,
+          "speaker": null
+        },
+        {
+          "start": 283.36,
+          "end": 284.1,
+          "text": "don't",
+          "confidence": 0.5450277887284756,
+          "speaker": null
+        },
+        {
+          "start": 284.1,
+          "end": 284.1,
+          "text": "forget",
+          "confidence": 0.9797685742378235,
+          "speaker": null
+        },
+        {
+          "start": 284.1,
+          "end": 284.1,
+          "text": "to",
+          "confidence": 0.9811545014381409,
+          "speaker": null
+        },
+        {
+          "start": 284.1,
+          "end": 284.1,
+          "text": "like,",
+          "confidence": 0.3021347224712372,
+          "speaker": null
+        },
+        {
+          "start": 284.1,
+          "end": 284.1,
+          "text": "share,",
+          "confidence": 0.3313433825969696,
+          "speaker": null
+        },
+        {
+          "start": 284.1,
+          "end": 284.1,
+          "text": "and",
+          "confidence": 0.6562711000442505,
+          "speaker": null
+        },
+        {
+          "start": 284.1,
+          "end": 284.1,
+          "text": "subscribe",
+          "confidence": 0.7424771785736084,
+          "speaker": null
+        },
+        {
+          "start": 284.1,
+          "end": 284.1,
+          "text": "to",
+          "confidence": 0.34339869022369385,
+          "speaker": null
+        },
+        {
+          "start": 284.1,
+          "end": 284.1,
+          "text": "our",
+          "confidence": 0.3202609419822693,
+          "speaker": null
+        },
+        {
+          "start": 284.1,
+          "end": 284.12,
+          "text": "channel!",
+          "confidence": 0.8422079086303711,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 305.0,
+      "end": 312.94,
+      "speaker": null,
+      "text": "I can't wait to see what's going on. I can't wait to see what's going on.",
+      "confidence": 0.541619723837357,
+      "words": [
+        {
+          "start": 305.0,
+          "end": 305.86,
+          "text": "I",
+          "confidence": 0.01065483596175909,
+          "speaker": null
+        },
+        {
+          "start": 305.86,
+          "end": 305.88,
+          "text": "can't",
+          "confidence": 0.3500593304634094,
+          "speaker": null
+        },
+        {
+          "start": 305.88,
+          "end": 306.3,
+          "text": "wait",
+          "confidence": 0.10541236400604248,
+          "speaker": null
+        },
+        {
+          "start": 306.3,
+          "end": 306.3,
+          "text": "to",
+          "confidence": 0.5389301180839539,
+          "speaker": null
+        },
+        {
+          "start": 306.3,
+          "end": 307.3,
+          "text": "see",
+          "confidence": 0.28086093068122864,
+          "speaker": null
+        },
+        {
+          "start": 307.3,
+          "end": 309.92,
+          "text": "what's",
+          "confidence": 0.1491660289466381,
+          "speaker": null
+        },
+        {
+          "start": 309.92,
+          "end": 309.92,
+          "text": "going",
+          "confidence": 0.2952015697956085,
+          "speaker": null
+        },
+        {
+          "start": 309.92,
+          "end": 309.92,
+          "text": "on.",
+          "confidence": 0.9508949518203735,
+          "speaker": null
+        },
+        {
+          "start": 309.92,
+          "end": 310.54,
+          "text": "I",
+          "confidence": 0.23200644552707672,
+          "speaker": null
+        },
+        {
+          "start": 310.54,
+          "end": 311.15999999999997,
+          "text": "can't",
+          "confidence": 0.5125101879239082,
+          "speaker": null
+        },
+        {
+          "start": 311.15999999999997,
+          "end": 311.15999999999997,
+          "text": "wait",
+          "confidence": 0.8433852195739746,
+          "speaker": null
+        },
+        {
+          "start": 311.15999999999997,
+          "end": 311.15999999999997,
+          "text": "to",
+          "confidence": 0.6573415994644165,
+          "speaker": null
+        },
+        {
+          "start": 311.15999999999997,
+          "end": 311.15999999999997,
+          "text": "see",
+          "confidence": 0.9325302839279175,
+          "speaker": null
+        },
+        {
+          "start": 311.15999999999997,
+          "end": 312.94,
+          "text": "what's",
+          "confidence": 0.8802078366279602,
+          "speaker": null
+        },
+        {
+          "start": 312.94,
+          "end": 312.94,
+          "text": "going",
+          "confidence": 0.9322401285171509,
+          "speaker": null
+        },
+        {
+          "start": 312.94,
+          "end": 312.94,
+          "text": "on.",
+          "confidence": 0.994513750076294,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 316.76,
+      "end": 316.78,
+      "speaker": null,
+      "text": "I can't wait to see what's going on.",
+      "confidence": 0.9238804392516613,
+      "words": [
+        {
+          "start": 316.76,
+          "end": 316.78,
+          "text": "I",
+          "confidence": 0.7706112265586853,
+          "speaker": null
+        },
+        {
+          "start": 316.78,
+          "end": 316.78,
+          "text": "can't",
+          "confidence": 0.9285712838172913,
+          "speaker": null
+        },
+        {
+          "start": 316.78,
+          "end": 316.78,
+          "text": "wait",
+          "confidence": 0.8971937298774719,
+          "speaker": null
+        },
+        {
+          "start": 316.78,
+          "end": 316.78,
+          "text": "to",
+          "confidence": 0.8565868139266968,
+          "speaker": null
+        },
+        {
+          "start": 316.78,
+          "end": 316.78,
+          "text": "see",
+          "confidence": 0.9810308218002319,
+          "speaker": null
+        },
+        {
+          "start": 316.78,
+          "end": 316.78,
+          "text": "what's",
+          "confidence": 0.9733310639858246,
+          "speaker": null
+        },
+        {
+          "start": 316.78,
+          "end": 316.78,
+          "text": "going",
+          "confidence": 0.9853814244270325,
+          "speaker": null
+        },
+        {
+          "start": 316.78,
+          "end": 316.78,
+          "text": "on.",
+          "confidence": 0.9983371496200562,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 317.64,
+      "end": 322.14,
+      "speaker": null,
+      "text": "I can't wait to see what's going on. I can't wait to see what's going on. I can't wait to see what's going on.",
+      "confidence": 0.9491540864109993,
+      "words": [
+        {
+          "start": 317.64,
+          "end": 318.88,
+          "text": "I",
+          "confidence": 0.861246645450592,
+          "speaker": null
+        },
+        {
+          "start": 318.88,
+          "end": 318.88,
+          "text": "can't",
+          "confidence": 0.9541318416595459,
+          "speaker": null
+        },
+        {
+          "start": 318.88,
+          "end": 319.04,
+          "text": "wait",
+          "confidence": 0.9036875367164612,
+          "speaker": null
+        },
+        {
+          "start": 319.04,
+          "end": 319.04,
+          "text": "to",
+          "confidence": 0.8592718839645386,
+          "speaker": null
+        },
+        {
+          "start": 319.04,
+          "end": 319.06,
+          "text": "see",
+          "confidence": 0.9829504489898682,
+          "speaker": null
+        },
+        {
+          "start": 319.06,
+          "end": 319.06,
+          "text": "what's",
+          "confidence": 0.9769501686096191,
+          "speaker": null
+        },
+        {
+          "start": 319.06,
+          "end": 319.06,
+          "text": "going",
+          "confidence": 0.9881618618965149,
+          "speaker": null
+        },
+        {
+          "start": 319.06,
+          "end": 319.06,
+          "text": "on.",
+          "confidence": 0.9986400008201599,
+          "speaker": null
+        },
+        {
+          "start": 319.06,
+          "end": 319.48,
+          "text": "I",
+          "confidence": 0.8876710534095764,
+          "speaker": null
+        },
+        {
+          "start": 319.48,
+          "end": 319.48,
+          "text": "can't",
+          "confidence": 0.9652096331119537,
+          "speaker": null
+        },
+        {
+          "start": 319.48,
+          "end": 319.48,
+          "text": "wait",
+          "confidence": 0.9156481623649597,
+          "speaker": null
+        },
+        {
+          "start": 319.48,
+          "end": 319.48,
+          "text": "to",
+          "confidence": 0.8668773174285889,
+          "speaker": null
+        },
+        {
+          "start": 319.48,
+          "end": 320.22,
+          "text": "see",
+          "confidence": 0.9835139513015747,
+          "speaker": null
+        },
+        {
+          "start": 320.22,
+          "end": 320.34000000000003,
+          "text": "what's",
+          "confidence": 0.9781589210033417,
+          "speaker": null
+        },
+        {
+          "start": 320.34000000000003,
+          "end": 320.34000000000003,
+          "text": "going",
+          "confidence": 0.9895598888397217,
+          "speaker": null
+        },
+        {
+          "start": 320.34000000000003,
+          "end": 320.34000000000003,
+          "text": "on.",
+          "confidence": 0.9986124038696289,
+          "speaker": null
+        },
+        {
+          "start": 320.34000000000003,
+          "end": 321.38,
+          "text": "I",
+          "confidence": 0.9082036018371582,
+          "speaker": null
+        },
+        {
+          "start": 321.38,
+          "end": 321.56,
+          "text": "can't",
+          "confidence": 0.9702584445476532,
+          "speaker": null
+        },
+        {
+          "start": 321.56,
+          "end": 321.65999999999997,
+          "text": "wait",
+          "confidence": 0.9216797351837158,
+          "speaker": null
+        },
+        {
+          "start": 321.65999999999997,
+          "end": 321.65999999999997,
+          "text": "to",
+          "confidence": 0.8781654834747314,
+          "speaker": null
+        },
+        {
+          "start": 321.65999999999997,
+          "end": 321.65999999999997,
+          "text": "see",
+          "confidence": 0.9848100543022156,
+          "speaker": null
+        },
+        {
+          "start": 321.65999999999997,
+          "end": 322.14,
+          "text": "what's",
+          "confidence": 0.979263573884964,
+          "speaker": null
+        },
+        {
+          "start": 322.14,
+          "end": 322.14,
+          "text": "going",
+          "confidence": 0.9900750517845154,
+          "speaker": null
+        },
+        {
+          "start": 322.14,
+          "end": 322.14,
+          "text": "on.",
+          "confidence": 0.9988635778427124,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 322.14,
+      "end": 328.76,
+      "speaker": null,
+      "text": "I can't wait to see what's going on. I can't wait to see what's going on.",
+      "confidence": 0.9581297729164362,
+      "words": [
+        {
+          "start": 322.14,
+          "end": 322.14,
+          "text": "I",
+          "confidence": 0.9218330383300781,
+          "speaker": null
+        },
+        {
+          "start": 322.14,
+          "end": 322.14,
+          "text": "can't",
+          "confidence": 0.9744244515895844,
+          "speaker": null
+        },
+        {
+          "start": 322.14,
+          "end": 322.14,
+          "text": "wait",
+          "confidence": 0.926611065864563,
+          "speaker": null
+        },
+        {
+          "start": 322.14,
+          "end": 322.14,
+          "text": "to",
+          "confidence": 0.8824830651283264,
+          "speaker": null
+        },
+        {
+          "start": 322.14,
+          "end": 322.82,
+          "text": "see",
+          "confidence": 0.9847699403762817,
+          "speaker": null
+        },
+        {
+          "start": 322.82,
+          "end": 324.65999999999997,
+          "text": "what's",
+          "confidence": 0.9811061918735504,
+          "speaker": null
+        },
+        {
+          "start": 324.65999999999997,
+          "end": 324.65999999999997,
+          "text": "going",
+          "confidence": 0.990740180015564,
+          "speaker": null
+        },
+        {
+          "start": 324.65999999999997,
+          "end": 324.65999999999997,
+          "text": "on.",
+          "confidence": 0.9990485310554504,
+          "speaker": null
+        },
+        {
+          "start": 324.65999999999997,
+          "end": 325.4,
+          "text": "I",
+          "confidence": 0.9350774884223938,
+          "speaker": null
+        },
+        {
+          "start": 325.4,
+          "end": 325.4,
+          "text": "can't",
+          "confidence": 0.9781923890113831,
+          "speaker": null
+        },
+        {
+          "start": 325.4,
+          "end": 325.4,
+          "text": "wait",
+          "confidence": 0.9306082725524902,
+          "speaker": null
+        },
+        {
+          "start": 325.4,
+          "end": 325.4,
+          "text": "to",
+          "confidence": 0.8656525611877441,
+          "speaker": null
+        },
+        {
+          "start": 325.4,
+          "end": 328.48,
+          "text": "see",
+          "confidence": 0.98631751537323,
+          "speaker": null
+        },
+        {
+          "start": 328.48,
+          "end": 328.76,
+          "text": "what's",
+          "confidence": 0.9822385609149933,
+          "speaker": null
+        },
+        {
+          "start": 328.76,
+          "end": 328.76,
+          "text": "going",
+          "confidence": 0.9918715953826904,
+          "speaker": null
+        },
+        {
+          "start": 328.76,
+          "end": 328.76,
+          "text": "on.",
+          "confidence": 0.9991015195846558,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 329.42,
+      "end": 329.48,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.4881145826075226,
+      "words": [
+        {
+          "start": 329.42,
+          "end": 329.46,
+          "text": "Thank",
+          "confidence": 0.004517052788287401,
+          "speaker": null
+        },
+        {
+          "start": 329.46,
+          "end": 329.48,
+          "text": "you.",
+          "confidence": 0.9717121124267578,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 340.26,
+      "end": 355.42,
+      "speaker": null,
+      "text": "I can't wait to see what's going on. I can't wait to see what's going on.",
+      "confidence": 0.5788798338035122,
+      "words": [
+        {
+          "start": 340.26,
+          "end": 340.86,
+          "text": "I",
+          "confidence": 0.020399179309606552,
+          "speaker": null
+        },
+        {
+          "start": 340.86,
+          "end": 341.12,
+          "text": "can't",
+          "confidence": 0.37627953104674816,
+          "speaker": null
+        },
+        {
+          "start": 341.12,
+          "end": 341.22,
+          "text": "wait",
+          "confidence": 0.03295033052563667,
+          "speaker": null
+        },
+        {
+          "start": 341.22,
+          "end": 342.9,
+          "text": "to",
+          "confidence": 0.48941856622695923,
+          "speaker": null
+        },
+        {
+          "start": 342.9,
+          "end": 342.92,
+          "text": "see",
+          "confidence": 0.4806940257549286,
+          "speaker": null
+        },
+        {
+          "start": 342.92,
+          "end": 343.18,
+          "text": "what's",
+          "confidence": 0.14621495828032494,
+          "speaker": null
+        },
+        {
+          "start": 343.18,
+          "end": 343.74,
+          "text": "going",
+          "confidence": 0.23612359166145325,
+          "speaker": null
+        },
+        {
+          "start": 343.74,
+          "end": 343.76,
+          "text": "on.",
+          "confidence": 0.4608640670776367,
+          "speaker": null
+        },
+        {
+          "start": 345.34,
+          "end": 345.94,
+          "text": "I",
+          "confidence": 0.4149482846260071,
+          "speaker": null
+        },
+        {
+          "start": 345.94,
+          "end": 345.98,
+          "text": "can't",
+          "confidence": 0.7490591406822205,
+          "speaker": null
+        },
+        {
+          "start": 345.98,
+          "end": 353.34,
+          "text": "wait",
+          "confidence": 0.9953761100769043,
+          "speaker": null
+        },
+        {
+          "start": 353.34,
+          "end": 353.84,
+          "text": "to",
+          "confidence": 0.9162388443946838,
+          "speaker": null
+        },
+        {
+          "start": 353.84,
+          "end": 354.02,
+          "text": "see",
+          "confidence": 0.9751357436180115,
+          "speaker": null
+        },
+        {
+          "start": 354.02,
+          "end": 354.02,
+          "text": "what's",
+          "confidence": 0.9760705232620239,
+          "speaker": null
+        },
+        {
+          "start": 354.02,
+          "end": 355.12,
+          "text": "going",
+          "confidence": 0.9934604167938232,
+          "speaker": null
+        },
+        {
+          "start": 355.12,
+          "end": 355.42,
+          "text": "on.",
+          "confidence": 0.9988440275192261,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 368.66,
+      "end": 371.46,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5364095158874989,
+      "words": [
+        {
+          "start": 368.66,
+          "end": 370.06,
+          "text": "Thank",
+          "confidence": 0.07871273905038834,
+          "speaker": null
+        },
+        {
+          "start": 370.06,
+          "end": 371.46,
+          "text": "you.",
+          "confidence": 0.9941062927246094,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 548.58,
+      "end": 549.98,
+      "speaker": null,
+      "text": "Thank you so much for watching!",
+      "confidence": 0.5520662847751131,
+      "words": [
+        {
+          "start": 548.58,
+          "end": 549.98,
+          "text": "Thank",
+          "confidence": 0.006678247358649969,
+          "speaker": null
+        },
+        {
+          "start": 549.98,
+          "end": 549.98,
+          "text": "you",
+          "confidence": 0.9299624562263489,
+          "speaker": null
+        },
+        {
+          "start": 549.98,
+          "end": 549.98,
+          "text": "so",
+          "confidence": 0.056211914867162704,
+          "speaker": null
+        },
+        {
+          "start": 549.98,
+          "end": 549.98,
+          "text": "much",
+          "confidence": 0.9949641227722168,
+          "speaker": null
+        },
+        {
+          "start": 549.98,
+          "end": 549.98,
+          "text": "for",
+          "confidence": 0.5208646059036255,
+          "speaker": null
+        },
+        {
+          "start": 549.98,
+          "end": 549.98,
+          "text": "watching!",
+          "confidence": 0.8037163615226746,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 561.98,
+      "end": 579.52,
+      "speaker": null,
+      "text": "Thank you so much for watching!",
+      "confidence": 0.5059852085541934,
+      "words": [
+        {
+          "start": 561.98,
+          "end": 563.38,
+          "text": "Thank",
+          "confidence": 0.030547255650162697,
+          "speaker": null
+        },
+        {
+          "start": 563.38,
+          "end": 563.38,
+          "text": "you",
+          "confidence": 0.9820766448974609,
+          "speaker": null
+        },
+        {
+          "start": 563.38,
+          "end": 564.12,
+          "text": "so",
+          "confidence": 0.0037635513581335545,
+          "speaker": null
+        },
+        {
+          "start": 564.12,
+          "end": 573.14,
+          "text": "much",
+          "confidence": 0.9888004064559937,
+          "speaker": null
+        },
+        {
+          "start": 573.14,
+          "end": 579.52,
+          "text": "for",
+          "confidence": 0.33507686853408813,
+          "speaker": null
+        },
+        {
+          "start": 579.52,
+          "end": 579.52,
+          "text": "watching!",
+          "confidence": 0.6956465244293213,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 589.82,
+      "end": 592.62,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5299832262098789,
+      "words": [
+        {
+          "start": 589.82,
+          "end": 591.22,
+          "text": "Thank",
+          "confidence": 0.06902498751878738,
+          "speaker": null
+        },
+        {
+          "start": 591.22,
+          "end": 592.62,
+          "text": "you.",
+          "confidence": 0.9909414649009705,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 9.139999999999997,
+        "speaker": null,
+        "text": "This video is a work of fiction. Any resemblance to anyone, living or dead, is coincidental and unintentional."
+      },
+      {
+        "timestamp": 149.88,
+        "speaker": null,
+        "text": "This is the first time I've ever seen a car in my life."
+      },
+      {
+        "timestamp": 273.58,
+        "speaker": null,
+        "text": "Thank you so much for watching! Thank you so much for watching, and if you enjoyed the video, don't forget to like, share, and subscribe to our channel!"
+      },
+      {
+        "timestamp": 305.0,
+        "speaker": null,
+        "text": "I can't wait to see what's going on. I can't wait to see what's going on."
+      },
+      {
+        "timestamp": 316.76,
+        "speaker": null,
+        "text": "I can't wait to see what's going on."
+      }
+    ]
+  }
+}

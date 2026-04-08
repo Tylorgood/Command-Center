@@ -1,0 +1,419 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-18_1341-1351",
+    "created_at": "2026-03-18T18:40:35.767053-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 62.4,
+      "end": 63.76,
+      "speaker": null,
+      "text": "You You You",
+      "confidence": 0.789517804980278,
+      "words": [
+        {
+          "start": 62.4,
+          "end": 63.06,
+          "text": "You",
+          "confidence": 0.7708261609077454,
+          "speaker": null
+        },
+        {
+          "start": 63.06,
+          "end": 63.08,
+          "text": "You",
+          "confidence": 0.7858633995056152,
+          "speaker": null
+        },
+        {
+          "start": 63.08,
+          "end": 63.76,
+          "text": "You",
+          "confidence": 0.8006908297538757,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 71.03999999999999,
+      "end": 72.02,
+      "speaker": null,
+      "text": "You You",
+      "confidence": 0.7818070650100708,
+      "words": [
+        {
+          "start": 71.03999999999999,
+          "end": 71.7,
+          "text": "You",
+          "confidence": 0.7661156058311462,
+          "speaker": null
+        },
+        {
+          "start": 71.7,
+          "end": 72.02,
+          "text": "You",
+          "confidence": 0.7974985241889954,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 273.58,
+      "end": 274.98,
+      "speaker": null,
+      "text": "I'm not sure if you can see it.",
+      "confidence": 0.19930052291601896,
+      "words": [
+        {
+          "start": 273.58,
+          "end": 274.98,
+          "text": "I'm",
+          "confidence": 0.0927874818444252,
+          "speaker": null
+        },
+        {
+          "start": 274.98,
+          "end": 274.98,
+          "text": "not",
+          "confidence": 0.07729604840278625,
+          "speaker": null
+        },
+        {
+          "start": 274.98,
+          "end": 274.98,
+          "text": "sure",
+          "confidence": 0.175184428691864,
+          "speaker": null
+        },
+        {
+          "start": 274.98,
+          "end": 274.98,
+          "text": "if",
+          "confidence": 0.35881221294403076,
+          "speaker": null
+        },
+        {
+          "start": 274.98,
+          "end": 274.98,
+          "text": "you",
+          "confidence": 0.19219708442687988,
+          "speaker": null
+        },
+        {
+          "start": 274.98,
+          "end": 274.98,
+          "text": "can",
+          "confidence": 0.2839812636375427,
+          "speaker": null
+        },
+        {
+          "start": 274.98,
+          "end": 274.98,
+          "text": "see",
+          "confidence": 0.2556741237640381,
+          "speaker": null
+        },
+        {
+          "start": 274.98,
+          "end": 274.98,
+          "text": "it.",
+          "confidence": 0.15847153961658478,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 357.06,
+      "end": 359.98,
+      "speaker": null,
+      "text": "to do, but I don't know what I'm going to do, but I don't know what I'm going",
+      "confidence": 0.44680298935337404,
+      "words": [
+        {
+          "start": 357.06,
+          "end": 358.46,
+          "text": "to",
+          "confidence": 0.0015058700228109956,
+          "speaker": null
+        },
+        {
+          "start": 358.46,
+          "end": 359.86,
+          "text": "do,",
+          "confidence": 0.02668958157300949,
+          "speaker": null
+        },
+        {
+          "start": 359.86,
+          "end": 359.98,
+          "text": "but",
+          "confidence": 0.08381828665733337,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "I",
+          "confidence": 0.15730515122413635,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "don't",
+          "confidence": 0.5201510544866323,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "know",
+          "confidence": 0.3104383051395416,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "what",
+          "confidence": 0.16545535624027252,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "I'm",
+          "confidence": 0.19625342264771461,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "going",
+          "confidence": 0.26972994208335876,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "to",
+          "confidence": 0.984456479549408,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "do,",
+          "confidence": 0.7882863879203796,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "but",
+          "confidence": 0.1328652799129486,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "I",
+          "confidence": 0.5879905819892883,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "don't",
+          "confidence": 0.5659305527806282,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "know",
+          "confidence": 0.8492280840873718,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "what",
+          "confidence": 0.6461449265480042,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "I'm",
+          "confidence": 0.8290876746177673,
+          "speaker": null
+        },
+        {
+          "start": 359.98,
+          "end": 359.98,
+          "text": "going",
+          "confidence": 0.927116870880127,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 413.58,
+      "end": 414.98,
+      "speaker": null,
+      "text": "I don't know what I'm going to do, but I don't know what I'm going to do",
+      "confidence": 0.38551135171149004,
+      "words": [
+        {
+          "start": 413.58,
+          "end": 414.98,
+          "text": "I",
+          "confidence": 0.006120606791228056,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "don't",
+          "confidence": 0.5267366729676723,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "know",
+          "confidence": 0.5023871064186096,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "what",
+          "confidence": 0.17473682761192322,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "I'm",
+          "confidence": 0.24569272994995117,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "going",
+          "confidence": 0.151321142911911,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "to",
+          "confidence": 1.1687921187331085e-05,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "do,",
+          "confidence": 0.16703568398952484,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "but",
+          "confidence": 0.33911362290382385,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "I",
+          "confidence": 0.3825276792049408,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "don't",
+          "confidence": 0.5464322976768017,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "know",
+          "confidence": 0.44901415705680847,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "what",
+          "confidence": 0.3823629915714264,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "I'm",
+          "confidence": 0.666353851556778,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "going",
+          "confidence": 0.9040074944496155,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "to",
+          "confidence": 0.3283451199531555,
+          "speaker": null
+        },
+        {
+          "start": 414.98,
+          "end": 414.98,
+          "text": "do",
+          "confidence": 0.7814933061599731,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 273.58,
+        "speaker": null,
+        "text": "I'm not sure if you can see it."
+      },
+      {
+        "timestamp": 357.06,
+        "speaker": null,
+        "text": "to do, but I don't know what I'm going to do, but I don't know what I'm going"
+      },
+      {
+        "timestamp": 413.58,
+        "speaker": null,
+        "text": "I don't know what I'm going to do, but I don't know what I'm going to do"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+[00:00:00] Speaker: The fundamentals and the basics are in. Now we've got to thread up over here, a little step.
+
+[00:00:10] Speaker: So we want to keep in mind how important these holes are, because these are precision holes, are back to these pads. Because that's where the feature and the part is actually going to be sitting. So you're going to want to make sure that these pads and all these surfaces get checked back to these holes.
+
+[00:00:34] Speaker: See how, oh well, oh well, that's your origin right here. Not, I mean, not the edge of the part, you get what I'm saying? You only do what's the hole.
+
+[00:00:48] Speaker: So it almost doesn't even matter where the first hole goes in to the edge of the part. You could almost just throw that block in there to a stop you previously had, and you could be off by, let's say, from this, let's see, 9-3rd, it could probably be 9.4, and you would still have a good part as long as everything measures back to this.
+
+[00:01:18] Speaker: The only thing that matters on this part is these two holes, these surfaces, and these two holes right here. That's all that matters. Everything else is clearance and, yeah, our weight reduction.
+
+[00:01:46] Speaker: so you can't see it too well on the other side, but here you can kind of see there's a crown of war. Yeah, let's say we come back, 19, it's 0, 19. So 19 from here. So if this surface is 0, this face, that crown of war gap should be 19 from that place.
+
+[00:02:24] Speaker: So how, how did you do that?
+
+[00:02:39] Speaker: So basically, this line, every time you see one, you're like this. It's referencing back to this. Same with this. That number, that 70mm, is referencing back to that number.
+
+[00:03:06] Speaker: Same thing here. So this, that 70, it's 70mm up from the center of that hole.
+
+[00:03:25] Speaker: So the first thing I would do is I would square this whole block up to look at the overall What are all the dimensions?
+
+[00:06:19] Speaker: I thought you'd need a 6mm tool. Cool.
+
+[00:06:25] Speaker: Because from the center to the edge is 3. Just like this. So they call it out in radius, but you've got to use double that size tool to get that radius, because radius is always half a diameter.

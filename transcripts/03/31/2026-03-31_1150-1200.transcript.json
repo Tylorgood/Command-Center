@@ -1,0 +1,1140 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-31_1150-1200",
+    "created_at": "2026-04-01T14:23:35.831161-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 83.58,
+      "end": 84.98,
+      "speaker": null,
+      "text": "but there's a lot of people in the city, but there's a lot of people in",
+      "confidence": 0.34891994651703345,
+      "words": [
+        {
+          "start": 83.58,
+          "end": 84.98,
+          "text": "but",
+          "confidence": 0.0004914457094855607,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "there's",
+          "confidence": 0.12479124993781927,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "a",
+          "confidence": 0.24086424708366394,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "lot",
+          "confidence": 0.12020052224397659,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "of",
+          "confidence": 0.7122933864593506,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "people",
+          "confidence": 0.0871836468577385,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "in",
+          "confidence": 0.12374194711446762,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "the",
+          "confidence": 0.00018065908079734072,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "city,",
+          "confidence": 0.007424652110785246,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "but",
+          "confidence": 0.1308860331773758,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "there's",
+          "confidence": 0.29844206757843494,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "a",
+          "confidence": 0.6239244341850281,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "lot",
+          "confidence": 0.8410890698432922,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "of",
+          "confidence": 0.8519562482833862,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "people",
+          "confidence": 0.6918923258781433,
+          "speaker": null
+        },
+        {
+          "start": 84.98,
+          "end": 84.98,
+          "text": "in",
+          "confidence": 0.7273572087287903,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 138.58,
+      "end": 139.98,
+      "speaker": null,
+      "text": "but there's a lot of people in the city, but there's a lot of people in",
+      "confidence": 0.34472307630293625,
+      "words": [
+        {
+          "start": 138.58,
+          "end": 139.98,
+          "text": "but",
+          "confidence": 0.001330612925812602,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "there's",
+          "confidence": 0.1070214458565412,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "a",
+          "confidence": 0.2769522964954376,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "lot",
+          "confidence": 0.11546315997838974,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "of",
+          "confidence": 0.7217298746109009,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "people",
+          "confidence": 0.11613807082176208,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "in",
+          "confidence": 0.12281995266675949,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "the",
+          "confidence": 0.0001954793551703915,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "city,",
+          "confidence": 0.014860546216368675,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "but",
+          "confidence": 0.11201079934835434,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "there's",
+          "confidence": 0.2895325105637312,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "a",
+          "confidence": 0.5710578560829163,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "lot",
+          "confidence": 0.8174449801445007,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "of",
+          "confidence": 0.8513870239257812,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "people",
+          "confidence": 0.67961585521698,
+          "speaker": null
+        },
+        {
+          "start": 139.98,
+          "end": 139.98,
+          "text": "in",
+          "confidence": 0.7180087566375732,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 384.7,
+      "end": 384.8,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.48583459528163075,
+      "words": [
+        {
+          "start": 384.7,
+          "end": 384.78,
+          "text": "Thank",
+          "confidence": 0.010614627040922642,
+          "speaker": null
+        },
+        {
+          "start": 384.78,
+          "end": 384.8,
+          "text": "you.",
+          "confidence": 0.9610545635223389,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 423.8,
+      "end": 426.6,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5663653612136841,
+      "words": [
+        {
+          "start": 423.8,
+          "end": 425.2,
+          "text": "Thank",
+          "confidence": 0.1356847882270813,
+          "speaker": null
+        },
+        {
+          "start": 425.2,
+          "end": 426.6,
+          "text": "you.",
+          "confidence": 0.9970459342002869,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 524.98,
+      "end": 549.98,
+      "speaker": null,
+      "text": "and the world's world's world Thank you.",
+      "confidence": 0.7099460849488994,
+      "words": [
+        {
+          "start": 524.98,
+          "end": 525.46,
+          "text": "and",
+          "confidence": 0.07209917902946472,
+          "speaker": null
+        },
+        {
+          "start": 525.46,
+          "end": 525.82,
+          "text": "the",
+          "confidence": 0.1890033483505249,
+          "speaker": null
+        },
+        {
+          "start": 525.82,
+          "end": 526.4,
+          "text": "world's",
+          "confidence": 0.35916970670223236,
+          "speaker": null
+        },
+        {
+          "start": 526.4,
+          "end": 527.06,
+          "text": "world's",
+          "confidence": 0.3178955316543579,
+          "speaker": null
+        },
+        {
+          "start": 527.06,
+          "end": 528.32,
+          "text": "world's",
+          "confidence": 0.6706723719835281,
+          "speaker": null
+        },
+        {
+          "start": 528.32,
+          "end": 528.66,
+          "text": "world's",
+          "confidence": 0.7463004887104034,
+          "speaker": null
+        },
+        {
+          "start": 528.66,
+          "end": 532.1,
+          "text": "world's",
+          "confidence": 0.8082088828086853,
+          "speaker": null
+        },
+        {
+          "start": 532.1,
+          "end": 532.26,
+          "text": "world's",
+          "confidence": 0.8406600952148438,
+          "speaker": null
+        },
+        {
+          "start": 532.26,
+          "end": 532.56,
+          "text": "world's",
+          "confidence": 0.8685038983821869,
+          "speaker": null
+        },
+        {
+          "start": 532.56,
+          "end": 532.82,
+          "text": "world's",
+          "confidence": 0.8905044496059418,
+          "speaker": null
+        },
+        {
+          "start": 532.82,
+          "end": 532.82,
+          "text": "world's",
+          "confidence": 0.907231867313385,
+          "speaker": null
+        },
+        {
+          "start": 532.82,
+          "end": 533.1,
+          "text": "world's",
+          "confidence": 0.9211218655109406,
+          "speaker": null
+        },
+        {
+          "start": 533.1,
+          "end": 533.74,
+          "text": "world's",
+          "confidence": 0.928198516368866,
+          "speaker": null
+        },
+        {
+          "start": 533.74,
+          "end": 533.82,
+          "text": "world's",
+          "confidence": 0.9361968338489532,
+          "speaker": null
+        },
+        {
+          "start": 533.82,
+          "end": 534.46,
+          "text": "world's",
+          "confidence": 0.9442552328109741,
+          "speaker": null
+        },
+        {
+          "start": 534.46,
+          "end": 535.88,
+          "text": "world's",
+          "confidence": 0.9500426054000854,
+          "speaker": null
+        },
+        {
+          "start": 535.88,
+          "end": 537.18,
+          "text": "world's",
+          "confidence": 0.9523151516914368,
+          "speaker": null
+        },
+        {
+          "start": 537.18,
+          "end": 537.82,
+          "text": "world's",
+          "confidence": 0.9569755792617798,
+          "speaker": null
+        },
+        {
+          "start": 537.82,
+          "end": 537.82,
+          "text": "world's",
+          "confidence": 0.9591761827468872,
+          "speaker": null
+        },
+        {
+          "start": 537.82,
+          "end": 537.82,
+          "text": "world's",
+          "confidence": 0.9613471031188965,
+          "speaker": null
+        },
+        {
+          "start": 537.82,
+          "end": 537.82,
+          "text": "world's",
+          "confidence": 0.9630391895771027,
+          "speaker": null
+        },
+        {
+          "start": 537.82,
+          "end": 537.82,
+          "text": "world's",
+          "confidence": 0.9632793962955475,
+          "speaker": null
+        },
+        {
+          "start": 537.82,
+          "end": 537.82,
+          "text": "world's",
+          "confidence": 0.9644501805305481,
+          "speaker": null
+        },
+        {
+          "start": 537.82,
+          "end": 537.82,
+          "text": "world's",
+          "confidence": 0.9652689695358276,
+          "speaker": null
+        },
+        {
+          "start": 537.82,
+          "end": 537.82,
+          "text": "world's",
+          "confidence": 0.9658045470714569,
+          "speaker": null
+        },
+        {
+          "start": 537.82,
+          "end": 537.82,
+          "text": "world's",
+          "confidence": 0.9656966030597687,
+          "speaker": null
+        },
+        {
+          "start": 537.82,
+          "end": 538.22,
+          "text": "world's",
+          "confidence": 0.967024177312851,
+          "speaker": null
+        },
+        {
+          "start": 538.22,
+          "end": 538.22,
+          "text": "world's",
+          "confidence": 0.9689794182777405,
+          "speaker": null
+        },
+        {
+          "start": 538.22,
+          "end": 539.12,
+          "text": "world's",
+          "confidence": 0.970421701669693,
+          "speaker": null
+        },
+        {
+          "start": 539.12,
+          "end": 539.12,
+          "text": "world's",
+          "confidence": 0.9709343910217285,
+          "speaker": null
+        },
+        {
+          "start": 539.12,
+          "end": 539.4,
+          "text": "world's",
+          "confidence": 0.9708382785320282,
+          "speaker": null
+        },
+        {
+          "start": 539.4,
+          "end": 539.4,
+          "text": "world's",
+          "confidence": 0.9720483124256134,
+          "speaker": null
+        },
+        {
+          "start": 539.4,
+          "end": 539.4,
+          "text": "world's",
+          "confidence": 0.9724657237529755,
+          "speaker": null
+        },
+        {
+          "start": 539.4,
+          "end": 539.4,
+          "text": "world's",
+          "confidence": 0.9719411432743073,
+          "speaker": null
+        },
+        {
+          "start": 539.4,
+          "end": 539.4,
+          "text": "world's",
+          "confidence": 0.970839262008667,
+          "speaker": null
+        },
+        {
+          "start": 539.4,
+          "end": 539.4,
+          "text": "world's",
+          "confidence": 0.9712794721126556,
+          "speaker": null
+        },
+        {
+          "start": 539.4,
+          "end": 539.4,
+          "text": "world's",
+          "confidence": 0.9713006317615509,
+          "speaker": null
+        },
+        {
+          "start": 539.4,
+          "end": 539.4,
+          "text": "world's",
+          "confidence": 0.9706611633300781,
+          "speaker": null
+        },
+        {
+          "start": 539.4,
+          "end": 539.4,
+          "text": "world's",
+          "confidence": 0.9705914855003357,
+          "speaker": null
+        },
+        {
+          "start": 539.4,
+          "end": 539.4,
+          "text": "world's",
+          "confidence": 0.9712332487106323,
+          "speaker": null
+        },
+        {
+          "start": 539.4,
+          "end": 539.4,
+          "text": "world's",
+          "confidence": 0.9719090163707733,
+          "speaker": null
+        },
+        {
+          "start": 539.4,
+          "end": 539.56,
+          "text": "world's",
+          "confidence": 0.9714191555976868,
+          "speaker": null
+        },
+        {
+          "start": 539.56,
+          "end": 539.56,
+          "text": "world's",
+          "confidence": 0.9718246161937714,
+          "speaker": null
+        },
+        {
+          "start": 539.56,
+          "end": 539.56,
+          "text": "world's",
+          "confidence": 0.9729337692260742,
+          "speaker": null
+        },
+        {
+          "start": 539.56,
+          "end": 540.14,
+          "text": "world's",
+          "confidence": 0.9734080731868744,
+          "speaker": null
+        },
+        {
+          "start": 540.14,
+          "end": 540.14,
+          "text": "world's",
+          "confidence": 0.9726399481296539,
+          "speaker": null
+        },
+        {
+          "start": 540.14,
+          "end": 540.14,
+          "text": "world's",
+          "confidence": 0.9724173545837402,
+          "speaker": null
+        },
+        {
+          "start": 540.14,
+          "end": 540.14,
+          "text": "world's",
+          "confidence": 0.9732154309749603,
+          "speaker": null
+        },
+        {
+          "start": 540.14,
+          "end": 540.14,
+          "text": "world's",
+          "confidence": 0.9734125435352325,
+          "speaker": null
+        },
+        {
+          "start": 540.14,
+          "end": 540.14,
+          "text": "world's",
+          "confidence": 0.9728929400444031,
+          "speaker": null
+        },
+        {
+          "start": 540.14,
+          "end": 540.14,
+          "text": "world's",
+          "confidence": 0.9728269279003143,
+          "speaker": null
+        },
+        {
+          "start": 540.14,
+          "end": 540.14,
+          "text": "world's",
+          "confidence": 0.9730620384216309,
+          "speaker": null
+        },
+        {
+          "start": 540.14,
+          "end": 540.86,
+          "text": "world's",
+          "confidence": 0.9740545153617859,
+          "speaker": null
+        },
+        {
+          "start": 540.86,
+          "end": 540.86,
+          "text": "world's",
+          "confidence": 0.9734554290771484,
+          "speaker": null
+        },
+        {
+          "start": 540.86,
+          "end": 540.86,
+          "text": "world's",
+          "confidence": 0.9733856022357941,
+          "speaker": null
+        },
+        {
+          "start": 540.86,
+          "end": 540.86,
+          "text": "world's",
+          "confidence": 0.9735444784164429,
+          "speaker": null
+        },
+        {
+          "start": 540.86,
+          "end": 540.86,
+          "text": "world's",
+          "confidence": 0.9730938673019409,
+          "speaker": null
+        },
+        {
+          "start": 540.86,
+          "end": 540.86,
+          "text": "world's",
+          "confidence": 0.9727461636066437,
+          "speaker": null
+        },
+        {
+          "start": 540.86,
+          "end": 540.86,
+          "text": "world's",
+          "confidence": 0.9721077084541321,
+          "speaker": null
+        },
+        {
+          "start": 540.86,
+          "end": 540.86,
+          "text": "world's",
+          "confidence": 0.972042590379715,
+          "speaker": null
+        },
+        {
+          "start": 540.86,
+          "end": 540.86,
+          "text": "world's",
+          "confidence": 0.9722797870635986,
+          "speaker": null
+        },
+        {
+          "start": 540.86,
+          "end": 540.86,
+          "text": "world's",
+          "confidence": 0.9725567698478699,
+          "speaker": null
+        },
+        {
+          "start": 540.86,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9721231460571289,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.972022533416748,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9717628359794617,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9729896783828735,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9739177823066711,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9731545746326447,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9733012914657593,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9746400713920593,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9750615358352661,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9733532667160034,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9733659327030182,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9740051627159119,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9734423160552979,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9723567068576813,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9732449948787689,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.970611035823822,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9732076227664948,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9733597338199615,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9722153544425964,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9723694920539856,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9726314544677734,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9720189571380615,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9728800356388092,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9698686301708221,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9709565937519073,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.971164345741272,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9702090620994568,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9715659916400909,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9721826314926147,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9723702371120453,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9714289009571075,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9718409776687622,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9706603288650513,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9719006419181824,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9721826016902924,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9719220697879791,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9697426557540894,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.968678206205368,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9684240221977234,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9687784910202026,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9707857072353363,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9695339202880859,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9708579778671265,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9713986814022064,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9720179736614227,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9714489281177521,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9720919132232666,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 540.94,
+          "text": "world's",
+          "confidence": 0.9734508097171783,
+          "speaker": null
+        },
+        {
+          "start": 540.94,
+          "end": 544.44,
+          "text": "world's",
+          "confidence": 0.9744349122047424,
+          "speaker": null
+        },
+        {
+          "start": 544.44,
+          "end": 548.3,
+          "text": "world's",
+          "confidence": 0.970445305109024,
+          "speaker": null
+        },
+        {
+          "start": 548.3,
+          "end": 549.24,
+          "text": "world",
+          "confidence": 0.9975312352180481,
+          "speaker": null
+        },
+        {
+          "start": 549.24,
+          "end": 549.98,
+          "text": "Thank",
+          "confidence": 0.013919390738010406,
+          "speaker": null
+        },
+        {
+          "start": 549.98,
+          "end": 549.98,
+          "text": "you.",
+          "confidence": 0.957632839679718,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 83.58,
+        "speaker": null,
+        "text": "but there's a lot of people in the city, but there's a lot of people in"
+      },
+      {
+        "timestamp": 138.58,
+        "speaker": null,
+        "text": "but there's a lot of people in the city, but there's a lot of people in"
+      },
+      {
+        "timestamp": 524.98,
+        "speaker": null,
+        "text": "and the world's world's world Thank you."
+      }
+    ]
+  }
+}

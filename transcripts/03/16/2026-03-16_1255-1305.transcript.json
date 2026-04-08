@@ -1,0 +1,512 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-16_1255-1305",
+    "created_at": "2026-03-16T14:09:56.820730-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 35.379999999999995,
+      "end": 38.18,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5862869322299957,
+      "words": [
+        {
+          "start": 35.379999999999995,
+          "end": 36.78,
+          "text": "Thank",
+          "confidence": 0.17427384853363037,
+          "speaker": null
+        },
+        {
+          "start": 36.78,
+          "end": 38.18,
+          "text": "you.",
+          "confidence": 0.9983000159263611,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 461.34,
+      "end": 463.16,
+      "speaker": null,
+      "text": "can I speak with the name, good, please?",
+      "confidence": 0.7077887058258057,
+      "words": [
+        {
+          "start": 461.34,
+          "end": 461.72,
+          "text": "can",
+          "confidence": 0.14899832010269165,
+          "speaker": null
+        },
+        {
+          "start": 461.72,
+          "end": 461.9,
+          "text": "I",
+          "confidence": 0.7243888974189758,
+          "speaker": null
+        },
+        {
+          "start": 461.9,
+          "end": 462.1,
+          "text": "speak",
+          "confidence": 0.9971579313278198,
+          "speaker": null
+        },
+        {
+          "start": 462.1,
+          "end": 462.34,
+          "text": "with",
+          "confidence": 0.9931591153144836,
+          "speaker": null
+        },
+        {
+          "start": 462.34,
+          "end": 462.44,
+          "text": "the",
+          "confidence": 0.477389931678772,
+          "speaker": null
+        },
+        {
+          "start": 462.44,
+          "end": 462.62,
+          "text": "name,",
+          "confidence": 0.5347170829772949,
+          "speaker": null
+        },
+        {
+          "start": 462.8,
+          "end": 462.88,
+          "text": "good,",
+          "confidence": 0.7932455539703369,
+          "speaker": null
+        },
+        {
+          "start": 462.88,
+          "end": 463.16,
+          "text": "please?",
+          "confidence": 0.9932528138160706,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 485.36,
+      "end": 489.08,
+      "speaker": null,
+      "text": "you you",
+      "confidence": 0.5877544880948133,
+      "words": [
+        {
+          "start": 485.36,
+          "end": 486.76,
+          "text": "you",
+          "confidence": 0.01386518869549036,
+          "speaker": null
+        },
+        {
+          "start": 486.76,
+          "end": 486.76,
+          "text": "you",
+          "confidence": 0.19981549680233002,
+          "speaker": null
+        },
+        {
+          "start": 486.76,
+          "end": 486.76,
+          "text": "you",
+          "confidence": 0.658839225769043,
+          "speaker": null
+        },
+        {
+          "start": 486.76,
+          "end": 486.76,
+          "text": "you",
+          "confidence": 0.6941066384315491,
+          "speaker": null
+        },
+        {
+          "start": 486.76,
+          "end": 486.76,
+          "text": "you",
+          "confidence": 0.7101914286613464,
+          "speaker": null
+        },
+        {
+          "start": 486.76,
+          "end": 488.34,
+          "text": "you",
+          "confidence": 0.7297087907791138,
+          "speaker": null
+        },
+        {
+          "start": 488.34,
+          "end": 488.5,
+          "text": "you",
+          "confidence": 0.7450430393218994,
+          "speaker": null
+        },
+        {
+          "start": 488.5,
+          "end": 489.08,
+          "text": "you",
+          "confidence": 0.7638833522796631,
+          "speaker": null
+        },
+        {
+          "start": 489.08,
+          "end": 489.08,
+          "text": "you",
+          "confidence": 0.7743372321128845,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 527.0,
+      "end": 553.48,
+      "speaker": null,
+      "text": "Hello, my name is Tyler, how are you, good, I was just calling, I'm with Team Up Academy, we are eight week CNC training school, and I was curious if opening day looks like April 24th, if there's any way we could",
+      "confidence": 0.8974715726716178,
+      "words": [
+        {
+          "start": 527.0,
+          "end": 528.04,
+          "text": "Hello,",
+          "confidence": 0.6458037495613098,
+          "speaker": null
+        },
+        {
+          "start": 528.74,
+          "end": 528.76,
+          "text": "my",
+          "confidence": 0.983544647693634,
+          "speaker": null
+        },
+        {
+          "start": 528.76,
+          "end": 528.94,
+          "text": "name",
+          "confidence": 0.999151349067688,
+          "speaker": null
+        },
+        {
+          "start": 528.94,
+          "end": 529.34,
+          "text": "is",
+          "confidence": 0.9971185922622681,
+          "speaker": null
+        },
+        {
+          "start": 529.34,
+          "end": 529.78,
+          "text": "Tyler,",
+          "confidence": 0.9598620533943176,
+          "speaker": null
+        },
+        {
+          "start": 530.48,
+          "end": 530.56,
+          "text": "how",
+          "confidence": 0.9536136984825134,
+          "speaker": null
+        },
+        {
+          "start": 530.56,
+          "end": 530.7,
+          "text": "are",
+          "confidence": 0.9961042404174805,
+          "speaker": null
+        },
+        {
+          "start": 530.7,
+          "end": 531.36,
+          "text": "you,",
+          "confidence": 0.997497022151947,
+          "speaker": null
+        },
+        {
+          "start": 531.36,
+          "end": 534.38,
+          "text": "good,",
+          "confidence": 0.8517366647720337,
+          "speaker": null
+        },
+        {
+          "start": 535.62,
+          "end": 535.68,
+          "text": "I",
+          "confidence": 0.6839423179626465,
+          "speaker": null
+        },
+        {
+          "start": 535.68,
+          "end": 535.88,
+          "text": "was",
+          "confidence": 0.9933619499206543,
+          "speaker": null
+        },
+        {
+          "start": 535.88,
+          "end": 536.16,
+          "text": "just",
+          "confidence": 0.9987168312072754,
+          "speaker": null
+        },
+        {
+          "start": 536.16,
+          "end": 536.62,
+          "text": "calling,",
+          "confidence": 0.9945861101150513,
+          "speaker": null
+        },
+        {
+          "start": 537.04,
+          "end": 537.14,
+          "text": "I'm",
+          "confidence": 0.9818874299526215,
+          "speaker": null
+        },
+        {
+          "start": 537.14,
+          "end": 537.52,
+          "text": "with",
+          "confidence": 0.997791051864624,
+          "speaker": null
+        },
+        {
+          "start": 537.52,
+          "end": 538.22,
+          "text": "Team",
+          "confidence": 0.2590504288673401,
+          "speaker": null
+        },
+        {
+          "start": 538.22,
+          "end": 538.48,
+          "text": "Up",
+          "confidence": 0.7494617104530334,
+          "speaker": null
+        },
+        {
+          "start": 538.48,
+          "end": 538.86,
+          "text": "Academy,",
+          "confidence": 0.9881686568260193,
+          "speaker": null
+        },
+        {
+          "start": 539.68,
+          "end": 539.7,
+          "text": "we",
+          "confidence": 0.9682909846305847,
+          "speaker": null
+        },
+        {
+          "start": 539.7,
+          "end": 540.6,
+          "text": "are",
+          "confidence": 0.978682279586792,
+          "speaker": null
+        },
+        {
+          "start": 540.6,
+          "end": 541.22,
+          "text": "eight",
+          "confidence": 0.35027292370796204,
+          "speaker": null
+        },
+        {
+          "start": 541.22,
+          "end": 542.42,
+          "text": "week",
+          "confidence": 0.8224598169326782,
+          "speaker": null
+        },
+        {
+          "start": 542.42,
+          "end": 542.96,
+          "text": "CNC",
+          "confidence": 0.7158272862434387,
+          "speaker": null
+        },
+        {
+          "start": 542.96,
+          "end": 543.5,
+          "text": "training",
+          "confidence": 0.9343883395195007,
+          "speaker": null
+        },
+        {
+          "start": 543.5,
+          "end": 544.5,
+          "text": "school,",
+          "confidence": 0.9794641733169556,
+          "speaker": null
+        },
+        {
+          "start": 545.4,
+          "end": 545.42,
+          "text": "and",
+          "confidence": 0.9808620810508728,
+          "speaker": null
+        },
+        {
+          "start": 545.42,
+          "end": 546.02,
+          "text": "I",
+          "confidence": 0.9896590113639832,
+          "speaker": null
+        },
+        {
+          "start": 546.02,
+          "end": 546.3,
+          "text": "was",
+          "confidence": 0.9985246062278748,
+          "speaker": null
+        },
+        {
+          "start": 546.3,
+          "end": 546.78,
+          "text": "curious",
+          "confidence": 0.9977468848228455,
+          "speaker": null
+        },
+        {
+          "start": 546.78,
+          "end": 548.12,
+          "text": "if",
+          "confidence": 0.8247502446174622,
+          "speaker": null
+        },
+        {
+          "start": 548.12,
+          "end": 548.46,
+          "text": "opening",
+          "confidence": 0.6276717782020569,
+          "speaker": null
+        },
+        {
+          "start": 548.46,
+          "end": 549.08,
+          "text": "day",
+          "confidence": 0.7991195321083069,
+          "speaker": null
+        },
+        {
+          "start": 549.08,
+          "end": 549.5,
+          "text": "looks",
+          "confidence": 0.9603102803230286,
+          "speaker": null
+        },
+        {
+          "start": 549.5,
+          "end": 549.9,
+          "text": "like",
+          "confidence": 0.9921998381614685,
+          "speaker": null
+        },
+        {
+          "start": 549.9,
+          "end": 550.44,
+          "text": "April",
+          "confidence": 0.9972391128540039,
+          "speaker": null
+        },
+        {
+          "start": 550.44,
+          "end": 552.26,
+          "text": "24th,",
+          "confidence": 0.9069489240646362,
+          "speaker": null
+        },
+        {
+          "start": 552.38,
+          "end": 552.42,
+          "text": "if",
+          "confidence": 0.9895330667495728,
+          "speaker": null
+        },
+        {
+          "start": 552.42,
+          "end": 552.72,
+          "text": "there's",
+          "confidence": 0.9801956415176392,
+          "speaker": null
+        },
+        {
+          "start": 552.72,
+          "end": 552.9,
+          "text": "any",
+          "confidence": 0.9463680386543274,
+          "speaker": null
+        },
+        {
+          "start": 552.9,
+          "end": 553.08,
+          "text": "way",
+          "confidence": 0.9942477941513062,
+          "speaker": null
+        },
+        {
+          "start": 553.08,
+          "end": 553.28,
+          "text": "we",
+          "confidence": 0.9915845394134521,
+          "speaker": null
+        },
+        {
+          "start": 553.28,
+          "end": 553.48,
+          "text": "could",
+          "confidence": 0.93606036901474,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 553.5,
+      "end": 555.76,
+      "speaker": null,
+      "text": "Okay",
+      "confidence": 0.47714167833328247,
+      "words": [
+        {
+          "start": 553.5,
+          "end": 555.76,
+          "text": "Okay",
+          "confidence": 0.47714167833328247,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 461.34,
+        "speaker": null,
+        "text": "can I speak with the name, good, please?"
+      },
+      {
+        "timestamp": 527.0,
+        "speaker": null,
+        "text": "Hello, my name is Tyler, how are you, good, I was just calling, I'm with Team Up Academy, we are eight week CNC training school, and I was curious if opening day looks like April 24th, if there's any "
+      }
+    ]
+  }
+}

@@ -1,0 +1,433 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-18_1030-1040",
+    "created_at": "2026-03-18T12:36:59.644628-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 8.459999999999999,
+      "end": 11.4,
+      "speaker": null,
+      "text": "I don't know.",
+      "confidence": 0.4841717171172301,
+      "words": [
+        {
+          "start": 8.459999999999999,
+          "end": 9.86,
+          "text": "I",
+          "confidence": 0.019627954810857773,
+          "speaker": null
+        },
+        {
+          "start": 9.86,
+          "end": 11.26,
+          "text": "don't",
+          "confidence": 0.5808204412460327,
+          "speaker": null
+        },
+        {
+          "start": 11.26,
+          "end": 11.4,
+          "text": "know.",
+          "confidence": 0.8520667552947998,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 38.46,
+      "end": 40.02,
+      "speaker": null,
+      "text": "Fucking build it, baby.",
+      "confidence": 0.8041537255048752,
+      "words": [
+        {
+          "start": 38.46,
+          "end": 39.1,
+          "text": "Fucking",
+          "confidence": 0.5156573057174683,
+          "speaker": null
+        },
+        {
+          "start": 39.1,
+          "end": 39.54,
+          "text": "build",
+          "confidence": 0.9107682108879089,
+          "speaker": null
+        },
+        {
+          "start": 39.54,
+          "end": 39.78,
+          "text": "it,",
+          "confidence": 0.8031758666038513,
+          "speaker": null
+        },
+        {
+          "start": 39.8,
+          "end": 40.02,
+          "text": "baby.",
+          "confidence": 0.9870135188102722,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 67.1,
+      "end": 68.3,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5334402397274971,
+      "words": [
+        {
+          "start": 67.1,
+          "end": 67.9,
+          "text": "Thank",
+          "confidence": 0.06968094408512115,
+          "speaker": null
+        },
+        {
+          "start": 67.9,
+          "end": 68.3,
+          "text": "you.",
+          "confidence": 0.997199535369873,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 85.24000000000001,
+      "end": 86.76,
+      "speaker": null,
+      "text": "I don't know.",
+      "confidence": 0.44371131000419456,
+      "words": [
+        {
+          "start": 85.24000000000001,
+          "end": 86.64,
+          "text": "I",
+          "confidence": 0.028518950566649437,
+          "speaker": null
+        },
+        {
+          "start": 86.64,
+          "end": 86.64,
+          "text": "don't",
+          "confidence": 0.5580714866518974,
+          "speaker": null
+        },
+        {
+          "start": 86.64,
+          "end": 86.76,
+          "text": "know.",
+          "confidence": 0.7445434927940369,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 119.3,
+      "end": 119.78,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5229757316410542,
+      "words": [
+        {
+          "start": 119.3,
+          "end": 119.7,
+          "text": "Thank",
+          "confidence": 0.048843540251255035,
+          "speaker": null
+        },
+        {
+          "start": 119.7,
+          "end": 119.78,
+          "text": "you.",
+          "confidence": 0.9971079230308533,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 147.56,
+      "end": 150.24,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5343564413487911,
+      "words": [
+        {
+          "start": 147.56,
+          "end": 148.96,
+          "text": "Thank",
+          "confidence": 0.07375138252973557,
+          "speaker": null
+        },
+        {
+          "start": 148.96,
+          "end": 150.24,
+          "text": "you.",
+          "confidence": 0.9949615001678467,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 183.06,
+      "end": 191.68,
+      "speaker": null,
+      "text": "Things we need to get done are treated as a secondary priority.",
+      "confidence": 0.8252878131655356,
+      "words": [
+        {
+          "start": 183.06,
+          "end": 183.96,
+          "text": "Things",
+          "confidence": 0.3991104066371918,
+          "speaker": null
+        },
+        {
+          "start": 183.96,
+          "end": 184.28,
+          "text": "we",
+          "confidence": 0.8133578300476074,
+          "speaker": null
+        },
+        {
+          "start": 184.28,
+          "end": 184.56,
+          "text": "need",
+          "confidence": 0.9729626774787903,
+          "speaker": null
+        },
+        {
+          "start": 184.56,
+          "end": 184.7,
+          "text": "to",
+          "confidence": 0.9981551766395569,
+          "speaker": null
+        },
+        {
+          "start": 184.7,
+          "end": 184.82,
+          "text": "get",
+          "confidence": 0.9958629608154297,
+          "speaker": null
+        },
+        {
+          "start": 184.82,
+          "end": 185.14,
+          "text": "done",
+          "confidence": 0.9972042441368103,
+          "speaker": null
+        },
+        {
+          "start": 185.14,
+          "end": 186.4,
+          "text": "are",
+          "confidence": 0.012854179367423058,
+          "speaker": null
+        },
+        {
+          "start": 186.4,
+          "end": 189.5,
+          "text": "treated",
+          "confidence": 0.9644124507904053,
+          "speaker": null
+        },
+        {
+          "start": 189.5,
+          "end": 189.96,
+          "text": "as",
+          "confidence": 0.9878387451171875,
+          "speaker": null
+        },
+        {
+          "start": 189.96,
+          "end": 190.06,
+          "text": "a",
+          "confidence": 0.9008644223213196,
+          "speaker": null
+        },
+        {
+          "start": 190.06,
+          "end": 190.76,
+          "text": "secondary",
+          "confidence": 0.8775708675384521,
+          "speaker": null
+        },
+        {
+          "start": 190.76,
+          "end": 191.68,
+          "text": "priority.",
+          "confidence": 0.9832597970962524,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 192.72,
+      "end": 194.2,
+      "speaker": null,
+      "text": "Secondary priority.",
+      "confidence": 0.9099221676588058,
+      "words": [
+        {
+          "start": 192.72,
+          "end": 193.62,
+          "text": "Secondary",
+          "confidence": 0.8491691648960114,
+          "speaker": null
+        },
+        {
+          "start": 193.62,
+          "end": 194.2,
+          "text": "priority.",
+          "confidence": 0.9706751704216003,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 201.57999999999998,
+      "end": 202.98,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5159952342510223,
+      "words": [
+        {
+          "start": 201.57999999999998,
+          "end": 202.98,
+          "text": "Thank",
+          "confidence": 0.05246168375015259,
+          "speaker": null
+        },
+        {
+          "start": 202.98,
+          "end": 202.98,
+          "text": "you.",
+          "confidence": 0.9795287847518921,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 287.98,
+      "end": 296.52,
+      "speaker": null,
+      "text": "So we're going to stop that road and stop.",
+      "confidence": 0.43129769236677223,
+      "words": [
+        {
+          "start": 287.98,
+          "end": 289.3,
+          "text": "So",
+          "confidence": 0.02704417146742344,
+          "speaker": null
+        },
+        {
+          "start": 289.3,
+          "end": 289.6,
+          "text": "we're",
+          "confidence": 0.3456933796405792,
+          "speaker": null
+        },
+        {
+          "start": 289.6,
+          "end": 291.4,
+          "text": "going",
+          "confidence": 0.30167651176452637,
+          "speaker": null
+        },
+        {
+          "start": 291.4,
+          "end": 291.46,
+          "text": "to",
+          "confidence": 0.7952046990394592,
+          "speaker": null
+        },
+        {
+          "start": 291.46,
+          "end": 292.14,
+          "text": "stop",
+          "confidence": 0.0968514084815979,
+          "speaker": null
+        },
+        {
+          "start": 292.14,
+          "end": 295.64,
+          "text": "that",
+          "confidence": 0.8707308769226074,
+          "speaker": null
+        },
+        {
+          "start": 295.64,
+          "end": 296.02,
+          "text": "road",
+          "confidence": 0.6991590261459351,
+          "speaker": null
+        },
+        {
+          "start": 296.02,
+          "end": 296.18,
+          "text": "and",
+          "confidence": 0.056156307458877563,
+          "speaker": null
+        },
+        {
+          "start": 296.18,
+          "end": 296.52,
+          "text": "stop.",
+          "confidence": 0.6891628503799438,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 340.76,
+      "end": 340.82,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5272135697305202,
+      "words": [
+        {
+          "start": 340.76,
+          "end": 340.8,
+          "text": "Thank",
+          "confidence": 0.0681217834353447,
+          "speaker": null
+        },
+        {
+          "start": 340.8,
+          "end": 340.82,
+          "text": "you.",
+          "confidence": 0.9863053560256958,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 183.06,
+        "speaker": null,
+        "text": "Things we need to get done are treated as a secondary priority."
+      },
+      {
+        "timestamp": 287.98,
+        "speaker": null,
+        "text": "So we're going to stop that road and stop."
+      }
+    ]
+  }
+}

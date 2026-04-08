@@ -1,0 +1,264 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-18_0940-0950",
+    "created_at": "2026-03-18T11:27:01.115862-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 4.8999999999999995,
+      "end": 5.36,
+      "speaker": null,
+      "text": "that's it",
+      "confidence": 0.7529743481427431,
+      "words": [
+        {
+          "start": 4.8999999999999995,
+          "end": 5.26,
+          "text": "that's",
+          "confidence": 0.5214631892740726,
+          "speaker": null
+        },
+        {
+          "start": 5.26,
+          "end": 5.36,
+          "text": "it",
+          "confidence": 0.9844855070114136,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 5.92,
+      "end": 6.7,
+      "speaker": null,
+      "text": "that's all you need",
+      "confidence": 0.9051296412944794,
+      "words": [
+        {
+          "start": 5.92,
+          "end": 6.28,
+          "text": "that's",
+          "confidence": 0.6952877044677734,
+          "speaker": null
+        },
+        {
+          "start": 6.28,
+          "end": 6.34,
+          "text": "all",
+          "confidence": 0.9314758777618408,
+          "speaker": null
+        },
+        {
+          "start": 6.34,
+          "end": 6.48,
+          "text": "you",
+          "confidence": 0.9957860112190247,
+          "speaker": null
+        },
+        {
+          "start": 6.48,
+          "end": 6.7,
+          "text": "need",
+          "confidence": 0.9979689717292786,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 41.8,
+      "end": 42.36,
+      "speaker": null,
+      "text": "There we go.",
+      "confidence": 0.558091610049208,
+      "words": [
+        {
+          "start": 41.8,
+          "end": 42.16,
+          "text": "There",
+          "confidence": 0.018691448494791985,
+          "speaker": null
+        },
+        {
+          "start": 42.16,
+          "end": 42.18,
+          "text": "we",
+          "confidence": 0.693057119846344,
+          "speaker": null
+        },
+        {
+          "start": 42.18,
+          "end": 42.36,
+          "text": "go.",
+          "confidence": 0.962526261806488,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 467.18,
+      "end": 469.98,
+      "speaker": null,
+      "text": "know what you're talking about, but I don't know what you're talking about,",
+      "confidence": 0.4222638191934563,
+      "words": [
+        {
+          "start": 467.18,
+          "end": 468.58,
+          "text": "know",
+          "confidence": 5.542541839531623e-05,
+          "speaker": null
+        },
+        {
+          "start": 468.58,
+          "end": 469.98,
+          "text": "what",
+          "confidence": 0.03557571396231651,
+          "speaker": null
+        },
+        {
+          "start": 469.98,
+          "end": 469.98,
+          "text": "you're",
+          "confidence": 0.31360308825969696,
+          "speaker": null
+        },
+        {
+          "start": 469.98,
+          "end": 469.98,
+          "text": "talking",
+          "confidence": 0.1173386424779892,
+          "speaker": null
+        },
+        {
+          "start": 469.98,
+          "end": 469.98,
+          "text": "about,",
+          "confidence": 0.9830988049507141,
+          "speaker": null
+        },
+        {
+          "start": 469.98,
+          "end": 469.98,
+          "text": "but",
+          "confidence": 0.0848899707198143,
+          "speaker": null
+        },
+        {
+          "start": 469.98,
+          "end": 469.98,
+          "text": "I",
+          "confidence": 0.14350584149360657,
+          "speaker": null
+        },
+        {
+          "start": 469.98,
+          "end": 469.98,
+          "text": "don't",
+          "confidence": 0.5443782657384872,
+          "speaker": null
+        },
+        {
+          "start": 469.98,
+          "end": 469.98,
+          "text": "know",
+          "confidence": 0.3821522891521454,
+          "speaker": null
+        },
+        {
+          "start": 469.98,
+          "end": 469.98,
+          "text": "what",
+          "confidence": 0.40861964225769043,
+          "speaker": null
+        },
+        {
+          "start": 469.98,
+          "end": 469.98,
+          "text": "you're",
+          "confidence": 0.6881267428398132,
+          "speaker": null
+        },
+        {
+          "start": 469.98,
+          "end": 469.98,
+          "text": "talking",
+          "confidence": 0.7974984049797058,
+          "speaker": null
+        },
+        {
+          "start": 469.98,
+          "end": 469.98,
+          "text": "about,",
+          "confidence": 0.9905868172645569,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 480.82,
+      "end": 482.22,
+      "speaker": null,
+      "text": "So.",
+      "confidence": 0.6484711766242981,
+      "words": [
+        {
+          "start": 480.82,
+          "end": 482.22,
+          "text": "So.",
+          "confidence": 0.6484711766242981,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 595.54,
+      "end": 598.62,
+      "speaker": null,
+      "text": "I don't know.",
+      "confidence": 0.5153406436244646,
+      "words": [
+        {
+          "start": 595.54,
+          "end": 596.94,
+          "text": "I",
+          "confidence": 0.04979473352432251,
+          "speaker": null
+        },
+        {
+          "start": 596.94,
+          "end": 598.34,
+          "text": "don't",
+          "confidence": 0.6120554134249687,
+          "speaker": null
+        },
+        {
+          "start": 598.34,
+          "end": 598.62,
+          "text": "know.",
+          "confidence": 0.8841717839241028,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 467.18,
+        "speaker": null,
+        "text": "know what you're talking about, but I don't know what you're talking about,"
+      }
+    ]
+  }
+}

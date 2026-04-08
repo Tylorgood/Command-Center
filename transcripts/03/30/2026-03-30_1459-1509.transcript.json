@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-30_1459-1509",
+    "created_at": "2026-03-31T19:48:48.709648-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 8.060000000000002,
+      "end": 9.96,
+      "speaker": null,
+      "text": "All right, let's get the fuck out of here.",
+      "confidence": 0.8696019334925545,
+      "words": [
+        {
+          "start": 8.060000000000002,
+          "end": 8.46,
+          "text": "All",
+          "confidence": 0.1519763320684433,
+          "speaker": null
+        },
+        {
+          "start": 8.46,
+          "end": 8.66,
+          "text": "right,",
+          "confidence": 0.9661427736282349,
+          "speaker": null
+        },
+        {
+          "start": 8.68,
+          "end": 8.92,
+          "text": "let's",
+          "confidence": 0.9696540534496307,
+          "speaker": null
+        },
+        {
+          "start": 8.92,
+          "end": 8.98,
+          "text": "get",
+          "confidence": 0.9972430467605591,
+          "speaker": null
+        },
+        {
+          "start": 8.98,
+          "end": 9.14,
+          "text": "the",
+          "confidence": 0.9937074780464172,
+          "speaker": null
+        },
+        {
+          "start": 9.14,
+          "end": 9.38,
+          "text": "fuck",
+          "confidence": 0.8980544209480286,
+          "speaker": null
+        },
+        {
+          "start": 9.38,
+          "end": 9.72,
+          "text": "out",
+          "confidence": 0.8570531010627747,
+          "speaker": null
+        },
+        {
+          "start": 9.72,
+          "end": 9.82,
+          "text": "of",
+          "confidence": 0.9939252734184265,
+          "speaker": null
+        },
+        {
+          "start": 9.82,
+          "end": 9.96,
+          "text": "here.",
+          "confidence": 0.9986609220504761,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 48.3,
+      "end": 50.480000000000004,
+      "speaker": null,
+      "text": "Let's go.",
+      "confidence": 0.6433754868339747,
+      "words": [
+        {
+          "start": 48.3,
+          "end": 49.7,
+          "text": "Let's",
+          "confidence": 0.4836105718277395,
+          "speaker": null
+        },
+        {
+          "start": 49.7,
+          "end": 50.480000000000004,
+          "text": "go.",
+          "confidence": 0.80314040184021,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 138.18,
+      "end": 140.98,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.582240991294384,
+      "words": [
+        {
+          "start": 138.18,
+          "end": 139.57999999999998,
+          "text": "Thank",
+          "confidence": 0.16651616990566254,
+          "speaker": null
+        },
+        {
+          "start": 139.57999999999998,
+          "end": 140.98,
+          "text": "you.",
+          "confidence": 0.9979658126831055,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 221.36,
+      "end": 223.98,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5562362894415855,
+      "words": [
+        {
+          "start": 221.36,
+          "end": 223.98,
+          "text": "Thank",
+          "confidence": 0.11676858365535736,
+          "speaker": null
+        },
+        {
+          "start": 223.98,
+          "end": 223.98,
+          "text": "you.",
+          "confidence": 0.9957039952278137,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 318.02,
+      "end": 319.94,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5786878988146782,
+      "words": [
+        {
+          "start": 318.02,
+          "end": 319.3,
+          "text": "Thank",
+          "confidence": 0.16013894975185394,
+          "speaker": null
+        },
+        {
+          "start": 319.3,
+          "end": 319.94,
+          "text": "you.",
+          "confidence": 0.9972368478775024,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 8.060000000000002,
+        "speaker": null,
+        "text": "All right, let's get the fuck out of here."
+      }
+    ]
+  }
+}

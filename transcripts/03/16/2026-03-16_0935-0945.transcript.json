@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-16_0935-0945",
+    "created_at": "2026-03-16T10:35:22.950468-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 15.159999999999998,
+      "end": 15.3,
+      "speaker": null,
+      "text": "Satsang with Mooji",
+      "confidence": 0.8332662789358033,
+      "words": [
+        {
+          "start": 15.159999999999998,
+          "end": 15.24,
+          "text": "Satsang",
+          "confidence": 0.5738165105382601,
+          "speaker": null
+        },
+        {
+          "start": 15.24,
+          "end": 15.26,
+          "text": "with",
+          "confidence": 0.9511050581932068,
+          "speaker": null
+        },
+        {
+          "start": 15.26,
+          "end": 15.3,
+          "text": "Mooji",
+          "confidence": 0.974877268075943,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 36.0,
+      "end": 37.86,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5369657948613167,
+      "words": [
+        {
+          "start": 36.0,
+          "end": 37.4,
+          "text": "Thank",
+          "confidence": 0.08154769241809845,
+          "speaker": null
+        },
+        {
+          "start": 37.4,
+          "end": 37.86,
+          "text": "you.",
+          "confidence": 0.9923838973045349,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 502.58,
+      "end": 503.98,
+      "speaker": null,
+      "text": "I'm sorry, I'm sorry, I'm sorry, I'm sorry,",
+      "confidence": 0.6342653186293319,
+      "words": [
+        {
+          "start": 502.58,
+          "end": 503.98,
+          "text": "I'm",
+          "confidence": 0.1475371578708291,
+          "speaker": null
+        },
+        {
+          "start": 503.98,
+          "end": 503.98,
+          "text": "sorry,",
+          "confidence": 0.15739445388317108,
+          "speaker": null
+        },
+        {
+          "start": 503.98,
+          "end": 503.98,
+          "text": "I'm",
+          "confidence": 0.3561587333679199,
+          "speaker": null
+        },
+        {
+          "start": 503.98,
+          "end": 503.98,
+          "text": "sorry,",
+          "confidence": 0.6933069229125977,
+          "speaker": null
+        },
+        {
+          "start": 503.98,
+          "end": 503.98,
+          "text": "I'm",
+          "confidence": 0.8780997097492218,
+          "speaker": null
+        },
+        {
+          "start": 503.98,
+          "end": 503.98,
+          "text": "sorry,",
+          "confidence": 0.9420841932296753,
+          "speaker": null
+        },
+        {
+          "start": 503.98,
+          "end": 503.98,
+          "text": "I'm",
+          "confidence": 0.9332746267318726,
+          "speaker": null
+        },
+        {
+          "start": 503.98,
+          "end": 503.98,
+          "text": "sorry,",
+          "confidence": 0.9662667512893677,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 502.58,
+        "speaker": null,
+        "text": "I'm sorry, I'm sorry, I'm sorry, I'm sorry,"
+      }
+    ]
+  }
+}

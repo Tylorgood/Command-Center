@@ -1,0 +1,1089 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-18_0910-0920",
+    "created_at": "2026-03-18T11:08:43.740227-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 12.26,
+      "end": 14.4,
+      "speaker": null,
+      "text": "There we go.",
+      "confidence": 0.481130030627052,
+      "words": [
+        {
+          "start": 12.26,
+          "end": 13.66,
+          "text": "There",
+          "confidence": 0.018508126959204674,
+          "speaker": null
+        },
+        {
+          "start": 13.66,
+          "end": 14.0,
+          "text": "we",
+          "confidence": 0.44752177596092224,
+          "speaker": null
+        },
+        {
+          "start": 14.0,
+          "end": 14.4,
+          "text": "go.",
+          "confidence": 0.977360188961029,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 37.120000000000005,
+      "end": 37.18,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5388132184743881,
+      "words": [
+        {
+          "start": 37.120000000000005,
+          "end": 37.16,
+          "text": "Thank",
+          "confidence": 0.08579769730567932,
+          "speaker": null
+        },
+        {
+          "start": 37.16,
+          "end": 37.18,
+          "text": "you.",
+          "confidence": 0.9918287396430969,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 60.66,
+      "end": 61.44,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5269856601953506,
+      "words": [
+        {
+          "start": 60.66,
+          "end": 61.18,
+          "text": "Thank",
+          "confidence": 0.06603321433067322,
+          "speaker": null
+        },
+        {
+          "start": 61.18,
+          "end": 61.44,
+          "text": "you.",
+          "confidence": 0.9879381060600281,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 80.38,
+      "end": 82.06,
+      "speaker": null,
+      "text": "There we go.",
+      "confidence": 0.5344239395732681,
+      "words": [
+        {
+          "start": 80.38,
+          "end": 81.78,
+          "text": "There",
+          "confidence": 0.007171965204179287,
+          "speaker": null
+        },
+        {
+          "start": 81.78,
+          "end": 81.78,
+          "text": "we",
+          "confidence": 0.6421845555305481,
+          "speaker": null
+        },
+        {
+          "start": 81.78,
+          "end": 82.06,
+          "text": "go.",
+          "confidence": 0.9539152979850769,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 104.56,
+      "end": 108.8,
+      "speaker": null,
+      "text": "Let's get rid of it.",
+      "confidence": 0.6542630324140191,
+      "words": [
+        {
+          "start": 104.56,
+          "end": 105.9,
+          "text": "Let's",
+          "confidence": 0.48365086782723665,
+          "speaker": null
+        },
+        {
+          "start": 105.9,
+          "end": 106.18,
+          "text": "get",
+          "confidence": 0.5000006556510925,
+          "speaker": null
+        },
+        {
+          "start": 106.18,
+          "end": 106.36,
+          "text": "rid",
+          "confidence": 0.5846917629241943,
+          "speaker": null
+        },
+        {
+          "start": 106.36,
+          "end": 106.46,
+          "text": "of",
+          "confidence": 0.9819713234901428,
+          "speaker": null
+        },
+        {
+          "start": 106.46,
+          "end": 108.8,
+          "text": "it.",
+          "confidence": 0.7210005521774292,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 117.28,
+      "end": 119.44,
+      "speaker": null,
+      "text": "Let's get rid of it.",
+      "confidence": 0.8471797056496143,
+      "words": [
+        {
+          "start": 117.28,
+          "end": 118.62,
+          "text": "Let's",
+          "confidence": 0.49257657304406166,
+          "speaker": null
+        },
+        {
+          "start": 118.62,
+          "end": 119.44,
+          "text": "get",
+          "confidence": 0.8352912068367004,
+          "speaker": null
+        },
+        {
+          "start": 119.44,
+          "end": 119.44,
+          "text": "rid",
+          "confidence": 0.9605111479759216,
+          "speaker": null
+        },
+        {
+          "start": 119.44,
+          "end": 119.44,
+          "text": "of",
+          "confidence": 0.9779210686683655,
+          "speaker": null
+        },
+        {
+          "start": 119.44,
+          "end": 119.44,
+          "text": "it.",
+          "confidence": 0.9695985317230225,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 121.9,
+      "end": 124.84,
+      "speaker": null,
+      "text": "Let's get rid of it. Let's get rid of it.",
+      "confidence": 0.8607047872617841,
+      "words": [
+        {
+          "start": 121.9,
+          "end": 123.24,
+          "text": "Let's",
+          "confidence": 0.5050075966864824,
+          "speaker": null
+        },
+        {
+          "start": 123.24,
+          "end": 123.76,
+          "text": "get",
+          "confidence": 0.8492143154144287,
+          "speaker": null
+        },
+        {
+          "start": 123.76,
+          "end": 123.84,
+          "text": "rid",
+          "confidence": 0.9774444103240967,
+          "speaker": null
+        },
+        {
+          "start": 123.84,
+          "end": 123.84,
+          "text": "of",
+          "confidence": 0.9736005067825317,
+          "speaker": null
+        },
+        {
+          "start": 123.84,
+          "end": 123.84,
+          "text": "it.",
+          "confidence": 0.9636669158935547,
+          "speaker": null
+        },
+        {
+          "start": 123.84,
+          "end": 123.84,
+          "text": "Let's",
+          "confidence": 0.5865083187818527,
+          "speaker": null
+        },
+        {
+          "start": 123.84,
+          "end": 123.84,
+          "text": "get",
+          "confidence": 0.8450712561607361,
+          "speaker": null
+        },
+        {
+          "start": 123.84,
+          "end": 123.84,
+          "text": "rid",
+          "confidence": 0.9814910888671875,
+          "speaker": null
+        },
+        {
+          "start": 123.84,
+          "end": 124.84,
+          "text": "of",
+          "confidence": 0.9734540581703186,
+          "speaker": null
+        },
+        {
+          "start": 124.84,
+          "end": 124.84,
+          "text": "it.",
+          "confidence": 0.9515894055366516,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 262.04,
+      "end": 265.98,
+      "speaker": null,
+      "text": "Let's get rid of it. Let's get rid of it. Let's get rid of it. Let's get rid of it.",
+      "confidence": 0.8044597786734812,
+      "words": [
+        {
+          "start": 262.04,
+          "end": 262.56,
+          "text": "Let's",
+          "confidence": 0.4421203313395381,
+          "speaker": null
+        },
+        {
+          "start": 262.56,
+          "end": 262.56,
+          "text": "get",
+          "confidence": 0.018923267722129822,
+          "speaker": null
+        },
+        {
+          "start": 262.56,
+          "end": 262.56,
+          "text": "rid",
+          "confidence": 0.002663886873051524,
+          "speaker": null
+        },
+        {
+          "start": 262.56,
+          "end": 262.56,
+          "text": "of",
+          "confidence": 0.9959530830383301,
+          "speaker": null
+        },
+        {
+          "start": 262.56,
+          "end": 262.56,
+          "text": "it.",
+          "confidence": 0.0717870444059372,
+          "speaker": null
+        },
+        {
+          "start": 262.56,
+          "end": 262.56,
+          "text": "Let's",
+          "confidence": 0.761327713727951,
+          "speaker": null
+        },
+        {
+          "start": 262.56,
+          "end": 262.56,
+          "text": "get",
+          "confidence": 0.8952527642250061,
+          "speaker": null
+        },
+        {
+          "start": 262.56,
+          "end": 262.56,
+          "text": "rid",
+          "confidence": 0.9979962110519409,
+          "speaker": null
+        },
+        {
+          "start": 262.56,
+          "end": 262.56,
+          "text": "of",
+          "confidence": 0.9995303153991699,
+          "speaker": null
+        },
+        {
+          "start": 262.56,
+          "end": 262.56,
+          "text": "it.",
+          "confidence": 0.9529272317886353,
+          "speaker": null
+        },
+        {
+          "start": 262.56,
+          "end": 262.56,
+          "text": "Let's",
+          "confidence": 0.9799222648143768,
+          "speaker": null
+        },
+        {
+          "start": 262.56,
+          "end": 265.98,
+          "text": "get",
+          "confidence": 0.9944486618041992,
+          "speaker": null
+        },
+        {
+          "start": 265.98,
+          "end": 265.98,
+          "text": "rid",
+          "confidence": 0.9997144341468811,
+          "speaker": null
+        },
+        {
+          "start": 265.98,
+          "end": 265.98,
+          "text": "of",
+          "confidence": 0.9998114705085754,
+          "speaker": null
+        },
+        {
+          "start": 265.98,
+          "end": 265.98,
+          "text": "it.",
+          "confidence": 0.998907208442688,
+          "speaker": null
+        },
+        {
+          "start": 265.98,
+          "end": 265.98,
+          "text": "Let's",
+          "confidence": 0.9837461113929749,
+          "speaker": null
+        },
+        {
+          "start": 265.98,
+          "end": 265.98,
+          "text": "get",
+          "confidence": 0.9954979419708252,
+          "speaker": null
+        },
+        {
+          "start": 265.98,
+          "end": 265.98,
+          "text": "rid",
+          "confidence": 0.9997385144233704,
+          "speaker": null
+        },
+        {
+          "start": 265.98,
+          "end": 265.98,
+          "text": "of",
+          "confidence": 0.9998108744621277,
+          "speaker": null
+        },
+        {
+          "start": 265.98,
+          "end": 265.98,
+          "text": "it.",
+          "confidence": 0.9991162419319153,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 265.98,
+      "end": 267.38,
+      "speaker": null,
+      "text": "Let's get rid of it. Let's get rid of it. Let's get rid of it. Let's get rid of it.",
+      "confidence": 0.9965661406517029,
+      "words": [
+        {
+          "start": 265.98,
+          "end": 265.98,
+          "text": "Let's",
+          "confidence": 0.9876863062381744,
+          "speaker": null
+        },
+        {
+          "start": 265.98,
+          "end": 265.98,
+          "text": "get",
+          "confidence": 0.996040940284729,
+          "speaker": null
+        },
+        {
+          "start": 265.98,
+          "end": 265.98,
+          "text": "rid",
+          "confidence": 0.9997615218162537,
+          "speaker": null
+        },
+        {
+          "start": 265.98,
+          "end": 265.98,
+          "text": "of",
+          "confidence": 0.9997734427452087,
+          "speaker": null
+        },
+        {
+          "start": 265.98,
+          "end": 265.98,
+          "text": "it.",
+          "confidence": 0.9991768002510071,
+          "speaker": null
+        },
+        {
+          "start": 265.98,
+          "end": 266.24,
+          "text": "Let's",
+          "confidence": 0.9880200624465942,
+          "speaker": null
+        },
+        {
+          "start": 266.24,
+          "end": 266.44,
+          "text": "get",
+          "confidence": 0.9960063099861145,
+          "speaker": null
+        },
+        {
+          "start": 266.44,
+          "end": 266.44,
+          "text": "rid",
+          "confidence": 0.9997621178627014,
+          "speaker": null
+        },
+        {
+          "start": 266.44,
+          "end": 266.46,
+          "text": "of",
+          "confidence": 0.9997649788856506,
+          "speaker": null
+        },
+        {
+          "start": 266.46,
+          "end": 266.46,
+          "text": "it.",
+          "confidence": 0.9991687536239624,
+          "speaker": null
+        },
+        {
+          "start": 266.46,
+          "end": 266.92,
+          "text": "Let's",
+          "confidence": 0.9882725477218628,
+          "speaker": null
+        },
+        {
+          "start": 266.92,
+          "end": 267.06,
+          "text": "get",
+          "confidence": 0.9959948062896729,
+          "speaker": null
+        },
+        {
+          "start": 267.06,
+          "end": 267.06,
+          "text": "rid",
+          "confidence": 0.999769389629364,
+          "speaker": null
+        },
+        {
+          "start": 267.06,
+          "end": 267.06,
+          "text": "of",
+          "confidence": 0.9997578263282776,
+          "speaker": null
+        },
+        {
+          "start": 267.06,
+          "end": 267.06,
+          "text": "it.",
+          "confidence": 0.9991706609725952,
+          "speaker": null
+        },
+        {
+          "start": 267.06,
+          "end": 267.24,
+          "text": "Let's",
+          "confidence": 0.9884727299213409,
+          "speaker": null
+        },
+        {
+          "start": 267.24,
+          "end": 267.38,
+          "text": "get",
+          "confidence": 0.9960259199142456,
+          "speaker": null
+        },
+        {
+          "start": 267.38,
+          "end": 267.38,
+          "text": "rid",
+          "confidence": 0.9997722506523132,
+          "speaker": null
+        },
+        {
+          "start": 267.38,
+          "end": 267.38,
+          "text": "of",
+          "confidence": 0.9997511506080627,
+          "speaker": null
+        },
+        {
+          "start": 267.38,
+          "end": 267.38,
+          "text": "it.",
+          "confidence": 0.9991742968559265,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 267.46,
+      "end": 268.74,
+      "speaker": null,
+      "text": "Let's get rid of it. Let's get rid of it.",
+      "confidence": 0.9966779947280884,
+      "words": [
+        {
+          "start": 267.46,
+          "end": 267.98,
+          "text": "Let's",
+          "confidence": 0.9885556995868683,
+          "speaker": null
+        },
+        {
+          "start": 267.98,
+          "end": 268.48,
+          "text": "get",
+          "confidence": 0.9960458874702454,
+          "speaker": null
+        },
+        {
+          "start": 268.48,
+          "end": 268.48,
+          "text": "rid",
+          "confidence": 0.999779999256134,
+          "speaker": null
+        },
+        {
+          "start": 268.48,
+          "end": 268.48,
+          "text": "of",
+          "confidence": 0.9997417330741882,
+          "speaker": null
+        },
+        {
+          "start": 268.48,
+          "end": 268.48,
+          "text": "it.",
+          "confidence": 0.9991621971130371,
+          "speaker": null
+        },
+        {
+          "start": 268.48,
+          "end": 268.56,
+          "text": "Let's",
+          "confidence": 0.9886592328548431,
+          "speaker": null
+        },
+        {
+          "start": 268.56,
+          "end": 268.74,
+          "text": "get",
+          "confidence": 0.9961716532707214,
+          "speaker": null
+        },
+        {
+          "start": 268.74,
+          "end": 268.74,
+          "text": "rid",
+          "confidence": 0.99978107213974,
+          "speaker": null
+        },
+        {
+          "start": 268.74,
+          "end": 268.74,
+          "text": "of",
+          "confidence": 0.9997332692146301,
+          "speaker": null
+        },
+        {
+          "start": 268.74,
+          "end": 268.74,
+          "text": "it.",
+          "confidence": 0.9991492033004761,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 269.36,
+      "end": 271.14,
+      "speaker": null,
+      "text": "Let's get rid of it. Let's get rid of it. Let's get rid of it. Let's get rid of it.",
+      "confidence": 0.9967662125825882,
+      "words": [
+        {
+          "start": 269.36,
+          "end": 269.88,
+          "text": "Let's",
+          "confidence": 0.9887854754924774,
+          "speaker": null
+        },
+        {
+          "start": 269.88,
+          "end": 269.88,
+          "text": "get",
+          "confidence": 0.9962060451507568,
+          "speaker": null
+        },
+        {
+          "start": 269.88,
+          "end": 269.88,
+          "text": "rid",
+          "confidence": 0.9997811913490295,
+          "speaker": null
+        },
+        {
+          "start": 269.88,
+          "end": 269.88,
+          "text": "of",
+          "confidence": 0.9997252821922302,
+          "speaker": null
+        },
+        {
+          "start": 269.88,
+          "end": 269.88,
+          "text": "it.",
+          "confidence": 0.9991532564163208,
+          "speaker": null
+        },
+        {
+          "start": 269.88,
+          "end": 269.88,
+          "text": "Let's",
+          "confidence": 0.9888533055782318,
+          "speaker": null
+        },
+        {
+          "start": 269.88,
+          "end": 269.88,
+          "text": "get",
+          "confidence": 0.9962299466133118,
+          "speaker": null
+        },
+        {
+          "start": 269.88,
+          "end": 269.88,
+          "text": "rid",
+          "confidence": 0.999786913394928,
+          "speaker": null
+        },
+        {
+          "start": 269.88,
+          "end": 269.88,
+          "text": "of",
+          "confidence": 0.9997166991233826,
+          "speaker": null
+        },
+        {
+          "start": 269.88,
+          "end": 269.88,
+          "text": "it.",
+          "confidence": 0.9991468191146851,
+          "speaker": null
+        },
+        {
+          "start": 269.88,
+          "end": 269.88,
+          "text": "Let's",
+          "confidence": 0.9889983832836151,
+          "speaker": null
+        },
+        {
+          "start": 269.88,
+          "end": 269.88,
+          "text": "get",
+          "confidence": 0.9962738752365112,
+          "speaker": null
+        },
+        {
+          "start": 269.88,
+          "end": 269.88,
+          "text": "rid",
+          "confidence": 0.9997864365577698,
+          "speaker": null
+        },
+        {
+          "start": 269.88,
+          "end": 269.88,
+          "text": "of",
+          "confidence": 0.9997112154960632,
+          "speaker": null
+        },
+        {
+          "start": 269.88,
+          "end": 269.88,
+          "text": "it.",
+          "confidence": 0.999147891998291,
+          "speaker": null
+        },
+        {
+          "start": 270.42,
+          "end": 270.94,
+          "text": "Let's",
+          "confidence": 0.9890744984149933,
+          "speaker": null
+        },
+        {
+          "start": 270.94,
+          "end": 271.14,
+          "text": "get",
+          "confidence": 0.9963188171386719,
+          "speaker": null
+        },
+        {
+          "start": 271.14,
+          "end": 271.14,
+          "text": "rid",
+          "confidence": 0.9997879862785339,
+          "speaker": null
+        },
+        {
+          "start": 271.14,
+          "end": 271.14,
+          "text": "of",
+          "confidence": 0.9997032284736633,
+          "speaker": null
+        },
+        {
+          "start": 271.14,
+          "end": 271.14,
+          "text": "it.",
+          "confidence": 0.9991369843482971,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 271.14,
+      "end": 272.96,
+      "speaker": null,
+      "text": "Let's get rid of it. Let's get rid of it. Let's get rid of it. Let's get rid of it.",
+      "confidence": 0.9967829212546349,
+      "words": [
+        {
+          "start": 271.14,
+          "end": 271.14,
+          "text": "Let's",
+          "confidence": 0.9890316128730774,
+          "speaker": null
+        },
+        {
+          "start": 271.14,
+          "end": 271.14,
+          "text": "get",
+          "confidence": 0.9962326884269714,
+          "speaker": null
+        },
+        {
+          "start": 271.14,
+          "end": 271.14,
+          "text": "rid",
+          "confidence": 0.9997884631156921,
+          "speaker": null
+        },
+        {
+          "start": 271.14,
+          "end": 271.14,
+          "text": "of",
+          "confidence": 0.9996960163116455,
+          "speaker": null
+        },
+        {
+          "start": 271.14,
+          "end": 271.14,
+          "text": "it.",
+          "confidence": 0.9991287589073181,
+          "speaker": null
+        },
+        {
+          "start": 271.14,
+          "end": 271.4,
+          "text": "Let's",
+          "confidence": 0.9890347719192505,
+          "speaker": null
+        },
+        {
+          "start": 271.4,
+          "end": 271.76,
+          "text": "get",
+          "confidence": 0.9962826371192932,
+          "speaker": null
+        },
+        {
+          "start": 271.76,
+          "end": 271.76,
+          "text": "rid",
+          "confidence": 0.9997915625572205,
+          "speaker": null
+        },
+        {
+          "start": 271.76,
+          "end": 271.76,
+          "text": "of",
+          "confidence": 0.9996911287307739,
+          "speaker": null
+        },
+        {
+          "start": 271.76,
+          "end": 271.76,
+          "text": "it.",
+          "confidence": 0.9991348385810852,
+          "speaker": null
+        },
+        {
+          "start": 271.76,
+          "end": 271.8,
+          "text": "Let's",
+          "confidence": 0.9890882670879364,
+          "speaker": null
+        },
+        {
+          "start": 271.8,
+          "end": 272.06,
+          "text": "get",
+          "confidence": 0.9962054491043091,
+          "speaker": null
+        },
+        {
+          "start": 272.06,
+          "end": 272.06,
+          "text": "rid",
+          "confidence": 0.9997920393943787,
+          "speaker": null
+        },
+        {
+          "start": 272.06,
+          "end": 272.06,
+          "text": "of",
+          "confidence": 0.999686598777771,
+          "speaker": null
+        },
+        {
+          "start": 272.06,
+          "end": 272.06,
+          "text": "it.",
+          "confidence": 0.9991329312324524,
+          "speaker": null
+        },
+        {
+          "start": 272.06,
+          "end": 272.46,
+          "text": "Let's",
+          "confidence": 0.9891608953475952,
+          "speaker": null
+        },
+        {
+          "start": 272.46,
+          "end": 272.96,
+          "text": "get",
+          "confidence": 0.996187150478363,
+          "speaker": null
+        },
+        {
+          "start": 272.96,
+          "end": 272.96,
+          "text": "rid",
+          "confidence": 0.9997912049293518,
+          "speaker": null
+        },
+        {
+          "start": 272.96,
+          "end": 272.96,
+          "text": "of",
+          "confidence": 0.9996789693832397,
+          "speaker": null
+        },
+        {
+          "start": 272.96,
+          "end": 272.96,
+          "text": "it.",
+          "confidence": 0.9991224408149719,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 273.56,
+      "end": 274.98,
+      "speaker": null,
+      "text": "Let's get rid of it. Let's get rid of it. Thank you.",
+      "confidence": 0.7784276630729436,
+      "words": [
+        {
+          "start": 273.56,
+          "end": 274.08,
+          "text": "Let's",
+          "confidence": 0.9891813099384308,
+          "speaker": null
+        },
+        {
+          "start": 274.08,
+          "end": 274.08,
+          "text": "get",
+          "confidence": 0.9960224628448486,
+          "speaker": null
+        },
+        {
+          "start": 274.08,
+          "end": 274.08,
+          "text": "rid",
+          "confidence": 0.9997881054878235,
+          "speaker": null
+        },
+        {
+          "start": 274.08,
+          "end": 274.08,
+          "text": "of",
+          "confidence": 0.9996685981750488,
+          "speaker": null
+        },
+        {
+          "start": 274.08,
+          "end": 274.08,
+          "text": "it.",
+          "confidence": 0.9991052746772766,
+          "speaker": null
+        },
+        {
+          "start": 274.08,
+          "end": 274.08,
+          "text": "Let's",
+          "confidence": 0.9891491830348969,
+          "speaker": null
+        },
+        {
+          "start": 274.08,
+          "end": 274.08,
+          "text": "get",
+          "confidence": 0.9959580302238464,
+          "speaker": null
+        },
+        {
+          "start": 274.08,
+          "end": 274.08,
+          "text": "rid",
+          "confidence": 0.9997836947441101,
+          "speaker": null
+        },
+        {
+          "start": 274.08,
+          "end": 274.08,
+          "text": "of",
+          "confidence": 0.9996590614318848,
+          "speaker": null
+        },
+        {
+          "start": 274.08,
+          "end": 274.08,
+          "text": "it.",
+          "confidence": 0.9991061091423035,
+          "speaker": null
+        },
+        {
+          "start": 274.08,
+          "end": 274.98,
+          "text": "Thank",
+          "confidence": 0.12451096624135971,
+          "speaker": null
+        },
+        {
+          "start": 274.98,
+          "end": 274.98,
+          "text": "you.",
+          "confidence": 0.995715320110321,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 121.9,
+        "speaker": null,
+        "text": "Let's get rid of it. Let's get rid of it."
+      },
+      {
+        "timestamp": 262.04,
+        "speaker": null,
+        "text": "Let's get rid of it. Let's get rid of it. Let's get rid of it. Let's get rid of it."
+      },
+      {
+        "timestamp": 265.98,
+        "speaker": null,
+        "text": "Let's get rid of it. Let's get rid of it. Let's get rid of it. Let's get rid of it."
+      },
+      {
+        "timestamp": 267.46,
+        "speaker": null,
+        "text": "Let's get rid of it. Let's get rid of it."
+      },
+      {
+        "timestamp": 269.36,
+        "speaker": null,
+        "text": "Let's get rid of it. Let's get rid of it. Let's get rid of it. Let's get rid of it."
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "start_time": "2026-03-12T10:07:01.895056-04:00",
+  "end_time": "2026-03-12T10:17:01.895056-04:00",
+  "duration_seconds": 600,
+  "device_name": "Microphone Array (Realtek(R) Au",
+  "schedule_rule": "scheduled",
+  "app_version": "0.1.0",
+  "transcription_status": "audio_deleted",
+  "segment_id": 184,
+  "file_path_txt": "test_output\\Recordings\\2026\\03\\12\\2026-03-12_1007-1017.txt",
+  "error": null
+}

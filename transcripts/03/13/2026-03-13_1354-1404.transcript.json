@@ -1,0 +1,323 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-13_1354-1404",
+    "created_at": "2026-03-13T14:04:47.456600-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 141.1,
+      "end": 142.34,
+      "speaker": null,
+      "text": "All right, Tyler.",
+      "confidence": 0.5825735231240591,
+      "words": [
+        {
+          "start": 141.1,
+          "end": 141.66,
+          "text": "All",
+          "confidence": 0.2923535406589508,
+          "speaker": null
+        },
+        {
+          "start": 141.66,
+          "end": 141.86,
+          "text": "right,",
+          "confidence": 0.9067547917366028,
+          "speaker": null
+        },
+        {
+          "start": 142.06,
+          "end": 142.34,
+          "text": "Tyler.",
+          "confidence": 0.5486122369766235,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 334.7,
+      "end": 339.68,
+      "speaker": null,
+      "text": "I'm dealing with just a fuck off. Turn the heat off.",
+      "confidence": 0.6420466567256621,
+      "words": [
+        {
+          "start": 334.7,
+          "end": 335.5,
+          "text": "I'm",
+          "confidence": 0.1568271480500698,
+          "speaker": null
+        },
+        {
+          "start": 335.5,
+          "end": 335.52,
+          "text": "dealing",
+          "confidence": 0.1459994912147522,
+          "speaker": null
+        },
+        {
+          "start": 335.52,
+          "end": 335.94,
+          "text": "with",
+          "confidence": 0.8052932620048523,
+          "speaker": null
+        },
+        {
+          "start": 335.94,
+          "end": 336.34,
+          "text": "just",
+          "confidence": 0.7784352898597717,
+          "speaker": null
+        },
+        {
+          "start": 336.34,
+          "end": 336.54,
+          "text": "a",
+          "confidence": 0.19577208161354065,
+          "speaker": null
+        },
+        {
+          "start": 336.54,
+          "end": 336.88,
+          "text": "fuck",
+          "confidence": 0.18143980205059052,
+          "speaker": null
+        },
+        {
+          "start": 336.88,
+          "end": 337.54,
+          "text": "off.",
+          "confidence": 0.6350262761116028,
+          "speaker": null
+        },
+        {
+          "start": 337.88,
+          "end": 338.48,
+          "text": "Turn",
+          "confidence": 0.6305798888206482,
+          "speaker": null
+        },
+        {
+          "start": 338.48,
+          "end": 338.86,
+          "text": "the",
+          "confidence": 0.8587509393692017,
+          "speaker": null
+        },
+        {
+          "start": 338.86,
+          "end": 339.04,
+          "text": "heat",
+          "confidence": 0.9956620335578918,
+          "speaker": null
+        },
+        {
+          "start": 339.04,
+          "end": 339.68,
+          "text": "off.",
+          "confidence": 0.9949270486831665,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 437.84000000000003,
+      "end": 440.48,
+      "speaker": null,
+      "text": "This is the front part.",
+      "confidence": 0.42065599784255026,
+      "words": [
+        {
+          "start": 437.84000000000003,
+          "end": 438.96,
+          "text": "This",
+          "confidence": 0.03293141350150108,
+          "speaker": null
+        },
+        {
+          "start": 438.96,
+          "end": 439.36,
+          "text": "is",
+          "confidence": 0.7516943216323853,
+          "speaker": null
+        },
+        {
+          "start": 439.36,
+          "end": 439.4,
+          "text": "the",
+          "confidence": 0.2193225771188736,
+          "speaker": null
+        },
+        {
+          "start": 439.4,
+          "end": 439.76,
+          "text": "front",
+          "confidence": 0.5744794607162476,
+          "speaker": null
+        },
+        {
+          "start": 439.76,
+          "end": 440.48,
+          "text": "part.",
+          "confidence": 0.5248522162437439,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 467.9,
+      "end": 470.7,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.8497153222560883,
+      "words": [
+        {
+          "start": 467.9,
+          "end": 469.3,
+          "text": "Thank",
+          "confidence": 0.7595053315162659,
+          "speaker": null
+        },
+        {
+          "start": 469.3,
+          "end": 470.7,
+          "text": "you.",
+          "confidence": 0.9399253129959106,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 561.08,
+      "end": 562.48,
+      "speaker": null,
+      "text": "I'm going to use a little bit of water to make the water easier.",
+      "confidence": 0.28659047172238516,
+      "words": [
+        {
+          "start": 561.08,
+          "end": 562.48,
+          "text": "I'm",
+          "confidence": 0.11937938805203885,
+          "speaker": null
+        },
+        {
+          "start": 562.48,
+          "end": 562.48,
+          "text": "going",
+          "confidence": 0.16235853731632233,
+          "speaker": null
+        },
+        {
+          "start": 562.48,
+          "end": 562.48,
+          "text": "to",
+          "confidence": 0.9470440149307251,
+          "speaker": null
+        },
+        {
+          "start": 562.48,
+          "end": 562.48,
+          "text": "use",
+          "confidence": 0.09863421320915222,
+          "speaker": null
+        },
+        {
+          "start": 562.48,
+          "end": 562.48,
+          "text": "a",
+          "confidence": 0.3534483015537262,
+          "speaker": null
+        },
+        {
+          "start": 562.48,
+          "end": 562.48,
+          "text": "little",
+          "confidence": 0.03275175765156746,
+          "speaker": null
+        },
+        {
+          "start": 562.48,
+          "end": 562.48,
+          "text": "bit",
+          "confidence": 0.48097383975982666,
+          "speaker": null
+        },
+        {
+          "start": 562.48,
+          "end": 562.48,
+          "text": "of",
+          "confidence": 0.6935704350471497,
+          "speaker": null
+        },
+        {
+          "start": 562.48,
+          "end": 562.48,
+          "text": "water",
+          "confidence": 0.11200647801160812,
+          "speaker": null
+        },
+        {
+          "start": 562.48,
+          "end": 562.48,
+          "text": "to",
+          "confidence": 0.5307058691978455,
+          "speaker": null
+        },
+        {
+          "start": 562.48,
+          "end": 562.48,
+          "text": "make",
+          "confidence": 0.0963139459490776,
+          "speaker": null
+        },
+        {
+          "start": 562.48,
+          "end": 562.48,
+          "text": "the",
+          "confidence": 0.2516467869281769,
+          "speaker": null
+        },
+        {
+          "start": 562.48,
+          "end": 562.48,
+          "text": "water",
+          "confidence": 0.04975186288356781,
+          "speaker": null
+        },
+        {
+          "start": 562.48,
+          "end": 562.48,
+          "text": "easier.",
+          "confidence": 0.08368117362260818,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 334.7,
+        "speaker": null,
+        "text": "I'm dealing with just a fuck off. Turn the heat off."
+      },
+      {
+        "timestamp": 561.08,
+        "speaker": null,
+        "text": "I'm going to use a little bit of water to make the water easier."
+      }
+    ]
+  }
+}

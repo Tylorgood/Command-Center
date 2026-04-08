@@ -1,0 +1,266 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-16_1235-1245",
+    "created_at": "2026-03-16T13:50:39.573741-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 27.700000000000003,
+      "end": 27.84,
+      "speaker": null,
+      "text": "Satsang with Mooji",
+      "confidence": 0.8273500798063146,
+      "words": [
+        {
+          "start": 27.700000000000003,
+          "end": 27.78,
+          "text": "Satsang",
+          "confidence": 0.5928542309751114,
+          "speaker": null
+        },
+        {
+          "start": 27.78,
+          "end": 27.8,
+          "text": "with",
+          "confidence": 0.9217163920402527,
+          "speaker": null
+        },
+        {
+          "start": 27.8,
+          "end": 27.84,
+          "text": "Mooji",
+          "confidence": 0.9674796164035797,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 37.620000000000005,
+      "end": 40.42,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5803187787532806,
+      "words": [
+        {
+          "start": 37.620000000000005,
+          "end": 39.02,
+          "text": "Thank",
+          "confidence": 0.16569197177886963,
+          "speaker": null
+        },
+        {
+          "start": 39.02,
+          "end": 40.42,
+          "text": "you.",
+          "confidence": 0.9949455857276917,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 65.66,
+      "end": 67.06,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5769262537360191,
+      "words": [
+        {
+          "start": 65.66,
+          "end": 67.06,
+          "text": "Thank",
+          "confidence": 0.15531544387340546,
+          "speaker": null
+        },
+        {
+          "start": 67.06,
+          "end": 67.06,
+          "text": "you.",
+          "confidence": 0.9985370635986328,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 94.86,
+      "end": 96.25999999999999,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.557164303958416,
+      "words": [
+        {
+          "start": 94.86,
+          "end": 96.25999999999999,
+          "text": "Thank",
+          "confidence": 0.11808042228221893,
+          "speaker": null
+        },
+        {
+          "start": 96.25999999999999,
+          "end": 96.25999999999999,
+          "text": "you.",
+          "confidence": 0.996248185634613,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 119.88,
+      "end": 121.56,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5669669061899185,
+      "words": [
+        {
+          "start": 119.88,
+          "end": 121.0,
+          "text": "Thank",
+          "confidence": 0.13586190342903137,
+          "speaker": null
+        },
+        {
+          "start": 121.0,
+          "end": 121.56,
+          "text": "you.",
+          "confidence": 0.9980719089508057,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 148.12,
+      "end": 150.92000000000002,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5204407889395952,
+      "words": [
+        {
+          "start": 148.12,
+          "end": 149.52,
+          "text": "Thank",
+          "confidence": 0.04861683025956154,
+          "speaker": null
+        },
+        {
+          "start": 149.52,
+          "end": 150.92000000000002,
+          "text": "you.",
+          "confidence": 0.9922647476196289,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 223.7,
+      "end": 225.1,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5289096590131521,
+      "words": [
+        {
+          "start": 223.7,
+          "end": 225.1,
+          "text": "Thank",
+          "confidence": 0.058957528322935104,
+          "speaker": null
+        },
+        {
+          "start": 225.1,
+          "end": 225.1,
+          "text": "you.",
+          "confidence": 0.9988617897033691,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 272.18,
+      "end": 274.98,
+      "speaker": null,
+      "text": "I don't know.",
+      "confidence": 0.5271856859326363,
+      "words": [
+        {
+          "start": 272.18,
+          "end": 273.58,
+          "text": "I",
+          "confidence": 0.043161287903785706,
+          "speaker": null
+        },
+        {
+          "start": 273.58,
+          "end": 274.98,
+          "text": "don't",
+          "confidence": 0.6240145042538643,
+          "speaker": null
+        },
+        {
+          "start": 274.98,
+          "end": 274.98,
+          "text": "know.",
+          "confidence": 0.9143812656402588,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 281.44,
+      "end": 283.04,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5854471325874329,
+      "words": [
+        {
+          "start": 281.44,
+          "end": 282.84,
+          "text": "Thank",
+          "confidence": 0.1717185378074646,
+          "speaker": null
+        },
+        {
+          "start": 282.84,
+          "end": 283.04,
+          "text": "you.",
+          "confidence": 0.9991757273674011,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 315.36,
+      "end": 316.44,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5675147026777267,
+      "words": [
+        {
+          "start": 315.36,
+          "end": 316.08,
+          "text": "Thank",
+          "confidence": 0.13741406798362732,
+          "speaker": null
+        },
+        {
+          "start": 316.08,
+          "end": 316.44,
+          "text": "you.",
+          "confidence": 0.9976153373718262,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": []
+  }
+}

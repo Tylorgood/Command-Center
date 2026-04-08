@@ -1,0 +1,7322 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-26_1305-1315",
+    "created_at": "2026-03-31T12:09:55.562110-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [
+    {
+      "start": 3.4,
+      "end": 11.96,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.6520103144769868,
+      "words": [
+        {
+          "start": 3.4,
+          "end": 4.8,
+          "text": "This",
+          "confidence": 0.021112030372023582,
+          "speaker": null
+        },
+        {
+          "start": 4.8,
+          "end": 5.64,
+          "text": "video",
+          "confidence": 0.31779181957244873,
+          "speaker": null
+        },
+        {
+          "start": 5.64,
+          "end": 5.64,
+          "text": "is",
+          "confidence": 0.3909721374511719,
+          "speaker": null
+        },
+        {
+          "start": 5.64,
+          "end": 6.74,
+          "text": "a",
+          "confidence": 0.22957678139209747,
+          "speaker": null
+        },
+        {
+          "start": 6.74,
+          "end": 6.74,
+          "text": "derivative",
+          "confidence": 0.1482471525669098,
+          "speaker": null
+        },
+        {
+          "start": 6.74,
+          "end": 6.74,
+          "text": "work.",
+          "confidence": 0.9508997797966003,
+          "speaker": null
+        },
+        {
+          "start": 6.74,
+          "end": 6.78,
+          "text": "Any",
+          "confidence": 0.4777340590953827,
+          "speaker": null
+        },
+        {
+          "start": 6.78,
+          "end": 6.78,
+          "text": "resemblance",
+          "confidence": 0.8658275604248047,
+          "speaker": null
+        },
+        {
+          "start": 6.78,
+          "end": 6.78,
+          "text": "to",
+          "confidence": 0.9655836224555969,
+          "speaker": null
+        },
+        {
+          "start": 6.78,
+          "end": 6.78,
+          "text": "actual",
+          "confidence": 0.358682781457901,
+          "speaker": null
+        },
+        {
+          "start": 6.78,
+          "end": 11.96,
+          "text": "persons,",
+          "confidence": 0.6415674686431885,
+          "speaker": null
+        },
+        {
+          "start": 11.96,
+          "end": 11.96,
+          "text": "living",
+          "confidence": 0.9643298387527466,
+          "speaker": null
+        },
+        {
+          "start": 11.96,
+          "end": 11.96,
+          "text": "or",
+          "confidence": 0.9893310070037842,
+          "speaker": null
+        },
+        {
+          "start": 11.96,
+          "end": 11.96,
+          "text": "dead,",
+          "confidence": 0.9888437986373901,
+          "speaker": null
+        },
+        {
+          "start": 11.96,
+          "end": 11.96,
+          "text": "is",
+          "confidence": 0.9871751666069031,
+          "speaker": null
+        },
+        {
+          "start": 11.96,
+          "end": 11.96,
+          "text": "coincidental",
+          "confidence": 0.7270042300224304,
+          "speaker": null
+        },
+        {
+          "start": 11.96,
+          "end": 11.96,
+          "text": "and",
+          "confidence": 0.7277893424034119,
+          "speaker": null
+        },
+        {
+          "start": 11.96,
+          "end": 11.96,
+          "text": "unintentional.",
+          "confidence": 0.9837170839309692,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 11.96,
+      "end": 28.88,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.8414127288593186,
+      "words": [
+        {
+          "start": 11.96,
+          "end": 11.96,
+          "text": "This",
+          "confidence": 0.1158255785703659,
+          "speaker": null
+        },
+        {
+          "start": 11.96,
+          "end": 11.96,
+          "text": "video",
+          "confidence": 0.6075637340545654,
+          "speaker": null
+        },
+        {
+          "start": 11.96,
+          "end": 11.96,
+          "text": "is",
+          "confidence": 0.6999830603599548,
+          "speaker": null
+        },
+        {
+          "start": 11.96,
+          "end": 11.96,
+          "text": "a",
+          "confidence": 0.43747544288635254,
+          "speaker": null
+        },
+        {
+          "start": 11.96,
+          "end": 11.96,
+          "text": "derivative",
+          "confidence": 0.5924999117851257,
+          "speaker": null
+        },
+        {
+          "start": 11.96,
+          "end": 11.96,
+          "text": "work.",
+          "confidence": 0.9995099306106567,
+          "speaker": null
+        },
+        {
+          "start": 11.96,
+          "end": 11.96,
+          "text": "Any",
+          "confidence": 0.9747908115386963,
+          "speaker": null
+        },
+        {
+          "start": 11.96,
+          "end": 12.36,
+          "text": "resemblance",
+          "confidence": 0.9950751066207886,
+          "speaker": null
+        },
+        {
+          "start": 12.36,
+          "end": 12.36,
+          "text": "to",
+          "confidence": 0.9988369345664978,
+          "speaker": null
+        },
+        {
+          "start": 12.36,
+          "end": 12.36,
+          "text": "actual",
+          "confidence": 0.9884422421455383,
+          "speaker": null
+        },
+        {
+          "start": 12.36,
+          "end": 19.74,
+          "text": "persons,",
+          "confidence": 0.8028082251548767,
+          "speaker": null
+        },
+        {
+          "start": 19.74,
+          "end": 19.74,
+          "text": "living",
+          "confidence": 0.9970332384109497,
+          "speaker": null
+        },
+        {
+          "start": 19.74,
+          "end": 19.84,
+          "text": "or",
+          "confidence": 0.9996469020843506,
+          "speaker": null
+        },
+        {
+          "start": 19.84,
+          "end": 19.84,
+          "text": "dead,",
+          "confidence": 0.9998801946640015,
+          "speaker": null
+        },
+        {
+          "start": 20.74,
+          "end": 21.0,
+          "text": "is",
+          "confidence": 0.9995561242103577,
+          "speaker": null
+        },
+        {
+          "start": 21.0,
+          "end": 21.06,
+          "text": "coincidental",
+          "confidence": 0.9919481873512268,
+          "speaker": null
+        },
+        {
+          "start": 21.06,
+          "end": 21.06,
+          "text": "and",
+          "confidence": 0.9873774647712708,
+          "speaker": null
+        },
+        {
+          "start": 21.06,
+          "end": 28.88,
+          "text": "unintentional.",
+          "confidence": 0.9571760296821594,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 39.32,
+      "end": 42.12,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5380062609910965,
+      "words": [
+        {
+          "start": 39.32,
+          "end": 40.72,
+          "text": "Thank",
+          "confidence": 0.0838640034198761,
+          "speaker": null
+        },
+        {
+          "start": 40.72,
+          "end": 42.12,
+          "text": "you.",
+          "confidence": 0.9921485185623169,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 70.22,
+      "end": 84.72,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.6161642987281084,
+      "words": [
+        {
+          "start": 70.22,
+          "end": 70.26,
+          "text": "This",
+          "confidence": 0.01354711689054966,
+          "speaker": null
+        },
+        {
+          "start": 70.26,
+          "end": 70.3,
+          "text": "video",
+          "confidence": 0.03060615248978138,
+          "speaker": null
+        },
+        {
+          "start": 70.3,
+          "end": 70.32,
+          "text": "is",
+          "confidence": 0.34293732047080994,
+          "speaker": null
+        },
+        {
+          "start": 70.32,
+          "end": 70.34,
+          "text": "a",
+          "confidence": 0.15410427749156952,
+          "speaker": null
+        },
+        {
+          "start": 70.34,
+          "end": 70.36,
+          "text": "derivative",
+          "confidence": 0.1003611609339714,
+          "speaker": null
+        },
+        {
+          "start": 70.36,
+          "end": 70.38,
+          "text": "work.",
+          "confidence": 0.9059498310089111,
+          "speaker": null
+        },
+        {
+          "start": 70.4,
+          "end": 70.42,
+          "text": "Any",
+          "confidence": 0.4675074517726898,
+          "speaker": null
+        },
+        {
+          "start": 70.42,
+          "end": 70.68,
+          "text": "resemblance",
+          "confidence": 0.8392492234706879,
+          "speaker": null
+        },
+        {
+          "start": 70.68,
+          "end": 70.82,
+          "text": "to",
+          "confidence": 0.961188018321991,
+          "speaker": null
+        },
+        {
+          "start": 70.82,
+          "end": 70.84,
+          "text": "actual",
+          "confidence": 0.3359750807285309,
+          "speaker": null
+        },
+        {
+          "start": 70.84,
+          "end": 84.5,
+          "text": "persons,",
+          "confidence": 0.6666945219039917,
+          "speaker": null
+        },
+        {
+          "start": 84.52,
+          "end": 84.53999999999999,
+          "text": "living",
+          "confidence": 0.9482473134994507,
+          "speaker": null
+        },
+        {
+          "start": 84.53999999999999,
+          "end": 84.56,
+          "text": "or",
+          "confidence": 0.9873649477958679,
+          "speaker": null
+        },
+        {
+          "start": 84.56,
+          "end": 84.58,
+          "text": "dead,",
+          "confidence": 0.9907878041267395,
+          "speaker": null
+        },
+        {
+          "start": 84.6,
+          "end": 84.62,
+          "text": "is",
+          "confidence": 0.9880505204200745,
+          "speaker": null
+        },
+        {
+          "start": 84.62,
+          "end": 84.66,
+          "text": "coincidental",
+          "confidence": 0.7123588621616364,
+          "speaker": null
+        },
+        {
+          "start": 84.66,
+          "end": 84.68,
+          "text": "and",
+          "confidence": 0.6624651551246643,
+          "speaker": null
+        },
+        {
+          "start": 84.68,
+          "end": 84.72,
+          "text": "unintentional.",
+          "confidence": 0.9835626184940338,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 93.4,
+      "end": 94.78,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5448537915945053,
+      "words": [
+        {
+          "start": 93.4,
+          "end": 94.32,
+          "text": "Thank",
+          "confidence": 0.09648016095161438,
+          "speaker": null
+        },
+        {
+          "start": 94.32,
+          "end": 94.78,
+          "text": "you.",
+          "confidence": 0.9932274222373962,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 125.18,
+      "end": 125.76,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.6199616346922185,
+      "words": [
+        {
+          "start": 125.18,
+          "end": 125.46000000000001,
+          "text": "This",
+          "confidence": 0.015220023691654205,
+          "speaker": null
+        },
+        {
+          "start": 125.46000000000001,
+          "end": 125.6,
+          "text": "video",
+          "confidence": 0.036444924771785736,
+          "speaker": null
+        },
+        {
+          "start": 125.6,
+          "end": 125.6,
+          "text": "is",
+          "confidence": 0.33176901936531067,
+          "speaker": null
+        },
+        {
+          "start": 125.6,
+          "end": 125.6,
+          "text": "a",
+          "confidence": 0.14736248552799225,
+          "speaker": null
+        },
+        {
+          "start": 125.6,
+          "end": 125.6,
+          "text": "derivative",
+          "confidence": 0.09629417210817337,
+          "speaker": null
+        },
+        {
+          "start": 125.6,
+          "end": 125.6,
+          "text": "work.",
+          "confidence": 0.9062660336494446,
+          "speaker": null
+        },
+        {
+          "start": 125.6,
+          "end": 125.6,
+          "text": "Any",
+          "confidence": 0.5323144197463989,
+          "speaker": null
+        },
+        {
+          "start": 125.6,
+          "end": 125.6,
+          "text": "resemblance",
+          "confidence": 0.8491126894950867,
+          "speaker": null
+        },
+        {
+          "start": 125.6,
+          "end": 125.6,
+          "text": "to",
+          "confidence": 0.9624304175376892,
+          "speaker": null
+        },
+        {
+          "start": 125.6,
+          "end": 125.6,
+          "text": "actual",
+          "confidence": 0.34622374176979065,
+          "speaker": null
+        },
+        {
+          "start": 125.6,
+          "end": 125.72,
+          "text": "persons,",
+          "confidence": 0.6635677814483643,
+          "speaker": null
+        },
+        {
+          "start": 125.72,
+          "end": 125.72,
+          "text": "living",
+          "confidence": 0.9482868313789368,
+          "speaker": null
+        },
+        {
+          "start": 125.72,
+          "end": 125.72,
+          "text": "or",
+          "confidence": 0.9872573018074036,
+          "speaker": null
+        },
+        {
+          "start": 125.72,
+          "end": 125.72,
+          "text": "dead,",
+          "confidence": 0.9910291433334351,
+          "speaker": null
+        },
+        {
+          "start": 125.72,
+          "end": 125.74,
+          "text": "is",
+          "confidence": 0.9868373870849609,
+          "speaker": null
+        },
+        {
+          "start": 125.74,
+          "end": 125.76,
+          "text": "coincidental",
+          "confidence": 0.7147007137537003,
+          "speaker": null
+        },
+        {
+          "start": 125.76,
+          "end": 125.76,
+          "text": "and",
+          "confidence": 0.6603330373764038,
+          "speaker": null
+        },
+        {
+          "start": 125.76,
+          "end": 125.76,
+          "text": "unintentional.",
+          "confidence": 0.9838593006134033,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 125.76,
+      "end": 130.0,
+      "speaker": null,
+      "text": "Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.8807118748469899,
+      "words": [
+        {
+          "start": 125.76,
+          "end": 125.76,
+          "text": "Any",
+          "confidence": 0.013453799299895763,
+          "speaker": null
+        },
+        {
+          "start": 125.76,
+          "end": 125.78,
+          "text": "resemblance",
+          "confidence": 0.9945683777332306,
+          "speaker": null
+        },
+        {
+          "start": 125.78,
+          "end": 125.9,
+          "text": "to",
+          "confidence": 0.9934184551239014,
+          "speaker": null
+        },
+        {
+          "start": 125.9,
+          "end": 125.98,
+          "text": "actual",
+          "confidence": 0.9809449911117554,
+          "speaker": null
+        },
+        {
+          "start": 125.98,
+          "end": 126.42,
+          "text": "persons,",
+          "confidence": 0.7219330072402954,
+          "speaker": null
+        },
+        {
+          "start": 126.42,
+          "end": 126.42,
+          "text": "living",
+          "confidence": 0.9972570538520813,
+          "speaker": null
+        },
+        {
+          "start": 126.42,
+          "end": 126.84,
+          "text": "or",
+          "confidence": 0.9996362924575806,
+          "speaker": null
+        },
+        {
+          "start": 126.84,
+          "end": 127.06,
+          "text": "dead,",
+          "confidence": 0.999789297580719,
+          "speaker": null
+        },
+        {
+          "start": 127.06,
+          "end": 127.2,
+          "text": "is",
+          "confidence": 0.9997022747993469,
+          "speaker": null
+        },
+        {
+          "start": 127.2,
+          "end": 128.64,
+          "text": "coincidental",
+          "confidence": 0.9901095032691956,
+          "speaker": null
+        },
+        {
+          "start": 128.64,
+          "end": 128.66,
+          "text": "and",
+          "confidence": 0.9524887800216675,
+          "speaker": null
+        },
+        {
+          "start": 128.66,
+          "end": 130.0,
+          "text": "unintentional.",
+          "confidence": 0.9252406656742096,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 137.58,
+      "end": 140.38,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.4970946703106165,
+      "words": [
+        {
+          "start": 137.58,
+          "end": 138.98,
+          "text": "Thank",
+          "confidence": 0.012484628707170486,
+          "speaker": null
+        },
+        {
+          "start": 138.98,
+          "end": 140.38,
+          "text": "you.",
+          "confidence": 0.9817047119140625,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 181.24,
+      "end": 182.28,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.6193509569081167,
+      "words": [
+        {
+          "start": 181.24,
+          "end": 181.68,
+          "text": "This",
+          "confidence": 0.014492525719106197,
+          "speaker": null
+        },
+        {
+          "start": 181.68,
+          "end": 182.12,
+          "text": "video",
+          "confidence": 0.022207334637641907,
+          "speaker": null
+        },
+        {
+          "start": 182.12,
+          "end": 182.22,
+          "text": "is",
+          "confidence": 0.3571643531322479,
+          "speaker": null
+        },
+        {
+          "start": 182.22,
+          "end": 182.22,
+          "text": "a",
+          "confidence": 0.14964383840560913,
+          "speaker": null
+        },
+        {
+          "start": 182.22,
+          "end": 182.22,
+          "text": "derivative",
+          "confidence": 0.1075349971652031,
+          "speaker": null
+        },
+        {
+          "start": 182.22,
+          "end": 182.22,
+          "text": "work.",
+          "confidence": 0.9180442094802856,
+          "speaker": null
+        },
+        {
+          "start": 182.22,
+          "end": 182.22,
+          "text": "Any",
+          "confidence": 0.5183453559875488,
+          "speaker": null
+        },
+        {
+          "start": 182.22,
+          "end": 182.24,
+          "text": "resemblance",
+          "confidence": 0.8201058804988861,
+          "speaker": null
+        },
+        {
+          "start": 182.24,
+          "end": 182.24,
+          "text": "to",
+          "confidence": 0.9568203091621399,
+          "speaker": null
+        },
+        {
+          "start": 182.24,
+          "end": 182.24,
+          "text": "actual",
+          "confidence": 0.37578755617141724,
+          "speaker": null
+        },
+        {
+          "start": 182.24,
+          "end": 182.26,
+          "text": "persons,",
+          "confidence": 0.6197835803031921,
+          "speaker": null
+        },
+        {
+          "start": 182.26,
+          "end": 182.26,
+          "text": "living",
+          "confidence": 0.9443432688713074,
+          "speaker": null
+        },
+        {
+          "start": 182.26,
+          "end": 182.26,
+          "text": "or",
+          "confidence": 0.9878879189491272,
+          "speaker": null
+        },
+        {
+          "start": 182.26,
+          "end": 182.26,
+          "text": "dead,",
+          "confidence": 0.99137282371521,
+          "speaker": null
+        },
+        {
+          "start": 182.26,
+          "end": 182.26,
+          "text": "is",
+          "confidence": 0.9872150421142578,
+          "speaker": null
+        },
+        {
+          "start": 182.26,
+          "end": 182.26,
+          "text": "coincidental",
+          "confidence": 0.7252510637044907,
+          "speaker": null
+        },
+        {
+          "start": 182.26,
+          "end": 182.26,
+          "text": "and",
+          "confidence": 0.6695424914360046,
+          "speaker": null
+        },
+        {
+          "start": 182.26,
+          "end": 182.28,
+          "text": "unintentional.",
+          "confidence": 0.9827746748924255,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 182.3,
+      "end": 182.78,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.8617592818207211,
+      "words": [
+        {
+          "start": 182.3,
+          "end": 182.3,
+          "text": "This",
+          "confidence": 0.13278362154960632,
+          "speaker": null
+        },
+        {
+          "start": 182.3,
+          "end": 182.3,
+          "text": "video",
+          "confidence": 0.6583946943283081,
+          "speaker": null
+        },
+        {
+          "start": 182.3,
+          "end": 182.3,
+          "text": "is",
+          "confidence": 0.7368089556694031,
+          "speaker": null
+        },
+        {
+          "start": 182.3,
+          "end": 182.32,
+          "text": "a",
+          "confidence": 0.5779945254325867,
+          "speaker": null
+        },
+        {
+          "start": 182.32,
+          "end": 182.32,
+          "text": "derivative",
+          "confidence": 0.7322750091552734,
+          "speaker": null
+        },
+        {
+          "start": 182.32,
+          "end": 182.32,
+          "text": "work.",
+          "confidence": 0.9997612833976746,
+          "speaker": null
+        },
+        {
+          "start": 182.32,
+          "end": 182.32,
+          "text": "Any",
+          "confidence": 0.9802477955818176,
+          "speaker": null
+        },
+        {
+          "start": 182.32,
+          "end": 182.32,
+          "text": "resemblance",
+          "confidence": 0.9952985048294067,
+          "speaker": null
+        },
+        {
+          "start": 182.32,
+          "end": 182.32,
+          "text": "to",
+          "confidence": 0.9992222785949707,
+          "speaker": null
+        },
+        {
+          "start": 182.32,
+          "end": 182.32,
+          "text": "actual",
+          "confidence": 0.9930196404457092,
+          "speaker": null
+        },
+        {
+          "start": 182.32,
+          "end": 182.68,
+          "text": "persons,",
+          "confidence": 0.7869734168052673,
+          "speaker": null
+        },
+        {
+          "start": 182.7,
+          "end": 182.7,
+          "text": "living",
+          "confidence": 0.9970080256462097,
+          "speaker": null
+        },
+        {
+          "start": 182.7,
+          "end": 182.78,
+          "text": "or",
+          "confidence": 0.9997449517250061,
+          "speaker": null
+        },
+        {
+          "start": 182.78,
+          "end": 182.78,
+          "text": "dead,",
+          "confidence": 0.9998530149459839,
+          "speaker": null
+        },
+        {
+          "start": 182.78,
+          "end": 182.78,
+          "text": "is",
+          "confidence": 0.9996247291564941,
+          "speaker": null
+        },
+        {
+          "start": 182.78,
+          "end": 182.78,
+          "text": "coincidental",
+          "confidence": 0.9894291758537292,
+          "speaker": null
+        },
+        {
+          "start": 182.78,
+          "end": 182.78,
+          "text": "and",
+          "confidence": 0.9892694354057312,
+          "speaker": null
+        },
+        {
+          "start": 182.78,
+          "end": 182.78,
+          "text": "unintentional.",
+          "confidence": 0.9439580142498016,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 182.8,
+      "end": 183.34,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9668979893128077,
+      "words": [
+        {
+          "start": 182.8,
+          "end": 182.8,
+          "text": "This",
+          "confidence": 0.634604275226593,
+          "speaker": null
+        },
+        {
+          "start": 182.8,
+          "end": 182.8,
+          "text": "video",
+          "confidence": 0.9680700898170471,
+          "speaker": null
+        },
+        {
+          "start": 182.8,
+          "end": 182.8,
+          "text": "is",
+          "confidence": 0.9855554103851318,
+          "speaker": null
+        },
+        {
+          "start": 182.8,
+          "end": 182.8,
+          "text": "a",
+          "confidence": 0.9971907734870911,
+          "speaker": null
+        },
+        {
+          "start": 182.8,
+          "end": 182.8,
+          "text": "derivative",
+          "confidence": 0.9904650449752808,
+          "speaker": null
+        },
+        {
+          "start": 182.8,
+          "end": 182.8,
+          "text": "work.",
+          "confidence": 0.9999673366546631,
+          "speaker": null
+        },
+        {
+          "start": 182.8,
+          "end": 182.8,
+          "text": "Any",
+          "confidence": 0.9779416918754578,
+          "speaker": null
+        },
+        {
+          "start": 182.8,
+          "end": 182.8,
+          "text": "resemblance",
+          "confidence": 0.9916872382164001,
+          "speaker": null
+        },
+        {
+          "start": 182.8,
+          "end": 182.8,
+          "text": "to",
+          "confidence": 0.999584972858429,
+          "speaker": null
+        },
+        {
+          "start": 182.8,
+          "end": 182.8,
+          "text": "actual",
+          "confidence": 0.9987949132919312,
+          "speaker": null
+        },
+        {
+          "start": 182.8,
+          "end": 183.26,
+          "text": "persons,",
+          "confidence": 0.9283595681190491,
+          "speaker": null
+        },
+        {
+          "start": 183.26,
+          "end": 183.26,
+          "text": "living",
+          "confidence": 0.9982547163963318,
+          "speaker": null
+        },
+        {
+          "start": 183.26,
+          "end": 183.34,
+          "text": "or",
+          "confidence": 0.9998643398284912,
+          "speaker": null
+        },
+        {
+          "start": 183.34,
+          "end": 183.34,
+          "text": "dead,",
+          "confidence": 0.9999101161956787,
+          "speaker": null
+        },
+        {
+          "start": 183.34,
+          "end": 183.34,
+          "text": "is",
+          "confidence": 0.9997580647468567,
+          "speaker": null
+        },
+        {
+          "start": 183.34,
+          "end": 183.34,
+          "text": "coincidental",
+          "confidence": 0.995476096868515,
+          "speaker": null
+        },
+        {
+          "start": 183.34,
+          "end": 183.34,
+          "text": "and",
+          "confidence": 0.9971069693565369,
+          "speaker": null
+        },
+        {
+          "start": 183.34,
+          "end": 183.34,
+          "text": "unintentional.",
+          "confidence": 0.9415721893310547,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 183.34,
+      "end": 187.72,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9815766976939307,
+      "words": [
+        {
+          "start": 183.34,
+          "end": 183.34,
+          "text": "This",
+          "confidence": 0.834092378616333,
+          "speaker": null
+        },
+        {
+          "start": 183.34,
+          "end": 183.34,
+          "text": "video",
+          "confidence": 0.9869903922080994,
+          "speaker": null
+        },
+        {
+          "start": 183.34,
+          "end": 183.34,
+          "text": "is",
+          "confidence": 0.9882228970527649,
+          "speaker": null
+        },
+        {
+          "start": 183.34,
+          "end": 183.34,
+          "text": "a",
+          "confidence": 0.9983299374580383,
+          "speaker": null
+        },
+        {
+          "start": 183.34,
+          "end": 183.34,
+          "text": "derivative",
+          "confidence": 0.9949676394462585,
+          "speaker": null
+        },
+        {
+          "start": 183.34,
+          "end": 183.34,
+          "text": "work.",
+          "confidence": 0.9999581575393677,
+          "speaker": null
+        },
+        {
+          "start": 183.34,
+          "end": 183.34,
+          "text": "Any",
+          "confidence": 0.9825734496116638,
+          "speaker": null
+        },
+        {
+          "start": 183.34,
+          "end": 183.52,
+          "text": "resemblance",
+          "confidence": 0.9930776953697205,
+          "speaker": null
+        },
+        {
+          "start": 183.52,
+          "end": 183.52,
+          "text": "to",
+          "confidence": 0.9996606111526489,
+          "speaker": null
+        },
+        {
+          "start": 183.52,
+          "end": 183.52,
+          "text": "actual",
+          "confidence": 0.9994651675224304,
+          "speaker": null
+        },
+        {
+          "start": 183.52,
+          "end": 183.92000000000002,
+          "text": "persons,",
+          "confidence": 0.9518875479698181,
+          "speaker": null
+        },
+        {
+          "start": 183.96,
+          "end": 183.96,
+          "text": "living",
+          "confidence": 0.9986341595649719,
+          "speaker": null
+        },
+        {
+          "start": 183.96,
+          "end": 183.96,
+          "text": "or",
+          "confidence": 0.9999103546142578,
+          "speaker": null
+        },
+        {
+          "start": 183.96,
+          "end": 183.96,
+          "text": "dead,",
+          "confidence": 0.9998946189880371,
+          "speaker": null
+        },
+        {
+          "start": 184.56,
+          "end": 185.54,
+          "text": "is",
+          "confidence": 0.9997751116752625,
+          "speaker": null
+        },
+        {
+          "start": 185.54,
+          "end": 185.54,
+          "text": "coincidental",
+          "confidence": 0.9963871836662292,
+          "speaker": null
+        },
+        {
+          "start": 185.54,
+          "end": 185.68,
+          "text": "and",
+          "confidence": 0.9975070357322693,
+          "speaker": null
+        },
+        {
+          "start": 185.68,
+          "end": 187.72,
+          "text": "unintentional.",
+          "confidence": 0.9470462203025818,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 188.28,
+      "end": 194.44,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9882482588291168,
+      "words": [
+        {
+          "start": 188.28,
+          "end": 188.72,
+          "text": "This",
+          "confidence": 0.9305909276008606,
+          "speaker": null
+        },
+        {
+          "start": 188.72,
+          "end": 188.72,
+          "text": "video",
+          "confidence": 0.997307538986206,
+          "speaker": null
+        },
+        {
+          "start": 188.72,
+          "end": 188.72,
+          "text": "is",
+          "confidence": 0.9940059185028076,
+          "speaker": null
+        },
+        {
+          "start": 188.72,
+          "end": 188.72,
+          "text": "a",
+          "confidence": 0.9988740086555481,
+          "speaker": null
+        },
+        {
+          "start": 188.72,
+          "end": 188.72,
+          "text": "derivative",
+          "confidence": 0.9969000816345215,
+          "speaker": null
+        },
+        {
+          "start": 188.72,
+          "end": 188.72,
+          "text": "work.",
+          "confidence": 0.9999508857727051,
+          "speaker": null
+        },
+        {
+          "start": 188.72,
+          "end": 188.72,
+          "text": "Any",
+          "confidence": 0.9837064743041992,
+          "speaker": null
+        },
+        {
+          "start": 188.72,
+          "end": 188.76,
+          "text": "resemblance",
+          "confidence": 0.9939277470111847,
+          "speaker": null
+        },
+        {
+          "start": 188.76,
+          "end": 188.76,
+          "text": "to",
+          "confidence": 0.9996957778930664,
+          "speaker": null
+        },
+        {
+          "start": 188.76,
+          "end": 188.76,
+          "text": "actual",
+          "confidence": 0.9995797276496887,
+          "speaker": null
+        },
+        {
+          "start": 188.76,
+          "end": 189.07999999999998,
+          "text": "persons,",
+          "confidence": 0.9552841186523438,
+          "speaker": null
+        },
+        {
+          "start": 189.07999999999998,
+          "end": 189.07999999999998,
+          "text": "living",
+          "confidence": 0.9988827109336853,
+          "speaker": null
+        },
+        {
+          "start": 189.07999999999998,
+          "end": 189.6,
+          "text": "or",
+          "confidence": 0.9999376535415649,
+          "speaker": null
+        },
+        {
+          "start": 189.6,
+          "end": 189.88,
+          "text": "dead,",
+          "confidence": 0.9998490810394287,
+          "speaker": null
+        },
+        {
+          "start": 189.98,
+          "end": 190.4,
+          "text": "is",
+          "confidence": 0.9997621178627014,
+          "speaker": null
+        },
+        {
+          "start": 190.4,
+          "end": 190.7,
+          "text": "coincidental",
+          "confidence": 0.9963898956775665,
+          "speaker": null
+        },
+        {
+          "start": 190.7,
+          "end": 190.7,
+          "text": "and",
+          "confidence": 0.9952202439308167,
+          "speaker": null
+        },
+        {
+          "start": 190.7,
+          "end": 194.44,
+          "text": "unintentional.",
+          "confidence": 0.9486037492752075,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 202.46,
+      "end": 205.26,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5334617272019386,
+      "words": [
+        {
+          "start": 202.46,
+          "end": 203.86,
+          "text": "Thank",
+          "confidence": 0.07472456991672516,
+          "speaker": null
+        },
+        {
+          "start": 203.86,
+          "end": 205.26,
+          "text": "you.",
+          "confidence": 0.9921988844871521,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 234.84,
+      "end": 235.66,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.6200580991183718,
+      "words": [
+        {
+          "start": 234.84,
+          "end": 235.24,
+          "text": "This",
+          "confidence": 0.01513858325779438,
+          "speaker": null
+        },
+        {
+          "start": 235.24,
+          "end": 235.64,
+          "text": "video",
+          "confidence": 0.0346318855881691,
+          "speaker": null
+        },
+        {
+          "start": 235.64,
+          "end": 235.64,
+          "text": "is",
+          "confidence": 0.3420754075050354,
+          "speaker": null
+        },
+        {
+          "start": 235.64,
+          "end": 235.64,
+          "text": "a",
+          "confidence": 0.14846237003803253,
+          "speaker": null
+        },
+        {
+          "start": 235.64,
+          "end": 235.64,
+          "text": "derivative",
+          "confidence": 0.09941346943378448,
+          "speaker": null
+        },
+        {
+          "start": 235.64,
+          "end": 235.64,
+          "text": "work.",
+          "confidence": 0.9102414846420288,
+          "speaker": null
+        },
+        {
+          "start": 235.64,
+          "end": 235.64,
+          "text": "Any",
+          "confidence": 0.49362924695014954,
+          "speaker": null
+        },
+        {
+          "start": 235.64,
+          "end": 235.64,
+          "text": "resemblance",
+          "confidence": 0.8494216799736023,
+          "speaker": null
+        },
+        {
+          "start": 235.64,
+          "end": 235.64,
+          "text": "to",
+          "confidence": 0.9612928032875061,
+          "speaker": null
+        },
+        {
+          "start": 235.64,
+          "end": 235.64,
+          "text": "actual",
+          "confidence": 0.3489096462726593,
+          "speaker": null
+        },
+        {
+          "start": 235.64,
+          "end": 235.66,
+          "text": "persons,",
+          "confidence": 0.6633665561676025,
+          "speaker": null
+        },
+        {
+          "start": 235.66,
+          "end": 235.66,
+          "text": "living",
+          "confidence": 0.9420721530914307,
+          "speaker": null
+        },
+        {
+          "start": 235.66,
+          "end": 235.66,
+          "text": "or",
+          "confidence": 0.987767219543457,
+          "speaker": null
+        },
+        {
+          "start": 235.66,
+          "end": 235.66,
+          "text": "dead,",
+          "confidence": 0.9910628795623779,
+          "speaker": null
+        },
+        {
+          "start": 235.66,
+          "end": 235.66,
+          "text": "is",
+          "confidence": 0.9873400330543518,
+          "speaker": null
+        },
+        {
+          "start": 235.66,
+          "end": 235.66,
+          "text": "coincidental",
+          "confidence": 0.7314984798431396,
+          "speaker": null
+        },
+        {
+          "start": 235.66,
+          "end": 235.66,
+          "text": "and",
+          "confidence": 0.6705237627029419,
+          "speaker": null
+        },
+        {
+          "start": 235.66,
+          "end": 235.66,
+          "text": "unintentional.",
+          "confidence": 0.984198123216629,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 235.68,
+      "end": 236.3,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.8537998389866617,
+      "words": [
+        {
+          "start": 235.68,
+          "end": 235.68,
+          "text": "This",
+          "confidence": 0.1324847787618637,
+          "speaker": null
+        },
+        {
+          "start": 235.68,
+          "end": 235.68,
+          "text": "video",
+          "confidence": 0.6401798725128174,
+          "speaker": null
+        },
+        {
+          "start": 235.68,
+          "end": 235.68,
+          "text": "is",
+          "confidence": 0.7213035821914673,
+          "speaker": null
+        },
+        {
+          "start": 235.68,
+          "end": 235.7,
+          "text": "a",
+          "confidence": 0.5512304306030273,
+          "speaker": null
+        },
+        {
+          "start": 235.7,
+          "end": 235.7,
+          "text": "derivative",
+          "confidence": 0.6560723781585693,
+          "speaker": null
+        },
+        {
+          "start": 235.7,
+          "end": 235.7,
+          "text": "work.",
+          "confidence": 0.9997267127037048,
+          "speaker": null
+        },
+        {
+          "start": 235.7,
+          "end": 235.7,
+          "text": "Any",
+          "confidence": 0.9767917990684509,
+          "speaker": null
+        },
+        {
+          "start": 235.7,
+          "end": 235.98,
+          "text": "resemblance",
+          "confidence": 0.9960183799266815,
+          "speaker": null
+        },
+        {
+          "start": 235.98,
+          "end": 235.98,
+          "text": "to",
+          "confidence": 0.9990686774253845,
+          "speaker": null
+        },
+        {
+          "start": 235.98,
+          "end": 235.98,
+          "text": "actual",
+          "confidence": 0.9925726652145386,
+          "speaker": null
+        },
+        {
+          "start": 235.98,
+          "end": 236.18,
+          "text": "persons,",
+          "confidence": 0.7796935439109802,
+          "speaker": null
+        },
+        {
+          "start": 236.2,
+          "end": 236.2,
+          "text": "living",
+          "confidence": 0.9970009922981262,
+          "speaker": null
+        },
+        {
+          "start": 236.2,
+          "end": 236.3,
+          "text": "or",
+          "confidence": 0.9997243285179138,
+          "speaker": null
+        },
+        {
+          "start": 236.3,
+          "end": 236.3,
+          "text": "dead,",
+          "confidence": 0.9998514652252197,
+          "speaker": null
+        },
+        {
+          "start": 236.3,
+          "end": 236.3,
+          "text": "is",
+          "confidence": 0.9996091723442078,
+          "speaker": null
+        },
+        {
+          "start": 236.3,
+          "end": 236.3,
+          "text": "coincidental",
+          "confidence": 0.9905629754066467,
+          "speaker": null
+        },
+        {
+          "start": 236.3,
+          "end": 236.3,
+          "text": "and",
+          "confidence": 0.9880963563919067,
+          "speaker": null
+        },
+        {
+          "start": 236.3,
+          "end": 236.3,
+          "text": "unintentional.",
+          "confidence": 0.9484089910984039,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 236.3,
+      "end": 237.28,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9674627251095242,
+      "words": [
+        {
+          "start": 236.3,
+          "end": 236.3,
+          "text": "This",
+          "confidence": 0.6549358367919922,
+          "speaker": null
+        },
+        {
+          "start": 236.3,
+          "end": 236.3,
+          "text": "video",
+          "confidence": 0.963586688041687,
+          "speaker": null
+        },
+        {
+          "start": 236.3,
+          "end": 236.3,
+          "text": "is",
+          "confidence": 0.984003484249115,
+          "speaker": null
+        },
+        {
+          "start": 236.3,
+          "end": 236.3,
+          "text": "a",
+          "confidence": 0.9963617920875549,
+          "speaker": null
+        },
+        {
+          "start": 236.3,
+          "end": 236.3,
+          "text": "derivative",
+          "confidence": 0.9901156425476074,
+          "speaker": null
+        },
+        {
+          "start": 236.3,
+          "end": 236.3,
+          "text": "work.",
+          "confidence": 0.999967098236084,
+          "speaker": null
+        },
+        {
+          "start": 236.3,
+          "end": 236.3,
+          "text": "Any",
+          "confidence": 0.9769148826599121,
+          "speaker": null
+        },
+        {
+          "start": 236.3,
+          "end": 236.32,
+          "text": "resemblance",
+          "confidence": 0.9926058948040009,
+          "speaker": null
+        },
+        {
+          "start": 236.32,
+          "end": 236.34,
+          "text": "to",
+          "confidence": 0.9995296001434326,
+          "speaker": null
+        },
+        {
+          "start": 236.34,
+          "end": 236.34,
+          "text": "actual",
+          "confidence": 0.9987097978591919,
+          "speaker": null
+        },
+        {
+          "start": 236.34,
+          "end": 236.57999999999998,
+          "text": "persons,",
+          "confidence": 0.9218156337738037,
+          "speaker": null
+        },
+        {
+          "start": 236.57999999999998,
+          "end": 236.57999999999998,
+          "text": "living",
+          "confidence": 0.9982117414474487,
+          "speaker": null
+        },
+        {
+          "start": 236.57999999999998,
+          "end": 237.1,
+          "text": "or",
+          "confidence": 0.9998506307601929,
+          "speaker": null
+        },
+        {
+          "start": 237.1,
+          "end": 237.1,
+          "text": "dead,",
+          "confidence": 0.9999109506607056,
+          "speaker": null
+        },
+        {
+          "start": 237.1,
+          "end": 237.1,
+          "text": "is",
+          "confidence": 0.9997623562812805,
+          "speaker": null
+        },
+        {
+          "start": 237.1,
+          "end": 237.1,
+          "text": "coincidental",
+          "confidence": 0.995818167924881,
+          "speaker": null
+        },
+        {
+          "start": 237.1,
+          "end": 237.1,
+          "text": "and",
+          "confidence": 0.9969461560249329,
+          "speaker": null
+        },
+        {
+          "start": 237.1,
+          "end": 237.28,
+          "text": "unintentional.",
+          "confidence": 0.9452826976776123,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 237.72,
+      "end": 240.76,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9811607897281647,
+      "words": [
+        {
+          "start": 237.72,
+          "end": 238.12,
+          "text": "This",
+          "confidence": 0.8315008282661438,
+          "speaker": null
+        },
+        {
+          "start": 238.12,
+          "end": 238.12,
+          "text": "video",
+          "confidence": 0.985282301902771,
+          "speaker": null
+        },
+        {
+          "start": 238.12,
+          "end": 238.12,
+          "text": "is",
+          "confidence": 0.9866340160369873,
+          "speaker": null
+        },
+        {
+          "start": 238.12,
+          "end": 238.12,
+          "text": "a",
+          "confidence": 0.9979530572891235,
+          "speaker": null
+        },
+        {
+          "start": 238.12,
+          "end": 238.12,
+          "text": "derivative",
+          "confidence": 0.9947774410247803,
+          "speaker": null
+        },
+        {
+          "start": 238.12,
+          "end": 238.12,
+          "text": "work.",
+          "confidence": 0.9999589920043945,
+          "speaker": null
+        },
+        {
+          "start": 238.12,
+          "end": 238.12,
+          "text": "Any",
+          "confidence": 0.9807785749435425,
+          "speaker": null
+        },
+        {
+          "start": 238.12,
+          "end": 238.34,
+          "text": "resemblance",
+          "confidence": 0.9936259984970093,
+          "speaker": null
+        },
+        {
+          "start": 238.34,
+          "end": 238.34,
+          "text": "to",
+          "confidence": 0.9996206760406494,
+          "speaker": null
+        },
+        {
+          "start": 238.34,
+          "end": 238.34,
+          "text": "actual",
+          "confidence": 0.9994377493858337,
+          "speaker": null
+        },
+        {
+          "start": 238.34,
+          "end": 238.34,
+          "text": "persons,",
+          "confidence": 0.9494537711143494,
+          "speaker": null
+        },
+        {
+          "start": 238.34,
+          "end": 238.34,
+          "text": "living",
+          "confidence": 0.9986116886138916,
+          "speaker": null
+        },
+        {
+          "start": 238.34,
+          "end": 238.4,
+          "text": "or",
+          "confidence": 0.9999009370803833,
+          "speaker": null
+        },
+        {
+          "start": 238.4,
+          "end": 238.4,
+          "text": "dead,",
+          "confidence": 0.9998979568481445,
+          "speaker": null
+        },
+        {
+          "start": 239.2,
+          "end": 240.02,
+          "text": "is",
+          "confidence": 0.9997830986976624,
+          "speaker": null
+        },
+        {
+          "start": 240.02,
+          "end": 240.02,
+          "text": "coincidental",
+          "confidence": 0.9967063963413239,
+          "speaker": null
+        },
+        {
+          "start": 240.02,
+          "end": 240.22,
+          "text": "and",
+          "confidence": 0.9974988102912903,
+          "speaker": null
+        },
+        {
+          "start": 240.22,
+          "end": 240.76,
+          "text": "unintentional.",
+          "confidence": 0.9494719207286835,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 240.76,
+      "end": 243.2,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9881986959113015,
+      "words": [
+        {
+          "start": 240.76,
+          "end": 240.82,
+          "text": "This",
+          "confidence": 0.9308010339736938,
+          "speaker": null
+        },
+        {
+          "start": 240.82,
+          "end": 240.82,
+          "text": "video",
+          "confidence": 0.9969667792320251,
+          "speaker": null
+        },
+        {
+          "start": 240.82,
+          "end": 240.82,
+          "text": "is",
+          "confidence": 0.9931341409683228,
+          "speaker": null
+        },
+        {
+          "start": 240.82,
+          "end": 240.82,
+          "text": "a",
+          "confidence": 0.998698353767395,
+          "speaker": null
+        },
+        {
+          "start": 240.82,
+          "end": 240.82,
+          "text": "derivative",
+          "confidence": 0.9968110918998718,
+          "speaker": null
+        },
+        {
+          "start": 240.82,
+          "end": 240.82,
+          "text": "work.",
+          "confidence": 0.9999521970748901,
+          "speaker": null
+        },
+        {
+          "start": 240.82,
+          "end": 240.82,
+          "text": "Any",
+          "confidence": 0.981899619102478,
+          "speaker": null
+        },
+        {
+          "start": 240.82,
+          "end": 240.82,
+          "text": "resemblance",
+          "confidence": 0.9942823052406311,
+          "speaker": null
+        },
+        {
+          "start": 240.82,
+          "end": 240.82,
+          "text": "to",
+          "confidence": 0.9996680021286011,
+          "speaker": null
+        },
+        {
+          "start": 240.82,
+          "end": 240.84,
+          "text": "actual",
+          "confidence": 0.9995761513710022,
+          "speaker": null
+        },
+        {
+          "start": 240.84,
+          "end": 240.92000000000002,
+          "text": "persons,",
+          "confidence": 0.9547604322433472,
+          "speaker": null
+        },
+        {
+          "start": 240.94,
+          "end": 240.94,
+          "text": "living",
+          "confidence": 0.9988839030265808,
+          "speaker": null
+        },
+        {
+          "start": 240.94,
+          "end": 241.1,
+          "text": "or",
+          "confidence": 0.9999313354492188,
+          "speaker": null
+        },
+        {
+          "start": 241.1,
+          "end": 241.1,
+          "text": "dead,",
+          "confidence": 0.9998531341552734,
+          "speaker": null
+        },
+        {
+          "start": 241.24,
+          "end": 241.24,
+          "text": "is",
+          "confidence": 0.99977046251297,
+          "speaker": null
+        },
+        {
+          "start": 241.24,
+          "end": 241.24,
+          "text": "coincidental",
+          "confidence": 0.9967018365859985,
+          "speaker": null
+        },
+        {
+          "start": 241.24,
+          "end": 241.24,
+          "text": "and",
+          "confidence": 0.9955015778541565,
+          "speaker": null
+        },
+        {
+          "start": 241.24,
+          "end": 243.2,
+          "text": "unintentional.",
+          "confidence": 0.9503841698169708,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 243.24,
+      "end": 244.34,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9893657697571648,
+      "words": [
+        {
+          "start": 243.24,
+          "end": 243.64,
+          "text": "This",
+          "confidence": 0.9483233094215393,
+          "speaker": null
+        },
+        {
+          "start": 243.64,
+          "end": 243.64,
+          "text": "video",
+          "confidence": 0.9991284012794495,
+          "speaker": null
+        },
+        {
+          "start": 243.64,
+          "end": 243.64,
+          "text": "is",
+          "confidence": 0.9962934851646423,
+          "speaker": null
+        },
+        {
+          "start": 243.64,
+          "end": 243.64,
+          "text": "a",
+          "confidence": 0.9988189339637756,
+          "speaker": null
+        },
+        {
+          "start": 243.64,
+          "end": 243.64,
+          "text": "derivative",
+          "confidence": 0.9976922273635864,
+          "speaker": null
+        },
+        {
+          "start": 243.64,
+          "end": 243.64,
+          "text": "work.",
+          "confidence": 0.9999481439590454,
+          "speaker": null
+        },
+        {
+          "start": 243.64,
+          "end": 243.64,
+          "text": "Any",
+          "confidence": 0.9792598485946655,
+          "speaker": null
+        },
+        {
+          "start": 243.64,
+          "end": 243.64,
+          "text": "resemblance",
+          "confidence": 0.9940254092216492,
+          "speaker": null
+        },
+        {
+          "start": 243.64,
+          "end": 243.64,
+          "text": "to",
+          "confidence": 0.9996795654296875,
+          "speaker": null
+        },
+        {
+          "start": 243.64,
+          "end": 243.64,
+          "text": "actual",
+          "confidence": 0.9995641112327576,
+          "speaker": null
+        },
+        {
+          "start": 243.64,
+          "end": 243.64,
+          "text": "persons,",
+          "confidence": 0.960735559463501,
+          "speaker": null
+        },
+        {
+          "start": 243.64,
+          "end": 243.64,
+          "text": "living",
+          "confidence": 0.9990332126617432,
+          "speaker": null
+        },
+        {
+          "start": 243.64,
+          "end": 243.64,
+          "text": "or",
+          "confidence": 0.9999409914016724,
+          "speaker": null
+        },
+        {
+          "start": 243.64,
+          "end": 243.64,
+          "text": "dead,",
+          "confidence": 0.9997901320457458,
+          "speaker": null
+        },
+        {
+          "start": 244.0,
+          "end": 244.14,
+          "text": "is",
+          "confidence": 0.9996803998947144,
+          "speaker": null
+        },
+        {
+          "start": 244.14,
+          "end": 244.14,
+          "text": "coincidental",
+          "confidence": 0.9967031478881836,
+          "speaker": null
+        },
+        {
+          "start": 244.14,
+          "end": 244.14,
+          "text": "and",
+          "confidence": 0.9907960891723633,
+          "speaker": null
+        },
+        {
+          "start": 244.14,
+          "end": 244.34,
+          "text": "unintentional.",
+          "confidence": 0.9491708874702454,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 244.44,
+      "end": 248.86,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.990096746219529,
+      "words": [
+        {
+          "start": 244.44,
+          "end": 244.44,
+          "text": "This",
+          "confidence": 0.9589688777923584,
+          "speaker": null
+        },
+        {
+          "start": 244.44,
+          "end": 244.44,
+          "text": "video",
+          "confidence": 0.9994627833366394,
+          "speaker": null
+        },
+        {
+          "start": 244.44,
+          "end": 244.44,
+          "text": "is",
+          "confidence": 0.9977120161056519,
+          "speaker": null
+        },
+        {
+          "start": 244.44,
+          "end": 244.44,
+          "text": "a",
+          "confidence": 0.9987651109695435,
+          "speaker": null
+        },
+        {
+          "start": 244.44,
+          "end": 244.44,
+          "text": "derivative",
+          "confidence": 0.9981681108474731,
+          "speaker": null
+        },
+        {
+          "start": 244.44,
+          "end": 244.44,
+          "text": "work.",
+          "confidence": 0.9999423027038574,
+          "speaker": null
+        },
+        {
+          "start": 244.44,
+          "end": 244.44,
+          "text": "Any",
+          "confidence": 0.9778525829315186,
+          "speaker": null
+        },
+        {
+          "start": 244.44,
+          "end": 244.44,
+          "text": "resemblance",
+          "confidence": 0.9935018718242645,
+          "speaker": null
+        },
+        {
+          "start": 244.44,
+          "end": 244.44,
+          "text": "to",
+          "confidence": 0.999648928642273,
+          "speaker": null
+        },
+        {
+          "start": 244.44,
+          "end": 244.44,
+          "text": "actual",
+          "confidence": 0.99955815076828,
+          "speaker": null
+        },
+        {
+          "start": 244.44,
+          "end": 245.5,
+          "text": "persons,",
+          "confidence": 0.9679778218269348,
+          "speaker": null
+        },
+        {
+          "start": 245.5,
+          "end": 245.5,
+          "text": "living",
+          "confidence": 0.9990115165710449,
+          "speaker": null
+        },
+        {
+          "start": 245.5,
+          "end": 245.74,
+          "text": "or",
+          "confidence": 0.9999387264251709,
+          "speaker": null
+        },
+        {
+          "start": 245.74,
+          "end": 245.96,
+          "text": "dead,",
+          "confidence": 0.9997653365135193,
+          "speaker": null
+        },
+        {
+          "start": 246.57999999999998,
+          "end": 248.14,
+          "text": "is",
+          "confidence": 0.9994638562202454,
+          "speaker": null
+        },
+        {
+          "start": 248.14,
+          "end": 248.14,
+          "text": "coincidental",
+          "confidence": 0.9969975352287292,
+          "speaker": null
+        },
+        {
+          "start": 248.14,
+          "end": 248.14,
+          "text": "and",
+          "confidence": 0.9846433401107788,
+          "speaker": null
+        },
+        {
+          "start": 248.14,
+          "end": 248.86,
+          "text": "unintentional.",
+          "confidence": 0.9503625631332397,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 259.14,
+      "end": 261.94,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5350722782313824,
+      "words": [
+        {
+          "start": 259.14,
+          "end": 260.54,
+          "text": "Thank",
+          "confidence": 0.07767697423696518,
+          "speaker": null
+        },
+        {
+          "start": 260.54,
+          "end": 261.94,
+          "text": "you.",
+          "confidence": 0.9924675822257996,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 290.6,
+      "end": 291.38,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.6093082349333498,
+      "words": [
+        {
+          "start": 290.6,
+          "end": 290.98,
+          "text": "This",
+          "confidence": 0.01393590122461319,
+          "speaker": null
+        },
+        {
+          "start": 290.98,
+          "end": 291.36,
+          "text": "video",
+          "confidence": 0.027515508234500885,
+          "speaker": null
+        },
+        {
+          "start": 291.36,
+          "end": 291.36,
+          "text": "is",
+          "confidence": 0.3381754457950592,
+          "speaker": null
+        },
+        {
+          "start": 291.36,
+          "end": 291.36,
+          "text": "a",
+          "confidence": 0.1404748111963272,
+          "speaker": null
+        },
+        {
+          "start": 291.36,
+          "end": 291.38,
+          "text": "derivative",
+          "confidence": 0.09656036645174026,
+          "speaker": null
+        },
+        {
+          "start": 291.38,
+          "end": 291.38,
+          "text": "work.",
+          "confidence": 0.8981075882911682,
+          "speaker": null
+        },
+        {
+          "start": 291.38,
+          "end": 291.38,
+          "text": "Any",
+          "confidence": 0.4228500425815582,
+          "speaker": null
+        },
+        {
+          "start": 291.38,
+          "end": 291.38,
+          "text": "resemblance",
+          "confidence": 0.823015034198761,
+          "speaker": null
+        },
+        {
+          "start": 291.38,
+          "end": 291.38,
+          "text": "to",
+          "confidence": 0.9579071998596191,
+          "speaker": null
+        },
+        {
+          "start": 291.38,
+          "end": 291.38,
+          "text": "actual",
+          "confidence": 0.33851176500320435,
+          "speaker": null
+        },
+        {
+          "start": 291.38,
+          "end": 291.38,
+          "text": "persons,",
+          "confidence": 0.6483883857727051,
+          "speaker": null
+        },
+        {
+          "start": 291.38,
+          "end": 291.38,
+          "text": "living",
+          "confidence": 0.9408228397369385,
+          "speaker": null
+        },
+        {
+          "start": 291.38,
+          "end": 291.38,
+          "text": "or",
+          "confidence": 0.9867688417434692,
+          "speaker": null
+        },
+        {
+          "start": 291.38,
+          "end": 291.38,
+          "text": "dead,",
+          "confidence": 0.9906483292579651,
+          "speaker": null
+        },
+        {
+          "start": 291.38,
+          "end": 291.38,
+          "text": "is",
+          "confidence": 0.987078070640564,
+          "speaker": null
+        },
+        {
+          "start": 291.38,
+          "end": 291.38,
+          "text": "coincidental",
+          "confidence": 0.7312690615653992,
+          "speaker": null
+        },
+        {
+          "start": 291.38,
+          "end": 291.38,
+          "text": "and",
+          "confidence": 0.6427013874053955,
+          "speaker": null
+        },
+        {
+          "start": 291.38,
+          "end": 291.38,
+          "text": "unintentional.",
+          "confidence": 0.9828176498413086,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 291.38,
+      "end": 292.04,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.857172010673417,
+      "words": [
+        {
+          "start": 291.38,
+          "end": 291.4,
+          "text": "This",
+          "confidence": 0.13666501641273499,
+          "speaker": null
+        },
+        {
+          "start": 291.4,
+          "end": 291.4,
+          "text": "video",
+          "confidence": 0.6369072794914246,
+          "speaker": null
+        },
+        {
+          "start": 291.4,
+          "end": 291.4,
+          "text": "is",
+          "confidence": 0.7108021974563599,
+          "speaker": null
+        },
+        {
+          "start": 291.4,
+          "end": 291.4,
+          "text": "a",
+          "confidence": 0.5523372888565063,
+          "speaker": null
+        },
+        {
+          "start": 291.4,
+          "end": 291.4,
+          "text": "derivative",
+          "confidence": 0.7093893885612488,
+          "speaker": null
+        },
+        {
+          "start": 291.4,
+          "end": 291.4,
+          "text": "work.",
+          "confidence": 0.9996957778930664,
+          "speaker": null
+        },
+        {
+          "start": 291.4,
+          "end": 291.4,
+          "text": "Any",
+          "confidence": 0.9774883985519409,
+          "speaker": null
+        },
+        {
+          "start": 291.4,
+          "end": 291.4,
+          "text": "resemblance",
+          "confidence": 0.9957112073898315,
+          "speaker": null
+        },
+        {
+          "start": 291.4,
+          "end": 291.4,
+          "text": "to",
+          "confidence": 0.9990788698196411,
+          "speaker": null
+        },
+        {
+          "start": 291.4,
+          "end": 291.4,
+          "text": "actual",
+          "confidence": 0.9933451414108276,
+          "speaker": null
+        },
+        {
+          "start": 291.4,
+          "end": 291.7,
+          "text": "persons,",
+          "confidence": 0.7955718040466309,
+          "speaker": null
+        },
+        {
+          "start": 291.8,
+          "end": 291.8,
+          "text": "living",
+          "confidence": 0.997234046459198,
+          "speaker": null
+        },
+        {
+          "start": 291.8,
+          "end": 291.8,
+          "text": "or",
+          "confidence": 0.9997137188911438,
+          "speaker": null
+        },
+        {
+          "start": 291.8,
+          "end": 291.8,
+          "text": "dead,",
+          "confidence": 0.99985671043396,
+          "speaker": null
+        },
+        {
+          "start": 291.8,
+          "end": 291.8,
+          "text": "is",
+          "confidence": 0.9996134638786316,
+          "speaker": null
+        },
+        {
+          "start": 291.8,
+          "end": 291.8,
+          "text": "coincidental",
+          "confidence": 0.9905471503734589,
+          "speaker": null
+        },
+        {
+          "start": 291.8,
+          "end": 291.92,
+          "text": "and",
+          "confidence": 0.9882680773735046,
+          "speaker": null
+        },
+        {
+          "start": 291.92,
+          "end": 292.04,
+          "text": "unintentional.",
+          "confidence": 0.9468706548213959,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 292.04,
+      "end": 293.0,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9675467395120196,
+      "words": [
+        {
+          "start": 292.04,
+          "end": 292.04,
+          "text": "This",
+          "confidence": 0.6476231217384338,
+          "speaker": null
+        },
+        {
+          "start": 292.04,
+          "end": 292.04,
+          "text": "video",
+          "confidence": 0.9618749022483826,
+          "speaker": null
+        },
+        {
+          "start": 292.04,
+          "end": 292.04,
+          "text": "is",
+          "confidence": 0.9845542311668396,
+          "speaker": null
+        },
+        {
+          "start": 292.04,
+          "end": 292.04,
+          "text": "a",
+          "confidence": 0.996821403503418,
+          "speaker": null
+        },
+        {
+          "start": 292.04,
+          "end": 292.04,
+          "text": "derivative",
+          "confidence": 0.9911482334136963,
+          "speaker": null
+        },
+        {
+          "start": 292.04,
+          "end": 292.04,
+          "text": "work.",
+          "confidence": 0.9999645948410034,
+          "speaker": null
+        },
+        {
+          "start": 292.04,
+          "end": 292.04,
+          "text": "Any",
+          "confidence": 0.9777407646179199,
+          "speaker": null
+        },
+        {
+          "start": 292.04,
+          "end": 292.04,
+          "text": "resemblance",
+          "confidence": 0.9920848309993744,
+          "speaker": null
+        },
+        {
+          "start": 292.04,
+          "end": 292.04,
+          "text": "to",
+          "confidence": 0.9995542168617249,
+          "speaker": null
+        },
+        {
+          "start": 292.04,
+          "end": 292.04,
+          "text": "actual",
+          "confidence": 0.9988667964935303,
+          "speaker": null
+        },
+        {
+          "start": 292.04,
+          "end": 292.14,
+          "text": "persons,",
+          "confidence": 0.9297349452972412,
+          "speaker": null
+        },
+        {
+          "start": 292.2,
+          "end": 292.2,
+          "text": "living",
+          "confidence": 0.9983859062194824,
+          "speaker": null
+        },
+        {
+          "start": 292.2,
+          "end": 292.22,
+          "text": "or",
+          "confidence": 0.9998527765274048,
+          "speaker": null
+        },
+        {
+          "start": 292.22,
+          "end": 292.22,
+          "text": "dead,",
+          "confidence": 0.9999178647994995,
+          "speaker": null
+        },
+        {
+          "start": 292.4,
+          "end": 292.4,
+          "text": "is",
+          "confidence": 0.9997623562812805,
+          "speaker": null
+        },
+        {
+          "start": 292.4,
+          "end": 292.44,
+          "text": "coincidental",
+          "confidence": 0.9958021938800812,
+          "speaker": null
+        },
+        {
+          "start": 292.44,
+          "end": 292.44,
+          "text": "and",
+          "confidence": 0.9970458149909973,
+          "speaker": null
+        },
+        {
+          "start": 292.44,
+          "end": 293.0,
+          "text": "unintentional.",
+          "confidence": 0.9451063573360443,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 293.88,
+      "end": 298.36,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9816521174377866,
+      "words": [
+        {
+          "start": 293.88,
+          "end": 294.26,
+          "text": "This",
+          "confidence": 0.8324403762817383,
+          "speaker": null
+        },
+        {
+          "start": 294.26,
+          "end": 294.26,
+          "text": "video",
+          "confidence": 0.984830379486084,
+          "speaker": null
+        },
+        {
+          "start": 294.26,
+          "end": 294.26,
+          "text": "is",
+          "confidence": 0.987260103225708,
+          "speaker": null
+        },
+        {
+          "start": 294.26,
+          "end": 294.26,
+          "text": "a",
+          "confidence": 0.9981390237808228,
+          "speaker": null
+        },
+        {
+          "start": 294.26,
+          "end": 294.26,
+          "text": "derivative",
+          "confidence": 0.9952411651611328,
+          "speaker": null
+        },
+        {
+          "start": 294.26,
+          "end": 294.26,
+          "text": "work.",
+          "confidence": 0.9999550580978394,
+          "speaker": null
+        },
+        {
+          "start": 294.26,
+          "end": 294.26,
+          "text": "Any",
+          "confidence": 0.9819443225860596,
+          "speaker": null
+        },
+        {
+          "start": 294.26,
+          "end": 294.36,
+          "text": "resemblance",
+          "confidence": 0.9932239353656769,
+          "speaker": null
+        },
+        {
+          "start": 294.36,
+          "end": 294.36,
+          "text": "to",
+          "confidence": 0.9996417760848999,
+          "speaker": null
+        },
+        {
+          "start": 294.36,
+          "end": 294.36,
+          "text": "actual",
+          "confidence": 0.9994866847991943,
+          "speaker": null
+        },
+        {
+          "start": 294.36,
+          "end": 294.36,
+          "text": "persons,",
+          "confidence": 0.9551907181739807,
+          "speaker": null
+        },
+        {
+          "start": 294.46,
+          "end": 294.46,
+          "text": "living",
+          "confidence": 0.9987215399742126,
+          "speaker": null
+        },
+        {
+          "start": 294.46,
+          "end": 294.56,
+          "text": "or",
+          "confidence": 0.9999047517776489,
+          "speaker": null
+        },
+        {
+          "start": 294.56,
+          "end": 294.56,
+          "text": "dead,",
+          "confidence": 0.9999058246612549,
+          "speaker": null
+        },
+        {
+          "start": 295.48,
+          "end": 296.36,
+          "text": "is",
+          "confidence": 0.999778687953949,
+          "speaker": null
+        },
+        {
+          "start": 296.36,
+          "end": 296.36,
+          "text": "coincidental",
+          "confidence": 0.9966396689414978,
+          "speaker": null
+        },
+        {
+          "start": 296.36,
+          "end": 296.36,
+          "text": "and",
+          "confidence": 0.9975534081459045,
+          "speaker": null
+        },
+        {
+          "start": 296.36,
+          "end": 298.36,
+          "text": "unintentional.",
+          "confidence": 0.9498806893825531,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 298.68,
+      "end": 303.9,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9886176221900516,
+      "words": [
+        {
+          "start": 298.68,
+          "end": 299.06,
+          "text": "This",
+          "confidence": 0.9300597906112671,
+          "speaker": null
+        },
+        {
+          "start": 299.06,
+          "end": 299.06,
+          "text": "video",
+          "confidence": 0.9970384836196899,
+          "speaker": null
+        },
+        {
+          "start": 299.06,
+          "end": 299.06,
+          "text": "is",
+          "confidence": 0.9937310218811035,
+          "speaker": null
+        },
+        {
+          "start": 299.06,
+          "end": 299.06,
+          "text": "a",
+          "confidence": 0.9988111257553101,
+          "speaker": null
+        },
+        {
+          "start": 299.06,
+          "end": 299.06,
+          "text": "derivative",
+          "confidence": 0.997037410736084,
+          "speaker": null
+        },
+        {
+          "start": 299.06,
+          "end": 299.06,
+          "text": "work.",
+          "confidence": 0.999948263168335,
+          "speaker": null
+        },
+        {
+          "start": 299.06,
+          "end": 299.06,
+          "text": "Any",
+          "confidence": 0.9830485582351685,
+          "speaker": null
+        },
+        {
+          "start": 299.06,
+          "end": 299.08,
+          "text": "resemblance",
+          "confidence": 0.9939751029014587,
+          "speaker": null
+        },
+        {
+          "start": 299.08,
+          "end": 299.08,
+          "text": "to",
+          "confidence": 0.9996886253356934,
+          "speaker": null
+        },
+        {
+          "start": 299.08,
+          "end": 299.08,
+          "text": "actual",
+          "confidence": 0.9996011853218079,
+          "speaker": null
+        },
+        {
+          "start": 299.08,
+          "end": 299.88,
+          "text": "persons,",
+          "confidence": 0.9601179361343384,
+          "speaker": null
+        },
+        {
+          "start": 299.88,
+          "end": 299.88,
+          "text": "living",
+          "confidence": 0.9989566802978516,
+          "speaker": null
+        },
+        {
+          "start": 299.88,
+          "end": 300.3,
+          "text": "or",
+          "confidence": 0.9999350309371948,
+          "speaker": null
+        },
+        {
+          "start": 300.3,
+          "end": 300.5,
+          "text": "dead,",
+          "confidence": 0.9998654127120972,
+          "speaker": null
+        },
+        {
+          "start": 300.7,
+          "end": 300.74,
+          "text": "is",
+          "confidence": 0.9997660517692566,
+          "speaker": null
+        },
+        {
+          "start": 300.74,
+          "end": 300.74,
+          "text": "coincidental",
+          "confidence": 0.9966356456279755,
+          "speaker": null
+        },
+        {
+          "start": 300.74,
+          "end": 300.74,
+          "text": "and",
+          "confidence": 0.99569171667099,
+          "speaker": null
+        },
+        {
+          "start": 300.74,
+          "end": 303.9,
+          "text": "unintentional.",
+          "confidence": 0.951209157705307,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 313.16,
+      "end": 315.96,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5426968038082123,
+      "words": [
+        {
+          "start": 313.16,
+          "end": 314.56,
+          "text": "Thank",
+          "confidence": 0.09174126386642456,
+          "speaker": null
+        },
+        {
+          "start": 314.56,
+          "end": 315.96,
+          "text": "you.",
+          "confidence": 0.99365234375,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 343.4,
+      "end": 343.96,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.6151996511552069,
+      "words": [
+        {
+          "start": 343.4,
+          "end": 343.96,
+          "text": "This",
+          "confidence": 0.012936688959598541,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "video",
+          "confidence": 0.03228052705526352,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "is",
+          "confidence": 0.33632349967956543,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "a",
+          "confidence": 0.15183834731578827,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "derivative",
+          "confidence": 0.10227963328361511,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "work.",
+          "confidence": 0.9047990441322327,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "Any",
+          "confidence": 0.47305533289909363,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "resemblance",
+          "confidence": 0.8385539352893829,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "to",
+          "confidence": 0.9612293243408203,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "actual",
+          "confidence": 0.34458619356155396,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "persons,",
+          "confidence": 0.6546536684036255,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "living",
+          "confidence": 0.9491936564445496,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "or",
+          "confidence": 0.9874817132949829,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "dead,",
+          "confidence": 0.9905374646186829,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "is",
+          "confidence": 0.9880495667457581,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "coincidental",
+          "confidence": 0.7123461365699768,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "and",
+          "confidence": 0.6498323082923889,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "unintentional.",
+          "confidence": 0.9836166799068451,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 343.96,
+      "end": 344.66,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.8549226257536147,
+      "words": [
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "This",
+          "confidence": 0.12878379225730896,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "video",
+          "confidence": 0.6309890151023865,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "is",
+          "confidence": 0.7042803168296814,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "a",
+          "confidence": 0.5522640347480774,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "derivative",
+          "confidence": 0.6859075427055359,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "work.",
+          "confidence": 0.9997273087501526,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "Any",
+          "confidence": 0.9761307239532471,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "resemblance",
+          "confidence": 0.9957142770290375,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "to",
+          "confidence": 0.9990739822387695,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "actual",
+          "confidence": 0.99290531873703,
+          "speaker": null
+        },
+        {
+          "start": 343.96,
+          "end": 343.96,
+          "text": "persons,",
+          "confidence": 0.7998978495597839,
+          "speaker": null
+        },
+        {
+          "start": 344.66,
+          "end": 344.66,
+          "text": "living",
+          "confidence": 0.9969654679298401,
+          "speaker": null
+        },
+        {
+          "start": 344.66,
+          "end": 344.66,
+          "text": "or",
+          "confidence": 0.9997212290763855,
+          "speaker": null
+        },
+        {
+          "start": 344.66,
+          "end": 344.66,
+          "text": "dead,",
+          "confidence": 0.9998601675033569,
+          "speaker": null
+        },
+        {
+          "start": 344.66,
+          "end": 344.66,
+          "text": "is",
+          "confidence": 0.9996005892753601,
+          "speaker": null
+        },
+        {
+          "start": 344.66,
+          "end": 344.66,
+          "text": "coincidental",
+          "confidence": 0.9902204275131226,
+          "speaker": null
+        },
+        {
+          "start": 344.66,
+          "end": 344.66,
+          "text": "and",
+          "confidence": 0.9882612824440002,
+          "speaker": null
+        },
+        {
+          "start": 344.66,
+          "end": 344.66,
+          "text": "unintentional.",
+          "confidence": 0.9483039379119873,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 344.66,
+      "end": 346.46,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9681975245475769,
+      "words": [
+        {
+          "start": 344.66,
+          "end": 344.66,
+          "text": "This",
+          "confidence": 0.654606282711029,
+          "speaker": null
+        },
+        {
+          "start": 344.66,
+          "end": 344.66,
+          "text": "video",
+          "confidence": 0.9666369557380676,
+          "speaker": null
+        },
+        {
+          "start": 344.66,
+          "end": 344.66,
+          "text": "is",
+          "confidence": 0.984693169593811,
+          "speaker": null
+        },
+        {
+          "start": 344.66,
+          "end": 344.66,
+          "text": "a",
+          "confidence": 0.9967731833457947,
+          "speaker": null
+        },
+        {
+          "start": 344.66,
+          "end": 344.66,
+          "text": "derivative",
+          "confidence": 0.9909026026725769,
+          "speaker": null
+        },
+        {
+          "start": 344.66,
+          "end": 344.66,
+          "text": "work.",
+          "confidence": 0.9999672174453735,
+          "speaker": null
+        },
+        {
+          "start": 344.66,
+          "end": 344.86,
+          "text": "Any",
+          "confidence": 0.9764958620071411,
+          "speaker": null
+        },
+        {
+          "start": 344.86,
+          "end": 344.86,
+          "text": "resemblance",
+          "confidence": 0.9920426309108734,
+          "speaker": null
+        },
+        {
+          "start": 344.86,
+          "end": 344.86,
+          "text": "to",
+          "confidence": 0.9995438456535339,
+          "speaker": null
+        },
+        {
+          "start": 344.86,
+          "end": 344.86,
+          "text": "actual",
+          "confidence": 0.9987735152244568,
+          "speaker": null
+        },
+        {
+          "start": 344.86,
+          "end": 345.68,
+          "text": "persons,",
+          "confidence": 0.9290463924407959,
+          "speaker": null
+        },
+        {
+          "start": 345.74,
+          "end": 345.74,
+          "text": "living",
+          "confidence": 0.9982428550720215,
+          "speaker": null
+        },
+        {
+          "start": 345.74,
+          "end": 346.02,
+          "text": "or",
+          "confidence": 0.9998500347137451,
+          "speaker": null
+        },
+        {
+          "start": 346.02,
+          "end": 346.02,
+          "text": "dead,",
+          "confidence": 0.9999163150787354,
+          "speaker": null
+        },
+        {
+          "start": 346.02,
+          "end": 346.02,
+          "text": "is",
+          "confidence": 0.9997537732124329,
+          "speaker": null
+        },
+        {
+          "start": 346.02,
+          "end": 346.02,
+          "text": "coincidental",
+          "confidence": 0.9956719279289246,
+          "speaker": null
+        },
+        {
+          "start": 346.02,
+          "end": 346.3,
+          "text": "and",
+          "confidence": 0.9969680905342102,
+          "speaker": null
+        },
+        {
+          "start": 346.3,
+          "end": 346.46,
+          "text": "unintentional.",
+          "confidence": 0.9476707875728607,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 346.48,
+      "end": 351.14,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.98184192346202,
+      "words": [
+        {
+          "start": 346.48,
+          "end": 346.52,
+          "text": "This",
+          "confidence": 0.833794355392456,
+          "speaker": null
+        },
+        {
+          "start": 346.52,
+          "end": 346.52,
+          "text": "video",
+          "confidence": 0.9863714575767517,
+          "speaker": null
+        },
+        {
+          "start": 346.52,
+          "end": 346.52,
+          "text": "is",
+          "confidence": 0.9869258403778076,
+          "speaker": null
+        },
+        {
+          "start": 346.52,
+          "end": 346.52,
+          "text": "a",
+          "confidence": 0.9980586171150208,
+          "speaker": null
+        },
+        {
+          "start": 346.52,
+          "end": 346.52,
+          "text": "derivative",
+          "confidence": 0.9950630068778992,
+          "speaker": null
+        },
+        {
+          "start": 346.52,
+          "end": 346.52,
+          "text": "work.",
+          "confidence": 0.999957799911499,
+          "speaker": null
+        },
+        {
+          "start": 346.52,
+          "end": 346.52,
+          "text": "Any",
+          "confidence": 0.9810428619384766,
+          "speaker": null
+        },
+        {
+          "start": 346.52,
+          "end": 346.8,
+          "text": "resemblance",
+          "confidence": 0.9932254552841187,
+          "speaker": null
+        },
+        {
+          "start": 346.8,
+          "end": 346.8,
+          "text": "to",
+          "confidence": 0.9996335506439209,
+          "speaker": null
+        },
+        {
+          "start": 346.8,
+          "end": 346.8,
+          "text": "actual",
+          "confidence": 0.999460756778717,
+          "speaker": null
+        },
+        {
+          "start": 346.8,
+          "end": 348.56,
+          "text": "persons,",
+          "confidence": 0.954136073589325,
+          "speaker": null
+        },
+        {
+          "start": 348.72,
+          "end": 348.72,
+          "text": "living",
+          "confidence": 0.9986559152603149,
+          "speaker": null
+        },
+        {
+          "start": 348.72,
+          "end": 348.8,
+          "text": "or",
+          "confidence": 0.9999024868011475,
+          "speaker": null
+        },
+        {
+          "start": 348.8,
+          "end": 348.8,
+          "text": "dead,",
+          "confidence": 0.9999039173126221,
+          "speaker": null
+        },
+        {
+          "start": 348.9,
+          "end": 350.18,
+          "text": "is",
+          "confidence": 0.9997773766517639,
+          "speaker": null
+        },
+        {
+          "start": 350.18,
+          "end": 350.26,
+          "text": "coincidental",
+          "confidence": 0.9966179430484772,
+          "speaker": null
+        },
+        {
+          "start": 350.26,
+          "end": 350.26,
+          "text": "and",
+          "confidence": 0.9976154565811157,
+          "speaker": null
+        },
+        {
+          "start": 350.26,
+          "end": 351.14,
+          "text": "unintentional.",
+          "confidence": 0.9530117511749268,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 352.76,
+      "end": 359.08,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9886732598145803,
+      "words": [
+        {
+          "start": 352.76,
+          "end": 353.32,
+          "text": "This",
+          "confidence": 0.9295555949211121,
+          "speaker": null
+        },
+        {
+          "start": 353.32,
+          "end": 353.32,
+          "text": "video",
+          "confidence": 0.9972279667854309,
+          "speaker": null
+        },
+        {
+          "start": 353.32,
+          "end": 353.32,
+          "text": "is",
+          "confidence": 0.9934050440788269,
+          "speaker": null
+        },
+        {
+          "start": 353.32,
+          "end": 353.32,
+          "text": "a",
+          "confidence": 0.9987302422523499,
+          "speaker": null
+        },
+        {
+          "start": 353.32,
+          "end": 353.32,
+          "text": "derivative",
+          "confidence": 0.9969145059585571,
+          "speaker": null
+        },
+        {
+          "start": 353.32,
+          "end": 353.32,
+          "text": "work.",
+          "confidence": 0.999950647354126,
+          "speaker": null
+        },
+        {
+          "start": 353.32,
+          "end": 353.32,
+          "text": "Any",
+          "confidence": 0.981927216053009,
+          "speaker": null
+        },
+        {
+          "start": 353.32,
+          "end": 353.32,
+          "text": "resemblance",
+          "confidence": 0.9939721822738647,
+          "speaker": null
+        },
+        {
+          "start": 353.32,
+          "end": 353.32,
+          "text": "to",
+          "confidence": 0.9996811151504517,
+          "speaker": null
+        },
+        {
+          "start": 353.32,
+          "end": 353.32,
+          "text": "actual",
+          "confidence": 0.9995896220207214,
+          "speaker": null
+        },
+        {
+          "start": 353.32,
+          "end": 356.44,
+          "text": "persons,",
+          "confidence": 0.9591830372810364,
+          "speaker": null
+        },
+        {
+          "start": 356.44,
+          "end": 356.44,
+          "text": "living",
+          "confidence": 0.9989301562309265,
+          "speaker": null
+        },
+        {
+          "start": 356.44,
+          "end": 356.8,
+          "text": "or",
+          "confidence": 0.9999338388442993,
+          "speaker": null
+        },
+        {
+          "start": 356.8,
+          "end": 356.8,
+          "text": "dead,",
+          "confidence": 0.999862551689148,
+          "speaker": null
+        },
+        {
+          "start": 356.8,
+          "end": 356.8,
+          "text": "is",
+          "confidence": 0.9997660517692566,
+          "speaker": null
+        },
+        {
+          "start": 356.8,
+          "end": 356.82,
+          "text": "coincidental",
+          "confidence": 0.9966583847999573,
+          "speaker": null
+        },
+        {
+          "start": 356.82,
+          "end": 356.82,
+          "text": "and",
+          "confidence": 0.9958802461624146,
+          "speaker": null
+        },
+        {
+          "start": 356.82,
+          "end": 359.08,
+          "text": "unintentional.",
+          "confidence": 0.9549502730369568,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 393.84,
+      "end": 394.52,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.6285556636543738,
+      "words": [
+        {
+          "start": 393.84,
+          "end": 394.36,
+          "text": "This",
+          "confidence": 0.025000425055623055,
+          "speaker": null
+        },
+        {
+          "start": 394.36,
+          "end": 394.36,
+          "text": "video",
+          "confidence": 0.05427024886012077,
+          "speaker": null
+        },
+        {
+          "start": 394.36,
+          "end": 394.36,
+          "text": "is",
+          "confidence": 0.33381178975105286,
+          "speaker": null
+        },
+        {
+          "start": 394.36,
+          "end": 394.36,
+          "text": "a",
+          "confidence": 0.18226304650306702,
+          "speaker": null
+        },
+        {
+          "start": 394.36,
+          "end": 394.36,
+          "text": "derivative",
+          "confidence": 0.12452855706214905,
+          "speaker": null
+        },
+        {
+          "start": 394.36,
+          "end": 394.36,
+          "text": "work.",
+          "confidence": 0.9257365465164185,
+          "speaker": null
+        },
+        {
+          "start": 394.36,
+          "end": 394.36,
+          "text": "Any",
+          "confidence": 0.5519360303878784,
+          "speaker": null
+        },
+        {
+          "start": 394.36,
+          "end": 394.5,
+          "text": "resemblance",
+          "confidence": 0.845591276884079,
+          "speaker": null
+        },
+        {
+          "start": 394.5,
+          "end": 394.5,
+          "text": "to",
+          "confidence": 0.9639958739280701,
+          "speaker": null
+        },
+        {
+          "start": 394.5,
+          "end": 394.52,
+          "text": "actual",
+          "confidence": 0.35279083251953125,
+          "speaker": null
+        },
+        {
+          "start": 394.52,
+          "end": 394.52,
+          "text": "persons,",
+          "confidence": 0.665084183216095,
+          "speaker": null
+        },
+        {
+          "start": 394.52,
+          "end": 394.52,
+          "text": "living",
+          "confidence": 0.9520576000213623,
+          "speaker": null
+        },
+        {
+          "start": 394.52,
+          "end": 394.52,
+          "text": "or",
+          "confidence": 0.9868871569633484,
+          "speaker": null
+        },
+        {
+          "start": 394.52,
+          "end": 394.52,
+          "text": "dead,",
+          "confidence": 0.991252601146698,
+          "speaker": null
+        },
+        {
+          "start": 394.52,
+          "end": 394.52,
+          "text": "is",
+          "confidence": 0.9864283204078674,
+          "speaker": null
+        },
+        {
+          "start": 394.52,
+          "end": 394.52,
+          "text": "coincidental",
+          "confidence": 0.7217002660036087,
+          "speaker": null
+        },
+        {
+          "start": 394.52,
+          "end": 394.52,
+          "text": "and",
+          "confidence": 0.6667273640632629,
+          "speaker": null
+        },
+        {
+          "start": 394.52,
+          "end": 394.52,
+          "text": "unintentional.",
+          "confidence": 0.9839398264884949,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 394.52,
+      "end": 398.66,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.8552074233690897,
+      "words": [
+        {
+          "start": 394.52,
+          "end": 394.52,
+          "text": "This",
+          "confidence": 0.12821578979492188,
+          "speaker": null
+        },
+        {
+          "start": 394.52,
+          "end": 394.52,
+          "text": "video",
+          "confidence": 0.6152534484863281,
+          "speaker": null
+        },
+        {
+          "start": 394.52,
+          "end": 394.52,
+          "text": "is",
+          "confidence": 0.7150669693946838,
+          "speaker": null
+        },
+        {
+          "start": 394.52,
+          "end": 394.52,
+          "text": "a",
+          "confidence": 0.5453073382377625,
+          "speaker": null
+        },
+        {
+          "start": 394.52,
+          "end": 394.52,
+          "text": "derivative",
+          "confidence": 0.7156171798706055,
+          "speaker": null
+        },
+        {
+          "start": 394.52,
+          "end": 394.52,
+          "text": "work.",
+          "confidence": 0.9997658133506775,
+          "speaker": null
+        },
+        {
+          "start": 394.52,
+          "end": 394.52,
+          "text": "Any",
+          "confidence": 0.9777912497520447,
+          "speaker": null
+        },
+        {
+          "start": 394.52,
+          "end": 394.52,
+          "text": "resemblance",
+          "confidence": 0.9955957233905792,
+          "speaker": null
+        },
+        {
+          "start": 394.52,
+          "end": 394.52,
+          "text": "to",
+          "confidence": 0.9991598129272461,
+          "speaker": null
+        },
+        {
+          "start": 394.52,
+          "end": 394.52,
+          "text": "actual",
+          "confidence": 0.9920167922973633,
+          "speaker": null
+        },
+        {
+          "start": 394.52,
+          "end": 397.06,
+          "text": "persons,",
+          "confidence": 0.7853310704231262,
+          "speaker": null
+        },
+        {
+          "start": 397.06,
+          "end": 397.06,
+          "text": "living",
+          "confidence": 0.9969022274017334,
+          "speaker": null
+        },
+        {
+          "start": 397.06,
+          "end": 397.32,
+          "text": "or",
+          "confidence": 0.9997467398643494,
+          "speaker": null
+        },
+        {
+          "start": 397.32,
+          "end": 397.32,
+          "text": "dead,",
+          "confidence": 0.9998785257339478,
+          "speaker": null
+        },
+        {
+          "start": 397.32,
+          "end": 397.32,
+          "text": "is",
+          "confidence": 0.9995961785316467,
+          "speaker": null
+        },
+        {
+          "start": 397.32,
+          "end": 397.34,
+          "text": "coincidental",
+          "confidence": 0.9903028905391693,
+          "speaker": null
+        },
+        {
+          "start": 397.34,
+          "end": 397.34,
+          "text": "and",
+          "confidence": 0.989164412021637,
+          "speaker": null
+        },
+        {
+          "start": 397.34,
+          "end": 398.66,
+          "text": "unintentional.",
+          "confidence": 0.9490214586257935,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 398.66,
+      "end": 404.8,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9676408635245429,
+      "words": [
+        {
+          "start": 398.66,
+          "end": 398.7,
+          "text": "This",
+          "confidence": 0.6487417221069336,
+          "speaker": null
+        },
+        {
+          "start": 398.7,
+          "end": 398.82,
+          "text": "video",
+          "confidence": 0.9630918502807617,
+          "speaker": null
+        },
+        {
+          "start": 398.82,
+          "end": 398.82,
+          "text": "is",
+          "confidence": 0.9838512539863586,
+          "speaker": null
+        },
+        {
+          "start": 398.82,
+          "end": 398.82,
+          "text": "a",
+          "confidence": 0.9967101812362671,
+          "speaker": null
+        },
+        {
+          "start": 398.82,
+          "end": 398.82,
+          "text": "derivative",
+          "confidence": 0.9903643727302551,
+          "speaker": null
+        },
+        {
+          "start": 398.82,
+          "end": 398.82,
+          "text": "work.",
+          "confidence": 0.9999672174453735,
+          "speaker": null
+        },
+        {
+          "start": 398.82,
+          "end": 398.96,
+          "text": "Any",
+          "confidence": 0.9775698184967041,
+          "speaker": null
+        },
+        {
+          "start": 398.96,
+          "end": 399.96,
+          "text": "resemblance",
+          "confidence": 0.9922042787075043,
+          "speaker": null
+        },
+        {
+          "start": 399.96,
+          "end": 400.08,
+          "text": "to",
+          "confidence": 0.9995619654655457,
+          "speaker": null
+        },
+        {
+          "start": 400.08,
+          "end": 400.08,
+          "text": "actual",
+          "confidence": 0.9986956715583801,
+          "speaker": null
+        },
+        {
+          "start": 400.08,
+          "end": 403.22,
+          "text": "persons,",
+          "confidence": 0.927397608757019,
+          "speaker": null
+        },
+        {
+          "start": 403.26,
+          "end": 403.26,
+          "text": "living",
+          "confidence": 0.9982506632804871,
+          "speaker": null
+        },
+        {
+          "start": 403.26,
+          "end": 403.26,
+          "text": "or",
+          "confidence": 0.9998619556427002,
+          "speaker": null
+        },
+        {
+          "start": 403.26,
+          "end": 403.26,
+          "text": "dead,",
+          "confidence": 0.9999217987060547,
+          "speaker": null
+        },
+        {
+          "start": 403.58,
+          "end": 403.58,
+          "text": "is",
+          "confidence": 0.9997560381889343,
+          "speaker": null
+        },
+        {
+          "start": 403.58,
+          "end": 403.58,
+          "text": "coincidental",
+          "confidence": 0.995714396238327,
+          "speaker": null
+        },
+        {
+          "start": 403.58,
+          "end": 403.58,
+          "text": "and",
+          "confidence": 0.9971712231636047,
+          "speaker": null
+        },
+        {
+          "start": 403.58,
+          "end": 404.8,
+          "text": "unintentional.",
+          "confidence": 0.9487035274505615,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 404.8,
+      "end": 408.54,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9810420374075571,
+      "words": [
+        {
+          "start": 404.8,
+          "end": 405.04,
+          "text": "This",
+          "confidence": 0.8241842985153198,
+          "speaker": null
+        },
+        {
+          "start": 405.04,
+          "end": 405.04,
+          "text": "video",
+          "confidence": 0.9837791323661804,
+          "speaker": null
+        },
+        {
+          "start": 405.04,
+          "end": 405.04,
+          "text": "is",
+          "confidence": 0.9856428503990173,
+          "speaker": null
+        },
+        {
+          "start": 405.04,
+          "end": 405.04,
+          "text": "a",
+          "confidence": 0.9980340600013733,
+          "speaker": null
+        },
+        {
+          "start": 405.04,
+          "end": 405.04,
+          "text": "derivative",
+          "confidence": 0.9948359727859497,
+          "speaker": null
+        },
+        {
+          "start": 405.04,
+          "end": 405.04,
+          "text": "work.",
+          "confidence": 0.999958872795105,
+          "speaker": null
+        },
+        {
+          "start": 405.04,
+          "end": 405.04,
+          "text": "Any",
+          "confidence": 0.9818867444992065,
+          "speaker": null
+        },
+        {
+          "start": 405.04,
+          "end": 405.04,
+          "text": "resemblance",
+          "confidence": 0.9934758543968201,
+          "speaker": null
+        },
+        {
+          "start": 405.04,
+          "end": 405.04,
+          "text": "to",
+          "confidence": 0.9996324777603149,
+          "speaker": null
+        },
+        {
+          "start": 405.04,
+          "end": 405.04,
+          "text": "actual",
+          "confidence": 0.9994290471076965,
+          "speaker": null
+        },
+        {
+          "start": 405.04,
+          "end": 405.04,
+          "text": "persons,",
+          "confidence": 0.9521048069000244,
+          "speaker": null
+        },
+        {
+          "start": 405.04,
+          "end": 405.04,
+          "text": "living",
+          "confidence": 0.9986721277236938,
+          "speaker": null
+        },
+        {
+          "start": 405.04,
+          "end": 405.04,
+          "text": "or",
+          "confidence": 0.9999072551727295,
+          "speaker": null
+        },
+        {
+          "start": 405.04,
+          "end": 405.04,
+          "text": "dead,",
+          "confidence": 0.9999068975448608,
+          "speaker": null
+        },
+        {
+          "start": 405.14,
+          "end": 405.14,
+          "text": "is",
+          "confidence": 0.9997767806053162,
+          "speaker": null
+        },
+        {
+          "start": 405.14,
+          "end": 405.26,
+          "text": "coincidental",
+          "confidence": 0.9965912103652954,
+          "speaker": null
+        },
+        {
+          "start": 405.26,
+          "end": 405.26,
+          "text": "and",
+          "confidence": 0.9976353645324707,
+          "speaker": null
+        },
+        {
+          "start": 405.26,
+          "end": 408.54,
+          "text": "unintentional.",
+          "confidence": 0.9533029198646545,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 408.86,
+      "end": 413.68,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9878484408060709,
+      "words": [
+        {
+          "start": 408.86,
+          "end": 409.38,
+          "text": "This",
+          "confidence": 0.9199903607368469,
+          "speaker": null
+        },
+        {
+          "start": 409.38,
+          "end": 409.38,
+          "text": "video",
+          "confidence": 0.996309220790863,
+          "speaker": null
+        },
+        {
+          "start": 409.38,
+          "end": 409.38,
+          "text": "is",
+          "confidence": 0.9923410415649414,
+          "speaker": null
+        },
+        {
+          "start": 409.38,
+          "end": 409.38,
+          "text": "a",
+          "confidence": 0.9987143278121948,
+          "speaker": null
+        },
+        {
+          "start": 409.38,
+          "end": 409.38,
+          "text": "derivative",
+          "confidence": 0.9967702627182007,
+          "speaker": null
+        },
+        {
+          "start": 409.38,
+          "end": 409.38,
+          "text": "work.",
+          "confidence": 0.9999512434005737,
+          "speaker": null
+        },
+        {
+          "start": 409.38,
+          "end": 409.38,
+          "text": "Any",
+          "confidence": 0.9825857877731323,
+          "speaker": null
+        },
+        {
+          "start": 409.38,
+          "end": 409.54,
+          "text": "resemblance",
+          "confidence": 0.9942577481269836,
+          "speaker": null
+        },
+        {
+          "start": 409.54,
+          "end": 409.54,
+          "text": "to",
+          "confidence": 0.9996614456176758,
+          "speaker": null
+        },
+        {
+          "start": 409.54,
+          "end": 409.54,
+          "text": "actual",
+          "confidence": 0.9995556473731995,
+          "speaker": null
+        },
+        {
+          "start": 409.54,
+          "end": 410.64,
+          "text": "persons,",
+          "confidence": 0.9563697576522827,
+          "speaker": null
+        },
+        {
+          "start": 410.64,
+          "end": 410.64,
+          "text": "living",
+          "confidence": 0.9989373087882996,
+          "speaker": null
+        },
+        {
+          "start": 410.64,
+          "end": 410.94,
+          "text": "or",
+          "confidence": 0.9999343156814575,
+          "speaker": null
+        },
+        {
+          "start": 410.94,
+          "end": 410.94,
+          "text": "dead,",
+          "confidence": 0.999864935874939,
+          "speaker": null
+        },
+        {
+          "start": 410.94,
+          "end": 410.96,
+          "text": "is",
+          "confidence": 0.9997637867927551,
+          "speaker": null
+        },
+        {
+          "start": 410.96,
+          "end": 410.96,
+          "text": "coincidental",
+          "confidence": 0.9965887367725372,
+          "speaker": null
+        },
+        {
+          "start": 410.96,
+          "end": 410.96,
+          "text": "and",
+          "confidence": 0.9954957962036133,
+          "speaker": null
+        },
+        {
+          "start": 410.96,
+          "end": 413.68,
+          "text": "unintentional.",
+          "confidence": 0.9541802108287811,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 423.1,
+      "end": 425.9,
+      "speaker": null,
+      "text": "Thank you.",
+      "confidence": 0.5285480953752995,
+      "words": [
+        {
+          "start": 423.1,
+          "end": 424.5,
+          "text": "Thank",
+          "confidence": 0.06610012799501419,
+          "speaker": null
+        },
+        {
+          "start": 424.5,
+          "end": 425.9,
+          "text": "you.",
+          "confidence": 0.9909960627555847,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 455.24,
+      "end": 456.0,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.6129334565355546,
+      "words": [
+        {
+          "start": 455.24,
+          "end": 455.62,
+          "text": "This",
+          "confidence": 0.013022690080106258,
+          "speaker": null
+        },
+        {
+          "start": 455.62,
+          "end": 456.0,
+          "text": "video",
+          "confidence": 0.022438356652855873,
+          "speaker": null
+        },
+        {
+          "start": 456.0,
+          "end": 456.0,
+          "text": "is",
+          "confidence": 0.3418707251548767,
+          "speaker": null
+        },
+        {
+          "start": 456.0,
+          "end": 456.0,
+          "text": "a",
+          "confidence": 0.14219023287296295,
+          "speaker": null
+        },
+        {
+          "start": 456.0,
+          "end": 456.0,
+          "text": "derivative",
+          "confidence": 0.09840179979801178,
+          "speaker": null
+        },
+        {
+          "start": 456.0,
+          "end": 456.0,
+          "text": "work.",
+          "confidence": 0.9049307107925415,
+          "speaker": null
+        },
+        {
+          "start": 456.0,
+          "end": 456.0,
+          "text": "Any",
+          "confidence": 0.4812687039375305,
+          "speaker": null
+        },
+        {
+          "start": 456.0,
+          "end": 456.0,
+          "text": "resemblance",
+          "confidence": 0.8305133879184723,
+          "speaker": null
+        },
+        {
+          "start": 456.0,
+          "end": 456.0,
+          "text": "to",
+          "confidence": 0.960350751876831,
+          "speaker": null
+        },
+        {
+          "start": 456.0,
+          "end": 456.0,
+          "text": "actual",
+          "confidence": 0.3398926556110382,
+          "speaker": null
+        },
+        {
+          "start": 456.0,
+          "end": 456.0,
+          "text": "persons,",
+          "confidence": 0.6369946002960205,
+          "speaker": null
+        },
+        {
+          "start": 456.0,
+          "end": 456.0,
+          "text": "living",
+          "confidence": 0.9423443675041199,
+          "speaker": null
+        },
+        {
+          "start": 456.0,
+          "end": 456.0,
+          "text": "or",
+          "confidence": 0.9870352149009705,
+          "speaker": null
+        },
+        {
+          "start": 456.0,
+          "end": 456.0,
+          "text": "dead,",
+          "confidence": 0.9911807179450989,
+          "speaker": null
+        },
+        {
+          "start": 456.0,
+          "end": 456.0,
+          "text": "is",
+          "confidence": 0.9866372346878052,
+          "speaker": null
+        },
+        {
+          "start": 456.0,
+          "end": 456.0,
+          "text": "coincidental",
+          "confidence": 0.7265015691518784,
+          "speaker": null
+        },
+        {
+          "start": 456.0,
+          "end": 456.0,
+          "text": "and",
+          "confidence": 0.6443023681640625,
+          "speaker": null
+        },
+        {
+          "start": 456.0,
+          "end": 456.0,
+          "text": "unintentional.",
+          "confidence": 0.9829261302947998,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 456.02,
+      "end": 456.24,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.8570232954290178,
+      "words": [
+        {
+          "start": 456.02,
+          "end": 456.02,
+          "text": "This",
+          "confidence": 0.1361784040927887,
+          "speaker": null
+        },
+        {
+          "start": 456.02,
+          "end": 456.02,
+          "text": "video",
+          "confidence": 0.6554465889930725,
+          "speaker": null
+        },
+        {
+          "start": 456.02,
+          "end": 456.02,
+          "text": "is",
+          "confidence": 0.7087468504905701,
+          "speaker": null
+        },
+        {
+          "start": 456.02,
+          "end": 456.02,
+          "text": "a",
+          "confidence": 0.5448607802391052,
+          "speaker": null
+        },
+        {
+          "start": 456.02,
+          "end": 456.02,
+          "text": "derivative",
+          "confidence": 0.7023479342460632,
+          "speaker": null
+        },
+        {
+          "start": 456.02,
+          "end": 456.02,
+          "text": "work.",
+          "confidence": 0.9997372031211853,
+          "speaker": null
+        },
+        {
+          "start": 456.02,
+          "end": 456.02,
+          "text": "Any",
+          "confidence": 0.9776815176010132,
+          "speaker": null
+        },
+        {
+          "start": 456.02,
+          "end": 456.02,
+          "text": "resemblance",
+          "confidence": 0.9958130419254303,
+          "speaker": null
+        },
+        {
+          "start": 456.02,
+          "end": 456.02,
+          "text": "to",
+          "confidence": 0.9991437196731567,
+          "speaker": null
+        },
+        {
+          "start": 456.02,
+          "end": 456.02,
+          "text": "actual",
+          "confidence": 0.9934518337249756,
+          "speaker": null
+        },
+        {
+          "start": 456.02,
+          "end": 456.02,
+          "text": "persons,",
+          "confidence": 0.7907893657684326,
+          "speaker": null
+        },
+        {
+          "start": 456.02,
+          "end": 456.02,
+          "text": "living",
+          "confidence": 0.9971417784690857,
+          "speaker": null
+        },
+        {
+          "start": 456.02,
+          "end": 456.24,
+          "text": "or",
+          "confidence": 0.99973064661026,
+          "speaker": null
+        },
+        {
+          "start": 456.24,
+          "end": 456.24,
+          "text": "dead,",
+          "confidence": 0.9998584985733032,
+          "speaker": null
+        },
+        {
+          "start": 456.24,
+          "end": 456.24,
+          "text": "is",
+          "confidence": 0.99960857629776,
+          "speaker": null
+        },
+        {
+          "start": 456.24,
+          "end": 456.24,
+          "text": "coincidental",
+          "confidence": 0.9899812638759613,
+          "speaker": null
+        },
+        {
+          "start": 456.24,
+          "end": 456.24,
+          "text": "and",
+          "confidence": 0.988223135471344,
+          "speaker": null
+        },
+        {
+          "start": 456.24,
+          "end": 456.24,
+          "text": "unintentional.",
+          "confidence": 0.9476781785488129,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 456.24,
+      "end": 457.68,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9683899382750193,
+      "words": [
+        {
+          "start": 456.24,
+          "end": 456.24,
+          "text": "This",
+          "confidence": 0.656592845916748,
+          "speaker": null
+        },
+        {
+          "start": 456.24,
+          "end": 456.24,
+          "text": "video",
+          "confidence": 0.9684707522392273,
+          "speaker": null
+        },
+        {
+          "start": 456.24,
+          "end": 456.24,
+          "text": "is",
+          "confidence": 0.9857978224754333,
+          "speaker": null
+        },
+        {
+          "start": 456.24,
+          "end": 456.24,
+          "text": "a",
+          "confidence": 0.9970544576644897,
+          "speaker": null
+        },
+        {
+          "start": 456.24,
+          "end": 456.24,
+          "text": "derivative",
+          "confidence": 0.9909017086029053,
+          "speaker": null
+        },
+        {
+          "start": 456.24,
+          "end": 456.24,
+          "text": "work.",
+          "confidence": 0.9999685287475586,
+          "speaker": null
+        },
+        {
+          "start": 456.24,
+          "end": 456.24,
+          "text": "Any",
+          "confidence": 0.9777311682701111,
+          "speaker": null
+        },
+        {
+          "start": 456.24,
+          "end": 456.24,
+          "text": "resemblance",
+          "confidence": 0.9915875494480133,
+          "speaker": null
+        },
+        {
+          "start": 456.24,
+          "end": 456.24,
+          "text": "to",
+          "confidence": 0.9995917677879333,
+          "speaker": null
+        },
+        {
+          "start": 456.24,
+          "end": 456.28,
+          "text": "actual",
+          "confidence": 0.9989086389541626,
+          "speaker": null
+        },
+        {
+          "start": 456.28,
+          "end": 457.06,
+          "text": "persons,",
+          "confidence": 0.9275055527687073,
+          "speaker": null
+        },
+        {
+          "start": 457.08,
+          "end": 457.08,
+          "text": "living",
+          "confidence": 0.9983592629432678,
+          "speaker": null
+        },
+        {
+          "start": 457.08,
+          "end": 457.3,
+          "text": "or",
+          "confidence": 0.9998610019683838,
+          "speaker": null
+        },
+        {
+          "start": 457.3,
+          "end": 457.3,
+          "text": "dead,",
+          "confidence": 0.9999173879623413,
+          "speaker": null
+        },
+        {
+          "start": 457.42,
+          "end": 457.54,
+          "text": "is",
+          "confidence": 0.9997662901878357,
+          "speaker": null
+        },
+        {
+          "start": 457.54,
+          "end": 457.54,
+          "text": "coincidental",
+          "confidence": 0.9955330491065979,
+          "speaker": null
+        },
+        {
+          "start": 457.54,
+          "end": 457.54,
+          "text": "and",
+          "confidence": 0.9970640540122986,
+          "speaker": null
+        },
+        {
+          "start": 457.54,
+          "end": 457.68,
+          "text": "unintentional.",
+          "confidence": 0.9464070498943329,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 457.68,
+      "end": 459.44,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9820355110698276,
+      "words": [
+        {
+          "start": 457.68,
+          "end": 458.02,
+          "text": "This",
+          "confidence": 0.8371679782867432,
+          "speaker": null
+        },
+        {
+          "start": 458.02,
+          "end": 458.02,
+          "text": "video",
+          "confidence": 0.9874933362007141,
+          "speaker": null
+        },
+        {
+          "start": 458.02,
+          "end": 458.02,
+          "text": "is",
+          "confidence": 0.9883089065551758,
+          "speaker": null
+        },
+        {
+          "start": 458.02,
+          "end": 458.02,
+          "text": "a",
+          "confidence": 0.9982195496559143,
+          "speaker": null
+        },
+        {
+          "start": 458.02,
+          "end": 458.02,
+          "text": "derivative",
+          "confidence": 0.9951620697975159,
+          "speaker": null
+        },
+        {
+          "start": 458.02,
+          "end": 458.02,
+          "text": "work.",
+          "confidence": 0.9999598264694214,
+          "speaker": null
+        },
+        {
+          "start": 458.02,
+          "end": 458.02,
+          "text": "Any",
+          "confidence": 0.9819231629371643,
+          "speaker": null
+        },
+        {
+          "start": 458.02,
+          "end": 458.12,
+          "text": "resemblance",
+          "confidence": 0.9927589595317841,
+          "speaker": null
+        },
+        {
+          "start": 458.12,
+          "end": 458.12,
+          "text": "to",
+          "confidence": 0.9996715784072876,
+          "speaker": null
+        },
+        {
+          "start": 458.12,
+          "end": 458.12,
+          "text": "actual",
+          "confidence": 0.9995077848434448,
+          "speaker": null
+        },
+        {
+          "start": 458.12,
+          "end": 458.12,
+          "text": "persons,",
+          "confidence": 0.9521716833114624,
+          "speaker": null
+        },
+        {
+          "start": 458.12,
+          "end": 458.12,
+          "text": "living",
+          "confidence": 0.998725950717926,
+          "speaker": null
+        },
+        {
+          "start": 458.12,
+          "end": 458.12,
+          "text": "or",
+          "confidence": 0.9999091625213623,
+          "speaker": null
+        },
+        {
+          "start": 458.12,
+          "end": 458.12,
+          "text": "dead,",
+          "confidence": 0.999904990196228,
+          "speaker": null
+        },
+        {
+          "start": 459.24,
+          "end": 459.26,
+          "text": "is",
+          "confidence": 0.9997895359992981,
+          "speaker": null
+        },
+        {
+          "start": 459.26,
+          "end": 459.26,
+          "text": "coincidental",
+          "confidence": 0.9964652359485626,
+          "speaker": null
+        },
+        {
+          "start": 459.26,
+          "end": 459.26,
+          "text": "and",
+          "confidence": 0.9976149797439575,
+          "speaker": null
+        },
+        {
+          "start": 459.26,
+          "end": 459.44,
+          "text": "unintentional.",
+          "confidence": 0.9518845081329346,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 459.44,
+      "end": 461.44,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9887083950969908,
+      "words": [
+        {
+          "start": 459.44,
+          "end": 459.52,
+          "text": "This",
+          "confidence": 0.9330440163612366,
+          "speaker": null
+        },
+        {
+          "start": 459.52,
+          "end": 459.52,
+          "text": "video",
+          "confidence": 0.9974961876869202,
+          "speaker": null
+        },
+        {
+          "start": 459.52,
+          "end": 459.52,
+          "text": "is",
+          "confidence": 0.9941165447235107,
+          "speaker": null
+        },
+        {
+          "start": 459.52,
+          "end": 459.52,
+          "text": "a",
+          "confidence": 0.9988282322883606,
+          "speaker": null
+        },
+        {
+          "start": 459.52,
+          "end": 459.52,
+          "text": "derivative",
+          "confidence": 0.996992826461792,
+          "speaker": null
+        },
+        {
+          "start": 459.52,
+          "end": 459.52,
+          "text": "work.",
+          "confidence": 0.9999526739120483,
+          "speaker": null
+        },
+        {
+          "start": 459.52,
+          "end": 459.52,
+          "text": "Any",
+          "confidence": 0.9826976656913757,
+          "speaker": null
+        },
+        {
+          "start": 459.52,
+          "end": 459.52,
+          "text": "resemblance",
+          "confidence": 0.9934952259063721,
+          "speaker": null
+        },
+        {
+          "start": 459.52,
+          "end": 459.52,
+          "text": "to",
+          "confidence": 0.9997102618217468,
+          "speaker": null
+        },
+        {
+          "start": 459.52,
+          "end": 459.52,
+          "text": "actual",
+          "confidence": 0.9996148347854614,
+          "speaker": null
+        },
+        {
+          "start": 459.52,
+          "end": 459.78,
+          "text": "persons,",
+          "confidence": 0.9562084078788757,
+          "speaker": null
+        },
+        {
+          "start": 459.78,
+          "end": 459.78,
+          "text": "living",
+          "confidence": 0.9989602565765381,
+          "speaker": null
+        },
+        {
+          "start": 459.78,
+          "end": 459.78,
+          "text": "or",
+          "confidence": 0.9999377727508545,
+          "speaker": null
+        },
+        {
+          "start": 459.78,
+          "end": 459.78,
+          "text": "dead,",
+          "confidence": 0.9998646974563599,
+          "speaker": null
+        },
+        {
+          "start": 459.78,
+          "end": 461.2,
+          "text": "is",
+          "confidence": 0.9997803568840027,
+          "speaker": null
+        },
+        {
+          "start": 461.2,
+          "end": 461.24,
+          "text": "coincidental",
+          "confidence": 0.9964326322078705,
+          "speaker": null
+        },
+        {
+          "start": 461.24,
+          "end": 461.24,
+          "text": "and",
+          "confidence": 0.9957826137542725,
+          "speaker": null
+        },
+        {
+          "start": 461.24,
+          "end": 461.44,
+          "text": "unintentional.",
+          "confidence": 0.9538359045982361,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 461.44,
+      "end": 462.94,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9897308333052529,
+      "words": [
+        {
+          "start": 461.44,
+          "end": 461.44,
+          "text": "This",
+          "confidence": 0.9491750597953796,
+          "speaker": null
+        },
+        {
+          "start": 461.44,
+          "end": 461.44,
+          "text": "video",
+          "confidence": 0.9992696642875671,
+          "speaker": null
+        },
+        {
+          "start": 461.44,
+          "end": 461.44,
+          "text": "is",
+          "confidence": 0.9968525767326355,
+          "speaker": null
+        },
+        {
+          "start": 461.44,
+          "end": 461.44,
+          "text": "a",
+          "confidence": 0.9989420771598816,
+          "speaker": null
+        },
+        {
+          "start": 461.44,
+          "end": 461.44,
+          "text": "derivative",
+          "confidence": 0.9978184700012207,
+          "speaker": null
+        },
+        {
+          "start": 461.44,
+          "end": 461.44,
+          "text": "work.",
+          "confidence": 0.9999486207962036,
+          "speaker": null
+        },
+        {
+          "start": 461.44,
+          "end": 461.44,
+          "text": "Any",
+          "confidence": 0.9801622629165649,
+          "speaker": null
+        },
+        {
+          "start": 461.44,
+          "end": 461.44,
+          "text": "resemblance",
+          "confidence": 0.9931960701942444,
+          "speaker": null
+        },
+        {
+          "start": 461.44,
+          "end": 461.44,
+          "text": "to",
+          "confidence": 0.999721109867096,
+          "speaker": null
+        },
+        {
+          "start": 461.44,
+          "end": 461.44,
+          "text": "actual",
+          "confidence": 0.9995966553688049,
+          "speaker": null
+        },
+        {
+          "start": 461.44,
+          "end": 461.44,
+          "text": "persons,",
+          "confidence": 0.9611297845840454,
+          "speaker": null
+        },
+        {
+          "start": 461.44,
+          "end": 461.44,
+          "text": "living",
+          "confidence": 0.9990878105163574,
+          "speaker": null
+        },
+        {
+          "start": 461.44,
+          "end": 461.44,
+          "text": "or",
+          "confidence": 0.9999468326568604,
+          "speaker": null
+        },
+        {
+          "start": 461.44,
+          "end": 461.6,
+          "text": "dead,",
+          "confidence": 0.9998109936714172,
+          "speaker": null
+        },
+        {
+          "start": 462.02,
+          "end": 462.18,
+          "text": "is",
+          "confidence": 0.9996984004974365,
+          "speaker": null
+        },
+        {
+          "start": 462.18,
+          "end": 462.64,
+          "text": "coincidental",
+          "confidence": 0.9964091181755066,
+          "speaker": null
+        },
+        {
+          "start": 462.64,
+          "end": 462.68,
+          "text": "and",
+          "confidence": 0.9913493394851685,
+          "speaker": null
+        },
+        {
+          "start": 462.68,
+          "end": 462.94,
+          "text": "unintentional.",
+          "confidence": 0.9530401527881622,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 463.38,
+      "end": 464.06,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9903642866346571,
+      "words": [
+        {
+          "start": 463.38,
+          "end": 463.5,
+          "text": "This",
+          "confidence": 0.9592235088348389,
+          "speaker": null
+        },
+        {
+          "start": 463.5,
+          "end": 463.5,
+          "text": "video",
+          "confidence": 0.9995286464691162,
+          "speaker": null
+        },
+        {
+          "start": 463.5,
+          "end": 463.5,
+          "text": "is",
+          "confidence": 0.9980629086494446,
+          "speaker": null
+        },
+        {
+          "start": 463.5,
+          "end": 463.5,
+          "text": "a",
+          "confidence": 0.9989055395126343,
+          "speaker": null
+        },
+        {
+          "start": 463.5,
+          "end": 463.5,
+          "text": "derivative",
+          "confidence": 0.9982825517654419,
+          "speaker": null
+        },
+        {
+          "start": 463.5,
+          "end": 463.5,
+          "text": "work.",
+          "confidence": 0.9999430179595947,
+          "speaker": null
+        },
+        {
+          "start": 463.5,
+          "end": 463.5,
+          "text": "Any",
+          "confidence": 0.979087233543396,
+          "speaker": null
+        },
+        {
+          "start": 463.5,
+          "end": 463.5,
+          "text": "resemblance",
+          "confidence": 0.9928171038627625,
+          "speaker": null
+        },
+        {
+          "start": 463.5,
+          "end": 463.5,
+          "text": "to",
+          "confidence": 0.9996910095214844,
+          "speaker": null
+        },
+        {
+          "start": 463.5,
+          "end": 463.5,
+          "text": "actual",
+          "confidence": 0.9995864033699036,
+          "speaker": null
+        },
+        {
+          "start": 463.5,
+          "end": 463.64,
+          "text": "persons,",
+          "confidence": 0.9677159786224365,
+          "speaker": null
+        },
+        {
+          "start": 463.64,
+          "end": 463.64,
+          "text": "living",
+          "confidence": 0.9990563988685608,
+          "speaker": null
+        },
+        {
+          "start": 463.64,
+          "end": 463.66,
+          "text": "or",
+          "confidence": 0.9999451637268066,
+          "speaker": null
+        },
+        {
+          "start": 463.66,
+          "end": 463.68,
+          "text": "dead,",
+          "confidence": 0.9997929930686951,
+          "speaker": null
+        },
+        {
+          "start": 463.82,
+          "end": 464.06,
+          "text": "is",
+          "confidence": 0.9994909763336182,
+          "speaker": null
+        },
+        {
+          "start": 464.06,
+          "end": 464.06,
+          "text": "coincidental",
+          "confidence": 0.996737003326416,
+          "speaker": null
+        },
+        {
+          "start": 464.06,
+          "end": 464.06,
+          "text": "and",
+          "confidence": 0.9851522445678711,
+          "speaker": null
+        },
+        {
+          "start": 464.06,
+          "end": 464.06,
+          "text": "unintentional.",
+          "confidence": 0.9535384774208069,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 464.06,
+      "end": 469.12,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9910020348098543,
+      "words": [
+        {
+          "start": 464.06,
+          "end": 464.06,
+          "text": "This",
+          "confidence": 0.9665448665618896,
+          "speaker": null
+        },
+        {
+          "start": 464.06,
+          "end": 464.06,
+          "text": "video",
+          "confidence": 0.9995669722557068,
+          "speaker": null
+        },
+        {
+          "start": 464.06,
+          "end": 464.06,
+          "text": "is",
+          "confidence": 0.9986458420753479,
+          "speaker": null
+        },
+        {
+          "start": 464.06,
+          "end": 464.06,
+          "text": "a",
+          "confidence": 0.9987818598747253,
+          "speaker": null
+        },
+        {
+          "start": 464.06,
+          "end": 464.06,
+          "text": "derivative",
+          "confidence": 0.9985601305961609,
+          "speaker": null
+        },
+        {
+          "start": 464.06,
+          "end": 464.06,
+          "text": "work.",
+          "confidence": 0.9999366998672485,
+          "speaker": null
+        },
+        {
+          "start": 464.06,
+          "end": 464.12,
+          "text": "Any",
+          "confidence": 0.9802342057228088,
+          "speaker": null
+        },
+        {
+          "start": 464.12,
+          "end": 465.08,
+          "text": "resemblance",
+          "confidence": 0.99338498711586,
+          "speaker": null
+        },
+        {
+          "start": 465.08,
+          "end": 465.08,
+          "text": "to",
+          "confidence": 0.999529242515564,
+          "speaker": null
+        },
+        {
+          "start": 465.08,
+          "end": 465.08,
+          "text": "actual",
+          "confidence": 0.9995877146720886,
+          "speaker": null
+        },
+        {
+          "start": 465.08,
+          "end": 467.84,
+          "text": "persons,",
+          "confidence": 0.9703720211982727,
+          "speaker": null
+        },
+        {
+          "start": 467.84,
+          "end": 467.84,
+          "text": "living",
+          "confidence": 0.9988771080970764,
+          "speaker": null
+        },
+        {
+          "start": 467.84,
+          "end": 468.06,
+          "text": "or",
+          "confidence": 0.9999269247055054,
+          "speaker": null
+        },
+        {
+          "start": 468.06,
+          "end": 468.06,
+          "text": "dead,",
+          "confidence": 0.9998210072517395,
+          "speaker": null
+        },
+        {
+          "start": 468.92,
+          "end": 468.92,
+          "text": "is",
+          "confidence": 0.9991211295127869,
+          "speaker": null
+        },
+        {
+          "start": 468.92,
+          "end": 468.92,
+          "text": "coincidental",
+          "confidence": 0.9972007274627686,
+          "speaker": null
+        },
+        {
+          "start": 468.92,
+          "end": 468.92,
+          "text": "and",
+          "confidence": 0.981864333152771,
+          "speaker": null
+        },
+        {
+          "start": 468.92,
+          "end": 469.12,
+          "text": "unintentional.",
+          "confidence": 0.9560808539390564,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 508.1,
+      "end": 508.82,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.6240951881433526,
+      "words": [
+        {
+          "start": 508.1,
+          "end": 508.82,
+          "text": "This",
+          "confidence": 0.02349112741649151,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "video",
+          "confidence": 0.03566483408212662,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "is",
+          "confidence": 0.3480681777000427,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "a",
+          "confidence": 0.15690912306308746,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "derivative",
+          "confidence": 0.12219899147748947,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "work.",
+          "confidence": 0.9276584982872009,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "Any",
+          "confidence": 0.5339920520782471,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "resemblance",
+          "confidence": 0.8368373513221741,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "to",
+          "confidence": 0.9561503529548645,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "actual",
+          "confidence": 0.3611191511154175,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "persons,",
+          "confidence": 0.6536922454833984,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "living",
+          "confidence": 0.9499658346176147,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "or",
+          "confidence": 0.9863927960395813,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "dead,",
+          "confidence": 0.9911288022994995,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "is",
+          "confidence": 0.9870479702949524,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "coincidental",
+          "confidence": 0.7208693325519562,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "and",
+          "confidence": 0.658922016620636,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "unintentional.",
+          "confidence": 0.9836047291755676,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 508.82,
+      "end": 512.04,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.8618793504105674,
+      "words": [
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "This",
+          "confidence": 0.1284896731376648,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "video",
+          "confidence": 0.6140894293785095,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "is",
+          "confidence": 0.7300164699554443,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "a",
+          "confidence": 0.5905964970588684,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "derivative",
+          "confidence": 0.7723786234855652,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "work.",
+          "confidence": 0.999768078327179,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 508.82,
+          "text": "Any",
+          "confidence": 0.9789958000183105,
+          "speaker": null
+        },
+        {
+          "start": 508.82,
+          "end": 509.18,
+          "text": "resemblance",
+          "confidence": 0.9946781396865845,
+          "speaker": null
+        },
+        {
+          "start": 509.18,
+          "end": 509.32,
+          "text": "to",
+          "confidence": 0.999198853969574,
+          "speaker": null
+        },
+        {
+          "start": 509.32,
+          "end": 509.34,
+          "text": "actual",
+          "confidence": 0.9920287728309631,
+          "speaker": null
+        },
+        {
+          "start": 509.34,
+          "end": 510.94,
+          "text": "persons,",
+          "confidence": 0.7892628908157349,
+          "speaker": null
+        },
+        {
+          "start": 511.92,
+          "end": 511.92,
+          "text": "living",
+          "confidence": 0.9969448447227478,
+          "speaker": null
+        },
+        {
+          "start": 511.92,
+          "end": 512.04,
+          "text": "or",
+          "confidence": 0.9997153878211975,
+          "speaker": null
+        },
+        {
+          "start": 512.04,
+          "end": 512.04,
+          "text": "dead,",
+          "confidence": 0.9998815059661865,
+          "speaker": null
+        },
+        {
+          "start": 512.04,
+          "end": 512.04,
+          "text": "is",
+          "confidence": 0.9995917677879333,
+          "speaker": null
+        },
+        {
+          "start": 512.04,
+          "end": 512.04,
+          "text": "coincidental",
+          "confidence": 0.9894659519195557,
+          "speaker": null
+        },
+        {
+          "start": 512.04,
+          "end": 512.04,
+          "text": "and",
+          "confidence": 0.9897527694702148,
+          "speaker": null
+        },
+        {
+          "start": 512.04,
+          "end": 512.04,
+          "text": "unintentional.",
+          "confidence": 0.9489728510379791,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 512.04,
+      "end": 513.88,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9666029297643237,
+      "words": [
+        {
+          "start": 512.04,
+          "end": 512.04,
+          "text": "This",
+          "confidence": 0.6264283657073975,
+          "speaker": null
+        },
+        {
+          "start": 512.04,
+          "end": 512.04,
+          "text": "video",
+          "confidence": 0.9633882641792297,
+          "speaker": null
+        },
+        {
+          "start": 512.04,
+          "end": 512.04,
+          "text": "is",
+          "confidence": 0.9858890771865845,
+          "speaker": null
+        },
+        {
+          "start": 512.04,
+          "end": 512.04,
+          "text": "a",
+          "confidence": 0.9972642660140991,
+          "speaker": null
+        },
+        {
+          "start": 512.04,
+          "end": 512.04,
+          "text": "derivative",
+          "confidence": 0.9918081164360046,
+          "speaker": null
+        },
+        {
+          "start": 512.04,
+          "end": 512.04,
+          "text": "work.",
+          "confidence": 0.9999675750732422,
+          "speaker": null
+        },
+        {
+          "start": 512.04,
+          "end": 512.04,
+          "text": "Any",
+          "confidence": 0.9782724380493164,
+          "speaker": null
+        },
+        {
+          "start": 512.04,
+          "end": 512.04,
+          "text": "resemblance",
+          "confidence": 0.9906174540519714,
+          "speaker": null
+        },
+        {
+          "start": 512.04,
+          "end": 512.04,
+          "text": "to",
+          "confidence": 0.9995729327201843,
+          "speaker": null
+        },
+        {
+          "start": 512.04,
+          "end": 512.04,
+          "text": "actual",
+          "confidence": 0.9987189769744873,
+          "speaker": null
+        },
+        {
+          "start": 512.04,
+          "end": 512.04,
+          "text": "persons,",
+          "confidence": 0.9287357926368713,
+          "speaker": null
+        },
+        {
+          "start": 512.04,
+          "end": 512.04,
+          "text": "living",
+          "confidence": 0.9982835054397583,
+          "speaker": null
+        },
+        {
+          "start": 512.04,
+          "end": 512.8,
+          "text": "or",
+          "confidence": 0.9998514652252197,
+          "speaker": null
+        },
+        {
+          "start": 512.8,
+          "end": 512.8,
+          "text": "dead,",
+          "confidence": 0.9999198913574219,
+          "speaker": null
+        },
+        {
+          "start": 512.9,
+          "end": 512.9,
+          "text": "is",
+          "confidence": 0.9997492432594299,
+          "speaker": null
+        },
+        {
+          "start": 512.9,
+          "end": 513.0,
+          "text": "coincidental",
+          "confidence": 0.9951777160167694,
+          "speaker": null
+        },
+        {
+          "start": 513.0,
+          "end": 513.52,
+          "text": "and",
+          "confidence": 0.9971680045127869,
+          "speaker": null
+        },
+        {
+          "start": 513.52,
+          "end": 513.88,
+          "text": "unintentional.",
+          "confidence": 0.9480396509170532,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 513.88,
+      "end": 516.18,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.980764572819074,
+      "words": [
+        {
+          "start": 513.88,
+          "end": 513.98,
+          "text": "This",
+          "confidence": 0.8174419403076172,
+          "speaker": null
+        },
+        {
+          "start": 513.98,
+          "end": 513.98,
+          "text": "video",
+          "confidence": 0.9835641384124756,
+          "speaker": null
+        },
+        {
+          "start": 513.98,
+          "end": 513.98,
+          "text": "is",
+          "confidence": 0.9875609278678894,
+          "speaker": null
+        },
+        {
+          "start": 513.98,
+          "end": 513.98,
+          "text": "a",
+          "confidence": 0.9981766939163208,
+          "speaker": null
+        },
+        {
+          "start": 513.98,
+          "end": 513.98,
+          "text": "derivative",
+          "confidence": 0.995590329170227,
+          "speaker": null
+        },
+        {
+          "start": 513.98,
+          "end": 513.98,
+          "text": "work.",
+          "confidence": 0.9999585151672363,
+          "speaker": null
+        },
+        {
+          "start": 513.98,
+          "end": 513.98,
+          "text": "Any",
+          "confidence": 0.9825092554092407,
+          "speaker": null
+        },
+        {
+          "start": 513.98,
+          "end": 513.98,
+          "text": "resemblance",
+          "confidence": 0.9921678602695465,
+          "speaker": null
+        },
+        {
+          "start": 513.98,
+          "end": 513.98,
+          "text": "to",
+          "confidence": 0.9996563196182251,
+          "speaker": null
+        },
+        {
+          "start": 513.98,
+          "end": 513.98,
+          "text": "actual",
+          "confidence": 0.9994627833366394,
+          "speaker": null
+        },
+        {
+          "start": 513.98,
+          "end": 513.98,
+          "text": "persons,",
+          "confidence": 0.9528505802154541,
+          "speaker": null
+        },
+        {
+          "start": 513.98,
+          "end": 513.98,
+          "text": "living",
+          "confidence": 0.9986976385116577,
+          "speaker": null
+        },
+        {
+          "start": 513.98,
+          "end": 513.98,
+          "text": "or",
+          "confidence": 0.9999052286148071,
+          "speaker": null
+        },
+        {
+          "start": 513.98,
+          "end": 513.98,
+          "text": "dead,",
+          "confidence": 0.9999017715454102,
+          "speaker": null
+        },
+        {
+          "start": 514.18,
+          "end": 515.38,
+          "text": "is",
+          "confidence": 0.9997742772102356,
+          "speaker": null
+        },
+        {
+          "start": 515.38,
+          "end": 515.38,
+          "text": "coincidental",
+          "confidence": 0.996006041765213,
+          "speaker": null
+        },
+        {
+          "start": 515.38,
+          "end": 515.4,
+          "text": "and",
+          "confidence": 0.9976456761360168,
+          "speaker": null
+        },
+        {
+          "start": 515.4,
+          "end": 516.18,
+          "text": "unintentional.",
+          "confidence": 0.9528923332691193,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 517.5,
+      "end": 518.86,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9878512471914291,
+      "words": [
+        {
+          "start": 517.5,
+          "end": 518.22,
+          "text": "This",
+          "confidence": 0.9187443256378174,
+          "speaker": null
+        },
+        {
+          "start": 518.22,
+          "end": 518.82,
+          "text": "video",
+          "confidence": 0.9963489770889282,
+          "speaker": null
+        },
+        {
+          "start": 518.82,
+          "end": 518.82,
+          "text": "is",
+          "confidence": 0.9934113621711731,
+          "speaker": null
+        },
+        {
+          "start": 518.82,
+          "end": 518.82,
+          "text": "a",
+          "confidence": 0.9987327456474304,
+          "speaker": null
+        },
+        {
+          "start": 518.82,
+          "end": 518.82,
+          "text": "derivative",
+          "confidence": 0.9971665740013123,
+          "speaker": null
+        },
+        {
+          "start": 518.82,
+          "end": 518.82,
+          "text": "work.",
+          "confidence": 0.9999516010284424,
+          "speaker": null
+        },
+        {
+          "start": 518.82,
+          "end": 518.82,
+          "text": "Any",
+          "confidence": 0.983132004737854,
+          "speaker": null
+        },
+        {
+          "start": 518.82,
+          "end": 518.86,
+          "text": "resemblance",
+          "confidence": 0.9932315051555634,
+          "speaker": null
+        },
+        {
+          "start": 518.86,
+          "end": 518.86,
+          "text": "to",
+          "confidence": 0.9996926784515381,
+          "speaker": null
+        },
+        {
+          "start": 518.86,
+          "end": 518.86,
+          "text": "actual",
+          "confidence": 0.9995887875556946,
+          "speaker": null
+        },
+        {
+          "start": 518.86,
+          "end": 518.86,
+          "text": "persons,",
+          "confidence": 0.9568272829055786,
+          "speaker": null
+        },
+        {
+          "start": 518.86,
+          "end": 518.86,
+          "text": "living",
+          "confidence": 0.9989664554595947,
+          "speaker": null
+        },
+        {
+          "start": 518.86,
+          "end": 518.86,
+          "text": "or",
+          "confidence": 0.999936580657959,
+          "speaker": null
+        },
+        {
+          "start": 518.86,
+          "end": 518.86,
+          "text": "dead,",
+          "confidence": 0.9998557567596436,
+          "speaker": null
+        },
+        {
+          "start": 518.86,
+          "end": 518.86,
+          "text": "is",
+          "confidence": 0.9997633099555969,
+          "speaker": null
+        },
+        {
+          "start": 518.86,
+          "end": 518.86,
+          "text": "coincidental",
+          "confidence": 0.996028482913971,
+          "speaker": null
+        },
+        {
+          "start": 518.86,
+          "end": 518.86,
+          "text": "and",
+          "confidence": 0.9957956075668335,
+          "speaker": null
+        },
+        {
+          "start": 518.86,
+          "end": 518.86,
+          "text": "unintentional.",
+          "confidence": 0.9541484117507935,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 518.86,
+      "end": 518.98,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9890015986230638,
+      "words": [
+        {
+          "start": 518.86,
+          "end": 518.86,
+          "text": "This",
+          "confidence": 0.9354276061058044,
+          "speaker": null
+        },
+        {
+          "start": 518.86,
+          "end": 518.86,
+          "text": "video",
+          "confidence": 0.9989749193191528,
+          "speaker": null
+        },
+        {
+          "start": 518.86,
+          "end": 518.86,
+          "text": "is",
+          "confidence": 0.9965260624885559,
+          "speaker": null
+        },
+        {
+          "start": 518.86,
+          "end": 518.86,
+          "text": "a",
+          "confidence": 0.9988505840301514,
+          "speaker": null
+        },
+        {
+          "start": 518.86,
+          "end": 518.86,
+          "text": "derivative",
+          "confidence": 0.9978954792022705,
+          "speaker": null
+        },
+        {
+          "start": 518.86,
+          "end": 518.86,
+          "text": "work.",
+          "confidence": 0.9999487400054932,
+          "speaker": null
+        },
+        {
+          "start": 518.86,
+          "end": 518.86,
+          "text": "Any",
+          "confidence": 0.9803044199943542,
+          "speaker": null
+        },
+        {
+          "start": 518.86,
+          "end": 518.98,
+          "text": "resemblance",
+          "confidence": 0.9931090176105499,
+          "speaker": null
+        },
+        {
+          "start": 518.98,
+          "end": 518.98,
+          "text": "to",
+          "confidence": 0.9996991157531738,
+          "speaker": null
+        },
+        {
+          "start": 518.98,
+          "end": 518.98,
+          "text": "actual",
+          "confidence": 0.9995735287666321,
+          "speaker": null
+        },
+        {
+          "start": 518.98,
+          "end": 518.98,
+          "text": "persons,",
+          "confidence": 0.9621162414550781,
+          "speaker": null
+        },
+        {
+          "start": 518.98,
+          "end": 518.98,
+          "text": "living",
+          "confidence": 0.9991052746772766,
+          "speaker": null
+        },
+        {
+          "start": 518.98,
+          "end": 518.98,
+          "text": "or",
+          "confidence": 0.9999467134475708,
+          "speaker": null
+        },
+        {
+          "start": 518.98,
+          "end": 518.98,
+          "text": "dead,",
+          "confidence": 0.9997968077659607,
+          "speaker": null
+        },
+        {
+          "start": 518.98,
+          "end": 518.98,
+          "text": "is",
+          "confidence": 0.9996886253356934,
+          "speaker": null
+        },
+        {
+          "start": 518.98,
+          "end": 518.98,
+          "text": "coincidental",
+          "confidence": 0.9961822628974915,
+          "speaker": null
+        },
+        {
+          "start": 518.98,
+          "end": 518.98,
+          "text": "and",
+          "confidence": 0.9915221929550171,
+          "speaker": null
+        },
+        {
+          "start": 518.98,
+          "end": 518.98,
+          "text": "unintentional.",
+          "confidence": 0.9533611834049225,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 518.98,
+      "end": 522.16,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9899533026748233,
+      "words": [
+        {
+          "start": 518.98,
+          "end": 518.98,
+          "text": "This",
+          "confidence": 0.9489039778709412,
+          "speaker": null
+        },
+        {
+          "start": 518.98,
+          "end": 518.98,
+          "text": "video",
+          "confidence": 0.999390721321106,
+          "speaker": null
+        },
+        {
+          "start": 518.98,
+          "end": 518.98,
+          "text": "is",
+          "confidence": 0.9979133009910583,
+          "speaker": null
+        },
+        {
+          "start": 518.98,
+          "end": 519.26,
+          "text": "a",
+          "confidence": 0.998818576335907,
+          "speaker": null
+        },
+        {
+          "start": 519.26,
+          "end": 519.26,
+          "text": "derivative",
+          "confidence": 0.9983211159706116,
+          "speaker": null
+        },
+        {
+          "start": 519.26,
+          "end": 519.26,
+          "text": "work.",
+          "confidence": 0.9999444484710693,
+          "speaker": null
+        },
+        {
+          "start": 519.26,
+          "end": 519.26,
+          "text": "Any",
+          "confidence": 0.9786399602890015,
+          "speaker": null
+        },
+        {
+          "start": 519.26,
+          "end": 519.92,
+          "text": "resemblance",
+          "confidence": 0.9926922917366028,
+          "speaker": null
+        },
+        {
+          "start": 519.92,
+          "end": 520.0,
+          "text": "to",
+          "confidence": 0.9996707439422607,
+          "speaker": null
+        },
+        {
+          "start": 520.0,
+          "end": 520.18,
+          "text": "actual",
+          "confidence": 0.9995734095573425,
+          "speaker": null
+        },
+        {
+          "start": 520.18,
+          "end": 521.08,
+          "text": "persons,",
+          "confidence": 0.9692938327789307,
+          "speaker": null
+        },
+        {
+          "start": 521.08,
+          "end": 521.08,
+          "text": "living",
+          "confidence": 0.9990787506103516,
+          "speaker": null
+        },
+        {
+          "start": 521.08,
+          "end": 521.46,
+          "text": "or",
+          "confidence": 0.9999464750289917,
+          "speaker": null
+        },
+        {
+          "start": 521.46,
+          "end": 521.64,
+          "text": "dead,",
+          "confidence": 0.9997809529304504,
+          "speaker": null
+        },
+        {
+          "start": 521.64,
+          "end": 522.1,
+          "text": "is",
+          "confidence": 0.999512791633606,
+          "speaker": null
+        },
+        {
+          "start": 522.1,
+          "end": 522.1,
+          "text": "coincidental",
+          "confidence": 0.9966151714324951,
+          "speaker": null
+        },
+        {
+          "start": 522.1,
+          "end": 522.1,
+          "text": "and",
+          "confidence": 0.9861467480659485,
+          "speaker": null
+        },
+        {
+          "start": 522.1,
+          "end": 522.16,
+          "text": "unintentional.",
+          "confidence": 0.9549161791801453,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 522.16,
+      "end": 524.28,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9908366054296494,
+      "words": [
+        {
+          "start": 522.16,
+          "end": 522.88,
+          "text": "This",
+          "confidence": 0.9586016535758972,
+          "speaker": null
+        },
+        {
+          "start": 522.88,
+          "end": 522.88,
+          "text": "video",
+          "confidence": 0.9994786381721497,
+          "speaker": null
+        },
+        {
+          "start": 522.88,
+          "end": 522.88,
+          "text": "is",
+          "confidence": 0.9985721111297607,
+          "speaker": null
+        },
+        {
+          "start": 522.88,
+          "end": 522.88,
+          "text": "a",
+          "confidence": 0.9987012147903442,
+          "speaker": null
+        },
+        {
+          "start": 522.88,
+          "end": 522.88,
+          "text": "derivative",
+          "confidence": 0.9985578656196594,
+          "speaker": null
+        },
+        {
+          "start": 522.88,
+          "end": 522.88,
+          "text": "work.",
+          "confidence": 0.99993896484375,
+          "speaker": null
+        },
+        {
+          "start": 522.88,
+          "end": 522.88,
+          "text": "Any",
+          "confidence": 0.9792957305908203,
+          "speaker": null
+        },
+        {
+          "start": 522.88,
+          "end": 523.34,
+          "text": "resemblance",
+          "confidence": 0.9933078587055206,
+          "speaker": null
+        },
+        {
+          "start": 523.34,
+          "end": 523.34,
+          "text": "to",
+          "confidence": 0.9995032548904419,
+          "speaker": null
+        },
+        {
+          "start": 523.34,
+          "end": 523.34,
+          "text": "actual",
+          "confidence": 0.9995850920677185,
+          "speaker": null
+        },
+        {
+          "start": 523.34,
+          "end": 523.34,
+          "text": "persons,",
+          "confidence": 0.9725164771080017,
+          "speaker": null
+        },
+        {
+          "start": 523.34,
+          "end": 523.34,
+          "text": "living",
+          "confidence": 0.9989203214645386,
+          "speaker": null
+        },
+        {
+          "start": 523.34,
+          "end": 523.54,
+          "text": "or",
+          "confidence": 0.999931812286377,
+          "speaker": null
+        },
+        {
+          "start": 523.54,
+          "end": 523.54,
+          "text": "dead,",
+          "confidence": 0.9998176693916321,
+          "speaker": null
+        },
+        {
+          "start": 523.78,
+          "end": 524.28,
+          "text": "is",
+          "confidence": 0.9992153644561768,
+          "speaker": null
+        },
+        {
+          "start": 524.28,
+          "end": 524.28,
+          "text": "coincidental",
+          "confidence": 0.9971027076244354,
+          "speaker": null
+        },
+        {
+          "start": 524.28,
+          "end": 524.28,
+          "text": "and",
+          "confidence": 0.9839861392974854,
+          "speaker": null
+        },
+        {
+          "start": 524.28,
+          "end": 524.28,
+          "text": "unintentional.",
+          "confidence": 0.9580260217189789,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 558.88,
+      "end": 560.32,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.6145958207133744,
+      "words": [
+        {
+          "start": 558.88,
+          "end": 559.6,
+          "text": "This",
+          "confidence": 0.018904222175478935,
+          "speaker": null
+        },
+        {
+          "start": 559.6,
+          "end": 560.32,
+          "text": "video",
+          "confidence": 0.02069924585521221,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "is",
+          "confidence": 0.3603842854499817,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "a",
+          "confidence": 0.1536843478679657,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "derivative",
+          "confidence": 0.11592447012662888,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "work.",
+          "confidence": 0.9311575293540955,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "Any",
+          "confidence": 0.4301304221153259,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "resemblance",
+          "confidence": 0.7946927845478058,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "to",
+          "confidence": 0.9512314796447754,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "actual",
+          "confidence": 0.38077032566070557,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "persons,",
+          "confidence": 0.6230971813201904,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "living",
+          "confidence": 0.9476863741874695,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "or",
+          "confidence": 0.9853318333625793,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "dead,",
+          "confidence": 0.9906920790672302,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "is",
+          "confidence": 0.9861841797828674,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "coincidental",
+          "confidence": 0.7275574058294296,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "and",
+          "confidence": 0.6622547507286072,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "unintentional.",
+          "confidence": 0.982341855764389,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 560.32,
+      "end": 562.82,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.8643218941158719,
+      "words": [
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "This",
+          "confidence": 0.1421828269958496,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "video",
+          "confidence": 0.6386922597885132,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "is",
+          "confidence": 0.724403977394104,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "a",
+          "confidence": 0.5809358358383179,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "derivative",
+          "confidence": 0.7805548906326294,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "work.",
+          "confidence": 0.9997673630714417,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "Any",
+          "confidence": 0.9813694953918457,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "resemblance",
+          "confidence": 0.9948030114173889,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "to",
+          "confidence": 0.9991877675056458,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.32,
+          "text": "actual",
+          "confidence": 0.9922548532485962,
+          "speaker": null
+        },
+        {
+          "start": 560.32,
+          "end": 560.68,
+          "text": "persons,",
+          "confidence": 0.800605058670044,
+          "speaker": null
+        },
+        {
+          "start": 560.82,
+          "end": 560.82,
+          "text": "living",
+          "confidence": 0.9970631003379822,
+          "speaker": null
+        },
+        {
+          "start": 560.82,
+          "end": 560.96,
+          "text": "or",
+          "confidence": 0.9997381567955017,
+          "speaker": null
+        },
+        {
+          "start": 560.96,
+          "end": 560.96,
+          "text": "dead,",
+          "confidence": 0.9998698234558105,
+          "speaker": null
+        },
+        {
+          "start": 560.96,
+          "end": 560.96,
+          "text": "is",
+          "confidence": 0.9995993971824646,
+          "speaker": null
+        },
+        {
+          "start": 560.96,
+          "end": 560.96,
+          "text": "coincidental",
+          "confidence": 0.9899520874023438,
+          "speaker": null
+        },
+        {
+          "start": 560.96,
+          "end": 560.96,
+          "text": "and",
+          "confidence": 0.9894599914550781,
+          "speaker": null
+        },
+        {
+          "start": 560.96,
+          "end": 562.82,
+          "text": "unintentional.",
+          "confidence": 0.9473541975021362,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 562.82,
+      "end": 570.2,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9670513023932775,
+      "words": [
+        {
+          "start": 562.82,
+          "end": 563.3,
+          "text": "This",
+          "confidence": 0.6333983540534973,
+          "speaker": null
+        },
+        {
+          "start": 563.3,
+          "end": 563.82,
+          "text": "video",
+          "confidence": 0.9649309515953064,
+          "speaker": null
+        },
+        {
+          "start": 563.82,
+          "end": 563.82,
+          "text": "is",
+          "confidence": 0.9848654270172119,
+          "speaker": null
+        },
+        {
+          "start": 563.82,
+          "end": 564.58,
+          "text": "a",
+          "confidence": 0.997329831123352,
+          "speaker": null
+        },
+        {
+          "start": 564.58,
+          "end": 564.58,
+          "text": "derivative",
+          "confidence": 0.9920147657394409,
+          "speaker": null
+        },
+        {
+          "start": 564.58,
+          "end": 564.58,
+          "text": "work.",
+          "confidence": 0.9999668598175049,
+          "speaker": null
+        },
+        {
+          "start": 564.58,
+          "end": 564.94,
+          "text": "Any",
+          "confidence": 0.9806939363479614,
+          "speaker": null
+        },
+        {
+          "start": 564.94,
+          "end": 564.94,
+          "text": "resemblance",
+          "confidence": 0.9906089901924133,
+          "speaker": null
+        },
+        {
+          "start": 564.94,
+          "end": 564.94,
+          "text": "to",
+          "confidence": 0.9995943903923035,
+          "speaker": null
+        },
+        {
+          "start": 564.94,
+          "end": 564.94,
+          "text": "actual",
+          "confidence": 0.9987533092498779,
+          "speaker": null
+        },
+        {
+          "start": 564.94,
+          "end": 567.0,
+          "text": "persons,",
+          "confidence": 0.9275212287902832,
+          "speaker": null
+        },
+        {
+          "start": 567.06,
+          "end": 567.06,
+          "text": "living",
+          "confidence": 0.9983124732971191,
+          "speaker": null
+        },
+        {
+          "start": 567.06,
+          "end": 567.12,
+          "text": "or",
+          "confidence": 0.9998728036880493,
+          "speaker": null
+        },
+        {
+          "start": 567.12,
+          "end": 567.12,
+          "text": "dead,",
+          "confidence": 0.999915361404419,
+          "speaker": null
+        },
+        {
+          "start": 567.12,
+          "end": 567.12,
+          "text": "is",
+          "confidence": 0.9997648596763611,
+          "speaker": null
+        },
+        {
+          "start": 567.12,
+          "end": 567.2,
+          "text": "coincidental",
+          "confidence": 0.9954947829246521,
+          "speaker": null
+        },
+        {
+          "start": 567.2,
+          "end": 568.32,
+          "text": "and",
+          "confidence": 0.9970906972885132,
+          "speaker": null
+        },
+        {
+          "start": 568.32,
+          "end": 570.2,
+          "text": "unintentional.",
+          "confidence": 0.9467944204807281,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 570.2,
+      "end": 576.66,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9816225866476694,
+      "words": [
+        {
+          "start": 570.2,
+          "end": 570.54,
+          "text": "This",
+          "confidence": 0.8342496752738953,
+          "speaker": null
+        },
+        {
+          "start": 570.54,
+          "end": 570.54,
+          "text": "video",
+          "confidence": 0.9841253757476807,
+          "speaker": null
+        },
+        {
+          "start": 570.54,
+          "end": 570.54,
+          "text": "is",
+          "confidence": 0.9869691133499146,
+          "speaker": null
+        },
+        {
+          "start": 570.54,
+          "end": 570.54,
+          "text": "a",
+          "confidence": 0.9982900023460388,
+          "speaker": null
+        },
+        {
+          "start": 570.54,
+          "end": 570.54,
+          "text": "derivative",
+          "confidence": 0.9955684542655945,
+          "speaker": null
+        },
+        {
+          "start": 570.54,
+          "end": 570.54,
+          "text": "work.",
+          "confidence": 0.9999568462371826,
+          "speaker": null
+        },
+        {
+          "start": 570.54,
+          "end": 570.54,
+          "text": "Any",
+          "confidence": 0.9846214056015015,
+          "speaker": null
+        },
+        {
+          "start": 570.54,
+          "end": 570.58,
+          "text": "resemblance",
+          "confidence": 0.9921116232872009,
+          "speaker": null
+        },
+        {
+          "start": 570.58,
+          "end": 570.58,
+          "text": "to",
+          "confidence": 0.9996685981750488,
+          "speaker": null
+        },
+        {
+          "start": 570.58,
+          "end": 570.58,
+          "text": "actual",
+          "confidence": 0.9994558691978455,
+          "speaker": null
+        },
+        {
+          "start": 570.58,
+          "end": 570.76,
+          "text": "persons,",
+          "confidence": 0.9507327675819397,
+          "speaker": null
+        },
+        {
+          "start": 570.76,
+          "end": 570.76,
+          "text": "living",
+          "confidence": 0.9986729621887207,
+          "speaker": null
+        },
+        {
+          "start": 570.76,
+          "end": 570.76,
+          "text": "or",
+          "confidence": 0.9999188184738159,
+          "speaker": null
+        },
+        {
+          "start": 570.76,
+          "end": 570.76,
+          "text": "dead,",
+          "confidence": 0.9998972415924072,
+          "speaker": null
+        },
+        {
+          "start": 570.76,
+          "end": 570.94,
+          "text": "is",
+          "confidence": 0.9997910857200623,
+          "speaker": null
+        },
+        {
+          "start": 570.94,
+          "end": 570.94,
+          "text": "coincidental",
+          "confidence": 0.9962167143821716,
+          "speaker": null
+        },
+        {
+          "start": 570.94,
+          "end": 570.94,
+          "text": "and",
+          "confidence": 0.997340738773346,
+          "speaker": null
+        },
+        {
+          "start": 570.94,
+          "end": 576.66,
+          "text": "unintentional.",
+          "confidence": 0.9516192674636841,
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "start": 576.72,
+      "end": 579.86,
+      "speaker": null,
+      "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional.",
+      "confidence": 0.9881390382846197,
+      "words": [
+        {
+          "start": 576.72,
+          "end": 577.44,
+          "text": "This",
+          "confidence": 0.9274101853370667,
+          "speaker": null
+        },
+        {
+          "start": 577.44,
+          "end": 577.9,
+          "text": "video",
+          "confidence": 0.9964820146560669,
+          "speaker": null
+        },
+        {
+          "start": 577.9,
+          "end": 577.9,
+          "text": "is",
+          "confidence": 0.993390679359436,
+          "speaker": null
+        },
+        {
+          "start": 577.9,
+          "end": 577.9,
+          "text": "a",
+          "confidence": 0.9988306164741516,
+          "speaker": null
+        },
+        {
+          "start": 577.9,
+          "end": 578.02,
+          "text": "derivative",
+          "confidence": 0.9971516728401184,
+          "speaker": null
+        },
+        {
+          "start": 578.02,
+          "end": 578.02,
+          "text": "work.",
+          "confidence": 0.9999488592147827,
+          "speaker": null
+        },
+        {
+          "start": 578.02,
+          "end": 578.02,
+          "text": "Any",
+          "confidence": 0.9845442175865173,
+          "speaker": null
+        },
+        {
+          "start": 578.02,
+          "end": 578.46,
+          "text": "resemblance",
+          "confidence": 0.993184357881546,
+          "speaker": null
+        },
+        {
+          "start": 578.46,
+          "end": 578.46,
+          "text": "to",
+          "confidence": 0.9996894598007202,
+          "speaker": null
+        },
+        {
+          "start": 578.46,
+          "end": 578.46,
+          "text": "actual",
+          "confidence": 0.9995655417442322,
+          "speaker": null
+        },
+        {
+          "start": 578.46,
+          "end": 579.8,
+          "text": "persons,",
+          "confidence": 0.9545403122901917,
+          "speaker": null
+        },
+        {
+          "start": 579.8,
+          "end": 579.8,
+          "text": "living",
+          "confidence": 0.9989141225814819,
+          "speaker": null
+        },
+        {
+          "start": 579.8,
+          "end": 579.82,
+          "text": "or",
+          "confidence": 0.9999434947967529,
+          "speaker": null
+        },
+        {
+          "start": 579.82,
+          "end": 579.86,
+          "text": "dead,",
+          "confidence": 0.9998505115509033,
+          "speaker": null
+        },
+        {
+          "start": 579.86,
+          "end": 579.86,
+          "text": "is",
+          "confidence": 0.999778687953949,
+          "speaker": null
+        },
+        {
+          "start": 579.86,
+          "end": 579.86,
+          "text": "coincidental",
+          "confidence": 0.9961210489273071,
+          "speaker": null
+        },
+        {
+          "start": 579.86,
+          "end": 579.86,
+          "text": "and",
+          "confidence": 0.9945032596588135,
+          "speaker": null
+        },
+        {
+          "start": 579.86,
+          "end": 579.86,
+          "text": "unintentional.",
+          "confidence": 0.9526536464691162,
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": [
+      {
+        "timestamp": 188.28,
+        "speaker": null,
+        "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional."
+      },
+      {
+        "timestamp": 240.76,
+        "speaker": null,
+        "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional."
+      },
+      {
+        "timestamp": 243.24,
+        "speaker": null,
+        "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional."
+      },
+      {
+        "timestamp": 244.44,
+        "speaker": null,
+        "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional."
+      },
+      {
+        "timestamp": 298.68,
+        "speaker": null,
+        "text": "This video is a derivative work. Any resemblance to actual persons, living or dead, is coincidental and unintentional."
+      }
+    ]
+  }
+}

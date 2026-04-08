@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "recording_id": "2026-03-13_1304-1314",
+    "created_at": "2026-03-13T13:14:36.873060-04:00",
+    "duration": 600.0,
+    "device": null,
+    "model": "tiny",
+    "language": "en",
+    "backend": "faster-whisper",
+    "diarization_status": "disabled",
+    "diarization_error": null
+  },
+  "segments": [],
+  "derived": {
+    "topics": [],
+    "action_items": [],
+    "decisions": [],
+    "questions": [],
+    "highlights": []
+  }
+}
