@@ -1283,20 +1283,29 @@
     <script>
         // Seed Data with deadlines ~2 weeks out (March 30, 2026)
         const seedData = [
-            {name:"Meeting Prep - Putter",desc:"Bring part, 30-sec pitch",category:"project",progress:30,priority:1,progressMode:"milestones",deadline:"2026-03-30",milestones:[{text:"Gather putter prototype",done:true},{text:"Print design docs",done:false},{text:"Prepare 30-sec pitch",done:false}],logs:[{date:"Mar 17",text:"Part #1 cutting",progress:30,priority:1}],created:"2026-03-15",completed:false},
-            {name:"Opening Day Prep",desc:"Clipboard, script, shirt",category:"marketing",progress:33,priority:1,progressMode:"milestones",deadline:"2026-04-05",milestones:[{text:"Design clipboard sheet",done:true},{text:"Print materials",done:false},{text:"Get shirt ordered",done:false}],logs:[],created:"2026-03-16",completed:false},
-            {name:"Kyle Interview",desc:"Interview today - follow up",category:"student",progress:66,priority:1,progressMode:"milestones",deadline:"2026-03-25",milestones:[{text:"Review resume",done:true},{text:"Prepare questions",done:true},{text:"Follow up email",done:false}],logs:[{date:"Mar 17",text:"Happening today",progress:50,priority:1}],created:"2026-03-14",completed:false},
-            {name:"SOP Supplies",desc:"Clipboards, pens, laminating",category:"admin",progress:0,priority:1,progressMode:"slider",deadline:"2026-04-01",milestones:[],logs:[],created:"2026-03-16",completed:false},
-            {name:"Marvin Follow-up",desc:"Detroit Edge Tool - waiting",category:"student",progress:80,priority:2,progressMode:"milestones",deadline:"2026-04-10",milestones:[{text:"Send thank you email",done:true},{text:"Wait for response",done:true},{text:"Schedule second interview",done:false}],logs:[{date:"Mar 16",text:" Interview went well",progress:80,priority:2}],created:"2026-03-10",completed:false},
-            {name:"CRM Contract - Julie",desc:"Finalize with Julie",category:"admin",progress:40,priority:2,progressMode:"milestones",deadline:"2026-04-15",milestones:[{text:"Review contract",done:true},{text:"Legal review",done:false},{text:"Sign and return",done:false}],logs:[{date:"Feb 25",text:"Draft received",progress:40,priority:2}],created:"2026-03-01",completed:false},
-            {name:"Mega Contact List",desc:"Consolidate contacts",category:"admin",progress:0,priority:2,progressMode:"slider",deadline:"2026-04-20",milestones:[],logs:[],created:"2026-03-15",completed:false},
-            {name:"Get Cutters from KBC",desc:"Remind John",category:"equipment",progress:0,priority:2,progressMode:"slider",deadline:"2026-04-08",milestones:[],logs:[{date:"Feb 24",text:"Told John - pending",progress:0,priority:2}],created:"2026-02-20",completed:false},
-            {name:"Online Landing Page",desc:"Simple page for classes",category:"marketing",progress:0,priority:3,progressMode:"slider",deadline:"2026-04-25",milestones:[],logs:[],created:"2026-03-16",completed:false},
-            {name:"Job Corps Referrals",desc:"80-90 students from Shane",category:"student",progress:10,priority:3,progressMode:"slider",deadline:"2026-04-30",milestones:[],logs:[{date:"Feb 25",text:"Starting next week",progress:10,priority:3}],created:"2026-02-25",completed:false},
-            {name:"Building Map",desc:"Shane creating",category:"admin",progress:0,priority:3,progressMode:"slider",deadline:"2026-05-05",milestones:[],logs:[],created:"2026-02-25",completed:false},
-            {name:"Left-Hand Putter",desc:"Next week version",category:"project",progress:0,priority:4,progressMode:"slider",deadline:"2026-05-15",milestones:[],logs:[],created:"2026-03-16",completed:false},
-            {name:"Absorb LMS Setup",desc:"Load classes in sequence",category:"admin",progress:30,priority:3,progressMode:"slider",deadline:"2026-05-01",milestones:[],logs:[],created:"2026-03-10",completed:false},
-            {name:"WTA Messaging",desc:"WTA vs Team Up branding",category:"marketing",progress:10,priority:3,progressMode:"slider",deadline:"2026-04-28",milestones:[],logs:[],created:"2026-02-25",completed:false}
+            // URGENT - P1
+            {name:"Fusion 360 Subscription",desc:"Expires May 9, 2026 - renew before expiration",category:"admin",progress:0,priority:1,progressMode:"slider",deadline:"2026-05-09",milestones:[{text:"Check current plan pricing",done:false},{text:"Renew subscription",done:false}],logs:[{date:"Apr 22",text:"17 days until expiration",progress:0,priority:1}],created:"2026-04-22",completed:false},
+            
+            // IN PROGRESS - P1
+            {name:"Safety Signs",desc:"Complete - need to hang up",category:"admin",progress:100,priority:1,progressMode:"milestones",deadline:"2026-04-25",milestones:[{text:"Print signs",done:true},{text:"Laminate",done:true},{text:"Hang signs",done:false}],logs:[{date:"Apr 22",text:"Signs complete",progress:100,priority:1}],created:"2026-04-01",completed:false},
+            {name:"Grinding Class Setup",desc:"New initiative - need placement/direction",category:"project",progress:10,priority:2,progressMode:"milestones",deadline:"2026-05-01",milestones:[{text:"Identify location",done:false},{text:"Gather materials list",done:true},{text:"Set schedule",done:false}],logs:[],created:"2026-04-22",completed:false},
+            {name:"Julian Sword Meeting",desc:"Update dashboard with meeting outcomes for student accommodations",category:"student",progress:0,priority:2,progressMode:"slider",deadline:"2026-04-28",milestones:[],logs:[],created:"2026-04-22",completed:false},
+            {name:"Staffing - Keegan",desc:"Place Keegan in program",category:"student",progress:0,priority:2,progressMode:"slider",deadline:"2026-05-01",milestones:[],logs:[],created:"2026-04-22",completed:false},
+            {name:"Staffing - Mike",desc:"Place Mike in program",category:"student",progress:0,priority:2,progressMode:"slider",deadline:"2026-05-01",milestones:[],logs:[],created:"2026-04-22",completed:false},
+            
+            // WAITING / FOLLOW-UP - P2
+            {name:"Haas Battery Order",desc:"Check if battery for Haas has been ordered",category:"equipment",progress:0,priority:2,progressMode:"slider",deadline:"2026-04-30",milestones:[],logs:[],created:"2026-04-22",completed:false},
+            {name:"Grips & Shafts Order",desc:"Check if grips and shafts have been ordered",category:"equipment",progress:0,priority:2,progressMode:"slider",deadline:"2026-04-30",milestones:[],logs:[],created:"2026-04-22",completed:false},
+            {name:"Team-Up Shirts",desc:"Source/order shirts that fit well",category:"admin",progress:0,priority:2,progressMode:"milestones",deadline:"2026-05-05",milestones:[{text:"Find supplier",done:false},{text:"Order samples",done:false},{text:"Final order",done:false}],logs:[],created:"2026-04-22",completed:false},
+            {name:"TopCraftTool Follow-up",desc:"Reached out - wait for Tomorrow",category:"vendor",progress:0,priority:2,progressMode:"slider",deadline:"2026-04-23",milestones:[],logs:[{date:"Apr 22",text:"Contacted - waiting",progress:0,priority:2}],created:"2026-04-22",completed:false},
+            
+            // COMPLETED - tracking
+            {name:"Marketing Campaign - At The Edge",desc:"Success with ZEP foot and ankle clinic",category:"marketing",progress:100,priority:3,progressMode:"slider",deadline:"2026-04-22",milestones:[],logs:[{date:"Apr 22",text:"Positive feedback received",progress:100,priority:3}],created:"2026-04-01",completed:true},
+            {name:"Left-Hand Putters",desc:"2 sold at $200 - remaining: shaft tool + assembly",category:"project",progress:66,priority:3,progressMode:"slider",deadline:"2026-04-30",milestones:[{text:"Sell putters",done:true},{text:"Shaft tool",done:false},{text:"Assembly",done:false}],logs:[{date:"Apr 22",text:"2 sold",progress:66,priority:3}],created:"2026-04-01",completed:false},
+            
+            // ARCHIVED - keep for reference
+            {name:"Meeting Prep - Putter",desc:"Bring part, 30-sec pitch",category:"project",progress:30,priority:4,progressMode:"milestones",deadline:"2026-03-30",milestones:[{text:"Gather putter prototype",done:true},{text:"Print design docs",done:false},{text:"Prepare 30-sec pitch",done:false}],logs:[{date:"Mar 17",text:"Part #1 cutting",progress:30,priority:1}],created:"2026-03-15",completed:false},
+            {name:"Kyle Interview",desc:"Interview today - follow up",category:"student",progress:66,priority:4,progressMode:"milestones",deadline:"2026-03-25",milestones:[{text:"Review resume",done:true},{text:"Prepare questions",done:true},{text:"Follow up email",done:false}],logs:[{date:"Mar 17",text:"Happening today",progress:50,priority:1}],created:"2026-03-14",completed:false}
         ];
 
         // Load data
