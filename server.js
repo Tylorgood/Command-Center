@@ -1,6 +1,7 @@
 const http=require('http');const fs=require('fs');const path=require('path');
 const {requireAuth,session,login,logout}=require('./server/auth');
 const engine=require('./server/engine');
+const dashboard=require('./server/dashboard');
 const google=require('./server/google');
 const {persistenceProof,recordBoot}=require('./server/store');
 const root=path.join(__dirname,'v3');const port=Number(process.env.PORT||10000);const maxBody=1024*1024;
@@ -21,7 +22,7 @@ async function api(req,res,url){
   const user=requireAuth(req,res);if(!user)return;
   if(url.pathname==='/api/google/status'&&req.method==='GET')return json(res,200,{...(await google.status()),redirectUri:google.redirectUri()});
   if(url.pathname==='/api/google/start'&&req.method==='GET'){console.log('google oauth start',{sub:user.sub||'tylor'});const authUrl=google.authorizationUrl(user);if(url.searchParams.get('json')==='1')return json(res,200,{url:authUrl});return redirect(res,authUrl)}
-  if(url.pathname==='/api/state'&&req.method==='GET')return json(res,200,await engine.publicState());
+  if(url.pathname==='/api/state'&&req.method==='GET')return json(res,200,await dashboard.publicState());
   if(url.pathname==='/api/decisions'&&req.method==='POST')return json(res,201,await engine.createDecision(await readBody(req)));
   const decision=url.pathname.match(/^\/api\/decisions\/([^/]+)\/resolve$/);if(decision&&req.method==='POST'){const b=await readBody(req);return json(res,200,await engine.resolveDecision(decision[1],b.option,user.sub))}
   if(url.pathname==='/api/jobs'&&req.method==='POST')return json(res,201,await engine.createJob(await readBody(req)));
