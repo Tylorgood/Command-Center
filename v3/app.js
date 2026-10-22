@@ -1,100 +1,24 @@
-const $ = (s, root=document) => root.querySelector(s);
-const $$ = (s, root=document) => [...root.querySelectorAll(s)];
-
-const fallbackState = {
-  system:{mode:'PERSONAL / BUILD', integrations:[]}, now:{primary_focus:'JARVIS V3',detail:'Life in motion.',life_commit:'LIFE-BOOT',next_commitment_time:'—'}, metrics:[],attention:[],active:[],calendar:[],missions:[],events:[]
-};
-
-async function loadState(){
-  try{
-    const r=await fetch('./state.json',{cache:'no-store'});
-    if(!r.ok) throw new Error('state');
-    return await r.json();
-  }catch(e){ return fallbackState; }
-}
-
-function safeText(el, value){ if(el) el.textContent = value ?? '—'; }
-function escapeHTML(v=''){return String(v).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));}
-
-function startClock(){
-  const tick=()=>{
-    const d=new Date();
-    safeText($('#clock'), d.toLocaleTimeString([], {hour:'numeric',minute:'2-digit'}));
-    safeText($('#dateLabel'), d.toLocaleDateString([], {weekday:'long',month:'long',day:'numeric',year:'numeric'}));
-    safeText($('#dayLabel'), d.toLocaleDateString([], {weekday:'long'}));
-    const h=d.getHours();
-    const part=h<12?'morning':h<17?'afternoon':'evening';
-    safeText($('#greeting'), `Good ${part}, Tylor.`);
-    updateNowMarker(d);
-  };
-  tick(); setInterval(tick,1000);
-}
-
-function renderBus(state){
-  $('#systemBus').innerHTML=(state.system?.integrations||[]).map(x=>`<span class="bus-node ${escapeHTML(x.state)}">${escapeHTML(x.name)}</span>`).join('');
-}
-
-function renderMetrics(state){
-  $('#metricGrid').innerHTML=(state.metrics||[]).map(m=>`<article class="metric"><div class="metric-label">${escapeHTML(m.label)}</div><div class="metric-value" data-count="${Number(m.value)||0}">0</div></article>`).join('');
-  $$('.metric-value').forEach(el=>animateNumber(el,Number(el.dataset.count)||0));
-}
-function animateNumber(el,target){
-  const start=performance.now(),dur=650;
-  const step=t=>{const p=Math.min(1,(t-start)/dur);el.textContent=Math.round(target*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(step)};
-  requestAnimationFrame(step);
-}
-
-function renderAttention(state){
-  const list=state.attention||[]; safeText($('#attentionCount'),list.length);
-  $('#attentionList').innerHTML=list.length?list.map((x,i)=>`<div class="stack-item"><div class="stack-title"><span>${escapeHTML(x.title)}</span><span class="stack-action">${escapeHTML(x.action||'REVIEW')}</span></div><div class="stack-meta">${escapeHTML(x.meta)}</div></div>`).join(''):`<div class="stack-item"><div class="stack-title"><span>Nothing needs you right now.</span></div><div class="stack-meta">JARVIS is holding the background state.</div></div>`;
-}
-
-function renderActive(state){
-  const list=state.active||[]; safeText($('#activeCount'),`${list.length} ACTIVE`);
-  $('#activeList').innerHTML=list.map(x=>`<div class="stack-item"><div class="stack-title"><span>${escapeHTML(x.title)}</span><span class="stack-action">${escapeHTML(x.state||'ACTIVE')}</span></div><div class="stack-meta">${escapeHTML(x.meta)}</div><div class="process-line" aria-hidden="true"><i></i></div></div>`).join('');
-}
-
-function hourPct(hour,minute=0){const start=6,end=24;return Math.max(0,Math.min(100,((hour+minute/60-start)/(end-start))*100));}
-function updateNowMarker(d=new Date()){
-  const marker=$('.rail-now');if(marker)marker.style.left=`${hourPct(d.getHours(),d.getMinutes())}%`;
-}
-function renderTimeline(state){
-  const rail=$('#dayRail');
-  const ticks=[6,9,12,15,18,21,24].map(h=>`<span class="rail-tick" style="left:${hourPct(h)}%">${h===24?'12A':h>12?(h-12)+'P':h+'A'}</span>`).join('');
-  const events=(state.calendar||[]).map(e=>{
-    const d=new Date(e.start);const pct=Number.isFinite(d.getTime())?hourPct(d.getHours(),d.getMinutes()):50;
-    return `<div class="rail-event" style="left:${pct}%"><b>${escapeHTML(e.title)}</b><small>${escapeHTML(e.time||'')}</small></div>`;
-  }).join('');
-  rail.innerHTML=`<div class="rail-line"></div>${ticks}<div class="rail-now"></div>${events || '<div class="rail-event" style="left:50%"><b>Open day state</b><small>Hard-time events will land here</small></div>'}`;
-  updateNowMarker();
-}
-
-function renderMissions(state){
-  $('#missionList').innerHTML=(state.missions||[]).map(m=>`<div class="mission-row" data-mission="${escapeHTML(m.id)}"><div class="mission-state"><span class="mission-name">${escapeHTML(m.name)}</span><span class="state-tag">${escapeHTML(m.state)}</span></div><div class="mission-summary">${escapeHTML(m.summary)}</div></div>`).join('');
-  $$('.mission-row').forEach(row=>row.addEventListener('click',()=>openMission(state,row.dataset.mission)));
-}
-function openMission(state,id){
-  const m=(state.missions||[]).find(x=>x.id===id);if(!m)return;
-  $('#inspectorContent').innerHTML=`<div class="inspector-grid"><div><div class="panel-kicker">MISSION INSPECTOR</div><h2>${escapeHTML(m.name)}</h2><span class="state-tag">${escapeHTML(m.state)}</span><p>${escapeHTML(m.objective||m.summary)}</p></div><div><div class="panel-kicker">NEXT</div><ul class="inspect-list">${(m.next||[]).map(x=>`<li>${escapeHTML(x)}</li>`).join('')||'<li>No immediate action required.</li>'}</ul></div><div><div class="panel-kicker">RECENT</div><ul class="inspect-list">${(m.recent||[]).map(x=>`<li>${escapeHTML(x)}</li>`).join('')||'<li>No recent events.</li>'}</ul></div></div>`;
-  $('#missionInspector').hidden=false;
-}
-
-function renderMemory(state){
-  $('#memoryStream').innerHTML=(state.events||[]).map(e=>`<div class="memory-row"><div class="memory-time">${escapeHTML(e.time)}</div><div><div class="memory-title">${escapeHTML(e.title)}</div><div class="memory-meta">${escapeHTML(e.meta)}</div></div><div class="memory-hash">${escapeHTML(e.hash)}</div></div>`).join('');
-}
-
-function applyState(state){
-  safeText($('#focusMode'),state.system?.mode);
-  safeText($('#primaryFocus'),state.now?.primary_focus);
-  safeText($('#focusDetail'),state.now?.detail);
-  safeText($('#lifeCommit'),state.now?.life_commit);
-  safeText($('#nextCommitmentTime'),state.now?.next_commitment_time);
-  renderBus(state);renderMetrics(state);renderAttention(state);renderActive(state);renderTimeline(state);renderMissions(state);renderMemory(state);
-}
-
-$('#closeInspector').addEventListener('click',()=>$('#missionInspector').hidden=true);
-document.addEventListener('keydown',e=>{if(e.key==='Escape')$('#missionInspector').hidden=true});
-
-const state=await loadState();
-applyState(state);
-startClock();
+const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+let currentState=null;let refreshTimer=null;let lastHydratedAt=0;const ui={mode:'loading',error:null};
+function escapeHTML(v=''){return String(v).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));}function safeText(el,v){if(el)el.textContent=v??'—'}
+async function api(path,opts={}){const r=await fetch(path,{credentials:'same-origin',headers:{'content-type':'application/json',...(opts.headers||{})},...opts});let body={};try{body=await r.json()}catch{}if(!r.ok){const e=new Error(body.error||`HTTP ${r.status}`);e.status=r.status;throw e}return body}
+function ensureLogin(){if($('#loginGate'))return;const gate=document.createElement('div');gate.id='loginGate';gate.className='login-gate';gate.innerHTML=`<form class="login-card glass-panel" id="loginForm"><div class="eyebrow">JARVIS V3.1</div><h2>Private cockpit</h2><p>Your life state is protected. Authenticate to hydrate JARVIS.</p><label>Access key<input id="loginPassword" type="password" autocomplete="current-password" required></label><button type="submit">ENTER JARVIS</button><div class="login-error" id="loginError"></div></form>`;document.body.append(gate);$('#loginForm').addEventListener('submit',async e=>{e.preventDefault();const err=$('#loginError');safeText(err,'Authenticating…');try{await api('/api/login',{method:'POST',body:JSON.stringify({password:$('#loginPassword').value})});gate.remove();await hydrate(true)}catch(ex){safeText(err,ex.status===503?'Authentication is not configured on the server yet.':'Access denied.')}})}
+async function authStatus(){try{return await api('/api/auth/status')}catch{return{authenticated:false,configured:false}}}
+function startClock(){const tick=()=>{const d=new Date();safeText($('#clock'),d.toLocaleTimeString([], {hour:'numeric',minute:'2-digit'}));safeText($('#dateLabel'),d.toLocaleDateString([], {weekday:'long',month:'long',day:'numeric',year:'numeric'}));safeText($('#dayLabel'),d.toLocaleDateString([], {weekday:'long'}));const h=d.getHours();safeText($('#greeting'),`Good ${h<12?'morning':h<17?'afternoon':'evening'}, Tylor.`);updateNowMarker(d);updateFreshness()};tick();setInterval(tick,1000)}
+function hourPct(hour,minute=0){const start=6,end=24;return Math.max(0,Math.min(100,((hour+minute/60-start)/(end-start))*100))}function updateNowMarker(d=new Date()){const marker=$('.rail-now');if(marker)marker.style.left=`${hourPct(d.getHours(),d.getMinutes())}%`}function updateFreshness(){const el=$('#freshness');if(!el)return;if(!lastHydratedAt){safeText(el,'NOT HYDRATED');return}const sec=Math.floor((Date.now()-lastHydratedAt)/1000);safeText(el,sec<60?`SYNC ${sec}s AGO`:`STALE ${Math.floor(sec/60)}m`);el.classList.toggle('stale',sec>120)}
+function integrationClass(status='UNKNOWN'){return String(status).toLowerCase().replaceAll('_','-')}function renderBus(state){const nodes=state.system?.integrations||[];$('#systemBus').innerHTML=nodes.map(x=>`<button class="bus-node ${integrationClass(x.status)}" title="${escapeHTML(x.details||x.lastError||x.status)}" data-integration="${escapeHTML(x.id)}"><i></i>${escapeHTML(x.name)}<small>${escapeHTML(x.status)}</small></button>`).join('')}
+function renderMetrics(state){$('#metricGrid').innerHTML=(state.metrics||[]).map(m=>`<article class="metric ${escapeHTML(String(m.state||''))}"><div class="metric-label">${escapeHTML(m.label)}</div><div class="metric-value" data-count="${Number(m.value)||0}">0</div><div class="metric-state">${escapeHTML(m.state||'')}</div></article>`).join('');$$('.metric-value').forEach(el=>animateNumber(el,Number(el.dataset.count)||0))}function animateNumber(el,target){const start=performance.now(),dur=500;function step(t){const p=Math.min(1,(t-start)/dur);el.textContent=Math.round(target*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(step)}requestAnimationFrame(step)}
+function renderAttention(state){const list=state.attention||[];safeText($('#attentionCount'),list.length);$('#attentionList').innerHTML=list.length?list.map(x=>`<div class="stack-item decision-card" data-decision="${escapeHTML(x.id)}"><div class="stack-title"><span>${escapeHTML(x.question)}</span><span class="stack-action">DECIDE</span></div><div class="stack-meta">${escapeHTML(x.type||'decision')} · ${escapeHTML(x.missionId||'jarvis')}</div><div class="decision-options">${(x.options||[]).map(o=>`<button data-option="${escapeHTML(o)}">${escapeHTML(o)}</button>`).join('')}</div></div>`).join(''):`<div class="state-card success"><b>Nothing needs you.</b><span>JARVIS successfully hydrated the decision queue and found no pending decisions.</span></div>`;$$('.decision-card button').forEach(btn=>btn.addEventListener('click',()=>resolveDecision(btn.closest('.decision-card').dataset.decision,btn.dataset.option)))}
+async function resolveDecision(id,option){const card=$(`[data-decision="${CSS.escape(id)}"]`);card?.classList.add('processing');try{await api(`/api/decisions/${encodeURIComponent(id)}/resolve`,{method:'POST',body:JSON.stringify({option})});pulse('human');await hydrate(true)}catch(e){card?.classList.remove('processing');showToast(`Decision failed: ${e.message}`,'error')}}
+function renderActive(state){const list=state.active||[];safeText($('#activeCount'),`${list.length} ACTIVE`);$('#activeList').innerHTML=list.length?list.map(x=>`<button class="stack-item job-card" data-job="${escapeHTML(x.id)}"><div class="stack-title"><span>${escapeHTML(x.title||x.action)}</span><span class="stack-action">${escapeHTML(x.status)}</span></div><div class="stack-meta">${escapeHTML(x.source||'jarvis_core')} · ${escapeHTML(x.missionId||'jarvis')}${x.startedAt?` · ${timeAgo(x.startedAt)}`:''}</div><div class="process-line"><i></i></div></button>`).join(''):`<div class="state-card success"><b>No active jobs.</b><span>The job engine loaded successfully; nothing is currently running or queued.</span></div>`;$$('.job-card').forEach(b=>b.addEventListener('click',()=>openJob(b.dataset.job)))}
+function openJob(id){const j=(currentState?.active||[]).find(x=>x.id===id);if(!j)return;openInspector(`<div class="inspector-grid"><div><div class="panel-kicker">JOB</div><h2>${escapeHTML(j.title||j.action)}</h2><span class="state-tag">${escapeHTML(j.status)}</span><p>${escapeHTML(j.action)}</p></div><div><div class="panel-kicker">SOURCE</div><ul class="inspect-list"><li>${escapeHTML(j.source||'jarvis_core')}</li><li>${escapeHTML(j.missionId||'jarvis')}</li><li>${j.startedAt?escapeHTML(new Date(j.startedAt).toLocaleString()):'Not started'}</li></ul></div><div><div class="panel-kicker">OUTPUT</div><ul class="inspect-list"><li>${escapeHTML(j.output||j.result||j.blocker||'No output yet.')}</li></ul></div></div>`)}
+function renderTimeline(state){const rail=$('#dayRail');const calInt=(state.system?.integrations||[]).find(x=>x.id==='calendar');if(calInt?.status!=='CONNECTED'){rail.innerHTML=`<div class="state-card ${integrationClass(calInt?.status)}"><b>Calendar ${escapeHTML(calInt?.status||'UNKNOWN')}</b><span>${escapeHTML(calInt?.details||calInt?.lastError||'Calendar state unavailable.')}</span></div>`;return}const ticks=[6,9,12,15,18,21,24].map(h=>`<span class="rail-tick" style="left:${hourPct(h)}%">${h===24?'12A':h>12?(h-12)+'P':h+'A'}</span>`).join('');const events=(state.calendar||[]).map(e=>{const d=new Date(e.start),pct=hourPct(d.getHours(),d.getMinutes()),past=d<Date.now();return `<div class="rail-event ${past?'past':''}" style="left:${pct}%"><b>${escapeHTML(e.title)}</b><small>${escapeHTML(d.toLocaleTimeString([], {hour:'numeric',minute:'2-digit'}))}</small></div>`}).join('');rail.innerHTML=`<div class="rail-line"></div>${ticks}<div class="rail-now"></div>${events||'<div class="rail-empty">No hard-time commitments remaining today.</div>'}`;updateNowMarker()}
+function renderMissions(state){$('#missionList').innerHTML=(state.missions||[]).map(m=>`<button class="mission-row" data-mission="${escapeHTML(m.id)}"><div class="mission-state"><span class="mission-name">${escapeHTML(m.name)}</span><span class="state-tag">${escapeHTML(m.state)}</span></div><div class="mission-summary">${escapeHTML(m.currentFocus||m.objective)}</div><div class="mission-foot">${m.jobs?.length||0} jobs · ${m.decisions?.filter(d=>d.status==='pending').length||0} decisions · ${m.events?.length||0} events</div></button>`).join('');$$('.mission-row').forEach(r=>r.addEventListener('click',()=>openMission(r.dataset.mission)))}
+function openMission(id){const m=(currentState?.missions||[]).find(x=>x.id===id);if(!m)return;openInspector(`<div class="inspector-grid"><div><div class="panel-kicker">MISSION</div><h2>${escapeHTML(m.name)}</h2><span class="state-tag">${escapeHTML(m.state)}</span><p>${escapeHTML(m.objective)}</p></div><div><div class="panel-kicker">CURRENT</div><ul class="inspect-list"><li>${escapeHTML(m.currentFocus||'No current focus.')}</li><li>${m.jobs?.length||0} jobs</li><li>${m.decisions?.filter(d=>d.status==='pending').length||0} pending decisions</li></ul></div><div><div class="panel-kicker">RECENT MEMORY</div><ul class="inspect-list">${(m.events||[]).slice(0,5).map(e=>`<li>${escapeHTML(e.summary)}</li>`).join('')||'<li>No recorded events.</li>'}</ul></div></div>`)}function openInspector(html){$('#inspectorContent').innerHTML=html;$('#missionInspector').hidden=false}
+function renderMemory(state){$('#memoryStream').innerHTML=(state.events||[]).length?(state.events||[]).map(e=>`<button class="memory-row" data-event="${escapeHTML(e.id)}"><div class="memory-time">${escapeHTML(timeAgo(e.createdAt))}</div><div><div class="memory-title">${escapeHTML(e.summary)}</div><div class="memory-meta">${escapeHTML(e.missionId||'system')} · ${escapeHTML(e.source||'jarvis')}</div></div><div class="memory-hash">${escapeHTML(e.id)}</div></button>`).join(''):`<div class="state-card empty"><b>No events yet.</b><span>Event Memory is connected and empty.</span></div>`;$$('.memory-row').forEach(b=>b.addEventListener('click',()=>openEvent(b.dataset.event)))}function openEvent(id){const e=(currentState?.events||[]).find(x=>x.id===id);if(!e)return;openInspector(`<div class="inspector-grid"><div><div class="panel-kicker">EVENT MEMORY</div><h2>${escapeHTML(e.type||'Event')}</h2><span class="state-tag">${escapeHTML(e.result||'recorded')}</span><p>${escapeHTML(e.summary)}</p></div><div><div class="panel-kicker">PROVENANCE</div><ul class="inspect-list"><li>Actor: ${escapeHTML(e.actor||'unknown')}</li><li>Source: ${escapeHTML(e.source||'unknown')}</li><li>Mission: ${escapeHTML(e.missionId||'system')}</li></ul></div><div><div class="panel-kicker">WHEN / WHY</div><ul class="inspect-list"><li>${escapeHTML(new Date(e.createdAt).toLocaleString())}</li><li>${escapeHTML(e.why||'No additional rationale recorded.')}</li></ul></div></div>`)}
+function renderNow(state){const n=state.now||{};safeText($('#focusMode'),n.mode||'PERSONAL / LIVE');safeText($('#primaryFocus'),n.primaryFocus||'State unavailable');safeText($('#focusDetail'),n.detail||'JARVIS could not compute NOW.');safeText($('#lifeCommit'),state.events?.[0]?.id||'NO-EVENT');safeText($('#nextCommitmentTime'),n.nextCommitmentText||'—');$('#app')?.classList.toggle('system-issue',Boolean(n.systemIssue))}
+function renderAll(state){currentState=state;renderBus(state);renderMetrics(state);renderNow(state);renderAttention(state);renderActive(state);renderTimeline(state);renderMissions(state);renderMemory(state);safeText($('#systemMode'),'LIVE');lastHydratedAt=Date.now();updateFreshness();pulse('sync')}function renderFailure(message){safeText($('#systemMode'),'ERROR');['#attentionList','#activeList','#dayRail','#missionList','#memoryStream'].forEach(s=>{const el=$(s);if(el)el.innerHTML=`<div class="state-card error"><b>State unavailable</b><span>${escapeHTML(message)}</span></div>`})}
+async function hydrate(manual=false){ui.mode='loading';document.body.classList.add('hydrating');try{const state=await api('/api/state');renderAll(state);ui.mode='ready';if(manual)showToast('JARVIS synchronized.','success')}catch(e){if(e.status===401){ensureLogin();ui.mode='auth'}else{renderFailure(e.message);ui.mode='error'}}finally{document.body.classList.remove('hydrating')}}function scheduleRefresh(){clearInterval(refreshTimer);refreshTimer=setInterval(()=>{if(document.visibilityState==='visible')hydrate(false)},60000)}
+function timeAgo(value){const t=Date.parse(value);if(!Number.isFinite(t))return'—';const s=Math.max(0,Math.floor((Date.now()-t)/1000));if(s<60)return`${s}s`;if(s<3600)return`${Math.floor(s/60)}m`;if(s<86400)return`${Math.floor(s/3600)}h`;return`${Math.floor(s/86400)}d`}function pulse(kind){document.body.dataset.pulse=kind;setTimeout(()=>{if(document.body.dataset.pulse===kind)delete document.body.dataset.pulse},1400)}function showToast(msg,type='info'){let t=$('#toast');if(!t){t=document.createElement('div');t.id='toast';t.className='toast';document.body.append(t)}t.className=`toast ${type}`;t.textContent=msg;t.hidden=false;clearTimeout(showToast.timer);showToast.timer=setTimeout(()=>t.hidden=true,2600)}
+$('#closeInspector')?.addEventListener('click',()=>$('#missionInspector').hidden=true);document.addEventListener('keydown',e=>{if(e.key==='Escape')$('#missionInspector'].hidden=true});document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')hydrate(false)});window.addEventListener('online',()=>hydrate(true));window.addEventListener('offline',()=>{safeText($('#systemMode'),'OFFLINE');showToast('Browser offline. Showing last rendered state.','error')});
+startClock();(async()=>{const auth=await authStatus();if(!auth.authenticated)ensureLogin();else await hydrate(false);scheduleRefresh()})();
