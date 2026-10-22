@@ -1,0 +1,50 @@
+{
+  "system": {
+    "version": "3.0.0-alpha",
+    "mode": "PERSONAL / BUILD",
+    "status": "live",
+    "integrations": [
+      {"name":"ChatGPT","state":"online"},
+      {"name":"Gmail","state":"online"},
+      {"name":"Calendar","state":"online"},
+      {"name":"Drive","state":"online"},
+      {"name":"Finances","state":"online"},
+      {"name":"GitHub","state":"active"},
+      {"name":"Render","state":"online"}
+    ]
+  },
+  "now": {
+    "primary_focus": "Build JARVIS V3",
+    "detail": "Mission Control is being rebuilt into a living daily-life cockpit.",
+    "life_commit": "LIFE-20261022-V3",
+    "next_commitment_time": "—"
+  },
+  "metrics": [
+    {"label":"Needs You","value":2},
+    {"label":"JARVIS Active","value":4},
+    {"label":"Waiting","value":6},
+    {"label":"Today","value":8}
+  ],
+  "attention": [
+    {"title":"JARVIS V3 deployment target","meta":"Deployment account must be safely identified before production cutover.","action":"REVIEW"},
+    {"title":"Live data policy","meta":"Keep raw private account data out of GitHub; publish only normalized state summaries.","action":"LOCKED"}
+  ],
+  "active": [
+    {"title":"JARVIS V3 build","meta":"Structure, motion system, state model and responsive cockpit.","state":"ACTIVE"},
+    {"title":"Reference extraction","meta":"Porting FreeCNC atmosphere and signal-motion language without CNC branding.","state":"ACTIVE"},
+    {"title":"State architecture","meta":"Canonical daily-life model for missions, events, hard-time commitments and integrations.","state":"ACTIVE"},
+    {"title":"Deployment recovery","meta":"Inspecting Render topology while preserving existing services.","state":"ACTIVE"}
+  ],
+  "calendar": [],
+  "missions": [
+    {"id":"jarvis","name":"JARVIS","state":"ACTIVE BUILD","summary":"V3 living cockpit and daily-life operating layer.","objective":"Make daily life visible, actionable and versioned without creating another task manager.","next":["Finish visual shell","Wire safe live-state adapters","Deploy preview","Verify production path"],"recent":["Recovered jarvis-v2","Created jarvis-v3-live","Ported motion language"]},
+    {"id":"freecnc","name":"FreeCNC","state":"ACTIVE","summary":"Reference product and motion-language source.","objective":"Restore and evolve FreeCNC while reusing proven visual interaction ideas.","next":["Keep V3 visually distinct","Reuse only proven interaction patterns"],"recent":["freecnc-landing located","Motion system inspected"]},
+    {"id":"career","name":"Career","state":"MONITORING","summary":"Opportunities, outreach and decisions stay visible without dominating attention.","objective":"Surface only meaningful actions and waiting states.","next":["Normalize future career events into JARVIS state"],"recent":[]},
+    {"id":"home","name":"Home","state":"STABLE","summary":"Household maintenance and recurring life operations.","objective":"Keep home obligations visible and low-friction.","next":[],"recent":[]}
+  ],
+  "events": [
+    {"time":"NOW","title":"JARVIS V3 build started","meta":"jarvis-v3-live branch created from V2","hash":"V3-001"},
+    {"time":"TODAY","title":"Daily-life architecture recovered","meta":"Mission Control V2 and Personal Ops principles aligned","hash":"V3-000"},
+    {"time":"TODAY","title":"Connected finance context available","meta":"Financial state can inform the private cockpit without entering public code history","hash":"LIFE-FIN"}
+  ]
+}
