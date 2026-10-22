@@ -2,6 +2,14 @@ const engine=require('./engine');
 const {hydrateLiveFeeds}=require('./live-feeds');
 
 function integration(base,id){return (base.system?.integrations||[]).find(x=>x.id===id)||{};}
+function redactSecurity(item){
+  if(item?.category!=='security')return item;
+  return{
+    ...item,
+    subject:String(item.subject||'Security message').replace(/\b\d{4,8}\b/g,'••••••'),
+    snippet:'Security or verification message detected. Open Gmail to view sensitive details.'
+  };
+}
 
 async function publicState(){
   const base=await engine.publicState();
@@ -10,10 +18,10 @@ async function publicState(){
   if(gmailStatus.status==='CONNECTED')await hydrateLiveFeeds(feedState);
   base.live={...(base.live||{}),...(feedState.live||{})};
 
-  const inbox=base.live.inbox||[];
+  const inbox=(base.live.inbox||[]).map(redactSecurity);
   const career=base.live.career||[];
   const finance=base.live.finance||[];
-  const security=base.live.security||[];
+  const security=(base.live.security||[]).map(redactSecurity);
   const unread=Number(base.live.unreadCount||0);
 
   base.metrics=[
