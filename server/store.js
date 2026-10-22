@@ -11,7 +11,7 @@ function id(prefix='id'){ return `${prefix}_${Date.now().toString(36)}_${crypto.
 function seedState(){
   const now = iso();
   return {
-    meta: { version: '3.1.0', createdAt: now, updatedAt: now, persistence: 'initializing' },
+    meta: { version: '3.1.0', createdAt: now, updatedAt: now, persistence: 'initializing', bootCount:0, lastBootAt:null, lastBootCommit:null },
     preferences: { timezone: 'America/Detroit', displayName: 'Tylor' },
     missions: [
       {id:'jarvis',name:'JARVIS',objective:'Build a truthful personal operating system that observes, understands, decides, acts, and remembers.',state:'ACTIVE BUILD',currentFocus:'V3.1 nervous system',updatedAt:now},
@@ -61,4 +61,6 @@ async function adapter(){if(!adapterPromise)adapterPromise=(async()=>{try{const 
 async function load(){return (await adapter()).load();}
 async function save(state){return (await adapter()).save(state);}
 async function persistenceHealth(){const a=await adapter();try{await a.ping();return{status:a.kind==='postgres'?'CONNECTED':'STALE',kind:a.kind,error:null};}catch(e){return{status:'ERROR',kind:a.kind,error:e.message};}}
-module.exports={load,save,persistenceHealth,seedState,id,iso};
+async function recordBoot(){const state=await load();state.meta={...state.meta,bootCount:Number(state.meta?.bootCount||0)+1,lastBootAt:iso(),lastBootCommit:(process.env.RENDER_GIT_COMMIT||'local').slice(0,12)};await save(state);return state.meta;}
+async function persistenceProof(){const health=await persistenceHealth();let meta=null;try{meta=(await load()).meta||null;}catch{}return{status:health.status,kind:health.kind,stateCreatedAt:meta?.createdAt||null,bootCount:Number(meta?.bootCount||0),lastBootAt:meta?.lastBootAt||null,lastBootCommit:meta?.lastBootCommit||null};}
+module.exports={load,save,persistenceHealth,persistenceProof,recordBoot,seedState,id,iso};
