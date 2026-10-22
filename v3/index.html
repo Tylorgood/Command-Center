@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#06090f" />
+  <title>JARVIS V3 — Life in Motion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="atmosphere" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <main class="app-shell" id="app">
+    <header class="topbar glass-panel">
+      <div class="brand-block">
+        <div class="brand-orbit" aria-hidden="true"><span></span></div>
+        <div>
+          <div class="eyebrow">PERSONAL OPERATING SYSTEM</div>
+          <div class="brand">JARVIS <b>V3</b></div>
+        </div>
+      </div>
+
+      <div class="system-bus" id="systemBus" aria-label="Connected systems"></div>
+
+      <div class="system-status">
+        <span class="status-dot"></span>
+        <span>LIVE</span>
+      </div>
+
+      <svg class="signal-map" viewBox="0 0 1400 180" preserveAspectRatio="none" aria-hidden="true">
+        <path class="signal-line signal-line--base" d="M0 95 C160 95 180 58 330 58 S540 135 700 100 S1010 55 1400 88"/>
+        <path class="signal-line signal-line--base alt" d="M0 132 C190 132 220 96 390 112 S650 55 850 92 S1120 142 1400 118"/>
+        <path class="signal-line signal-line--live cyan" d="M0 95 C160 95 180 58 330 58 S540 135 700 100 S1010 55 1400 88"/>
+        <path class="signal-line signal-line--live violet" d="M0 132 C190 132 220 96 390 112 S650 55 850 92 S1120 142 1400 118"/>
+      </svg>
+    </header>
+
+    <section class="hero-section">
+      <div class="hero-copy">
+        <div class="eyebrow" id="dayLabel">TODAY</div>
+        <h1 id="greeting">Good afternoon, Tylor.</h1>
+        <p class="hero-subtitle">Your attention stays small. JARVIS keeps the rest in motion.</p>
+      </div>
+      <div class="now-clock" aria-label="Current time">
+        <div class="clock" id="clock">--:--</div>
+        <div class="date" id="dateLabel">—</div>
+      </div>
+    </section>
+
+    <section class="now-grid">
+      <article class="now-core glass-panel attention-reactor">
+        <div class="panel-kicker">NOW</div>
+        <div class="focus-mode" id="focusMode">PERSONAL / BUILD</div>
+        <h2 id="primaryFocus">Build JARVIS V3</h2>
+        <p id="focusDetail">Mission Control is being rebuilt into a living daily-life cockpit.</p>
+        <div class="pulse-rail" aria-hidden="true"><i></i></div>
+        <div class="now-footer">
+          <span><b id="nextCommitmentTime">—</b> next hard-time commitment</span>
+          <span class="mono" id="lifeCommit">LIFE-BOOT</span>
+        </div>
+      </article>
+
+      <div class="metric-grid" id="metricGrid"></div>
+    </section>
+
+    <section class="cockpit-grid">
+      <article class="glass-panel panel attention-panel">
+        <div class="panel-head">
+          <div>
+            <div class="panel-kicker">DECISION QUEUE</div>
+            <h3>Needs Tylor</h3>
+          </div>
+          <span class="count-pill" id="attentionCount">0</span>
+        </div>
+        <div class="stack" id="attentionList"></div>
+      </article>
+
+      <article class="glass-panel panel working-panel">
+        <div class="panel-head">
+          <div>
+            <div class="panel-kicker">BACKGROUND EXECUTION</div>
+            <h3>JARVIS Is Working</h3>
+          </div>
+          <span class="count-pill live-pill" id="activeCount">0 ACTIVE</span>
+        </div>
+        <div class="stack" id="activeList"></div>
+      </article>
+
+      <article class="glass-panel panel timeline-panel wide">
+        <div class="panel-head">
+          <div>
+            <div class="panel-kicker">HARD TIME ONLY</div>
+            <h3>Today</h3>
+          </div>
+          <span class="count-pill" id="calendarLabel">CALENDAR</span>
+        </div>
+        <div class="day-rail" id="dayRail"></div>
+      </article>
+
+      <article class="glass-panel panel mission-panel">
+        <div class="panel-head">
+          <div>
+            <div class="panel-kicker">CURRENT WORLDS</div>
+            <h3>Active Missions</h3>
+          </div>
+          <span class="count-pill">STATE</span>
+        </div>
+        <div class="mission-list" id="missionList"></div>
+      </article>
+
+      <article class="glass-panel panel memory-panel">
+        <div class="panel-head">
+          <div>
+            <div class="panel-kicker">MEANINGFUL CHANGES</div>
+            <h3>Event Memory</h3>
+          </div>
+          <span class="count-pill">LIVE FEED</span>
+        </div>
+        <div class="memory-stream" id="memoryStream"></div>
+      </article>
+    </section>
+
+    <section class="inspector glass-panel" id="missionInspector" hidden>
+      <button class="inspector-close" id="closeInspector" aria-label="Close mission details">×</button>
+      <div id="inspectorContent"></div>
+    </section>
+
+    <footer class="footer">
+      <span>JARVIS V3 · LIFE IN MOTION</span>
+      <span class="mono">Decision → Action → Memory</span>
+    </footer>
+  </main>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
