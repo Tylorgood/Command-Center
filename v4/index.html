@@ -3,46 +3,13 @@
 <body><div class="sky"></div><main class="cockpit" id="cockpit" aria-live="off">
 <header class="status-rail instrument">
   <div class="brand"><span class="brand-orb"></span><div><b>JARVIS <em>V4</em></b><small>LIFE FLIGHT DECK</small></div></div>
-  <nav class="mode-tabs" aria-label="Cockpit views"><button class="active">HOME</button><button data-open="career">CAREER</button><button data-open="money">MONEY</button><button data-open="systems">SYSTEMS</button></nav>
+  <nav class="mode-tabs" aria-label="Cockpit views"><button class="active">HOME</button><button data-open="library">LIBRARY</button><button data-open="career">CAREER</button><button data-open="money">MONEY</button><button data-open="systems">SYSTEMS</button></nav>
   <div class="clock-block"><strong id="clock">--:--</strong><small id="date">—</small></div>
   <button class="system-chip" id="systemChip" data-open="systems"><span class="lamp"></span><b id="systemSummary">SYSTEMS</b><small id="syncAge">SYNC —</small></button>
 </header>
-
-<section class="primary instrument">
-  <div class="primary-copy"><span class="kicker">RIGHT NOW</span><h1 id="rightNow">Hydrating…</h1><p id="rightDetail">Reading the current life state.</p></div>
-  <div class="next-box"><span class="kicker">NEXT</span><strong id="nextTitle">—</strong><span id="nextTime">No confirmed hard-time event</span><b id="nextCountdown">—</b></div>
-  <div class="timeline-wrap"><div class="timeline-head"><span>TODAY'S FLIGHT PATH</span><span id="timelineStatus">CALENDAR</span></div><div class="timeline" id="timeline"></div></div>
-</section>
-
-<section class="attention-cluster" id="attentionCluster">
-  <button class="summary-card urgent" data-open="attention"><span class="icon">◎</span><span><small>NEEDS TYLOR</small><b id="attentionCount">—</b><em id="attentionHint">decisions & alerts</em></span></button>
-  <button class="summary-card cyan" data-open="messages"><span class="icon">✉</span><span><small>MESSAGES</small><b id="messageCount">—</b><em id="messageHint">recent scan</em></span></button>
-  <button class="summary-card violet" data-open="career"><span class="icon">▣</span><span><small>CAREER</small><b id="careerCount">—</b><em>signals</em></span></button>
-  <button class="summary-card green" data-open="money"><span class="icon">$</span><span><small>MONEY</small><b id="moneyCount">—</b><em>email-derived</em></span></button>
-</section>
-
-<section class="signal-grid">
-  <article class="instrument signal-panel"><header><div><span class="kicker">LIVE COMMS</span><h2>Inbox</h2></div><button data-open="messages">VIEW ALL</button></header><div class="rows" id="messageRows"></div></article>
-  <article class="instrument signal-panel"><header><div><span class="kicker">OPPORTUNITY TRACKER</span><h2>Career Radar</h2></div><button data-open="career">VIEW ALL</button></header><div class="rows" id="careerRows"></div></article>
-  <article class="instrument signal-panel"><header><div><span class="kicker">FINANCIAL SIGNALS</span><h2>Money Queue</h2></div><button data-open="money">VIEW ALL</button></header><div class="rows" id="moneyRows"></div></article>
-  <article class="instrument signal-panel agenda-panel"><header><div><span class="kicker">HARD TIME</span><h2>Agenda</h2></div><button data-open="agenda">VIEW ALL</button></header><div class="rows" id="agendaRows"></div></article>
-</section>
-
-<section class="life-strip">
-  <button class="instrument life-module" data-open="health"><span class="life-icon">♥</span><div><small>HEALTH</small><b id="healthState">SOURCE NEEDED</b><em id="healthDetail">No server bridge</em></div></button>
-  <button class="instrument life-module" data-open="home"><span class="life-icon">⌂</span><div><small>HOME / LIFE</small><b id="homeState">UNKNOWN</b><em>Awaiting structured source</em></div></button>
-  <button class="instrument life-module" data-open="creative"><span class="life-icon">♫</span><div><small>CREATIVE</small><b id="creativeState">UNKNOWN</b><em>Mission context</em></div></button>
-  <button class="instrument life-module" data-open="vehicle"><span class="life-icon">◈</span><div><small>VEHICLE</small><b id="vehicleState">UNKNOWN</b><em>Awaiting structured source</em></div></button>
-  <button class="instrument life-module" data-open="projects"><span class="life-icon">⬡</span><div><small>PROJECTS</small><b id="projectCount">—</b><em id="projectHint">active worlds</em></div></button>
-</section>
-
-<footer class="activity-rail instrument">
-  <button class="jarvis-working" data-open="activity"><span class="pulse"></span><div><small>JARVIS IS WORKING</small><b id="activitySummary">Hydrating sources…</b></div></button>
-  <div class="activity-events" id="activityEvents"></div>
-  <div class="quick-actions"><button data-open="messages">INBOX</button><button data-open="career">CAREER</button><button data-open="money">MONEY</button><button data-open="systems">SYSTEMS</button></div>
-</footer>
-</main>
-
-<aside class="inspector" id="inspector" hidden aria-labelledby="inspectorTitle"><div class="inspector-head"><div><span class="kicker" id="inspectorKicker">DETAIL</span><h2 id="inspectorTitle">Inspector</h2></div><button id="closeInspector" aria-label="Close inspector">×</button></div><div id="inspectorBody"></div></aside>
-<div class="toast" id="toast" hidden role="status"></div>
-<script type="module" src="./app.js"></script></body></html>
+<section class="primary instrument"><div class="primary-copy"><span class="kicker">RIGHT NOW</span><h1 id="rightNow">Hydrating…</h1><p id="rightDetail">Reading the current life state.</p></div><div class="next-box"><span class="kicker">NEXT</span><strong id="nextTitle">—</strong><span id="nextTime">No confirmed hard-time event</span><b id="nextCountdown">—</b></div><div class="timeline-wrap"><div class="timeline-head"><span>TODAY'S FLIGHT PATH</span><span id="timelineStatus">CALENDAR</span></div><div class="timeline" id="timeline"></div></div></section>
+<section class="attention-cluster" id="attentionCluster"><button class="summary-card urgent" data-open="attention"><span class="icon">◎</span><span><small>NEEDS TYLOR</small><b id="attentionCount">—</b><em id="attentionHint">decisions & alerts</em></span></button><button class="summary-card cyan" data-open="messages"><span class="icon">✉</span><span><small>MESSAGES</small><b id="messageCount">—</b><em id="messageHint">recent scan</em></span></button><button class="summary-card violet" data-open="career"><span class="icon">▣</span><span><small>CAREER</small><b id="careerCount">—</b><em>signals</em></span></button><button class="summary-card green" data-open="money"><span class="icon">$</span><span><small>MONEY</small><b id="moneyCount">—</b><em>email-derived</em></span></button></section>
+<section class="signal-grid"><article class="instrument signal-panel"><header><div><span class="kicker">LIVE COMMS</span><h2>Inbox</h2></div><button data-open="messages">VIEW ALL</button></header><div class="rows" id="messageRows"></div></article><article class="instrument signal-panel"><header><div><span class="kicker">OPPORTUNITY TRACKER</span><h2>Career Radar</h2></div><button data-open="career">VIEW ALL</button></header><div class="rows" id="careerRows"></div></article><article class="instrument signal-panel"><header><div><span class="kicker">FINANCIAL SIGNALS</span><h2>Money Queue</h2></div><button data-open="money">VIEW ALL</button></header><div class="rows" id="moneyRows"></div></article><article class="instrument signal-panel agenda-panel"><header><div><span class="kicker">HARD TIME</span><h2>Agenda</h2></div><button data-open="agenda">VIEW ALL</button></header><div class="rows" id="agendaRows"></div></article></section>
+<section class="life-strip"><button class="instrument life-module" data-open="library"><span class="life-icon">▦</span><div><small>LIBRARY</small><b id="libraryCount">—</b><em id="libraryDetail">knowledge entities</em></div></button><button class="instrument life-module" data-open="health"><span class="life-icon">♥</span><div><small>HEALTH</small><b id="healthState">SOURCE NEEDED</b><em id="healthDetail">No server bridge</em></div></button><button class="instrument life-module" data-open="creative"><span class="life-icon">♫</span><div><small>CREATIVE</small><b id="creativeState">UNKNOWN</b><em>Mission context</em></div></button><button class="instrument life-module" data-open="vehicle"><span class="life-icon">◈</span><div><small>VEHICLE</small><b id="vehicleState">UNKNOWN</b><em>Awaiting structured source</em></div></button><button class="instrument life-module" data-open="projects"><span class="life-icon">⬡</span><div><small>PROJECTS</small><b id="projectCount">—</b><em id="projectHint">active worlds</em></div></button></section>
+<footer class="activity-rail instrument"><button class="jarvis-working" data-open="activity"><span class="pulse"></span><div><small>JARVIS IS WORKING</small><b id="activitySummary">Hydrating sources…</b></div></button><div class="activity-events" id="activityEvents"></div><div class="quick-actions"><button data-open="library">LIBRARY</button><button data-open="messages">INBOX</button><button data-open="career">CAREER</button><button data-open="money">MONEY</button><button data-open="systems">SYSTEMS</button></div></footer>
+</main><aside class="inspector" id="inspector" hidden aria-labelledby="inspectorTitle"><div class="inspector-head"><div><span class="kicker" id="inspectorKicker">DETAIL</span><h2 id="inspectorTitle">Inspector</h2></div><button id="closeInspector" aria-label="Close inspector">×</button></div><div id="inspectorBody"></div></aside><div class="toast" id="toast" hidden role="status"></div><script type="module" src="./app.js"></script><script type="module" src="./library-nav.js"></script></body></html>
