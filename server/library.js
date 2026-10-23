@@ -10,7 +10,8 @@ async function syncFromState(base,{force=false}={}){
     let driveFiles=[],driveError=null;
     if(driveConnected){try{driveFiles=await google.driveLibrary(100);}catch(e){driveError='drive_metadata_unavailable';console.error('knowledge drive sync failed',String(e.message||'source_error').slice(0,160));}}
     const projects=projectsSeeded?[]:(base.missions||[]);
-    const result=await knowledge.syncKnowledge({gmailItems:base.live?.knowledgeMessages||base.live?.inbox||[],driveFiles,projects});
+    const gmailItems=(base.live?.knowledgeMessages||base.live?.inbox||[]).filter(m=>String(m?.category||'').toLowerCase()!=='security');
+    const result=await knowledge.syncKnowledge({gmailItems,driveFiles,projects});
     if(!result?.error&&projects.length)projectsSeeded=true;
     return{...result,driveError};
   })();
