@@ -18,4 +18,4 @@ async function labRun(){const h=await health();const tests=[{name:'worker_health
 {name:'no hallucinated response requirement',signal:{source:'lab',sender:'GitHub',title:'Build completed',snippet:'Deployment completed successfully.'},check:r=>r.requiresResponse===false}
 ];for(const c of cases){try{const r=await classify(c.signal);tests.push({name:c.name,passed:Boolean(c.check(r)),detail:{domain:r.domain,requiresResponse:r.requiresResponse,confidence:r.confidence,mode:r.reasoningMode,overrides:r.evidenceOverrides}});}catch(e){tests.push({name:c.name,passed:false,detail:String(e.message||e).slice(0,180)});}}
  const passed=tests.filter(x=>x.passed).length,score=Math.round(passed/tests.length*100);return{lab:'Hybrid Reflex Reasoner',score,health:h,tests};}
-module.exports={configured,health,classify,labRun,hashSignal,strongEvidence,mergeHybrid};
+module.exports={configured,health,classify,labRun,hashSignal,strongEvidence,mergeHybrid,complete,jsonFromText};
