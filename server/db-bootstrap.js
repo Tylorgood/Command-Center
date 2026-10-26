@@ -1,10 +1,11 @@
 'use strict';
 
-// Normalize the Supabase connection before node-postgres parses it.
-// 1) Keep TLS enabled by the Pool config in store.js/knowledge.js, while
-//    removing URL SSL flags that can override that explicit config.
-// 2) Shared Supabase poolers require postgres.<project-ref> as the username.
-//    Direct db.<ref>.supabase.co connections continue to use plain postgres.
+const V4_SUPABASE_PROJECT_REF = 'xnvvrksunlgkcexpqoan';
+
+// Normalize the V4 staging database URL before node-postgres parses it.
+// Shared Supabase poolers require postgres.<project-ref> as the username.
+// Direct db.<ref>.supabase.co connections continue to use plain postgres.
+// URL SSL flags are removed because store.js/knowledge.js explicitly enable TLS.
 function normalizeDatabaseUrl(raw) {
   if (!raw) return raw;
   try {
@@ -13,7 +14,7 @@ function normalizeDatabaseUrl(raw) {
       url.searchParams.delete(key);
     }
 
-    const projectRef = String(process.env.SUPABASE_PROJECT_REF || '').trim();
+    const projectRef = String(process.env.SUPABASE_PROJECT_REF || V4_SUPABASE_PROJECT_REF).trim();
     const sharedPooler = /\.pooler\.supabase\.com$/i.test(url.hostname);
     if (sharedPooler && projectRef && url.username === 'postgres') {
       url.username = `postgres.${projectRef}`;
