@@ -3,13 +3,10 @@ const {spawn}=require('child_process');
 const port=18765;
 const stateFile=`/tmp/jarvis-http-${Date.now()}.json`;
 let stdout='',stderr='',exitInfo=null;
-const testEnv={...process.env};
-// The HTTP contract test must be deterministic and self-contained. Live database
-// connectivity is verified by staging/runtime acceptance, not by this local child.
-delete testEnv.DATABASE_URL;
+console.log(`[http-test] DATABASE_URL available: ${Boolean(process.env.DATABASE_URL)}`);
 const child=spawn(process.execPath,['server.js'],{
   cwd:process.cwd(),
-  env:{...testEnv,PORT:String(port),JARVIS_ACCESS_KEY:'test-key',JARVIS_SESSION_SECRET:'test-secret',JARVIS_STATE_FILE:stateFile,JARVIS_TEST_MODE:'1'},
+  env:{...process.env,PORT:String(port),JARVIS_ACCESS_KEY:'test-key',JARVIS_SESSION_SECRET:'test-secret',JARVIS_STATE_FILE:stateFile,JARVIS_TEST_MODE:'1'},
   stdio:['ignore','pipe','pipe']
 });
 child.stdout.on('data',d=>{const s=String(d);stdout+=s;process.stdout.write(`[server] ${s}`)});
