@@ -2,10 +2,6 @@
 
 const V4_SUPABASE_PROJECT_REF = 'xnvvrksunlgkcexpqoan';
 
-// Normalize the V4 staging database URL before node-postgres parses it.
-// Shared Supabase poolers require postgres.<project-ref> as the username.
-// Direct db.<ref>.supabase.co connections continue to use plain postgres.
-// URL SSL flags are removed because store.js/knowledge.js explicitly enable TLS.
 function normalizeDatabaseUrl(raw) {
   if (!raw) return raw;
   try {
@@ -28,6 +24,20 @@ function normalizeDatabaseUrl(raw) {
 
 if (process.env.DATABASE_URL) {
   process.env.DATABASE_URL = normalizeDatabaseUrl(process.env.DATABASE_URL);
+  try {
+    const target = new URL(process.env.DATABASE_URL);
+    console.log('database target', {
+      host: target.hostname,
+      port: target.port || '5432',
+      database: target.pathname.replace(/^\//, '') || 'postgres',
+      user: decodeURIComponent(target.username),
+      tls: process.env.PGSSLMODE === 'disable' ? 'disabled' : 'enabled'
+    });
+  } catch {
+    console.log('database target configured (details unavailable)');
+  }
+} else {
+  console.log('database target missing');
 }
 
 require('../server.js');
