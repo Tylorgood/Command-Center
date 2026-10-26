@@ -1,14 +1,10 @@
 'use strict';
 
-// node-postgres lets SSL query parameters in DATABASE_URL replace the explicit
-// `ssl` object supplied by our Pool configuration. Supabase pooler URLs may
-// include sslmode=require, which can therefore re-enable certificate-chain
-// verification even though the application intentionally supplies
-// { rejectUnauthorized: false } for this managed encrypted connection.
-//
-// Remove only SSL-mode query parameters before loading the server. The Pool
-// still enables TLS explicitly in store.js and knowledge.js. Credentials,
-// host, database, and every non-SSL query parameter are preserved.
+// Normalize the Supabase connection before node-postgres parses it.
+// 1) Keep TLS enabled by the Pool config in store.js/knowledge.js, while
+//    removing URL SSL flags that can override that explicit config.
+// 2) Shared Supabase poolers require postgres.<project-ref> as the username.
+//    Direct db.<ref>.supabase.co connections continue to use plain postgres.
 function normalizeDatabaseUrl(raw) {
   if (!raw) return raw;
   try {
@@ -16,6 +12,13 @@ function normalizeDatabaseUrl(raw) {
     for (const key of ['sslmode', 'sslcert', 'sslkey', 'sslrootcert']) {
       url.searchParams.delete(key);
     }
+
+    const projectRef = String(process.env.SUPABASE_PROJECT_REF || '').trim();
+    const sharedPooler = /\.pooler\.supabase\.com$/i.test(url.hostname);
+    if (sharedPooler && projectRef && url.username === 'postgres') {
+      url.username = `postgres.${projectRef}`;
+    }
+
     return url.toString();
   } catch {
     return raw;
