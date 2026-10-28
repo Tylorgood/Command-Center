@@ -4,31 +4,21 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>JARVIS Companion</title>
-<style>
-:root{color-scheme:dark;font-family:Inter,system-ui,sans-serif;background:#061018;color:#eafcff}
-body{margin:0;min-height:100vh;display:grid;place-items:center;background:radial-gradient(circle at 20% 10%,#0b3342 0,#061018 38%,#02070b 100%)}
-main{width:min(680px,calc(100% - 32px));border:1px solid #1d6578;border-radius:28px;padding:28px;background:rgba(6,16,24,.88);box-shadow:0 0 50px rgba(36,211,255,.12)}
-h1{margin:0 0 8px;font-size:clamp(32px,7vw,58px);letter-spacing:.06em}.accent{color:#55e7ff}
-p{color:#a9c7d0;line-height:1.5}.grid{display:grid;gap:12px;margin:22px 0}
-.card{border:1px solid #174757;border-radius:18px;padding:16px;background:#081923}
-button,a.button{display:inline-flex;justify-content:center;align-items:center;min-height:48px;padding:0 18px;border-radius:14px;border:1px solid #55e7ff;background:#0d2934;color:#eaffff;text-decoration:none;font-weight:700;cursor:pointer}
-button:hover,a.button:hover{transform:translateY(-1px);box-shadow:0 0 20px rgba(85,231,255,.22)}button:disabled{opacity:.6;cursor:wait}
-code{display:block;word-break:break-all;padding:14px;background:#02090d;border-radius:12px;border:1px solid #174757;color:#8df5ff;margin-top:10px}
-.muted{font-size:.9rem;color:#7598a3}.ok{color:#7dffb2}.warn{color:#ffd56a}
-</style>
+<link rel="stylesheet" href="/companion/style.css">
 </head>
 <body>
 <main>
-  <div class="muted">JARVIS V5 · ANDROID BRIDGE</div>
+  <div class="muted">JARVIS V5 · ANDROID BRIDGE · FIELD TEST 2</div>
   <h1>JARVIS <span class="accent">COMPANION</span></h1>
-  <p>Field-test bridge for FitCloud/Health Connect. This first build is read-only: it reads approved wellness metrics from Android Health Connect and sends only those metrics to your JARVIS account.</p>
+  <p>Your phone bridge for watch wellness data. The field-test build is read-only and sends only the health metrics you approve.</p>
   <div class="grid">
-    <div class="card"><strong>1 · Download the Android test build</strong><p>Install on your Samsung. Android may ask you to allow installs from your browser because this is a private field-test APK.</p><a class="button" href="https://github.com/Tylorgood/Command-Center/releases/download/companion-test/jarvis-companion-test.apk">Download JARVIS Companion</a></div>
-    <div class="card"><strong>2 · Create a pairing code</strong><p>This creates a separate revocable device token. It does not expose your normal JARVIS login password.</p><button id="pair" type="button">Create Pairing Code</button><code id="token">Not created yet.</code></div>
-    <div class="card"><strong>3 · Connect Health</strong><p>Open JARVIS Companion → Connect Health Data → grant the metrics you want → paste the pairing code → Read Now → Sync to JARVIS.</p></div>
-    <div class="card"><strong>4 · Verify</strong><p id="status">No wearable sync received yet.</p><button id="verify" type="button">Check JARVIS</button></div>
+    <div class="card"><strong>1 · Install or update Companion</strong><p>Download the newest APK. Android can install it over the first field-test build.</p><a class="button" href="https://github.com/Tylorgood/Command-Center/releases/download/companion-test/jarvis-companion-test.apk">Download Latest Companion</a></div>
+    <div class="card"><strong>2 · Pair this phone</strong><p>Create a revocable device code. Companion now remembers it after you enter it once.</p><div class="actions"><button id="pair" type="button">Create Pairing Code</button><button id="copy" class="hidden" type="button">Copy Code</button></div><code id="token">Not created yet.</code></div>
+    <div class="card"><strong>3 · Health permissions</strong><p>In Companion, tap <b>Review Health Permissions</b>. You can grant only the metrics you want. Missing one permission no longer breaks all the others.</p></div>
+    <div class="card"><strong>4 · Read the watch</strong><p>Tap <b>Refresh Watch Data</b>. If numbers appear, tap <b>Sync to JARVIS</b>. If FitCloud Pro has numbers but JARVIS shows none, that is our signal to activate the direct FitCloud SDK path.</p></div>
+    <div class="card"><strong>5 · Verify JARVIS</strong><p id="status">No wearable sync received yet.</p><button id="verify" type="button">Check JARVIS</button></div>
   </div>
-  <p class="muted">If FitCloud Pro is not writing usable data to Health Connect, the next fallback is direct FitCloud SDK integration inside the same companion app.</p>
+  <p class="muted">Pipeline: WATCH → FitCloud/Health Connect → JARVIS Companion → secure wearable API → cockpit Health instrument.</p>
 </main>
 <script src="/companion/app.js" defer></script>
 </body>
