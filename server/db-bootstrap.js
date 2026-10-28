@@ -40,4 +40,8 @@ if (process.env.DATABASE_URL) {
   console.log('database target missing');
 }
 
+// Step 6.1: install the authenticated, privacy-scoped location/weather route
+// before the main HTTP server is created. Coordinates are resolved on demand
+// and are not persisted by this feature.
+require('./location-context-hook');
 require('../server.js');
