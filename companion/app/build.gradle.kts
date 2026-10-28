@@ -1,6 +1,6 @@
 plugins { id("com.android.application"); id("org.jetbrains.kotlin.android") }
 android {
- namespace = "com.jarvis.companion"; compileSdk = 35
+ namespace = "com.jarvis.companion"; compileSdk = 36
  defaultConfig { applicationId = "com.jarvis.companion"; minSdk = 28; targetSdk = 35; versionCode = 1; versionName = "0.1.0" }
 }
 dependencies {
