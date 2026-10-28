@@ -1,7 +1,7 @@
 plugins { id("com.android.application"); id("org.jetbrains.kotlin.android"); id("org.jetbrains.kotlin.plugin.compose") }
 android {
  namespace = "com.jarvis.companion"; compileSdk = 36
- defaultConfig { applicationId = "com.jarvis.companion"; minSdk = 28; targetSdk = 35; versionCode = 1; versionName = "0.1.0" }
+ defaultConfig { applicationId = "com.jarvis.companion"; minSdk = 28; targetSdk = 35; versionCode = 2; versionName = "0.2.0-fieldtest2" }
  compileOptions {
    sourceCompatibility = JavaVersion.VERSION_17
    targetCompatibility = JavaVersion.VERSION_17
