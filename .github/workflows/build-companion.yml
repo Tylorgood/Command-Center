@@ -2,7 +2,7 @@ name: Build JARVIS Companion
 on:
   workflow_dispatch:
   push:
-    branches: [jarvis-fitcloud-companion]
+    branches: [jarvis-fitcloud-companion, jarvis-companion-product-pass]
 
 permissions:
   contents: write
