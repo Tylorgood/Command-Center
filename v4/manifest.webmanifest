@@ -1,0 +1,16 @@
+{
+  "name": "JARVIS V5 — Personal Command Center",
+  "short_name": "JARVIS V5",
+  "description": "Personal command center for decisions, communications, projects and life systems.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#01050a",
+  "theme_color": "#01050a",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    {"src":"/app-icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}

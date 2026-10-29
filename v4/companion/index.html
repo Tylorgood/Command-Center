@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JARVIS Companion</title>
+<link rel="stylesheet" href="/companion/style.css">
+</head>
+<body>
+<main>
+  <div class="muted">JARVIS V5 · ANDROID BRIDGE · FIELD TEST 2</div>
+  <h1>JARVIS <span class="accent">COMPANION</span></h1>
+  <p>Your phone bridge for watch wellness data. The field-test build is read-only and sends only the health metrics you approve.</p>
+  <div class="grid">
+    <div class="card"><strong>1 · Install or update Companion</strong><p>Download the newest APK. Android can install it over the first field-test build.</p><a class="button" href="https://github.com/Tylorgood/Command-Center/releases/download/companion-test/jarvis-companion-test.apk">Download Latest Companion</a></div>
+    <div class="card"><strong>2 · Pair this phone</strong><p>Create a revocable device code. Companion now remembers it after you enter it once.</p><div class="actions"><button id="pair" type="button">Create Pairing Code</button><button id="copy" class="hidden" type="button">Copy Code</button></div><code id="token">Not created yet.</code></div>
+    <div class="card"><strong>3 · Health permissions</strong><p>In Companion, tap <b>Review Health Permissions</b>. You can grant only the metrics you want. Missing one permission no longer breaks all the others.</p></div>
+    <div class="card"><strong>4 · Read the watch</strong><p>Tap <b>Refresh Watch Data</b>. If numbers appear, tap <b>Sync to JARVIS</b>. If FitCloud Pro has numbers but JARVIS shows none, that is our signal to activate the direct FitCloud SDK path.</p></div>
+    <div class="card"><strong>5 · Verify JARVIS</strong><p id="status">No wearable sync received yet.</p><button id="verify" type="button">Check JARVIS</button></div>
+  </div>
+  <p class="muted">Pipeline: WATCH → FitCloud/Health Connect → JARVIS Companion → secure wearable API → cockpit Health instrument.</p>
+</main>
+<script src="/companion/app.js" defer></script>
+</body>
+</html>
