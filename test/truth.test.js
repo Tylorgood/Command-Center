@@ -1,0 +1,16 @@
+const assert=require('assert');
+const I=require('../server/truth-identity');
+const C=require('../server/truth-core');
+const Q=require('../server/truth-query');
+const p=Q.pureTests();
+assert.equal(p.passed,true,JSON.stringify(p.tests.filter(x=>!x.passed),null,2));
+assert.equal(I.normalizePhone('586-555-1212'),'+15865551212');
+assert.equal(I.normalizeEmail('TEST@Example.com'),'test@example.com');
+assert.equal(I.identityBand(I.identityScore({sameVerifiedEmail:true}).score),'AUTO_MERGE');
+assert.notEqual(I.identityBand(I.identityScore({nameSimilarity:.9}).score),'AUTO_MERGE');
+assert.equal(I.classifyCommunication({text:'CNC Programmer opportunity, are you interested?'}).importance,'TRANSIENT');
+assert.equal(I.classifyCommunication({text:'Reply STOP to unsubscribe'}).importance,'AUTOMATED');
+assert.equal(C.extractIntent('I could eat').invitation,true);
+assert.equal(C.extractIntent('No plans after work if you are free').needsDecision,true);
+assert.equal(C.extractIntent('Sounds good!').closing,true);
+console.log('truth.test.js PASS',p.score,p.tests.map(x=>x.name));
