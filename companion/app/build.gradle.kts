@@ -1,7 +1,7 @@
 plugins { id("com.android.application"); id("org.jetbrains.kotlin.android"); id("org.jetbrains.kotlin.plugin.compose") }
 android {
  namespace = "com.jarvis.companion"; compileSdk = 36
- defaultConfig { applicationId = "com.jarvis.companion"; minSdk = 28; targetSdk = 35; versionCode = 3; versionName = "0.3.0-push6" }
+ defaultConfig { applicationId = "com.jarvis.companion"; minSdk = 28; targetSdk = 35; versionCode = 4; versionName = "0.4.0-sms-listener" }
  compileOptions {
    sourceCompatibility = JavaVersion.VERSION_17
    targetCompatibility = JavaVersion.VERSION_17
