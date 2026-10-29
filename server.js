@@ -1,5 +1,6 @@
 const http=require('http');const fs=require('fs');const path=require('path');const vm=require('vm');
 const {requireAuth,session,login,logout}=require('./server/auth');
+const yahoo=require('./server/yahoo');
 const wearable=require('./server/wearable');
 const engine=require('./server/engine');const dashboard=require('./server/dashboard');const personalState=require('./server/personal-state');const contextEngine=require('./server/context-engine');const actionPolicy=require('./server/action-policy');const capabilities=require('./server/capabilities');const preparations=require('./server/preparations');const verifier=require('./server/verifier');const threadContext=require('./server/thread-context');const executors=require('./server/executors');const reasoner=require('./server/reasoner');const google=require('./server/google');const library=require('./server/library');const brain=require('./server/brain');const population=require('./server/population');const {ensureHistoricalBackfill}=require('./server/brain-bootstrap');const {persistenceProof,recordBoot}=require('./server/store');
 const v3Root=path.join(__dirname,'v3'),v4Root=path.join(__dirname,'v4'),libraryRoot=path.join(v4Root,'library'),port=Number(process.env.PORT||10000),maxBody=1024*1024;
@@ -24,6 +25,10 @@ async function api(req,res,url){
  if(url.pathname==='/api/wearable/latest'&&req.method==='GET')return json(res,200,{item:await wearable.latest()});
  if(url.pathname==='/api/wearable/revoke'&&req.method==='POST'){const b=await readBody(req);return json(res,200,await wearable.revoke(b.id))}
  if(url.pathname==='/api/google/status'&&req.method==='GET')return json(res,200,{...(await google.status()),redirectUri:google.redirectUri()});
+ if(url.pathname==='/api/yahoo/status'&&req.method==='GET')return json(res,200,await yahoo.status({force:url.searchParams.get('force')==='1'}));
+ if(url.pathname==='/api/yahoo/configure'&&req.method==='POST'){try{return json(res,200,{ok:true,connection:await yahoo.configure(await readBody(req))})}catch(e){return json(res,e.status||500,{error:e.message||'yahoo_configure_failed'})}}
+ if(url.pathname==='/api/yahoo/disconnect'&&req.method==='POST')return json(res,200,await yahoo.disconnect());
+ if(url.pathname==='/api/yahoo/inbox'&&req.method==='GET'){try{return json(res,200,{items:await yahoo.inbox(url.searchParams.get('limit')||12)})}catch(e){return json(res,e.status||500,{error:e.message||'yahoo_inbox_failed',code:e.code||null})}}
  if(url.pathname==='/api/google/start'&&req.method==='GET'){const authUrl=google.authorizationUrl(user);if(url.searchParams.get('json')==='1')return json(res,200,{url:authUrl});return redirect(res,authUrl)}
  if(url.pathname==='/api/reasoner/health'&&req.method==='GET')return json(res,200,await reasoner.health());
  if(url.pathname==='/api/capabilities'&&req.method==='GET')return json(res,200,await capabilities.current());
