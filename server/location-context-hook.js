@@ -3,9 +3,8 @@ const http=require('http');
 const {requireAuth}=require('./auth');
 const originalCreate=http.createServer.bind(http),originalWriteHead=http.ServerResponse.prototype.writeHead;
 const MAX_BODY=8192;
-// The main server deliberately denies device sensors by default. Step 6.1 opens only
-// geolocation to this same origin; the browser still requires the user's permission.
-http.ServerResponse.prototype.writeHead=function(statusCode,reason,headers){let h=typeof reason==='object'&&reason!==null?reason:headers;if(h){h={...h};for(const k of Object.keys(h))if(k.toLowerCase()==='permissions-policy')h[k]=String(h[k]).replace('geolocation=()','geolocation=(self)');if(typeof reason==='object'&&reason!==null)return originalWriteHead.call(this,statusCode,h);return originalWriteHead.call(this,statusCode,reason,h)}return originalWriteHead.apply(this,arguments)};
+// Location remains opt-in. This hook also permits the read-only Google Maps embed used by the cockpit.
+http.ServerResponse.prototype.writeHead=function(statusCode,reason,headers){let h=typeof reason==='object'&&reason!==null?reason:headers;if(h){h={...h};for(const k of Object.keys(h)){if(k.toLowerCase()==='permissions-policy')h[k]=String(h[k]).replace('geolocation=()','geolocation=(self)');if(k.toLowerCase()==='content-security-policy'){let c=String(h[k]);if(!/frame-src\s/i.test(c))c=c.replace(/frame-ancestors\s+'none';?/i,"frame-src https://www.google.com https://maps.google.com; frame-ancestors 'none';");h[k]=c}}if(typeof reason==='object'&&reason!==null)return originalWriteHead.call(this,statusCode,h);return originalWriteHead.call(this,statusCode,reason,h)}return originalWriteHead.apply(this,arguments)};
 function send(res,code,obj){res.writeHead(code,{'content-type':'application/json; charset=utf-8','cache-control':'no-store','x-content-type-options':'nosniff','referrer-policy':'no-referrer','permissions-policy':'geolocation=(self)'});res.end(JSON.stringify(obj));}
 function read(req){return new Promise((resolve,reject)=>{let raw='';req.on('data',c=>{raw+=c;if(raw.length>MAX_BODY)reject(Object.assign(new Error('body_too_large'),{status:413}))});req.on('end',()=>{try{resolve(raw?JSON.parse(raw):{})}catch{reject(Object.assign(new Error('invalid_json'),{status:400}))}});req.on('error',reject)})}
 function finite(v,min,max){const n=Number(v);return Number.isFinite(n)&&n>=min&&n<=max?n:null}
