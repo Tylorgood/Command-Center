@@ -1,1 +1,125 @@
-(()=>{'use strict';const $=s=>document.querySelector(s);let context=null,selected='gym';const cats={gym:'Gym',coffee:'Coffee',gas:'Gas',event:'Events'};function mapsUrl(x){const q=x?.lat!=null&&x?.lon!=null?`${x.lat},${x.lon}`:context?.location?`${context.location.latitude},${context.location.longitude}`:'';return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`}function mapBlock(){if(!context?.location)return'';return `<div class="decisionOption liveMapCard"><h3>LIVE LOCATION</h3><p>${context.location.name||'Current location'} · ${context.location.latitude}, ${context.location.longitude}</p><a class="switch mapLaunch" target="_blank" rel="noopener" href="${mapsUrl()}">OPEN REAL GOOGLE MAP</a></div>`}function categoryRows(k){if(k==='event')return `<div class="decisionOption"><h3>Events</h3><p>Local event source is next. Calendar and Opportunity Radar remain available.</p></div>`;const items=context?.nearby?.[k]||[];return items.length?items.map(x=>`<a class="decisionOption nearbyResult" target="_blank" rel="noopener" href="${mapsUrl(x)}"><span class="label">${x.distanceMiles} MI</span><h3>${x.name}</h3><p>Open this place in Google Maps</p></a>`).join(''):`<div class="decisionOption"><h3>No ${cats[k]} results returned</h3><p>Tap refresh location and try again.</p></div>`}function show(msg,category=selected){selected=category||selected;const d=$('#drawer'),b=$('#drawerBody');if(!d||!b)return;$('#drawerKicker').textContent='LOCATION + NEARBY';$('#drawerTitle').textContent=context?.location?.name||'Location';b.innerHTML=`<div class="decisionOption"><h3>${msg||'Device location'}</h3><p>${context?.location?'Live device location · '+(context.verifiedAt?new Date(context.verifiedAt).toLocaleTimeString():''):'Location is shared only after you approve browser permission.'}</p><button class="switch" id="connectLocation">REFRESH LOCATION</button></div>${mapBlock()}<div class="nearbyTabs">${Object.entries(cats).map(([k,n])=>`<button class="switch nearbyTab" data-nearby="${k}" ${k===selected?'aria-pressed="true"':''}>${n.toUpperCase()}</button>`).join('')}</div>${categoryRows(selected)}`;d.hidden=false}function renderPanel(){if(!context)return;$('#locationName').textContent=context.location?.name||'CURRENT LOCATION';$('#miniLocation').textContent=context.location?.name||'LOCAL';$('#locationPanel').dataset.location='live';if(context.weather){$('#weatherTemp').textContent=Math.round(context.weather.temperature)+'°';$('#miniTemp').textContent=Math.round(context.weather.temperature)+'°';$('#weatherState').textContent=String(context.weather.summary||'LIVE').toUpperCase();$('#weatherMini').dataset.source='live'}const box=$('#locationPanel .nearby');if(box){const one=k=>context.nearby?.[k]?.[0];box.innerHTML='<span class="label">NEARBY · TAP TO EXPLORE</span>'+[['Gym','gym'],['Coffee','coffee'],['Gas','gas']].map(([n,k])=>{const x=one(k);return `<button class="nearbyMini" data-nearby="${k}"><b>${n}</b><span class="muted">${x?x.name+' · '+x.distanceMiles+' mi':'—'}</span></button>`}).join('')+'<button class="nearbyMini" data-nearby="event"><b>Event</b><span class="muted">CONNECT SOURCE</span></button>'}}async function refresh(){if(!navigator.geolocation)return show('Location unavailable in this browser');navigator.geolocation.getCurrentPosition(async p=>{try{const r=await fetch('/api/location-context',{method:'POST',credentials:'same-origin',cache:'no-store',headers:{'content-type':'application/json'},body:JSON.stringify({latitude:p.coords.latitude,longitude:p.coords.longitude})});if(!r.ok)throw 0;context=await r.json();renderPanel();show(context.weather?`${context.weather.summary} · ${Math.round(context.weather.temperature)}°`:'Location connected',selected)}catch{show('Location received; context service unavailable. Retry.')}},e=>show(e.code===1?'Permission blocked — allow Location for JARVIS, then retry.':'Could not get a fresh location. Retry.'),{enableHighAccuracy:true,timeout:12000,maximumAge:30000})}document.addEventListener('click',e=>{const near=e.target.closest('[data-nearby]');if(near){e.preventDefault();e.stopImmediatePropagation();show('Nearby '+cats[near.dataset.nearby],near.dataset.nearby);return}if(e.target.closest('#connectLocation')){e.preventDefault();e.stopImmediatePropagation();refresh();return}if(e.target.closest('#locationPanel')){e.preventDefault();e.stopImmediatePropagation();if(context)show('Live location and nearby places',selected);else refresh()}},true);window.addEventListener('load',async()=>{try{const p=await navigator.permissions.query({name:'geolocation'});if(p.state==='granted')refresh()}catch{}})})();
+(()=>{'use strict';
+const $=s=>document.querySelector(s);
+let context=null,selected='gym';
+const cats={gym:'Gym',coffee:'Coffee',gas:'Gas',event:'Events'};
+
+function mapsUrl(x,category){
+  if(category&&context?.location){
+    const q=`${cats[category]||category} near ${context.location.latitude},${context.location.longitude}`;
+    return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+  }
+  const q=x?.lat!=null&&x?.lon!=null?`${x.lat},${x.lon}`:context?.location?`${context.location.latitude},${context.location.longitude}`:'';
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+}
+function embedUrl(){
+  if(!context?.location)return'';
+  const {latitude,longitude}=context.location;
+  return `https://maps.google.com/maps?q=${encodeURIComponent(latitude+','+longitude)}&z=14&output=embed`;
+}
+function panelMap(){
+  const grid=$('#locationPanel .mapgrid');
+  if(!grid||!context?.location)return;
+  grid.innerHTML=`<iframe class="locationMapFrame" title="Current location map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="${embedUrl()}"></iframe>`;
+  const ping=$('#locationPanel .ping'); if(ping)ping.style.display='none';
+}
+function mapBlock(){
+  if(!context?.location)return'';
+  return `<div class="decisionOption liveMapCard">
+    <h3>LIVE LOCATION</h3>
+    <p>${context.location.name||'Current location'} · ${context.location.latitude}, ${context.location.longitude}</p>
+    <iframe class="drawerMapFrame" title="Live Google map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="${embedUrl()}"></iframe>
+    <a class="switch mapLaunch" target="_blank" rel="noopener" href="${mapsUrl()}">OPEN IN GOOGLE MAPS</a>
+  </div>`;
+}
+function categoryRows(k){
+  if(k==='event')return `<div class="decisionOption"><h3>Events</h3><p>Local event source is next. Calendar and Opportunity Radar remain available.</p></div>`;
+  const items=context?.nearby?.[k]||[];
+  if(items.length){
+    return items.map(x=>`<a class="decisionOption nearbyResult" target="_blank" rel="noopener" href="${mapsUrl(x)}">
+      <span class="label">${x.distanceMiles} MI</span>
+      <h3>${x.name}</h3>
+      <p>${x.address?x.address+' · ':''}Open in Google Maps</p>
+    </a>`).join('');
+  }
+  return `<div class="decisionOption">
+    <h3>No verified ${cats[k]} results from the local place feed</h3>
+    <p>The location is good, but the place source returned nothing. You can still open a live Google Maps search for nearby ${cats[k].toLowerCase()}.</p>
+    <a class="switch" target="_blank" rel="noopener" href="${mapsUrl(null,k)}">SEARCH ${cats[k].toUpperCase()} IN GOOGLE MAPS</a>
+  </div>`;
+}
+function show(msg,category=selected){
+  selected=category||selected;
+  const d=$('#drawer'),b=$('#drawerBody');if(!d||!b)return;
+  $('#drawerKicker').textContent='LOCATION + NEARBY';
+  $('#drawerTitle').textContent=context?.location?.name||'Location';
+  const counts=context?.diagnostics?.nearbyCounts||{};
+  const source=context?.sources?.nearby||'CHECKING';
+  b.innerHTML=`<div class="decisionOption">
+      <h3>${msg||'Device location'}</h3>
+      <p>${context?.location?'Live device location · '+(context.verifiedAt?new Date(context.verifiedAt).toLocaleTimeString():''):'Location is shared only after you approve browser permission.'}</p>
+      <p class="muted">PLACE SOURCE · ${source} · GYM ${counts.gym??'—'} · COFFEE ${counts.coffee??'—'} · GAS ${counts.gas??'—'}</p>
+      <button class="switch" id="connectLocation">REFRESH LOCATION</button>
+    </div>
+    ${mapBlock()}
+    <div class="nearbyTabs">${Object.entries(cats).map(([k,n])=>`<button class="switch nearbyTab" data-nearby="${k}" ${k===selected?'aria-pressed="true"':''}>${n.toUpperCase()}</button>`).join('')}</div>
+    ${categoryRows(selected)}`;
+  d.hidden=false;
+}
+function renderPanel(){
+  if(!context)return;
+  $('#locationName').textContent=context.location?.name||'CURRENT LOCATION';
+  $('#miniLocation').textContent=context.location?.name||'LOCAL';
+  $('#locationPanel').dataset.location='live';
+  panelMap();
+  if(context.weather){
+    $('#weatherTemp').textContent=Math.round(context.weather.temperature)+'°';
+    $('#miniTemp').textContent=Math.round(context.weather.temperature)+'°';
+    $('#weatherState').textContent=String(context.weather.summary||'LIVE').toUpperCase();
+    $('#weatherMini').dataset.source='live';
+  }
+  const box=$('#locationPanel .nearby');
+  if(box){
+    const one=k=>context.nearby?.[k]?.[0];
+    box.innerHTML='<span class="label">NEARBY · TAP TO EXPLORE</span>'+
+      [['Gym','gym'],['Coffee','coffee'],['Gas','gas']].map(([n,k])=>{
+        const x=one(k);
+        return `<button class="nearbyMini" data-nearby="${k}"><b>${n}</b><span class="muted">${x?x.name+' · '+x.distanceMiles+' mi':'SEARCH'}</span></button>`;
+      }).join('')+
+      '<button class="nearbyMini" data-nearby="event"><b>Event</b><span class="muted">CONNECT SOURCE</span></button>';
+  }
+}
+async function refresh(){
+  if(!navigator.geolocation)return show('Location unavailable in this browser');
+  navigator.geolocation.getCurrentPosition(async p=>{
+    try{
+      const r=await fetch('/api/location-context',{method:'POST',credentials:'same-origin',cache:'no-store',headers:{'content-type':'application/json'},body:JSON.stringify({latitude:p.coords.latitude,longitude:p.coords.longitude})});
+      if(!r.ok)throw new Error('context unavailable');
+      context=await r.json();
+      renderPanel();
+      if(!$('#drawer')?.hidden)show(context.weather?`${context.weather.summary} · ${Math.round(context.weather.temperature)}°`:'Location connected',selected);
+    }catch{
+      show('Location received; context service unavailable. Retry.');
+    }
+  },e=>show(e.code===1?'Permission blocked — allow Location for JARVIS, then retry.':'Could not get a fresh location. Retry.'),{enableHighAccuracy:true,timeout:15000,maximumAge:30000});
+}
+document.addEventListener('click',e=>{
+  const near=e.target.closest('[data-nearby]');
+  if(near){
+    e.preventDefault();e.stopImmediatePropagation();
+    show('Nearby '+cats[near.dataset.nearby],near.dataset.nearby);return;
+  }
+  if(e.target.closest('#connectLocation')){
+    e.preventDefault();e.stopImmediatePropagation();refresh();return;
+  }
+  if(e.target.closest('#locationPanel')){
+    e.preventDefault();e.stopImmediatePropagation();
+    if(context)show('Live location and nearby places',selected);else refresh();
+  }
+},true);
+window.addEventListener('load',async()=>{
+  try{
+    const p=await navigator.permissions.query({name:'geolocation'});
+    if(p.state==='granted')refresh();
+  }catch{}
+});
+})();
