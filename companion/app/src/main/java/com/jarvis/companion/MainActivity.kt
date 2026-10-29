@@ -51,7 +51,8 @@ class MainActivity : ComponentActivity() {
                 HealthPermission.getReadPermission(TotalCaloriesBurnedRecord::class),
                 HealthPermission.getReadPermission(DistanceRecord::class),
                 HealthPermission.getReadPermission(OxygenSaturationRecord::class),
-                HealthPermission.getReadPermission(WeightRecord::class)
+                HealthPermission.getReadPermission(WeightRecord::class),
+                "android.permission.health.READ_HEALTH_DATA_IN_BACKGROUND"
             )
         }
 
@@ -61,8 +62,8 @@ class MainActivity : ComponentActivity() {
                 val granted = r.client.permissionController.getGrantedPermissions()
                 grantedCount = permissions.count { it in granted }
                 status = when {
-                    grantedCount == permissions.size -> "Health access ready"
-                    grantedCount > 0 -> "$grantedCount of ${permissions.size} health permissions granted — partial reads are OK"
+                    grantedCount == permissions.size -> "Health access ready · auto-sync armed"
+                    grantedCount > 0 -> "$grantedCount of ${permissions.size} health permissions granted — review background access"
                     else -> "Health access needs permission"
                 }
             }
@@ -70,12 +71,24 @@ class MainActivity : ComponentActivity() {
 
         val launcher = rememberLauncherForActivityResult(PermissionController.createRequestPermissionResultContract()) {
             refreshPermissions()
+            HealthSyncWorker.schedule(this)
         }
 
         LaunchedEffect(Unit) {
             refreshPermissions()
+            HealthSyncWorker.schedule(this@MainActivity)
             if (pairingCode.isNotBlank() && reader != null) {
-                runCatching { reader.readToday() }.onSuccess { snapshot = it }
+                runCatching { reader.readToday() }.onSuccess { s ->
+                    snapshot = s
+                    if (s.hasAnyData()) {
+                        status = "Health data found · syncing…"
+                        val result = withContext(Dispatchers.IO) { JarvisApi.sync(s, pairingCode) }
+                        if (result.first) {
+                            store.lastSyncAt = System.currentTimeMillis()
+                            status = "Synced · background auto-sync armed"
+                        }
+                    }
+                }
             }
         }
 
@@ -91,12 +104,13 @@ class MainActivity : ComponentActivity() {
                 Text("1 · Health access", style = MaterialTheme.typography.titleMedium)
                 Text(if (availability == HealthConnectClient.SDK_AVAILABLE) "$grantedCount / ${permissions.size} approved" else "Unavailable")
                 Button(enabled = reader != null, onClick = { launcher.launch(permissions) }) { Text("Review Health Permissions") }
+                Text("Auto-sync uses Android's supported periodic background scheduler (about every 15 minutes; Android may defer it for battery/Doze). Opening the app also syncs immediately.", style = MaterialTheme.typography.bodySmall)
 
                 Text("2 · JARVIS pairing", style = MaterialTheme.typography.titleMedium)
                 OutlinedTextField(
                     modifier = Modifier.fillMaxWidth(),
                     value = pairingCode,
-                    onValueChange = { pairingCode = it.trim(); store.pairingCode = pairingCode },
+                    onValueChange = { pairingCode = it.trim(); store.pairingCode = pairingCode; HealthSyncWorker.schedule(this@MainActivity) },
                     label = { Text("Pairing code") },
                     supportingText = { Text(if (pairingCode.isBlank()) "Create this on the JARVIS Companion setup website." else "Saved on this phone") }
                 )
@@ -132,17 +146,18 @@ class MainActivity : ComponentActivity() {
                             val result = withContext(Dispatchers.IO) { JarvisApi.sync(s, pairingCode) }
                             if (result.first) {
                                 store.lastSyncAt = System.currentTimeMillis()
-                                status = "Synced to JARVIS"
+                                HealthSyncWorker.schedule(this@MainActivity)
+                                status = "Synced · background auto-sync armed"
                             } else status = "JARVIS sync rejected — create a fresh pairing code"
                         }
-                    }) { Text("Sync to JARVIS") }
+                    }) { Text("Sync to JARVIS Now") }
                 }
 
                 if (store.lastSyncAt > 0) Text("Last JARVIS sync: ${DateFormat.getDateTimeInstance().format(Date(store.lastSyncAt))}", style = MaterialTheme.typography.bodySmall)
 
                 HorizontalDivider()
                 Text("FitCloud direct bridge", style = MaterialTheme.typography.titleMedium)
-                Text("Standby fallback. If Refresh Watch Data stays empty while FitCloud Pro shows current watch readings, the next field-test build will switch this same app to the official FitCloud SDK path.")
+                Text("Standby fallback. If Health Connect stops receiving current watch readings while FitCloud Pro remains current, this same app can switch to the official FitCloud SDK path.")
 
                 TextButton(onClick = { store.clearPairing(); pairingCode = ""; status = "Pairing cleared" }) { Text("Disconnect this phone") }
             }
