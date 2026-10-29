@@ -13,3 +13,23 @@
 @media(min-width:1101px){.r3:has(.panel:hover) .panel:not(:hover),.r4:has(.panel:hover) .panel:not(:hover),.r5:has(.panel:hover) .panel:not(:hover),.r6:has(.panel:hover) .panel:not(:hover){filter:brightness(.78) saturate(.82)}}
 @media(max-width:700px){.instrument{min-height:126px}.instrument .icon{flex-basis:58px}.workbench{min-height:220px!important}.lifePanel{min-height:145px!important}.machine{min-height:120px!important}.drawer{inset:2%;padding:18px}.gauges{flex-wrap:wrap}.gauge{width:58px;height:58px}.windshield{grid-template-columns:1fr!important}.windshield:after{grid-column:1;grid-row:1;min-height:82px}.windshield .next-event{grid-column:1;grid-row:2}.windshield .timeline-v5{grid-column:1;grid-row:3}}
 @media(prefers-reduced-motion:reduce){.identity .jarvis-orb:before,.identity .jarvis-orb:after,.systems .svc .lamp,.map .ping:after,.windshield:before,.instrument .icon,.instrument .icon:before,.instrument .icon:after,.healthbar .bar i:after,.processorstates span:after{animation:none!important}}
+
+/* Live location map replaces the decorative radar once device location is available. */
+#locationPanel[data-location="live"]{background:#03121e}
+#locationPanel[data-location="live"] .mapgrid{overflow:hidden;background:#03121e;border:1px solid #00d8ff2b}
+.locationMapFrame{width:100%;height:100%;border:0;display:block;filter:saturate(.9) contrast(1.02)}
+#locationPanel[data-location="live"] .nearby{z-index:4;background:linear-gradient(90deg,#03121ef2,#03121ecc);padding-left:8px}
+#locationPanel[data-location="live"] .nearbyMini{background:#03121ecc;border-bottom:1px solid #00d8ff24;padding:7px 3px}
+.drawerMapFrame{width:100%;height:280px;border:1px solid #00d8ff44;display:block;margin:10px 0;background:#03121e}
+.nearbyTabs{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.nearbyTab[aria-pressed="true"]{border-color:#55e7ff;box-shadow:0 0 14px #00d8ff33}
+.nearbyResult{display:block;text-decoration:none;color:inherit}
+@media(max-width:700px){
+  #locationPanel[data-location="live"] .mapgrid{left:12px;right:12px;top:82px;bottom:112px}
+  #locationPanel[data-location="live"]{min-height:360px}
+  #locationPanel[data-location="live"] .nearby{position:absolute;left:20px;right:20px;top:auto;bottom:12px;width:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:5px;background:#03121ef2;padding:6px}
+  #locationPanel[data-location="live"] .nearby>.label{grid-column:1/-1}
+  #locationPanel[data-location="live"] .nearbyMini{display:block;text-align:center;padding:6px 2px}
+  #locationPanel[data-location="live"] .nearbyMini .muted{display:block;font-size:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .drawerMapFrame{height:240px}
+}
