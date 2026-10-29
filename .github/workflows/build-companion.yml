@@ -2,7 +2,10 @@ name: Build JARVIS Companion
 on:
   workflow_dispatch:
   push:
-    branches: [jarvis-fitcloud-companion, jarvis-companion-product-pass]
+    branches: [jarvis-v4-field-test, jarvis-fitcloud-companion, jarvis-companion-product-pass]
+    paths:
+      - 'companion/**'
+      - '.github/workflows/build-companion.yml'
 
 permissions:
   contents: write
