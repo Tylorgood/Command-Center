@@ -4,7 +4,7 @@
   "version": "5.0.0-field-test",
   "scripts": {
     "start": "node server/db-bootstrap.js",
-    "check": "node --check server.js && node --check server/db-bootstrap.js && node --check server/store.js && node --check server/engine.js && node --check server/auth.js && node --check server/vault.js && node --check server/google.js && node --check server/yahoo.js && node --check server/live-feeds.js && node --check server/dashboard.js && node --check server/knowledge.js && node --check server/library.js && node --check server/knowledge-enrichment.js && node --check server/brain.js && node --check server/brain-bootstrap.js && node --check server/population.js && node --check server/v4-operating-system.js && node --check server/connection-health.js && node --check server/capabilities.js && node --check server/wearable.js && node --check server/personal-state.js && node --check v3/app.js && node --check v3/app-v31.js && node --check v3/live-dashboard.js && node --check v4/app.js && node --check v4/v5-cockpit.js && node --check v4/library-nav.js && node --check v4/brain-ui.js && node --check v4/population-layer.js && node --check v4/library/app.js",
+    "check": "node --check server.js && node --check server/db-bootstrap.js && node --check server/store.js && node --check server/engine.js && node --check server/auth.js && node --check server/vault.js && node --check server/google.js && node --check server/yahoo.js && node --check server/chat.js && node --check server/live-feeds.js && node --check server/dashboard.js && node --check server/knowledge.js && node --check server/library.js && node --check server/knowledge-enrichment.js && node --check server/brain.js && node --check server/brain-bootstrap.js && node --check server/population.js && node --check server/v4-operating-system.js && node --check server/connection-health.js && node --check server/capabilities.js && node --check server/wearable.js && node --check server/personal-state.js && node --check v3/app.js && node --check v3/app-v31.js && node --check v3/live-dashboard.js && node --check v4/app.js && node --check v4/v5-cockpit.js && node --check v4/location-weather.js && node --check v4/library-nav.js && node --check v4/brain-ui.js && node --check v4/population-layer.js && node --check v4/library/app.js",
     "test": "npm run check && node test/core.test.js && node --test test/v4-operating-system.test.js",
     "test:integration": "node test/http.test.js"
   },
@@ -12,7 +12,5 @@
     "pg": "^8.13.1",
     "imapflow": "^2.9.1"
   },
-  "engines": {
-    "node": ">=20"
-  }
+  "engines": {"node": ">=20"}
 }
