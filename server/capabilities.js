@@ -1,4 +1,5 @@
 const {getSecret}=require('./vault');
+const yahoo=require('./yahoo');
 const TOKEN_KEY='google_oauth_v1';
 const STATES={NOT_CONNECTED:'NOT_CONNECTED',CONNECTING:'CONNECTING',VERIFYING:'VERIFYING',HEALTHY:'HEALTHY',AUTH_REQUIRED:'AUTH_REQUIRED',STALE:'STALE',DEGRADED:'DEGRADED',ERROR:'ERROR'};
 function scopeSet(value){return new Set(String(value||'').split(/\s+/).filter(Boolean));}
@@ -22,7 +23,7 @@ function connectionRegistry({token,caps}){const authorized=Boolean(token?.refres
   sms:{name:'SMS',family:'communications',state:STATES.NOT_CONNECTED,configured:false,verified:false},
   health:{name:'Health',family:'health',state:STATES.NOT_CONNECTED,configured:false,verified:false}
  }};}
-async function current(){let token=null;try{token=await getSecret(TOKEN_KEY);}catch{}const c=fromScopes(token?.scope||''),connections=connectionRegistry({token,caps:c});return{generatedAt:new Date().toISOString(),googleAuthorized:Boolean(token?.refresh_token),...c,connections,reasoner:{configured:Boolean(process.env.QWEN_BASE_URL&&process.env.QWEN_API_KEY)}};}
+async function current(){let token=null;try{token=await getSecret(TOKEN_KEY);}catch{}const c=fromScopes(token?.scope||''),connections=connectionRegistry({token,caps:c});try{const y=await yahoo.status();connections.connectors.yahoo={name:'Yahoo Mail',family:'communications',state:y.state||STATES.NOT_CONNECTED,configured:Boolean(y.configured),authorized:Boolean(y.authorized),verified:Boolean(y.verified),capabilities:{read:true,compose:false,send:false},email:y.email||null};}catch{connections.connectors.yahoo={name:'Yahoo Mail',family:'communications',state:STATES.ERROR,configured:false,authorized:false,verified:false,capabilities:{read:false,compose:false,send:false}};}return{generatedAt:new Date().toISOString(),googleAuthorized:Boolean(token?.refresh_token),...c,connections,reasoner:{configured:Boolean(process.env.QWEN_BASE_URL&&process.env.QWEN_API_KEY)}};}
 async function labRun(){const cases=[
 {name:'readonly gmail cannot send',scope:'https://www.googleapis.com/auth/gmail.readonly',check:c=>c.gmail.read&&!c.gmail.compose&&!c.gmail.send},
 {name:'gmail compose can draft but not direct-send capability',scope:'https://www.googleapis.com/auth/gmail.compose',check:c=>c.gmail.compose&&!c.gmail.send},
