@@ -1,0 +1,14 @@
+'use strict';
+const assert=require('assert');
+const foundation=require('../server/brain-foundation');
+assert.equal(foundation.normEmail(' Test@Example.COM '),'test@example.com');
+assert.equal(foundation.normEmail('not-an-email'),null);
+assert.equal(foundation.normPhone('(586) 555-1212'),'+15865551212');
+assert.equal(foundation.normPhone('1-586-555-1212'),'+15865551212');
+assert.equal(foundation.normPhone('123'),null);
+assert.equal(foundation.normIdentifier('email','A@B.COM'),'a@b.com');
+assert(foundation.ENTITY_TYPES.has('person'));
+assert(foundation.ENTITY_TYPES.has('unknown'));
+assert(foundation.TRUTH_CLASSES.has('USER_CONFIRMED'));
+assert(foundation.TRUTH_CLASSES.has('CONTRADICTED'));
+console.log('brain foundation contract tests passed');
