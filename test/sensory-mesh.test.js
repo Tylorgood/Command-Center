@@ -1,0 +1,5 @@
+'use strict';
+const test=require('node:test');const assert=require('node:assert/strict');const mesh=require('../server/sensory-mesh');
+test('supplier envelope is canonical and traceable',()=>{const observedAt=new Date().toISOString(),e=mesh.envelope('calendar',{count:2},{observedAt,provenance:{provider:'google'},confidence:.98});assert.equal(e.supplier,'calendar');assert.equal(e.connectionState,'CONNECTED');assert.equal(e.observedAt,observedAt);assert.equal(e.freshness,'LIVE');assert.equal(e.confidence,.98);assert.equal(e.provenance.provider,'google');assert.match(e.payloadHash,/^[a-f0-9]{64}$/);assert.ok(e.eventId.startsWith('calendar:'))});
+test('freshness does not call old data live',()=>{assert.equal(mesh.freshness(new Date(Date.now()-4*60*60*1000).toISOString(),180),'STALE');assert.equal(mesh.freshness(null),'UNKNOWN')});
+test('same payload produces stable event identity',()=>{const a=mesh.envelope('gmail',{id:'m1'},{observedAt:'2026-10-31T12:00:00Z'}),b=mesh.envelope('gmail',{id:'m1'},{observedAt:'2026-10-31T12:00:00Z'});assert.equal(a.payloadHash,b.payloadHash);assert.equal(a.eventId,b.eventId)});
