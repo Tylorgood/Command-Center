@@ -99,6 +99,11 @@ CREATE TABLE IF NOT EXISTS jarvis_identity_decisions(
  id text PRIMARY KEY, candidate_id text REFERENCES jarvis_identity_candidates(id) ON DELETE SET NULL,
  decision text NOT NULL, decided_by text NOT NULL, rationale text,
  created_at timestamptz NOT NULL DEFAULT now());
+ALTER TABLE jarvis_entities ENABLE ROW LEVEL SECURITY;
+ALTER TABLE jarvis_sources ENABLE ROW LEVEL SECURITY;
+ALTER TABLE jarvis_facts ENABLE ROW LEVEL SECURITY;
+ALTER TABLE jarvis_relationships ENABLE ROW LEVEL SECURITY;
+ALTER TABLE jarvis_documents ENABLE ROW LEVEL SECURITY;
 ALTER TABLE jarvis_evidence ENABLE ROW LEVEL SECURITY;
 ALTER TABLE jarvis_entity_identifiers ENABLE ROW LEVEL SECURITY;
 ALTER TABLE jarvis_entity_aliases ENABLE ROW LEVEL SECURITY;
@@ -258,7 +263,7 @@ async function observeMessage(input={}){
 }
 
 async function phaseOneStatus(){
-  await init();const names=['jarvis_evidence','jarvis_entity_identifiers','jarvis_entity_aliases','jarvis_claims','jarvis_claim_evidence','jarvis_identity_candidates','jarvis_identity_decisions'];
+  await init();const names=['jarvis_entities','jarvis_sources','jarvis_facts','jarvis_relationships','jarvis_documents','jarvis_evidence','jarvis_entity_identifiers','jarvis_entity_aliases','jarvis_claims','jarvis_claim_evidence','jarvis_identity_candidates','jarvis_identity_decisions'];
   const counts={};for(const n of names){const r=await db().query('SELECT count(*)::int count FROM '+n);counts[n]=r.rows[0]?.count||0;}
   const security=await db().query(`SELECT count(*)::int total,count(*) FILTER(WHERE c.relrowsecurity)::int protected
     FROM pg_class c JOIN pg_namespace n ON n.oid=c.relnamespace
