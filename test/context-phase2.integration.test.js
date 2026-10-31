@@ -40,6 +40,17 @@ test('phase 2 postgres acceptance: cross-source conversations relationships time
   const contradictions=await ctx.detectContradictions(person.id);
   assert.ok(contradictions.some(x=>x.claim_key==='employer'));
 
+  const sid='phase2-situation-'+stamp;
+  await pool.query(`INSERT INTO jarvis_situations(id,canonical_key,title,domain,status,summary,recommended_action,priority,confidence,data)
+    VALUES($1,$2,'Phase Two Context Situation','general','ACTIVE','context test','Review','MEDIUM',.9,'{}'::jsonb)`,[sid,'phase2-context-'+stamp]);
+  await pool.query(`INSERT INTO jarvis_situation_links(id,situation_id,link_type,target_type,target_id,target_label,confidence,reason,evidence)
+    VALUES($1,$2,'person','person',$3,'Phase Two Test Person',.99,'test','{}'::jsonb),
+          ($4,$2,'project','project',$5,'Phase Two Project',.8,'test','{}'::jsonb)`,
+    ['phase2-person-link-'+stamp,sid,person.id,'phase2-project-link-'+stamp,'project-'+stamp]);
+  const hydrated=await ctx.contextForEntity(person.id);
+  assert.ok(hydrated.links.some(x=>x.to_type==='SITUATION'));
+  assert.ok(hydrated.links.some(x=>x.to_type==='PROJECT'));
+
   const search=await ctx.searchContext('Phase Two Test Person');
   assert.ok(search.some(x=>x.id===person.id));
 
