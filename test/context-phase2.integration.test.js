@@ -47,6 +47,8 @@ test('phase 2 postgres acceptance: cross-source conversations relationships time
     VALUES($1,$2,'person','person',$3,'Phase Two Test Person',.99,'test','{}'::jsonb),
           ($4,$2,'project','project',$5,'Phase Two Project',.8,'test','{}'::jsonb)`,
     ['phase2-person-link-'+stamp,sid,person.id,'phase2-project-link-'+stamp,'project-'+stamp]);
+  const graphBackfill=await ctx.backfillContextLinks({limit:100});
+  assert.ok(graphBackfill.entities>=1);
   const hydrated=await ctx.contextForEntity(person.id);
   assert.ok(hydrated.links.some(x=>x.to_type==='SITUATION'));
   assert.ok(hydrated.links.some(x=>x.to_type==='PROJECT'));
