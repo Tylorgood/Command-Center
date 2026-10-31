@@ -4,6 +4,7 @@ const knowledge=require('./knowledge');
 const truth=require('./truth-engine');
 const sensory=require('./sensory-mesh');
 const dashboard=require('./dashboard');
+const google=require('./google');
 let pool=null;
 function db(){if(!process.env.DATABASE_URL)throw Object.assign(new Error('world_database_unavailable'),{code:'SOURCE_NEEDED'});if(!pool)pool=new Pool({connectionString:process.env.DATABASE_URL,ssl:process.env.PGSSLMODE==='disable'?false:{rejectUnauthorized:false}});return pool;}
 function norm(v){return String(v||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();}
@@ -37,10 +38,32 @@ function routeScore(text,p){
 function routeProjects(text,projects,limit=3){return projects.map(p=>({p,score:routeScore(text,p)})).filter(x=>x.score>0).sort((a,b)=>b.score-a.score||String(b.p.name).length-String(a.p.name).length).slice(0,limit);}
 function queryPatterns(p){const id=projectIdentity(p);return [...new Set([...id.phrases,...id.tokens.filter(t=>t.length>=7)])].filter(Boolean).map(x=>'%'+x+'%').slice(0,10);}
 function section(kind,items=[]){return{kind,count:items.length,items};}
+async function activeHydrateProject(project){
+ const p=db(),key='project_hydration:'+project.id,prior=(await p.query("select payload from jarvis_brain_state where state_key=$1",[key])).rows[0]?.payload||{},last=Date.parse(prior.hydratedAt||0);
+ if(Number.isFinite(last)&&Date.now()-last<6*3600*1000)return{...prior,cached:true};
+ const id=projectIdentity(project),queries=[...new Set([...id.phrases.filter(x=>x.length>=5),...id.tokens.filter(x=>x.length>=7)])].slice(0,2);
+ if(!queries.length)return{status:'NO_DISTINCTIVE_IDENTITY',queries:[]};
+ let gmail=[],drive=[],errors=[];
+ for(const q of queries){
+  try{gmail.push(...await google.gmailSearch(q.includes(' ')?'"'+q+'"':q,20));}catch(e){errors.push({source:'gmail',query:q,error:String(e.code||e.message||'error').slice(0,80)});}
+  try{drive.push(...await google.driveSearch(q,30));}catch(e){errors.push({source:'drive',query:q,error:String(e.code||e.message||'error').slice(0,80)});}
+ }
+ gmail=[...new Map(gmail.map(x=>[x.id,x])).values()];drive=[...new Map(drive.map(x=>[x.id,x])).values()];
+ if(gmail.length)await knowledge.ingestGmail(gmail);if(drive.length)await knowledge.ingestDrive(drive);
+ const sourceIds=[];
+ if(gmail.length){const r=await p.query("select id from jarvis_sources where source_type='gmail' and external_id=any($1::text[])",[gmail.map(x=>x.id)]);sourceIds.push(...r.rows.map(x=>x.id));}
+ if(drive.length){const r=await p.query("select id from jarvis_sources where source_type='google_drive' and external_id=any($1::text[])",[drive.map(x=>x.id)]);sourceIds.push(...r.rows.map(x=>x.id));}
+ for(const sourceId of sourceIds){const cid='ctx_'+crypto.createHash('sha256').update('source:'+sourceId+':'+project.id).digest('hex').slice(0,24);await p.query("insert into jarvis_context_links(id,from_type,from_id,to_type,to_id,relation,confidence,created_at) values($1,'source',$2,'entity',$3,'supports_project',.95,now()) on conflict(from_type,from_id,to_type,to_id,relation) do update set confidence=greatest(jarvis_context_links.confidence,excluded.confidence)",[cid,sourceId,project.id]);}
+ const result={status:errors.length&&!(gmail.length||drive.length)?'DEGRADED':'HYDRATED',queries,gmail:gmail.length,drive:drive.length,linked:sourceIds.length,errors,hydratedAt:new Date().toISOString()};
+ await p.query("insert into jarvis_brain_state(state_key,payload,updated_at) values($1,$2::jsonb,now()) on conflict(state_key) do update set payload=excluded.payload,updated_at=now()",[key,JSON.stringify(result)]);
+ const bid='bb_'+crypto.createHash('sha256').update('project_hydration:'+project.id+':'+result.hydratedAt.slice(0,13)).digest('hex').slice(0,24);await p.query("insert into jarvis_black_box_events(id,event_type,source_type,source_record_id,entity_ids,authority_mode,code_version,payload,created_at) values($1,'PROJECT_ACTIVE_HYDRATION','sensory_mesh',$2,$3::jsonb,'OBSERVE',$4,$5::jsonb,now()) on conflict(id) do nothing",[bid,project.id,JSON.stringify([project.id]),process.env.RENDER_GIT_COMMIT||null,JSON.stringify(result)]);
+ return result;
+}
 async function projectRows(){return (await db().query("select id,name,summary,data,confidence,first_seen_at,last_seen_at,updated_at from jarvis_entities where lower(entity_type)='project' order by case when upper(coalesce(data->>'state','')) like '%ACTIVE%' then 0 else 1 end,last_seen_at desc nulls last,name")).rows;}
 async function listProjects(){return (await projectRows()).map(x=>({id:x.id,name:x.name,summary:x.summary||null,state:x.data?.state||'UNKNOWN',progress:Number.isFinite(Number(x.data?.progress))?Number(x.data.progress):null,progressConfidence:x.data?.progressConfidence||'INFERRED',objective:x.data?.objective||x.summary||null,currentFocus:x.data?.currentFocus||null,nextDirective:x.data?.nextDirective||null,lastSeenAt:x.last_seen_at,confidence:x.confidence}));}
 async function projectDetail(id){
  const p=db(),e=(await p.query("select * from jarvis_entities where id=$1 and lower(entity_type)='project'",[id])).rows[0];if(!e)return null;
+ const hydration=await activeHydrateProject(e).catch(err=>({status:'DEGRADED',error:String(err.message||err).slice(0,120)}));
  const likes=queryPatterns(e);
  const [related,facts,sources,situations,commitments,conversations,documents,evidence,blackbox]=await Promise.all([
  p.query("select x.id,x.entity_type,x.name,x.summary,x.data,x.confidence,x.last_seen_at,r.relationship_type,r.confidence relationship_confidence from jarvis_relationships r join jarvis_entities x on x.id=case when r.from_entity_id=$1 then r.to_entity_id else r.from_entity_id end where r.from_entity_id=$1 or r.to_entity_id=$1 order by r.last_seen_at desc limit 80",[id]),
@@ -61,7 +84,7 @@ async function projectDetail(id){
  const people=related.rows.filter(x=>x.entity_type==='person'),organizations=related.rows.filter(x=>x.entity_type==='organization'),relatedProjects=related.rows.filter(x=>x.entity_type==='project');
  const links=sources.rows.filter(x=>x.url).map(x=>({id:x.id,label:x.title||x.source_type,type:x.source_type,url:x.url,observedAt:x.observed_at}));
  const activity=[...evidence.rows.map(x=>({id:x.id,type:x.evidence_type||x.source_type,title:x.content?.subject||x.content?.title||x.raw_reference||x.source_type,detail:x.content?.snippet||x.content?.body||x.content?.text||null,at:x.source_timestamp||x.observed_at,source:x.source_type,provenance:x.raw_reference||null})),...blackbox.rows.map(x=>({id:x.id,type:x.event_type,title:x.event_type,detail:x.payload?.summary||null,at:x.created_at,source:x.source_type||'black_box'}))].sort((a,b)=>Date.parse(b.at||0)-Date.parse(a.at||0)).slice(0,60);
- return{schemaVersion:1,kind:'project',template:WORLD_TEMPLATES.project,project,sections:{people:section('people',people),organizations:section('organizations',organizations),relatedProjects:section('related_projects',relatedProjects),facts:section('facts',facts.rows),situations:section('situations',situations.rows),commitments:section('commitments',commitments.rows),conversations:section('conversations',conversations.rows),documents:section('documents',documents.rows),links:section('links',links),activity:section('activity',activity),evidence:section('evidence',evidence.rows),blackBox:section('black_box',blackbox.rows)},generatedAt:new Date().toISOString()};
+ return{schemaVersion:1,kind:'project',template:WORLD_TEMPLATES.project,hydration,project,sections:{people:section('people',people),organizations:section('organizations',organizations),relatedProjects:section('related_projects',relatedProjects),facts:section('facts',facts.rows),situations:section('situations',situations.rows),commitments:section('commitments',commitments.rows),conversations:section('conversations',conversations.rows),documents:section('documents',documents.rows),links:section('links',links),activity:section('activity',activity),evidence:section('evidence',evidence.rows),blackBox:section('black_box',blackbox.rows)},generatedAt:new Date().toISOString()};
 }
 const WORLD_TEMPLATES={
  project:{sections:['overview','objective','state','progress','focus','directive','next_steps','blockers','milestones','people','organizations','commitments','situations','documents','links','conversations','facts','activity','evidence','black_box'],lifecycle:['PROPOSED','ACTIVE','WAITING','BLOCKED','PAUSED','COMPLETED','ARCHIVED','CONTRADICTED','SUPERSEDED']},
@@ -92,6 +115,7 @@ async function reconcileRecent(){
  const sync=async(fromType,fromId,ranked)=>{const ids=ranked.map(x=>x.p.id);const gone=await p.query("delete from jarvis_context_links where relation='supports_project' and from_type=$1 and from_id=$2 and not(to_id=any($3::text[]))",[fromType,fromId,ids.length?ids:['__none__']]);removed+=gone.rowCount||0;for(const x of ranked){const id='ctx_'+crypto.createHash('sha256').update(fromType+':'+fromId+':'+x.p.id).digest('hex').slice(0,24),confidence=Math.min(.98,.62+x.score*.025);await p.query("insert into jarvis_context_links(id,from_type,from_id,to_type,to_id,relation,confidence,created_at) values($1,$2,$3,'entity',$4,'supports_project',$5,now()) on conflict(from_type,from_id,to_type,to_id,relation) do update set confidence=excluded.confidence",[id,fromType,fromId,x.p.id,confidence]);if(fromType==='source')linkedSources++;else linkedEvidence++;}};
  for(const ev of rows){const text=String(ev.content?.text||ev.content?.transcript||ev.content?.subject||ev.content?.title||'').trim();if(!text)continue;const ranked=routeProjects(text,projects,3);if(ranked.length){matched++;await sync('evidence',ev.id,ranked);continue;}await sync('evidence',ev.id,[]);const m=text.match(/(?:new\s+)?project(?:\s+called|\s+named|:)?\s+([A-Z][A-Za-z0-9&' -]{2,60})/);if(!m)continue;const name=m[1].trim().replace(/[.!?].*$/,'');if(projects.some(x=>norm(x.name)===norm(name)))continue;const np=await knowledge.upsertEntity('project',name,{state:'PROPOSED',objective:text.slice(0,300),currentFocus:'Hydrate this world from connected evidence.',progress:0,progressConfidence:'EVIDENCE_BASED',progressBasis:'Created from explicit project evidence.'},.72);projects.push(np);created++;}
  for(const src of sources){const text=String(src.title||'')+' '+JSON.stringify(src.data||{}),ranked=routeProjects(text,projects,3);await sync('source',src.id,ranked);}
- return{routerVersion:'v2',reset,scanned:rows.length,sourcesScanned:sources.length,matched,created,linkedEvidence,linkedSources,removed};
+ let proactiveHydration=null;const linkedProjects=new Set((await p.query("select distinct to_id from jarvis_context_links where relation='supports_project' and to_type='entity'")).rows.map(x=>x.to_id));const candidate=projects.find(x=>!linkedProjects.has(x.id));if(candidate)proactiveHydration=await activeHydrateProject(candidate).catch(e=>({status:'DEGRADED',projectId:candidate.id,projectName:candidate.name,error:String(e.message||e).slice(0,120)}));
+ return{routerVersion:'v2',reset,scanned:rows.length,sourcesScanned:sources.length,matched,created,linkedEvidence,linkedSources,removed,proactiveHydration};
 }
-module.exports={WORLD_TEMPLATES,projectIdentity,routeScore,routeProjects,queryPatterns,listProjects,projectDetail,panelDetail,observe,reconcileRecent};
+module.exports={WORLD_TEMPLATES,projectIdentity,routeScore,routeProjects,queryPatterns,activeHydrateProject,listProjects,projectDetail,panelDetail,observe,reconcileRecent};
