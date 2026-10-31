@@ -1,0 +1,1 @@
+Default intervention choices: recommended action, edit/alternative, back burner, tomorrow, do nothing. The recommended choice remains bounded by Phase 3 authority policy. The queue is conversational and canonical, not a separate world-state store.

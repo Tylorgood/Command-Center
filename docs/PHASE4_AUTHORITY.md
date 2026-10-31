@@ -1,0 +1,1 @@
+Repeated approval may improve recommendation confidence but never creates permission. Delegated ACT authority requires an explicit active `jarvis_delegations` grant from Tylor with bounded scope, conditions and exceptions.

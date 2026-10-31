@@ -1,0 +1,3 @@
+# Panel acceptance standard
+
+For every cockpit panel: (1) name authoritative source(s); (2) expose connection and freshness state; (3) trace displayed claims to canonical Brain/source state; (4) never use seed/demo state as live truth; (5) when source is absent display UNKNOWN, STALE, NOT_CONNECTED or SOURCE_NEEDED; (6) a real source change must propagate through heartbeat/context and alter the relevant view without reseeding; (7) cross-domain facts use canonical entities/situations rather than copies; (8) actionable changes may produce a single canonical intervention visible in Needs Your Decision; (9) obsolete interventions are preserved historically and removed from the active queue; (10) no external action occurs outside authority policy.

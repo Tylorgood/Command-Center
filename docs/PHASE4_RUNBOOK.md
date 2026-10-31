@@ -1,0 +1,3 @@
+# Phase 4 operations runbook
+
+Healthy production state: latest `jarvis_heartbeat_runs.status=COMPLETE`; completed_at within expected cadence; source cursors have recent last_attempt_at; genuine last_success_at remains source-derived; Black Box has matching HEARTBEAT_STARTED/COMPLETED; intervention rows correspond to unresolved prepared decisions; legacy cockpit state contains pending heartbeat decisions after sync. A FAILED heartbeat records error_summary and HEARTBEAT_FAILED but does not fabricate source success. Advisory lock causes overlapping cycles to return SKIPPED_LOCKED. Deployment version is captured from RENDER_GIT_COMMIT.
