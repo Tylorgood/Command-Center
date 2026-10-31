@@ -20,20 +20,11 @@ if (process.env.DATABASE_URL) {
     const target = new URL(process.env.DATABASE_URL);
     console.log('database target', {host:target.hostname,port:target.port||'5432',database:target.pathname.replace(/^\//,'')||'postgres',user:decodeURIComponent(target.username),tls:process.env.PGSSLMODE==='disable'?'disabled':'enabled'});
   } catch { console.log('database target configured (details unavailable)'); }
-
-  // This personal app has several independently loaded persistence modules. Supabase's
-  // session pooler allows 25 clients total, so letting every pg Pool use its default
-  // size can exhaust the account during zero-downtime deploy overlap. Cap every pool
-  // created after bootstrap to one live client; queries queue locally instead of
-  // crashing the new instance with EMAXCONNSESSION.
   const pg=require('pg'),BasePool=pg.Pool;
-  class JarvisPool extends BasePool {
-    constructor(config={}){super({...config,max:1,min:0,idleTimeoutMillis:10000,connectionTimeoutMillis:10000});}
-  }
+  class JarvisPool extends BasePool {constructor(config={}){super({...config,max:1,min:0,idleTimeoutMillis:10000,connectionTimeoutMillis:10000});}}
   pg.Pool=JarvisPool;
-} else {
-  console.log('database target missing');
-}
+} else console.log('database target missing');
 
 require('./location-context-hook');
+require('./sensory-http-hook');
 require('../server.js');
