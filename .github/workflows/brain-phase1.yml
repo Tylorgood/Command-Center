@@ -1,0 +1,35 @@
+name: Brain Phase 1 CI
+on:
+  push:
+    branches: [jarvis-brain-phase-1-v2]
+  pull_request:
+    branches: [jarvis-v4-field-test]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: jarvis_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    env:
+      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/jarvis_test
+      PGSSLMODE: disable
+      JARVIS_ACCESS_KEY: phase1-ci-test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+      - run: npm test
+      - run: node --test test/truth-engine.integration.test.js
