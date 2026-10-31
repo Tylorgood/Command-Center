@@ -63,4 +63,6 @@ test('phase 1 postgres integration: evidence identity provenance and correction'
   const status=await truth.phaseOneStatus();
   assert.equal(status.status,'READY');
   assert.ok(status.counts.jarvis_evidence>=6);
+  assert.equal(status.security.rlsEnabled,true);
+  assert.equal(status.security.protectedTables,7);
 });
