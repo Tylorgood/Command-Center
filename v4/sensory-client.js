@@ -1,0 +1,5 @@
+(()=>{'use strict';
+async function pushLocation(){if(!navigator.geolocation)return;let permission='prompt';try{permission=(await navigator.permissions.query({name:'geolocation'})).state}catch{}if(permission!=='granted')return;navigator.geolocation.getCurrentPosition(async p=>{try{await fetch('/api/sensory/location',{method:'POST',credentials:'same-origin',cache:'no-store',headers:{'content-type':'application/json'},body:JSON.stringify({latitude:p.coords.latitude,longitude:p.coords.longitude,accuracy:p.coords.accuracy})})}catch{}},()=>{},{enableHighAccuracy:true,timeout:15000,maximumAge:30000})}
+window.addEventListener('load',()=>{pushLocation();setInterval(pushLocation,10*60*1000)});
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')pushLocation()});
+})();
