@@ -81,7 +81,7 @@ async function api(req,res,url){
  const truthClaim=url.pathname.match(/^\/api\/truth\/claim\/([^/]+)$/);if(truthClaim&&req.method==='GET'){const item=await truthEngine.claimById(decodeURIComponent(truthClaim[1]));return item?json(res,200,item):json(res,404,{error:'claim_not_found'});}
  if(url.pathname==='/api/truth/claims'&&req.method==='POST')return json(res,201,{ok:true,claim:await truthEngine.addClaim(await readBody(req))});
  const truthCorrect=url.pathname.match(/^\/api\/truth\/claim\/([^/]+)\/correct$/);if(truthCorrect&&req.method==='POST'){const b=await readBody(req);return json(res,201,{ok:true,claim:await truthEngine.correctClaim({claimId:decodeURIComponent(truthCorrect[1]),value:b.value,evidenceIds:b.evidenceIds||[]})});}
- if(url.pathname==='/api/capture'&&req.method==='POST')return json(res,201,{ok:true,capture:await brain.capture(await readBody(req),user.sub)});
+ if(url.pathname==='/api/capture'&&req.method==='POST'){const b=await readBody(req);const capture=await brain.capture(b,user.sub),world=await worlds.observe({text:b.text||b.body,sourceType:b.sourceType||'field_capture',sourceRecordId:capture.id,title:b.title||null,observedAt:b.observedAt||new Date().toISOString(),rawReference:b.rawReference||null,confidence:b.confidence||.9,metadata:{captureId:capture.id}});return json(res,201,{ok:true,capture,world});}
  if(url.pathname==='/api/brain/insights'&&req.method==='GET')return json(res,200,await brain.insights());
  if(url.pathname==='/api/brain/reviews'&&req.method==='GET')return json(res,200,{items:await brain.reviews(url.searchParams.get('limit')||50)});
  if(url.pathname==='/api/knowledge/backfill'&&req.method==='POST')return json(res,200,{ok:true,result:await brain.backfill(await readBody(req))});
