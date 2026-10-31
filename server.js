@@ -36,7 +36,7 @@ async function api(req,res,url){
  if(url.pathname==='/api/capabilities'&&req.method==='GET')return json(res,200,await capabilities.current());
  if(url.pathname==='/api/worlds/projects'&&req.method==='GET')return json(res,200,{items:await worlds.listProjects()});
  const worldProject=url.pathname.match(/^\/api\/worlds\/project\/([^/]+)$/);if(worldProject&&req.method==='GET'){const item=await worlds.projectDetail(decodeURIComponent(worldProject[1]));return item?json(res,200,item):json(res,404,{error:'project_world_not_found'});}
- const worldPanel=url.pathname.match(/^\/api\/worlds\/panel\/([^/]+)$/);if(worldPanel&&req.method==='GET')return json(res,200,await worlds.panelDetail(decodeURIComponent(worldPanel[1]));
+ const worldPanel=url.pathname.match(/^\/api\/worlds\/panel\/([^/]+)$/);if(worldPanel&&req.method==='GET')return json(res,200,await worlds.panelDetail(decodeURIComponent(worldPanel[1])));
  if(url.pathname==='/api/worlds/observe'&&req.method==='POST')return json(res,201,await worlds.observe(await readBody(req)));
  if(url.pathname==='/api/state'&&req.method==='GET')return json(res,200,await dashboard.publicState());
  if(url.pathname==='/api/dashboard'&&req.method==='GET')return json(res,200,await dashboard.cockpitState());
