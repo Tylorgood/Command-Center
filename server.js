@@ -58,6 +58,7 @@ async function api(req,res,url){
  if(url.pathname==='/api/knowledge/sync'&&req.method==='POST'){const snap=await dashboard.cockpitState();return json(res,200,{ok:true,library:snap.library})}
  if(url.pathname==='/api/brain/phase-one/status'&&req.method==='GET')return json(res,200,await truthEngine.phaseOneStatus());
  if(url.pathname==='/api/evidence'&&req.method==='POST')return json(res,201,{ok:true,evidence:await truthEngine.ingestEvidence(await readBody(req))});
+ if(url.pathname==='/api/evidence/message'&&req.method==='POST')return json(res,201,{ok:true,result:await truthEngine.observeMessage(await readBody(req))});
  const evidenceRoute=url.pathname.match(/^\/api\/evidence\/([^/]+)$/);if(evidenceRoute&&req.method==='GET'){const item=await truthEngine.evidenceById(decodeURIComponent(evidenceRoute[1]));return item?json(res,200,item):json(res,404,{error:'evidence_not_found'});}
  if(url.pathname==='/api/identity/candidates'&&req.method==='POST'){const b=await readBody(req);return json(res,201,{ok:true,candidate:await truthEngine.proposeIdentity(b.leftEntityId,b.rightEntityId)});}
  const identityResolve=url.pathname.match(/^\/api\/identity\/candidates\/([^/]+)\/resolve$/);if(identityResolve&&req.method==='POST'){const b=await readBody(req);return json(res,200,{ok:true,decision:await truthEngine.resolveIdentityCandidate(decodeURIComponent(identityResolve[1]),b.decision,user.sub||'user',b.rationale||null)});}
