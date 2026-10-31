@@ -99,6 +99,13 @@ CREATE TABLE IF NOT EXISTS jarvis_identity_decisions(
  id text PRIMARY KEY, candidate_id text REFERENCES jarvis_identity_candidates(id) ON DELETE SET NULL,
  decision text NOT NULL, decided_by text NOT NULL, rationale text,
  created_at timestamptz NOT NULL DEFAULT now());
+ALTER TABLE jarvis_evidence ENABLE ROW LEVEL SECURITY;
+ALTER TABLE jarvis_entity_identifiers ENABLE ROW LEVEL SECURITY;
+ALTER TABLE jarvis_entity_aliases ENABLE ROW LEVEL SECURITY;
+ALTER TABLE jarvis_claims ENABLE ROW LEVEL SECURITY;
+ALTER TABLE jarvis_claim_evidence ENABLE ROW LEVEL SECURITY;
+ALTER TABLE jarvis_identity_candidates ENABLE ROW LEVEL SECURITY;
+ALTER TABLE jarvis_identity_decisions ENABLE ROW LEVEL SECURITY;
 `);
   return true;})();return ready;
 }
@@ -253,7 +260,12 @@ async function observeMessage(input={}){
 async function phaseOneStatus(){
   await init();const names=['jarvis_evidence','jarvis_entity_identifiers','jarvis_entity_aliases','jarvis_claims','jarvis_claim_evidence','jarvis_identity_candidates','jarvis_identity_decisions'];
   const counts={};for(const n of names){const r=await db().query('SELECT count(*)::int count FROM '+n);counts[n]=r.rows[0]?.count||0;}
-  return{status:'READY',schemaVersion:'brain-phase-1',truthClasses:[...TRUTH_CLASSES],identityThresholds:IDENTITY_STATES,counts};
+  const security=await db().query(`SELECT count(*)::int total,count(*) FILTER(WHERE c.relrowsecurity)::int protected
+    FROM pg_class c JOIN pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND c.relkind='r' AND c.relname = ANY($1::text[])`,[names]);
+  return{status:'READY',schemaVersion:'brain-phase-1',truthClasses:[...TRUTH_CLASSES],identityThresholds:IDENTITY_STATES,counts,
+    security:{rlsEnabled:Number(security.rows[0]?.total||0)===names.length&&Number(security.rows[0]?.protected||0)===names.length,
+      protectedTables:Number(security.rows[0]?.protected||0),totalTables:names.length}};
 }
 
 module.exports={init,ingestEvidence,observeMessage,evidenceById,createEntity,addAlias,addIdentifier,resolveIdentifier,entityIdentityProfile,proposeIdentity,addClaim,correctClaim,claimById,truthForEntity,resolveIdentityCandidate,phaseOneStatus,normalizeEmail,normalizePhone,normalizeIdentifier,truthClass,entityType,identityBand,scoreIdentity};
