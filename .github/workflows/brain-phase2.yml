@@ -1,10 +1,9 @@
-name: Brain Phase 2 CI
+name: Brain Phase 1-3 CI
 on:
   push:
-    branches: [jarvis-brain-phase-2]
+    branches: [jarvis-brain-phase-2, jarvis-brain-phase-3]
   pull_request:
     branches: [jarvis-v4-field-test]
-
 jobs:
   verify:
     runs-on: ubuntu-latest
@@ -14,17 +13,13 @@ jobs:
         env:
           POSTGRES_PASSWORD: postgres
           POSTGRES_DB: jarvis_test
-        ports:
-          - 5432:5432
+        ports: ['5432:5432']
         options: >-
-          --health-cmd "pg_isready -U postgres"
-          --health-interval 10s
-          --health-timeout 5s
-          --health-retries 5
+          --health-cmd "pg_isready -U postgres" --health-interval 10s --health-timeout 5s --health-retries 5
     env:
       DATABASE_URL: postgresql://postgres:postgres@localhost:5432/jarvis_test
       PGSSLMODE: disable
-      JARVIS_ACCESS_KEY: phase2-ci-test
+      JARVIS_ACCESS_KEY: brain-ci-test
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -34,3 +29,4 @@ jobs:
       - run: npm test
       - run: node --test test/truth-engine.integration.test.js
       - run: node --test test/context-phase2.integration.test.js
+      - run: node --test test/decision-engine.integration.test.js
