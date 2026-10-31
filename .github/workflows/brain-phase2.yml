@@ -32,4 +32,5 @@ jobs:
           node-version: 20
       - run: npm install
       - run: npm test
-      - run: node --test test/truth-engine.integration.test.js test/context-phase2.integration.test.js
+      - run: node --test test/truth-engine.integration.test.js
+      - run: node --test test/context-phase2.integration.test.js
