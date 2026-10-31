@@ -2,6 +2,7 @@ const http=require('http');const fs=require('fs');const path=require('path');con
 const {requireAuth,session,login,logout}=require('./server/auth');
 const yahoo=require('./server/yahoo');
 const wearable=require('./server/wearable');
+const worlds=require('./server/world-engine');
 const engine=require('./server/engine');const dashboard=require('./server/dashboard');const personalState=require('./server/personal-state');const contextEngine=require('./server/context-engine');const actionPolicy=require('./server/action-policy');const capabilities=require('./server/capabilities');const preparations=require('./server/preparations');const verifier=require('./server/verifier');const threadContext=require('./server/thread-context');const executors=require('./server/executors');const reasoner=require('./server/reasoner');const google=require('./server/google');const library=require('./server/library');const brain=require('./server/brain');const population=require('./server/population');const {ensureHistoricalBackfill}=require('./server/brain-bootstrap');const {persistenceProof,recordBoot}=require('./server/store');
 const truthEngine=require('./server/truth-engine');
 const v3Root=path.join(__dirname,'v3'),v4Root=path.join(__dirname,'v4'),libraryRoot=path.join(v4Root,'library'),port=Number(process.env.PORT||10000),maxBody=1024*1024;
@@ -33,6 +34,10 @@ async function api(req,res,url){
  if(url.pathname==='/api/google/start'&&req.method==='GET'){const authUrl=google.authorizationUrl(user);if(url.searchParams.get('json')==='1')return json(res,200,{url:authUrl});return redirect(res,authUrl)}
  if(url.pathname==='/api/reasoner/health'&&req.method==='GET')return json(res,200,await reasoner.health());
  if(url.pathname==='/api/capabilities'&&req.method==='GET')return json(res,200,await capabilities.current());
+ if(url.pathname==='/api/worlds/projects'&&req.method==='GET')return json(res,200,{items:await worlds.listProjects()});
+ const worldProject=url.pathname.match(/^\\/api\\/worlds\\/project\\/([^/]+)$/);if(worldProject&&req.method==='GET'){const item=await worlds.projectDetail(decodeURIComponent(worldProject[1]));return item?json(res,200,item):json(res,404,{error:'project_world_not_found'});}
+ const worldPanel=url.pathname.match(/^\\/api\\/worlds\\/panel\\/([^/]+)$/);if(worldPanel&&req.method==='GET')return json(res,200,await worlds.panelDetail(decodeURIComponent(worldPanel[1]));
+ if(url.pathname==='/api/worlds/observe'&&req.method==='POST')return json(res,201,await worlds.observe(await readBody(req)));
  if(url.pathname==='/api/state'&&req.method==='GET')return json(res,200,await dashboard.publicState());
  if(url.pathname==='/api/dashboard'&&req.method==='GET')return json(res,200,await dashboard.cockpitState());
  if(url.pathname==='/api/personal-state'&&req.method==='GET')return json(res,200,await personalState.publicState());
@@ -90,7 +95,7 @@ async function api(req,res,url){
  if(url.pathname==='/api/integrations/failure'&&req.method==='POST'){const b=await readBody(req);return json(res,200,await engine.integrationFailure(b.name,b.message,b.status||'ERROR'))}
  return json(res,404,{error:'not_found'});
 }
-function validateAssets(){for(const [root,names] of [[v4Root,['index.html','personal-state.css','app.js']],[libraryRoot,['index.html','styles.css','app.js']]])for(const name of names){const file=path.join(root,name);if(!fs.existsSync(file))throw new Error(`missing asset: ${path.relative(__dirname,file)}`)}new vm.Script(fs.readFileSync(path.join(v4Root,'app.js'),'utf8'),{filename:'v4/app.js'});new vm.Script(fs.readFileSync(path.join(libraryRoot,'app.js'),'utf8'),{filename:'v4/library/app.js'});for(const rel of ['server/truth-engine.js','server/personal-state.js','server/context-engine.js','server/action-policy.js','server/capabilities.js','server/preparations.js','server/verifier.js','server/thread-context.js','server/executors.js','server/reasoner.js','server/wearable.js'])new vm.Script(fs.readFileSync(path.join(__dirname,rel),'utf8'),{filename:rel})}
+function validateAssets(){for(const [root,names] of [[v4Root,['index.html','personal-state.css','app.js']],[libraryRoot,['index.html','styles.css','app.js']]])for(const name of names){const file=path.join(root,name);if(!fs.existsSync(file))throw new Error(`missing asset: ${path.relative(__dirname,file)}`)}new vm.Script(fs.readFileSync(path.join(v4Root,'app.js'),'utf8'),{filename:'v4/app.js'});new vm.Script(fs.readFileSync(path.join(libraryRoot,'app.js'),'utf8'),{filename:'v4/library/app.js'});for(const rel of ['server/truth-engine.js','server/world-engine.js','server/personal-state.js','server/context-engine.js','server/action-policy.js','server/capabilities.js','server/preparations.js','server/verifier.js','server/thread-context.js','server/executors.js','server/reasoner.js','server/wearable.js'])new vm.Script(fs.readFileSync(path.join(__dirname,rel),'utf8'),{filename:rel})}
 async function phaseOneAuthenticatedSmoke(){
  if(!process.env.JARVIS_ACCESS_KEY)return console.log('phase one authenticated live smoke',{status:'SKIPPED',reason:'auth_not_configured'});
  try{
