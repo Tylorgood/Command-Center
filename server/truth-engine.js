@@ -227,10 +227,33 @@ async function resolveIdentityCandidate(candidateId,decision,actor='user',ration
   return{id:did,candidateId,decision,actor};
 }
 
+async function observeMessage(input={}){
+  const source=String(input.source||'unknown').toLowerCase();
+  const evidence=await ingestEvidence({
+    source,sourceRecordId:input.sourceRecordId||input.id,type:'message',
+    sourceTimestamp:input.timestamp||input.receivedAt||input.date||null,
+    rawReference:input.rawReference||null,
+    participants:[input.senderEmail||input.senderPhone||input.from||''].filter(Boolean),
+    content:{subject:input.subject||null,text:input.text||input.snippet||null},
+    ingestionMethod:input.ingestionMethod||source+'_connector',confidence:1,
+    metadata:{threadId:input.threadId||null,automated:Boolean(input.automated),bulk:Boolean(input.bulk)}
+  });
+  const candidates=[];
+  if(input.senderEmail)candidates.push({type:'email',value:input.senderEmail,verified:Boolean(input.verifiedEmail)});
+  if(input.senderPhone)candidates.push({type:'phone',value:input.senderPhone,verified:Boolean(input.verifiedPhone)});
+  for(const ident of candidates){const hit=await resolveIdentifier(ident.type,ident.value);if(hit)return{evidence,entity:hit,resolution:'EXACT_IDENTIFIER'};}
+  const label=String(input.senderName||input.from||candidates[0]?.value||'Unknown sender').trim()||'Unknown sender';
+  const automated=Boolean(input.automated||input.bulk||/no-?reply|notification|alerts?|support|mailer|newsletter|campaign|marketing/i.test(label));
+  const klass=automated?'SERVICE':(input.contactBookMatch?'PERSON':'UNKNOWN_ENTITY');
+  const entity=await createEntity({type:klass,name:label,canonical:(candidates[0]&&normalizeIdentifier(candidates[0].type,candidates[0].value))||stableId('unknown',source,input.sourceRecordId||input.id),confidence:klass==='PERSON'?1:.7,identifiers:candidates.map(x=>({...x,evidenceId:evidence.id}))});
+  for(const ident of candidates)await addClaim({subjectEntityId:entity.id,claimKey:ident.type,value:normalizeIdentifier(ident.type,ident.value),truthClass:ident.verified?'SOURCE_VERIFIED':'STRONG_INFERENCE',confidence:ident.verified?1:.9,evidenceIds:[evidence.id]});
+  return{evidence,entity,resolution:klass};
+}
+
 async function phaseOneStatus(){
   await init();const names=['jarvis_evidence','jarvis_entity_identifiers','jarvis_entity_aliases','jarvis_claims','jarvis_claim_evidence','jarvis_identity_candidates','jarvis_identity_decisions'];
   const counts={};for(const n of names){const r=await db().query('SELECT count(*)::int count FROM '+n);counts[n]=r.rows[0]?.count||0;}
   return{status:'READY',schemaVersion:'brain-phase-1',truthClasses:[...TRUTH_CLASSES],identityThresholds:IDENTITY_STATES,counts};
 }
 
-module.exports={init,ingestEvidence,evidenceById,createEntity,addAlias,addIdentifier,resolveIdentifier,entityIdentityProfile,proposeIdentity,addClaim,correctClaim,claimById,truthForEntity,resolveIdentityCandidate,phaseOneStatus,normalizeEmail,normalizePhone,normalizeIdentifier,truthClass,entityType,identityBand,scoreIdentity};
+module.exports={init,ingestEvidence,observeMessage,evidenceById,createEntity,addAlias,addIdentifier,resolveIdentifier,entityIdentityProfile,proposeIdentity,addClaim,correctClaim,claimById,truthForEntity,resolveIdentityCandidate,phaseOneStatus,normalizeEmail,normalizePhone,normalizeIdentifier,truthClass,entityType,identityBand,scoreIdentity};
