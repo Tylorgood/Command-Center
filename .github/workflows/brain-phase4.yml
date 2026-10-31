@@ -1,0 +1,17 @@
+name: Brain Phase 4 CI
+on:
+  pull_request:
+    branches: [jarvis-v4-field-test]
+  push:
+    branches: [jarvis-brain-phase-4-heartbeat]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm test
